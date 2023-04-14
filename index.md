@@ -10,5 +10,6 @@ and the
 [Institute of Materials](https://sti.epfl.ch/imx/)
 at EPFL.
 
-We only got started recently at EPFL, so please bear with us
-while this website mostly links to content from [Michael Herbst's website](https://michael-herbst.com).
+## Links
+- [~~~<img class="logo" alt="github" src="/assets/github.png" />~~~ matmat](https://github.com/epfl-matmat) github organisation
+- [Michael Herbst](https://michael-herbst.com)'s website
