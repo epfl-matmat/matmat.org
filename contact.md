@@ -2,7 +2,6 @@
 
 # Contact
 
-
 ## Head of group
 **Prof. Michael F. Herbst**\newline
 Email: michael.herbst@epfl.ch\newline

@@ -11,5 +11,6 @@ and the
 at EPFL.
 
 ## Links
-- [~~~<img class="logo" alt="github" src="/assets/github.png" />~~~ matmat](https://github.com/epfl-matmat) github organisation
+- [~~~<img class="logo" alt="github" src="/assets/github.png" />~~~ epfl-matmat](https://github.com/epfl-matmat) github organisation
+- [~~~<img class="logo" alt="dftk" src="/assets/DFTK_48.svg" />~~~ DFTK: The density-functional toolkit](https://dftk.org)
 - [Michael Herbst](https://michael-herbst.com)'s website
