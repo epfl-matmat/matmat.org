@@ -1,14 +1,14 @@
 @def title = "Job Openings"
 
 # Job Openings
+Below, this page lists the current PhD or PostDoc openings in our group.
+If you are interested in working with us,
+but no openings matching your profile,
+you are still welcome to submit a general inquiry.
 
-In our group hiring is done on a rolling basis.
-Specific openings will appear here,
-but if you are interested in working with us,
-you are welcome to send an inquiry.
-
-Before you apply please read the [application guidelines](#application_guidelines).
-We like to give each serious candidate the proper consideration they deserve.
+In any case, please consider [application guidelines](#application_guidelines)
+before you contact us.
+We like to give each serious candidates the proper consideration they deserve.
 Unfortunately the large number of mass applications
 with no connections to the projects or general research in our group
 make it necessary to do a preliminary screening of candidates.
@@ -52,9 +52,52 @@ We may silently ignore your application if you do not comply with these instruct
 
 A note for **PhD applicants**: Before you can start in our group you need to get *additionally* admitted into an EPFL doctoral school.
 In our group both the [doctoral school in mathematics (EDMA)](https://www.epfl.ch/education/phd/edma-mathematics/)
-as well as the [doctoral school in materials (EDMX)](https://www.epfl.ch/education/phd/edmx-materials-science-and-engineering/)
-are suitable.
+as well as the [doctoral school in materials (EDMX)](https://www.epfl.ch/education/phd/edmx-materials-science-and-engineering/) are suitable.
 You can use these links to find further information about the schools and their respective application process (including the respective deadlines).
 We strongly recommend you to apply to one of these before contacting us,
 since the required information is very similar (so you only need to collect it once).
 Moreover admission to a doctoral school gives you a chance to obtain a PhD position in other groups at EPFL as well.
+If you lean towards a numerics-oriented project, you should probably apply to EDMA,
+whereas if you are more interested in applications, you should apply to EDMX.
+
+## PhD position: Self-adapting algorithms for high-throughput DFT simulations
+High-throughput studies, where thousands to tens of thousands of materials are
+simulated, are a powerful tool for broadening our knowledge of materials
+properties and discovering new and interesting functional materials.
+Unfortunately existing algorithms still lack robustness,
+such that substantial trial-and-error tuning of numerical parameters
+may be required to converge tricky systems with density functional theory (DFT).
+
+Based on combining mathematical analysis and physical intuition
+within the non-linear eigenproblem setting of DFT,
+we have developed a number of self-adapting algorithms for DFT simulations
+(e.g. [LDOS preconditioning](https://michael-herbst.com/publications/2020.09.03_ldos_preconditioning.pdf)).
+These aim to automatically tune the numerics to the modelled materials system,
+which we could successfully demonstrate by implementing them
+into [DFTK](https://dftk.org), our in-house DFT code.
+Along a similar vain the [SIRIUS](https://github.com/electronic-structure/SIRIUS)
+project has built a remarkable library of tailored methods to enable
+DFT simulations robustly on (pre-)exascale high-performance computing (HPC) hardware.
+
+The goal of this project is twofold. Firstly to provide a deep integrations
+of both codes and in this way extend their respective capabilities by joining forces.
+Secondly to use the highly flexible prototyping framework of DFTK with the
+feature-rich SIRIUS library to investigate a number of research directions
+to improve the numerical robustness of DFT methods.
+This includes directions include adaptive discretisation
+techniques using recent a posteriori error estimation for DFT,
+improved acceleration or preconditioning techniques for DFT simulations.
+
+More practical details will soon be added to this description.
+
+**Required skills:**
+- Strong background in numerical linear algebra;
+- Experience with implementing algorithms in an HPC context;
+- Solid experience in a related programming language (e.g. C++, Fortran, Julia);
+- Interest to learn about the physical principles of materials modelling;
+- Interest to learn about the matematical structure of density-functional theory
+
+**Optional skills:**
+- Background in numerical analysis;
+- Background in solid-state physics or materials simulations;
+- Julia programming
