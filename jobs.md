@@ -1,18 +1,23 @@
 @def title = "Job Openings"
+@def mintoclevel=2
+@def maxtoclevel=3
+
 
 # Job Openings
-Below, this page lists the current PhD or PostDoc openings in our group.
+This page lists the current PhD or PostDoc openings in our group.
 If you are interested in working with us,
 but no openings matching your profile,
 you are still welcome to submit a general inquiry.
 
 In any case, please consider [application guidelines](#application_guidelines)
 before you contact us.
+<!--
 We like to give each serious candidates the proper consideration they deserve.
 Unfortunately the large number of mass applications
 with no connections to the projects or general research in our group
 make it necessary to do a preliminary screening of candidates.
 All applications not following these guidelines might be silently ignored.
+-->
 
 \toc
 
@@ -46,58 +51,99 @@ Your application should contain:
 - Full transcript of marks *(for PhD applicants)*
 - Contact information for **two references**
 
-Please send your files to [this email address](mailto:michael.herbst@epfl.ch?subject=[HIRING]),
-making sure to include the text `[HIRING]` at the start of the subject.
+Please send your files to [this email address](mailto:michael.herbst@epfl.ch?subject=[APPLICATION]),
+making sure to include the text `[APPLICATION]` at the start of the subject.
 We may silently ignore your application if you do not comply with these instructions.
 
 A note for **PhD applicants**: Before you can start in our group you need to get *additionally* admitted into an EPFL doctoral school.
 In our group both the [doctoral school in mathematics (EDMA)](https://www.epfl.ch/education/phd/edma-mathematics/)
 as well as the [doctoral school in materials (EDMX)](https://www.epfl.ch/education/phd/edmx-materials-science-and-engineering/) are suitable.
 You can use these links to find further information about the schools and their respective application process (including the respective deadlines).
-We strongly recommend you to apply to one of these before contacting us,
+
+We strongly recommend you to apply to one of these doctoral schools in parallel,
 since the required information is very similar (so you only need to collect it once).
 Moreover admission to a doctoral school gives you a chance to obtain a PhD position in other groups at EPFL as well.
 If you lean towards a numerics-oriented project, you should probably apply to EDMA,
 whereas if you are more interested in applications, you should apply to EDMX.
 
-## PhD position: Self-adapting algorithms for high-throughput DFT simulations
-High-throughput studies, where thousands to tens of thousands of materials are
-simulated, are a powerful tool for broadening our knowledge of materials
-properties and discovering new and interesting functional materials.
-Unfortunately existing algorithms still lack robustness,
-such that substantial trial-and-error tuning of numerical parameters
-may be required to converge tricky systems with density functional theory (DFT).
+## PhD position: Self-adapting numerical methods for high-throughput DFT simulations
 
-Based on combining mathematical analysis and physical intuition
-within the non-linear eigenproblem setting of DFT,
-we have developed a number of self-adapting algorithms for DFT simulations
-(e.g. [LDOS preconditioning](https://michael-herbst.com/publications/2020.09.03_ldos_preconditioning.pdf)).
-These aim to automatically tune the numerics to the modelled materials system,
-which we could successfully demonstrate by implementing them
-into [DFTK](https://dftk.org), our in-house DFT code.
-Along a similar vain the [SIRIUS](https://github.com/electronic-structure/SIRIUS)
-project has built a remarkable library of tailored methods to enable
-DFT simulations robustly on (pre-)exascale high-performance computing (HPC) hardware.
+#### Background
+Density-functional theory (DFT) is one of the most widely employed simulation methods
+to predict the properties of materials from first principles.
+An important application is the computational discovery of novel materials,
+where many thousands of systematic simulations may be performed.
+In this regime the often highly problem-specific numerical parameters of DFT
+need to be automatically selected.
+This is a highly challenging task, which often proceeds by trial and error,
+i.e. multiple runs of the same simulation where parameters are tweaked until
+the simulation is successful.
+This implies not only a considerable waist of computational resources,
+but also substantially limits the overall throughput with which new materials
+can be found.
 
-The goal of this project is twofold. Firstly to provide a deep integrations
-of both codes and in this way extend their respective capabilities by joining forces.
-Secondly to use the highly flexible prototyping framework of DFTK with the
-feature-rich SIRIUS library to investigate a number of research directions
-to improve the numerical robustness of DFT methods.
-This includes directions include adaptive discretisation
-techniques using recent a posteriori error estimation for DFT,
-improved acceleration or preconditioning techniques for DFT simulations.
+#### Project goals
+In this project you will obtain and combine physical and mathematical insights
+into the numerical methods of DFT in order to develop algorithmic techniques,
+which robustly adapt to the simulated material on the fly.
+For this you will apply and extend existing results in numerical analysis
+to obtain novel preconditioners
+(building [upon previous work](https://michael-herbst.com/publications/2020.09.03_ldos_preconditioning.pdf))
+as well as adaptive basis selection techniques.
+Your developed methods will be implemented into codes
+such as the [density-functional toolkit (DFTK)](https://dftk.org)
+as well as the [SIRIUS](https://github.com/electronic-structure/SIRIUS) electronic structure library,
+such that they can be directly tested on cutting-edge materials simulations.
+In your work you will be closely integrated into the materials simulation activities
+at EPFL, e.g. within the [NCCR MARVEL](https://nccr-marvel.ch/),
+and collaborate with physicists, mathematicians and computer scientists from EPFL, Switzerland and abroad.
 
-More practical details will soon be added to this description.
+#### Candidate profile
+* You are highly motivated and want to become an independent researcher in a fascinating
+  interdisciplinary field, working towards faster and more reliable methods
+  for discovering the materials of tomorrow.
+* You have a strong sense of autonomy and independence.
+* You have completed a Master in physics, mathematics or a related subject.
+  Candidates who will complete their degree within the next months are also welcome to apply.
+* Your academic record is strong and underpins your potential to become an excellent researcher.
+* You have a broad background in quantum physics, numerical mathematics and computer science
+  or are looking forward to the challenge of acquiring a diverse cross-disciplinary skillset.
+  In any case your willingness to look beyond the borders of your discipline
+  will be key in this project.
+* You have a strong interest in numerical methods, their implementation and application
+  to physics and materials simulations. Previous experience in one of numerical linear algebra,
+  high-performance computing or computational physics is highly desirable.
+* You enjoy programming and implementing algorithms and have solid experience
+  in an HPC programming language such as C++, Fortran or Julia.
+* Bonus skills for this application are considerable experience in
+  numerical analysis, quantum physics, solid-state physics or Julia programming.
 
-**Required skills:**
-- Strong background in numerical linear algebra;
-- Experience with implementing algorithms in an HPC context;
-- Solid experience in a related programming language (e.g. C++, Fortran, Julia);
-- Interest to learn about the physical principles of materials modelling;
-- Interest to learn about the matematical structure of density-functional theory
+#### What is offered
+The activities of the MatMat group centre on understanding
+modern materials simulations from a mathematical point of view
+-- and to come up with ways to make such simulations faster,
+quantify their errors or make them more reliable.
+We disseminate our work in state-of-the-art software and directly test novel algorithms
+in the context of application simulations.
+In line with this our team has a broad background and our research
+is closely integrated with multiple departments and interdisciplinary initiatives,
+such as the [NCCR MARVEL](https://nccr-marvel.ch/).
+You will have of opportunities to take part in such cross-disciplinary activities
+and discuss with researchers from many domains.
+This includes attending suitable conferences or workshops
+or a participation in collaborations with researchers from Europe and the US,
+including potential collaborative visits.
 
-**Optional skills:**
-- Background in numerical analysis;
-- Background in solid-state physics or materials simulations;
-- Julia programming
+The current regulations regarding salary and working conditions of PhD students at EPFL
+can be found on the detailed websites on
+[salary](https://www.epfl.ch/education/phd/doctoral-studies-structure/doctoral-students-salary),
+[employment conditions](https://www.epfl.ch/about/working/working-at-epfl/employment-conditions)
+and [PhD admission criteria](https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/).
+
+
+#### Starting date
+Continuous, until a suitable candidate is found.
+Note, that the chosen candidate will have to be accepted into
+one of the aforementioned doctoral schools before the contract can start.
+
+
