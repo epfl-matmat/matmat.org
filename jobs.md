@@ -147,3 +147,28 @@ Note, that the chosen candidate will have to be accepted into
 one of the aforementioned doctoral schools before the contract can start.
 
 
+
+
+<!-- one more PhD project on AD and mixed precision and adaptive tolerance response with proper preconditioning -->
+
+## PostDoc position: Quantifying DFT model uncertainties with Bayesian methods
+
+A PostDoc position centring on using Bayesian methods
+for understanding model uncertainties in DFT is also open.
+The position will be initially for two years with an optional extension.
+
+More details on the position will be published soon.
+
+
+<!--
+
+**Requirements:**\newline
+- Strong background in Bayesian statistics
+
+using AD
+
+Error in data-driven DFT models,
+pseudopotentials,
+propagation to properties and MD potentials
+
+-->
