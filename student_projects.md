@@ -62,6 +62,25 @@ first-principle based materials simulations.
 
 ----
 
+## Extending hardware support in DFTK to AMD, Intel and Apple GPUs
+
+In this project we want to extend the GPU support of DFTK to target
+also AMD, Intel and (if feasible) Apple GPUs.
+We also want to benchmark the resulting implementation
+and using Julia's profiling tools to improve its performance.
+
+A more detailed description will follow soon.
+
+**Requirements:**
+Strong programming skills with experience in the implementation of algortihms
+or high-performance computing;
+knowledge of Julia programming is a bonus, but can also be acquired as we go along;
+interest in learning Julia's hardware abstractions for GPU computing
+
+**Contact:** [Michael F. Herbst](mailto:michael.herbst@epfl.ch)
+
+----
+
 ## Curation of a dataset of benchmark systems for mathematical research
 The aim of this project is to use [AiiDA](https://www.aiida.net/)
 in order to curate a dataset of test systems,
