@@ -14,7 +14,7 @@ at EPFL.
 mathematics, computer science and materials modelling.
 If this suits you and you would like to work with us,
 we encourage you to check out [our job openings](/jobs).
-We also offer [student projects](/projects) at various levels.
+We also offer [student projects](/student_projects) at various levels.
 
 ## Links
 - [~~~<img class="logo" alt="github" src="/assets/github.png" />~~~ epfl-matmat](https://github.com/epfl-matmat) github organisation
