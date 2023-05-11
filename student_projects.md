@@ -69,15 +69,27 @@ also AMD, Intel and (if feasible) Apple GPUs.
 We also want to benchmark the resulting implementation
 and using Julia's profiling tools to improve its performance.
 
-A more detailed description will follow soon.
-
 **Requirements:**
-Strong programming skills with experience in the implementation of algortihms
+Strong programming skills with experience in the implementation of algorithms
 or high-performance computing;
 knowledge of Julia programming is a bonus, but can also be acquired as we go along;
 interest in learning Julia's hardware abstractions for GPU computing
 
 **Contact:** [Michael F. Herbst](mailto:michael.herbst@epfl.ch)
+
+----
+
+## Mixed-precision approaches for density-functional theory
+In this project we want to explore the opportunities of the Julia
+programming language for performing mixed-precision computation is density functional theory.
+For this we will explore where single precision computations introduce inaccuracies
+and develop countermeasures using e.g. specific mixed-precision algorithms
+or iterative post-processing techniques.
+
+**Requirements:**
+Strong background in numerical linear algebra in particular Krylov methods;
+considerable programming skills in python or Matlab;
+knowledge of Julia programming is a bonus, but can also be acquired as we go along
 
 ----
 
@@ -90,8 +102,6 @@ for density-functional theory.
 This will be used both to compare the performance of DFTK
 against other standard softwares in the field
 and their respective algorithms.
-
-A more detailed description will follow soon.
 
 **Requirements:**
 Experience in running first-principle simulations in standard codes

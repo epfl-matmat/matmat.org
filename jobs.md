@@ -155,7 +155,7 @@ one of the aforementioned doctoral schools before the contract can start.
 
 
 
-## PostDoc position: Understanding uncertainties in DFT model parameters
+## PostDoc position: Understanding uncertainties due to DFT model parameters
 
 #### Background
 One of the most widely used methods for
