@@ -63,8 +63,10 @@ You can use these links to find further information about the schools and their 
 We strongly recommend you to apply to one of these doctoral schools in parallel,
 since the required information is very similar (so you only need to collect it once).
 Moreover admission to a doctoral school gives you a chance to obtain a PhD position in other groups at EPFL as well.
-If you lean towards a numerics-oriented project, you should probably apply to EDMA,
-whereas if you are more interested in applications, you should apply to EDMX.
+If your desired project topic is more closely related to numerics / analysis,
+you should probably apply to EDMA,
+whereas if the project will be more on the side of
+physical models / materials applications, you should apply to EDMX.
 
 ## PhD position: Self-adapting numerical methods for high-throughput DFT simulations
 
@@ -102,8 +104,8 @@ and collaborate with physicists, mathematicians and computer scientists from EPF
 * You are highly motivated and want to become an independent researcher in a fascinating
   interdisciplinary field, working towards faster and more reliable methods
   for discovering the materials of tomorrow.
-* You have a strong sense of autonomy and independence.
-* You have completed a Master in physics, mathematics or a related subject.
+* You have a strong sense of autonomy and independence, but also enjoy being part of a diverse team.
+* You have completed a Master (or 4-year Bachelor) in physics, mathematics or a related subject.
   Candidates who will complete their degree within the next months are also welcome to apply.
 * Your academic record is strong and underpins your potential to become an excellent researcher.
 * You have a broad background in quantum physics, numerical mathematics and computer science
@@ -115,6 +117,7 @@ and collaborate with physicists, mathematicians and computer scientists from EPF
   high-performance computing or computational physics is highly desirable.
 * You enjoy programming and implementing algorithms and have solid experience
   in an HPC programming language such as C++, Fortran or Julia.
+* You are fluent in written and oral English.
 * Bonus skills for this application are considerable experience in
   numerical analysis, quantum physics, solid-state physics or Julia programming.
 
@@ -125,14 +128,13 @@ modern materials simulations from a mathematical point of view
 quantify their errors or make them more reliable.
 We disseminate our work in state-of-the-art software and directly test novel algorithms
 in the context of application simulations.
-In line with this our team has a broad background and our research
+Our team has a broad background and our research
 is closely integrated with multiple departments and interdisciplinary initiatives,
-such as the [NCCR MARVEL](https://nccr-marvel.ch/).
+such as the [NCCR MARVEL](https://nccr-marvel.ch/) at EPFL.
 You will have of opportunities to take part in such cross-disciplinary activities
-and discuss with researchers from many domains.
+and discuss with researchers across multiple domains.
 This includes attending suitable conferences or workshops
-or a participation in collaborations with researchers from Europe and the US,
-including potential collaborative visits.
+or a participation in researcher collaborations as well as potential research visits.
 
 The current regulations regarding salary and working conditions of PhD students at EPFL
 can be found on the detailed websites on
@@ -151,24 +153,91 @@ one of the aforementioned doctoral schools before the contract can start.
 
 <!-- one more PhD project on AD and mixed precision and adaptive tolerance response with proper preconditioning -->
 
-## PostDoc position: Quantifying DFT model uncertainties with Bayesian methods
-
-A PostDoc position centring on using Bayesian methods
-for understanding model uncertainties in DFT is also open.
-The position will be initially for two years with an optional extension.
-
-More details on the position will be published soon.
 
 
-<!--
+## PostDoc position: Understanding uncertainties in DFT model parameters
 
-**Requirements:**\newline
-- Strong background in Bayesian statistics
+#### Background
+One of the most widely used methods for
+modelling solid-state systems from first principles
+is plane-wave density-functional theory (DFT).
+A typical DFT simulation involves a number of modelling
+parameters, typically pre-selected in the form of the
+chosen setup (e.g. pseudopotential or the DFT functional).
+These parameters in turn are frequently determined
+against selected results of higher fidelity,
+making them inherently uncertain.
+Propagating this uncertainty through a DFT simulation
+in order to determine its influence
+on the predicted DFT output quantities
+is to date hardly explored.
+A main obstacle for such research is in particular
+the challenging nature of DFT itself,
+involving at its heart a non-linear, non-convex optimisation problem.
+However, the recent implementation of algorithmic differentiation (AD)
+capabilities to the [density-functional toolkit (DFTK)](https://dftk.org),
+our in-house Julia-based DFT code,
+provides novel and so far unexplored opportunities
+for inference and uncertainty quantification.
 
-using AD
+#### Project goals
+<!-- Could go more into the numerical analysis side: E.g. balance uncertainty in lattice constant
+with discretisation or uncertainty in pseudopotential with discretisation -->
+The goal of this project is indeed to explore the aforementioned
+opportunities brought by AD.
+Due to the rather unexplored nature of this field, a number of research questions
+could be tackled, depending on your interest and prior background.
+This includes for example
+multi-fidelity techniques for the goal-oriented Bayesian optimisation of modelling parameters
+or tailored inference strategies making use of sensitivities and sensitivity derivatives.
+By focusing on reduced models (which e.g. drop the non-linearities of DFT)
+you could also approach these questions from an analytical point of view.
+Using DFTK you can then perform numerical experiments to back up your analysis
+and scale-up ideas to the full DFT setting in the later stage of the project.
 
-Error in data-driven DFT models,
-pseudopotentials,
-propagation to properties and MD potentials
+#### Candidate profile
+* You are motivated to tackle a challenging interdisciplinary research topic
+  and to substantially push the state of uncertainty quantification methods
+  for density-functional theory.
+* You obtained your PhD in mathematics, statistics or a related subject.
+* You have a strong background in Bayesian statistics or uncertainty quantification.
+* You have an excellent academic track record and demonstrated prior research experience
+  working with Gaussian processes, multi-fidelity or multi-tasking methods
+  or inverse problems.
+* You enjoy collaborating with researchers from a diverse background
+  and you look forward to acquiring the diverse skillset required
+  for cross-disciplinary research in materials modelling.
+* You enjoy pen and paper analysis, but you are not afraid to implement and test your
+  ideas in practice.
+* You have previously used Python, Matlab, R or Julia to conduct numerical experiments
+  or test your ideas in non-trivial settings.
+* You are fluent in written and oral English.
+* You enjoy occasionally supervising undergraduate students on topics related to your research.
+* Bonus skills for this application are considerable experience in
+  quantum-chemical or materials simulations, numerical linear algebra,
+  high-performance computing or Julia programming.
 
--->
+#### What is offered
+The activities of the MatMat group centre on understanding
+modern materials simulations from a mathematical point of view
+-- and to come up with ways to make such simulations faster,
+quantify their errors or make them more reliable.
+Our team has a broad background and our research
+is closely integrated with multiple departments and interdisciplinary initiatives
+at EPFL, such as the [NCCR MARVEL](https://nccr-marvel.ch/).
+You have of opportunities to take part in such cross-disciplinary activities
+and discuss with researchers across multiple domains.
+This includes attending suitable conferences or workshops
+as well as potential visits to collaboration partners.
+Within the proposed topic you will be able to bring in your prior expertise,
+explore your ideas and to considerable expand your research agenda.
+
+The position will be a fixed-term position (CDD) for initially 2 years,
+renewable on a one-year basis. Further extensions depend on progress
+and the funding situation.
+
+#### Deadline and starting date
+Initial screening will start 1st August 2023 and continue
+until a suitable candidate is found.
+The expected starting date is January 2024,
+but this can be negotiated in both directions.
