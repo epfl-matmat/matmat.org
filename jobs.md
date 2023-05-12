@@ -80,7 +80,7 @@ need to be automatically selected.
 This is a highly challenging task, which often proceeds by trial and error,
 i.e. multiple runs of the same simulation where parameters are tweaked until
 the simulation is successful.
-This implies not only a considerable waist of computational resources,
+This implies not only a considerable waste of computational resources,
 but also substantially limits the overall throughput with which new materials
 can be found.
 
@@ -122,19 +122,22 @@ and collaborate with physicists, mathematicians and computer scientists from EPF
   numerical analysis, quantum physics, solid-state physics or Julia programming.
 
 #### What is offered
-The activities of the MatMat group centre on understanding
+The activities of the MatMat group centre revolve around understanding
 modern materials simulations from a mathematical point of view
 -- and to come up with ways to make such simulations faster,
 quantify their errors or make them more reliable.
-We disseminate our work in state-of-the-art software and directly test novel algorithms
-in the context of application simulations.
-Our team has a broad background and our research
-is closely integrated with multiple departments and interdisciplinary initiatives,
-such as the [NCCR MARVEL](https://nccr-marvel.ch/) at EPFL.
-You will have of opportunities to take part in such cross-disciplinary activities
-and discuss with researchers across multiple domains.
-This includes attending suitable conferences or workshops
-or a participation in researcher collaborations as well as potential research visits.
+You will become part of a young and energetic team,
+fully integrated with both the mathematics and the materials institutes
+as well as multiple cross-disciplinary initiatives,
+such as the [NCCR MARVEL](https://nccr-marvel.ch/).
+Guided by your research topic you have the opportunity
+to grow substantially your background and obtain expertise
+in theory as well as applications.
+For this you have access to a stimulating community of researchers
+at EPFL's main campus beautifully located at the lake Geneva shore.
+For disseminating your work funds to attend suitable conferences
+and workshops as well as potential visits to our collaboration partners
+all over the world are provided.
 
 The current regulations regarding salary and working conditions of PhD students at EPFL
 can be found on the detailed websites on
@@ -143,33 +146,30 @@ can be found on the detailed websites on
 and [PhD admission criteria](https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/).
 
 
-#### Starting date
-Continuous, until a suitable candidate is found.
+#### Deadline and starting date
+Continuous until a suitable candidate has been found.
 Note, that the chosen candidate will have to be accepted into
-one of the aforementioned doctoral schools before the contract can start.
-
-
-
+one of the aforementioned doctoral schools
+before the contract can start.
 
 <!-- one more PhD project on AD and mixed precision and adaptive tolerance response with proper preconditioning -->
 
 
 
-## PostDoc position: Understanding uncertainties due to DFT model parameters
+## PostDoc position: Determining uncertainties due to DFT model parameters
 
 #### Background
 One of the most widely used methods for
 modelling solid-state systems from first principles
 is plane-wave density-functional theory (DFT).
-A typical DFT simulation involves a number of modelling
-parameters, typically pre-selected in the form of the
-chosen setup (e.g. pseudopotential or the DFT functional).
-These parameters in turn are frequently determined
-against selected results of higher fidelity,
+A typical DFT simulation involves a number of modelling parameters,
+typically bundled in the form of modelling components
+such as the chosen pseudopotentials or the DFT functional.
+These parameters in turn are commonly determined
+employing some form of regression against higher-fidelity reference data,
 making them inherently uncertain.
 Propagating this uncertainty through a DFT simulation
-in order to determine its influence
-on the predicted DFT output quantities
+for observing its influence on simulation output quantities
 is to date hardly explored.
 A main obstacle for such research is in particular
 the challenging nature of DFT itself,
@@ -178,31 +178,39 @@ However, the recent implementation of algorithmic differentiation (AD)
 capabilities to the [density-functional toolkit (DFTK)](https://dftk.org),
 our in-house Julia-based DFT code,
 provides novel and so far unexplored opportunities
-for inference and uncertainty quantification.
+for inference and uncertainty propagation.
 
 #### Project goals
 <!-- Could go more into the numerical analysis side: E.g. balance uncertainty in lattice constant
 with discretisation or uncertainty in pseudopotential with discretisation -->
-The goal of this project is indeed to explore the aforementioned
-opportunities brought by AD.
-Due to the rather unexplored nature of this field, a number of research questions
+The goal of this project is investigate the opportunities for
+uncertainty quantification in DFT simulations enabled by AD.
+Due to the rather unexplored nature of this topic,
+a multitude of research questions
 could be tackled, depending on your interest and prior background.
-This includes for example
-multi-fidelity techniques for the goal-oriented Bayesian optimisation of modelling parameters
-or tailored inference strategies making use of sensitivities and sensitivity derivatives.
-By focusing on reduced models (which e.g. drop the non-linearities of DFT)
+Examples could be multi-fidelity or gradient-accelerated
+techniques for Bayesian regression of uncertainty models
+or tailored inference strategies
+making use of sensitivities and sensitivity derivatives.
+By focusing on reduced physical settings
+(which e.g. drop the non-linearities of DFT)
 you could also approach these questions from an analytical point of view.
-Using DFTK you can then perform numerical experiments to back up your analysis
-and scale-up ideas to the full DFT setting in the later stage of the project.
+You will use DFTK to implement your ideas and perform numerical experiments
+to back them up.
+In collaboration with other researchers from our group
+and the other materials simulation groups at EPFL
+you will also work on scaling up your findings to the full DFT setting
+and in this way provide first tests of your methods on application problems.
 
 #### Candidate profile
 * You are motivated to tackle a challenging interdisciplinary research topic
   and to substantially push the state of uncertainty quantification methods
   for density-functional theory.
 * You obtained your PhD in mathematics, statistics or a related subject.
-* You have a strong background in Bayesian statistics or uncertainty quantification.
+* You have a strong background in Bayesian statistics
+  and worked on uncertainty quantification for physics or engineering simulations.
 * You have an excellent academic track record and demonstrated prior research experience
-  working with Gaussian processes, multi-fidelity or multi-tasking methods
+  working with Bayesian regression, multi-fidelity or multi-tasking methods
   or inverse problems.
 * You enjoy collaborating with researchers from a diverse background
   and you look forward to acquiring the diverse skillset required
@@ -218,26 +226,32 @@ and scale-up ideas to the full DFT setting in the later stage of the project.
   high-performance computing or Julia programming.
 
 #### What is offered
-The activities of the MatMat group centre on understanding
+The activities of the MatMat group centre revolve around understanding
 modern materials simulations from a mathematical point of view
 -- and to come up with ways to make such simulations faster,
 quantify their errors or make them more reliable.
-Our team has a broad background and our research
-is closely integrated with multiple departments and interdisciplinary initiatives
-at EPFL, such as the [NCCR MARVEL](https://nccr-marvel.ch/).
-You have of opportunities to take part in such cross-disciplinary activities
-and discuss with researchers across multiple domains.
-This includes attending suitable conferences or workshops
-as well as potential visits to collaboration partners.
+You will become part of a young and energetic team,
+fully integrated with both the mathematics and the materials institutes
+as well as multiple cross-disciplinary initiatives,
+such as the [NCCR MARVEL](https://nccr-marvel.ch/).
 Within the proposed topic you will be able to bring in your prior expertise,
-explore your ideas and to considerable expand your research agenda.
+explore your ideas and grow substantially your background
+in both the theory and practice of materials modelling.
+For this you have access to a stimulating community of researchers
+at EPFL's main campus beautifully located at the lake Geneva shore.
+For disseminating your work funds to attend suitable conferences
+and workshops as well as potential visits to our collaboration partners
+all over the world are provided.
 
 The position will be a fixed-term position (CDD) for initially 2 years,
 renewable on a one-year basis. Further extensions depend on progress
 and the funding situation.
+Please consult the website on
+[current employment conditions at EPFL](https://www.epfl.ch/about/working/working-at-epfl/employment-conditions)
+for more details on this topic.
 
 #### Deadline and starting date
 Initial screening will start 1st August 2023 and continue
-until a suitable candidate is found.
+until a suitable candidate has been found.
 The expected starting date is January 2024,
 but this can be negotiated in both directions.
