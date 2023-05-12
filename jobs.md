@@ -246,9 +246,8 @@ all over the world are provided.
 The position will be a fixed-term position (CDD) for initially 2 years,
 renewable on a one-year basis. Further extensions depend on progress
 and the funding situation.
-Please consult the website on
-[current employment conditions at EPFL](https://www.epfl.ch/about/working/working-at-epfl/employment-conditions)
-for more details on this topic.
+For more information on working at EPFL see also
+the website on [current employment conditions](https://www.epfl.ch/about/working/working-at-epfl/employment-conditions).
 
 #### Deadline and starting date
 Initial screening will start 1st August 2023 and continue
