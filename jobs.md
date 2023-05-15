@@ -165,7 +165,7 @@ is plane-wave density-functional theory (DFT).
 A typical DFT simulation involves a number of modelling parameters,
 typically bundled in the form of modelling components
 such as the chosen pseudopotentials or the DFT functional.
-These parameters in turn are commonly determined
+These parameters in turn can be determined
 employing some form of regression against higher-fidelity reference data,
 making them inherently uncertain.
 Propagating this uncertainty through a DFT simulation
