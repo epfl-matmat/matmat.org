@@ -71,7 +71,7 @@ and using Julia's profiling tools to improve its performance.
 
 **Requirements:**
 Strong programming skills with experience in the implementation of algorithms
-or high-performance computing;
+for high-performance computing;
 knowledge of Julia programming is a bonus, but can also be acquired as we go along;
 interest in learning Julia's hardware abstractions for GPU computing
 
