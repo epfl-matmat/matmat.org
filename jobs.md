@@ -1,6 +1,8 @@
-@def title = "Job Openings"
-@def mintoclevel=2
-@def maxtoclevel=3
++++
+title = "Job Openings"
+mintoclevel = 2
+maxtoclevel = 3
++++
 
 
 # Job Openings
