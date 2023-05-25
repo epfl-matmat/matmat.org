@@ -11,4 +11,4 @@ In the form of interactive Pluto notebooks Michael discusses
 the suitability of Julia for atomistic materials modelling
 and provides an overview of the current state of Julia tools in this field.
 [[Lecture notes]](https://mfherbst.github.io/julia-for-materials/)  
-[Recording] *(Coming soon)*
+[Recording](https://www.youtube.com/watch?v=dujepKxxxkg)

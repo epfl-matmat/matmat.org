@@ -13,9 +13,9 @@ prepath     = ""
 ignore = ["node_modules/"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
-generate_rss = false
+generate_rss  = false
 website_title = "Mathematics for Materials Modelling group"
-website_url = "https://matmat.org"
+website_url   = "https://matmat.org"
 website_descr = "News from the Mathematics for Materials Modelling group at EPFL."
 +++
 
