@@ -124,7 +124,7 @@ and collaborate with physicists, mathematicians and computer scientists from EPF
   numerical analysis, quantum physics, solid-state physics or Julia programming.
 
 #### What is offered
-The activities of the MatMat group centre revolve around understanding
+The activities of the MatMat group revolve around understanding
 modern materials simulations from a mathematical point of view
 -- and to come up with ways to make such simulations faster,
 quantify their errors or make them more reliable.
@@ -188,7 +188,7 @@ with discretisation or uncertainty in pseudopotential with discretisation -->
 The goal of this project is investigate the opportunities for
 uncertainty quantification in DFT simulations enabled by AD.
 Due to the rather unexplored nature of this topic,
-a multitude of research questions
+a variety of research questions
 could be tackled, depending on your interest and prior background.
 Examples could be multi-fidelity or gradient-accelerated
 techniques for Bayesian regression of uncertainty models
@@ -215,7 +215,7 @@ and in this way provide first tests of your methods on application problems.
   working with Bayesian regression, multi-fidelity or multi-tasking methods
   or inverse problems.
 * You enjoy collaborating with researchers from a diverse background
-  and you look forward to acquiring the diverse skillset required
+  and you look forward to acquiring the broad skillset required
   for cross-disciplinary research in materials modelling.
 * You enjoy pen and paper analysis, but you are not afraid to implement and test your
   ideas in practice.
@@ -228,7 +228,7 @@ and in this way provide first tests of your methods on application problems.
   high-performance computing or Julia programming.
 
 #### What is offered
-The activities of the MatMat group centre revolve around understanding
+The activities of the MatMat group revolve around understanding
 modern materials simulations from a mathematical point of view
 -- and to come up with ways to make such simulations faster,
 quantify their errors or make them more reliable.
