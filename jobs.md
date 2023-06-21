@@ -126,7 +126,7 @@ and collaborate with physicists, mathematicians and computer scientists from EPF
 #### What is offered
 The activities of the MatMat group revolve around understanding
 modern materials simulations from a mathematical point of view
--- and to come up with ways to make such simulations faster,
+-- and to develop algorithms to make such simulations faster,
 quantify their errors or make them more reliable.
 You will become part of a young and energetic team,
 fully integrated with both the mathematics and the materials institutes
@@ -158,7 +158,7 @@ before the contract can start.
 
 
 
-## PostDoc position: Determining uncertainties due to DFT model parameters
+## PostDoc position: Quantifying uncertainties in first-principle material simulations
 
 #### Background
 One of the most widely used methods for
