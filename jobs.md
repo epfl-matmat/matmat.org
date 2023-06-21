@@ -185,9 +185,9 @@ for inference and uncertainty propagation.
 #### Project goals
 <!-- Could go more into the numerical analysis side: E.g. balance uncertainty in lattice constant
 with discretisation or uncertainty in pseudopotential with discretisation -->
-The goal of this project is investigate the opportunities for
-uncertainty quantification in DFT simulations enabled by AD.
-Due to the rather unexplored nature of this topic,
+The goal of this project is to investigate the opportunities
+with respect to uncertainty quantification in DFT
+enabled by AD. Due to the unexplored nature of this topic,
 a variety of research questions
 could be tackled, depending on your interest and prior background.
 Examples could be multi-fidelity or gradient-accelerated
