@@ -67,3 +67,23 @@ function hfun_firstpagenews()
     end
     Franklin.fd2html(String(take!(io)); internal=true)
 end
+
+
+"""
+    {{newsheader}}
+
+Add a standard header to news pages
+"""
+function hfun_newsheader()
+    if !isnothing(match(r"news/[0-9]+/[0-9]+", locvar("fd_rpath")))
+        # We are deep inside the news directory
+        #     -> Add title to make the page look nice
+        #     -> Add some way for user to get back to news
+        return """
+        <h1>$(locvar("title"))</h1>
+        <p><a href="/news">Other news articles</a></p>
+        """
+    else
+        return ""
+    end
+end

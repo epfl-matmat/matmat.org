@@ -5,6 +5,8 @@ type        = "talk"
 startpage   = true
 +++
 
+{{newsheader}}
+
 **24.05.2023** Our group hosts a seminar
 [Julia for Materials Modelling](https://memento.epfl.ch/event/julia-for-materials-modelling-2/).
 In the form of interactive Pluto notebooks Michael discusses
