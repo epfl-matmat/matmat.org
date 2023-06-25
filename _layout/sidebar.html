@@ -5,15 +5,21 @@
       <h1><a href="/">Mathematics for Materials Modelling</a></h1>
     </div>
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item {{ispage news/*}}active{{end}}"              href="/news/"             >News</a>
-      <a class="sidebar-nav-item {{ispage research/*}}active{{end}}"          href="/research/"         >Research</a>
-      <a class="sidebar-nav-item {{ispage people/*}}active{{end}}"            href="/people/"           >People</a>
-      <a class="sidebar-nav-item {{ispage publications/*}}active{{end}}"      href="/publications/"     >Publications</a>
-      <a class="sidebar-nav-item {{ispage software/*}}active{{end}}"          href="/software/"         >Software</a>
-      <a class="sidebar-nav-item {{ispage teaching/*}}active{{end}}"          href="/teaching/"         >Teaching</a>
-      <a class="sidebar-nav-item {{ispage jobs/*}}active{{end}}"              href="/jobs/"             >Job Openings</a>
-      <a class="sidebar-nav-item {{ispage student_projects/*}}active{{end}}"  href="/student_projects/" >Student projects</a>
-      <a class="sidebar-nav-item {{ispage contact/*}}active{{end}}"           href="/contact/"          >Contact</a>
+      <a class="sidebar-nav-item {{ispage news/*}}active{{end}}"               href="/news/"             >News</a>
+      <a class="sidebar-nav-item {{ispage research/index.html}}active{{end}}"  href="/research/"         >Research</a>
+      {{ispage research/*}}
+      <a class="sidebar-nav-subitem {{ispage research/funding/*}}active{{end}}" href="/research/funding/"          >Funding &amp; collaborations</a>
+      <a class="sidebar-nav-subitem {{ispage research/self_adapting_simulations/*}}active{{end}}" href="/research/self_adapting_simulations/">Self-adapting simulations</a>
+	  <a class="sidebar-nav-subitem {{ispage research/error_estimation/*}}active{{end}}" href="/research/error_estimation/" >Estimation of sim. errors</a>
+      <a class="sidebar-nav-subitem {{ispage research/spin_systems/*}}active{{end}}"     href="/research/spin_systems/"     >Spin systems</a>
+      {{end}}
+      <a class="sidebar-nav-item {{ispage people/*}}active{{end}}"             href="/people/"           >People</a>
+      <a class="sidebar-nav-item {{ispage publications/*}}active{{end}}"       href="/publications/"     >Publications</a>
+      <a class="sidebar-nav-item {{ispage software/*}}active{{end}}"           href="/software/"         >Software</a>
+      <a class="sidebar-nav-item {{ispage teaching/*}}active{{end}}"           href="/teaching/"         >Teaching</a>
+      <a class="sidebar-nav-item {{ispage jobs/*}}active{{end}}"               href="/jobs/"             >Job Openings</a>
+      <a class="sidebar-nav-item {{ispage student_projects/*}}active{{end}}"   href="/student_projects/" >Student projects</a>
+      <a class="sidebar-nav-item {{ispage contact/*}}active{{end}}"            href="/contact/"          >Contact</a>
     </nav>
     <!--
     <form id="lunrSearchForm" name="lunrSearchForm">

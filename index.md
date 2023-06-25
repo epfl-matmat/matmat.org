@@ -25,7 +25,7 @@ We also offer [student projects](/student_projects) at various levels.
 - [~~~<img class="logo" alt="dftk" src="/assets/DFTK_48.svg" />~~~ DFTK: The density-functional toolkit](https://dftk.org)
 - [Michael Herbst](https://michael-herbst.com)'s website
 
-@@news
+@@frontnews
 ## Recent news
 
 {{firstpagenews}}
