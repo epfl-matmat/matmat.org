@@ -125,6 +125,27 @@ pre.code-output {
     margin: 0.25em 0;
 }
 
+a.sidebar-nav-subitem:hover,
+a.sidebar-nav-subitem:focus {
+  text-decoration: underline;
+}
+
+.sidebar-nav .sidebar-nav-subitem.active {
+    box-sizing: border-box;
+    background: #f0f8ff40;
+    margin-right: -1em;
+    margin-left: -0.5em;
+    padding-left: 1.5em;
+    color: white;
+}
+.sidebar-nav .sidebar-nav-subitem {
+    display: block;
+    line-height: 1.75;
+    /*font-size: 0.97em;*/
+    color: #cccccc;
+    margin-left: 1em;
+}
+
 .page-foot img.logo, .franklin-content img.logo {
     width: 1em;
     height: 1em;
