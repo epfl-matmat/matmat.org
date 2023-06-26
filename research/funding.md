@@ -48,8 +48,6 @@
 ## Key collaborators
 - [Eric Cancès (Numerical analysis, École des Ponts ParisTech):](http://cermics.enpc.fr/~cances/)  
     *A posteriori error analysis for electronic-structure simulations.*
-- [Mi-Song Dupuy (Numerical analysis, Sorbonne University):](https://msdupuy.github.io/)  
-    *Anderson acceleration methods for self-consistent field problems.*
 - [Youssef Marzouk (Uncertainty quantification, Massachusetts Institute of Technology):](https://uqgroup.mit.edu)
     *Uncertainty quantification in density-functional theory.*
 - [Antoine Levitt (Numerical analysis, University of Paris-Saclay):](http://antoine.levitt.fr/)  
@@ -62,6 +60,8 @@
     *Reduced basis methods for correlated quantum spin systems.*
 
 <!--
+- [Mi-Song Dupuy (Numerical analysis, Sorbonne University):](https://msdupuy.github.io/)  
+    *Anderson acceleration methods for self-consistent field problems.*
 - [Alan Edelman (Computer science, Massachusetts Institute of Technology):](https://math.mit.edu/~edelman)
     *Modern software development techniques for electronic-structure simulations
     / data-driven molecular dynamics.*
