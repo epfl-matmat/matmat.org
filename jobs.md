@@ -77,28 +77,22 @@ Density-functional theory (DFT) is one of the most widely employed simulation me
 to predict the properties of materials from first principles.
 An important application is the computational discovery of novel materials,
 where many thousands of systematic simulations may be performed.
-In this regime the often highly problem-specific numerical parameters of DFT
-need to be automatically selected.
-This is a highly challenging task, which often proceeds by trial and error,
-i.e. multiple runs of the same simulation where parameters are tweaked until
-the simulation is successful.
-This implies not only a considerable waste of computational resources,
-but also substantially limits the overall throughput with which new materials
-can be found.
+At this level a limiting factor remains the robustness of numerical schemes
+for DFT simulations.
 
 #### Project goals
 In this project you will obtain and combine physical and mathematical insights
-into the numerical methods of DFT in order to develop algorithmic techniques,
+in order to develop algorithmic techniques,
 which robustly adapt to the simulated material on the fly.
-For this you will apply and extend existing results in numerical analysis
+You will apply and extend existing results in numerical analysis
 to obtain novel preconditioners
 (building [upon previous work](https://michael-herbst.com/publications/2020.09.03_ldos_preconditioning.pdf))
 as well as adaptive basis selection techniques.
-Your developed methods will be implemented into codes
+Your methods will be implemented into codes
 such as the [density-functional toolkit (DFTK)](https://dftk.org)
 as well as the [SIRIUS](https://github.com/electronic-structure/SIRIUS) electronic structure library,
-such that they can be directly tested on cutting-edge materials simulations.
-In your work you will be closely integrated into the materials simulation activities
+such that they can be tested in the high-throughput context.
+You will be integrated into the materials simulation activities
 at EPFL, e.g. within the [NCCR MARVEL](https://nccr-marvel.ch/),
 and collaborate with physicists, mathematicians and computer scientists from EPFL, Switzerland and abroad.
 
@@ -110,18 +104,17 @@ and collaborate with physicists, mathematicians and computer scientists from EPF
 * You have completed a Master (or 4-year Bachelor) in physics, mathematics or a related subject.
   Candidates who will complete their degree within the next months are also welcome to apply.
 * Your academic record is strong and underpins your potential to become an excellent researcher.
-* You have a broad background in quantum physics, numerical mathematics and computer science
-  or are looking forward to the challenge of acquiring a diverse cross-disciplinary skillset.
-  In any case your willingness to look beyond the borders of your discipline
-  will be key in this project.
+* You have a broad background in computational physics, numerical mathematics or computer science
+  and you look forward to acquiring expertise in domains beyond your current background.
 * You have a strong interest in numerical methods, their implementation and application
-  to physics and materials simulations. Previous experience in one of numerical linear algebra,
-  high-performance computing or computational physics is highly desirable.
+  to physics and materials simulations.
 * You enjoy programming and implementing algorithms and have solid experience
   in an HPC programming language such as C++, Fortran or Julia.
 * You are fluent in written and oral English.
 * Bonus skills for this application are considerable experience in
-  numerical analysis, quantum physics, solid-state physics or Julia programming.
+  numerical analysis, numerical linear algebra,
+  high-performance computing, quantum physics,
+  solid-state physics or Julia programming.
 
 #### What is offered
 The activities of the MatMat group revolve around understanding
