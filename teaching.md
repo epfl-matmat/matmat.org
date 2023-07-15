@@ -10,7 +10,7 @@ For some earlier teaching by Michael Herbst, see <https://michael-herbst.com/tea
 \toc
 
 ## Error control in scientific modelling
-**IS academia:** *to appear*\newline
+**IS academia:** [MATH-500](https://staging-edu.epfl.ch/coursebook/en/error-control-in-scientific-modelling-MATH-500)\newline
 **Semester:** *Autumn*\newline
 **Target audience:** Mathematics Master, Materials science Master\newline
 
@@ -49,9 +49,16 @@ focus, students are encouraged to team up across the disciplines for the course
 work.
 
 ## Numerical analysis
-**IS academia:** *to appear*\newline
+**IS academia:** MATH-251(b)\newline
 **Semester:** *Spring*\newline
 **Target audience:** Materials science Bachelor\newline
 
 #### Summary
-Details will follow.
+The students will learn numerical techniques for solving common mathematical problems in science and engineering. The underlying mathematical theory and properties are discussed.
+
+#### Content
+* Linear and non-linear systems of equations
+* Matrix factorisations and decompositions
+* Numerical differentiation and integration
+* Numerical solution of differential equations
+* Regression and least squares problems
