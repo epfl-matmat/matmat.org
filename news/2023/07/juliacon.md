@@ -12,3 +12,4 @@ the annual conference of the community of the Julia programming language.
 This year it finally resumes to an *in-person* conference, this time in Cambridge, United States.
 For the second time in a row Michael has taken the position as program co-chair.
 Additionally he will present, together with Paul Brehmer, on *Surrogatising quantum spin systems using reduced order models*.
+[[Slides]](https://michael-herbst.com/talks/2023.07.27_juliacon_reducedbasis.pdf)
