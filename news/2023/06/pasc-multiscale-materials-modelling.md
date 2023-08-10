@@ -12,4 +12,4 @@ startpage   = true
 at the [Platform for Advanced Scientific Computing (PASC)](https://pasc23.pasc-conference.org/) conference
 in Davos, Switzerland. As part of the minisymposium he will present
 on *Fostering Interdisciplinary Research in Materials Modelling by Composable Julia Software*.
-[[Slides]](michael-herbst.com/slides/pasc23)
+[[Slides]](https://michael-herbst.com/slides/pasc23)
