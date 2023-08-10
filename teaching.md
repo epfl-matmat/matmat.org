@@ -54,7 +54,9 @@ work.
 **Target audience:** Materials science Bachelor\newline
 
 #### Summary
-The students will learn key numerical techniques for solving standard mathematical problems in science and engineering. The underlying mathematical theory and properties are discussed.
+The students will learn key numerical techniques for solving standard
+mathematical problems in science and engineering. The underlying mathematical
+theory and properties are discussed.
 
 #### Content
 The topics covered include:
