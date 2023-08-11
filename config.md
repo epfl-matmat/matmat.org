@@ -23,6 +23,8 @@ website_descr = "News from the Mathematics for Materials Modelling group at EPFL
 Add here global latex commands to use throughout your pages.
 -->
 \newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\abs}[1]{\left| #1 \right|}
 \newcommand{\scal}[1]{\langle #1 \rangle}
 \newcommand{\style}[2]{~~~<span style="!#1">!#2</span>~~~}
 \newcommand{\newline}{~~~<br />~~~}
