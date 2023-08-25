@@ -52,6 +52,8 @@
     *Uncertainty quantification in density-functional theory.*
 - [Antoine Levitt (Numerical analysis, University of Paris-Saclay):](http://antoine.levitt.fr/)  
     *Reliable black-box algorithms for electronic structure simulations.*
+- [Andre Laestadius (Applied mathematics, Oslo Met University):](https://uni.oslomet.no/regal/andre-laestadius/)  
+    *Mathematical formulation of density-functional theory.*
 - [Matteo Rizzi(Correlated quantum systems, Universität Köln):](https://www.rizzi-matteo.com/)  
     *Reduced basis methods for correlated quantum spin systems.*
 - [Benjamin Stamm (Numerical analysis, Universität Stuttgart):](https://www.ians.uni-stuttgart.de/institute/team/Stamm/)  
