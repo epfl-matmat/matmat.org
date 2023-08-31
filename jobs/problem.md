@@ -25,15 +25,8 @@ Don't worry if you don't manage to complete the full exercise.
 The idea is that you spend a couple of hours on this,
 such that we have a basis for discussion and I get an idea how you approach such a problem.
 
-It is completely natural when getting into a new topic
-to get stuck somewhere with the need to ask a question.
-This applies to this exercise as well
-and I very much encourage you to send me an email with questions.
-
-(In fact there is a chance that I forgot to write down some detail here
-in its present form the problem is actually unsolvable,
-so I really encourage you to reach out if you get stuck.)
-
+It is completely natural when getting into a new topic to get stuck somewhere.
+I very much encourage you to send me an email with questions if this is the case.
 
 ## The Gross-Pitaevskii equation
 
