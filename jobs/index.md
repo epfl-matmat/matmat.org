@@ -147,9 +147,8 @@ Note, that the chosen candidate will have to be accepted into
 one of the aforementioned doctoral schools
 before the contract can start.
 
-<!-- one more PhD project on AD and mixed precision and adaptive tolerance response with proper preconditioning -->
 
-
+<!--
 
 ## PostDoc position: Quantifying uncertainties in first-principle material simulations
 
@@ -176,8 +175,6 @@ provides novel and so far unexplored opportunities
 for inference and uncertainty propagation.
 
 #### Project goals
-<!-- Could go more into the numerical analysis side: E.g. balance uncertainty in lattice constant
-with discretisation or uncertainty in pseudopotential with discretisation -->
 The goal of this project is to investigate the opportunities
 with respect to uncertainty quantification in DFT
 enabled by AD. Due to the unexplored nature of this topic,
@@ -249,3 +246,5 @@ Initial screening will start 1st August 2023 and continue
 until a suitable candidate has been found.
 The expected starting date is January 2024,
 but this can be negotiated in both directions.
+
+-->
