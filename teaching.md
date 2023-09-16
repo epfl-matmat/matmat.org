@@ -13,6 +13,7 @@ For some earlier teaching by Michael Herbst, see <https://michael-herbst.com/tea
 **IS academia:** [MATH-500](https://staging-edu.epfl.ch/coursebook/en/error-control-in-scientific-modelling-MATH-500)\newline
 **Semester:** *Autumn*\newline
 **Target audience:** Mathematics Master, Materials science Master\newline
+**Moodle link:** <https://go.epfl.ch/error-control> \newline
 
 #### Summary
 Errors are ubiquitous in computational science as neither models nor numerical
@@ -21,13 +22,14 @@ materials science (transfer problems, atomistic modelling) we discuss,
 implement and apply numerical techniques for estimating simulation error.
 
 #### Content
+* Motivation for studying errors in eigenvalue problems
 * Types of simulation error
-* Important eigenvalue problems in materials science
 * Residual-error relationships for eigenvalue problems
-* Perturbation theory
-* Plane-wave basis sets and their discretisation error
-* Parametrised eigenvalue problems
-* Errors due to uncertain parameters: Perturbative and statistical approaches
+* Perturbation theory and parametrised eigenvalue problems
+* Subtleties of infinite-dimensional eigenvalue problems
+* Discretisation and discretisation error
+* Plane-wave basis sets
+* Errors due to uncertain parameters (if time permits)
 * Non-linear eigenvalue problems (if time permits)
 
 #### Prerequisites
@@ -52,6 +54,7 @@ work.
 **IS academia:** MATH-251(b)\newline
 **Semester:** *Spring*\newline
 **Target audience:** Materials science Bachelor\newline
+**Moodle link:** <https://go.epfl.ch/MATH-251_b> \newline
 
 #### Summary
 The students will learn key numerical techniques for solving standard
