@@ -55,7 +55,7 @@ While there is some freedom for students to select their respective
 focus, students are encouraged to team up across the disciplines
 for the course work.
 
-### Literature
+#### Literature
 There is no single textbook corresponding to the content of the course.
 Parts of the lectures have substantial overlap with the following resources,
 where further information can be found.
