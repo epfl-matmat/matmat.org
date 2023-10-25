@@ -9,7 +9,7 @@ function news_sorted()
         pubdate = pagevar(article, :rss_pubdate)
         if isnothing(pubdate)
             m = match(r"([0-9]+)/([0-9]+)/[^/]+\.md", article)
-            pubdate = Date(parse(Int, m[2]), parse(Int, m[1]), 1)
+            pubdate = Date(parse(Int, m[1]), parse(Int, m[2]), 1)
         end
         pubdate
     end
@@ -34,7 +34,7 @@ end
 
 Plug in all news articles contained in the `/news/` folder.
 """
-function hfun_allnews()
+@delay function hfun_allnews()
     io = IOBuffer()
     current_year = nothing
     for article in news_sorted()
@@ -55,7 +55,7 @@ end
 
 Plug in the highlighted news articles contained in `/news/` folder.
 """
-function hfun_firstpagenews()
+@delay function hfun_firstpagenews()
     io = IOBuffer()
     firstpage_articles = filter(news_sorted()) do article
         startpage = pagevar(article, :startpage)
