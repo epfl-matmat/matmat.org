@@ -60,12 +60,12 @@ There is no single textbook corresponding to the content of the course.
 Parts of the lectures have substantial overlap with the following resources,
 where further information can be found.
 
-- Youssef Saad *Numerical Methods for Large Eigenvalue Problems*, SIAM (2011).
+- Youssef Saad. *Numerical Methods for Large Eigenvalue Problems*, SIAM (2011).
   A PDF is available free of charge on [Youssef Saad's website](https://www-users.cse.umn.edu/~saad/eig_book_2ndEd.pdf).
-- Nicholas J. Higham *Accuracy and Stability of Numerical Algorithms*, SIAM (2002).
-- Peter Arbenz *Lecture notes on solving large scale eigenvalue problems*, ETHZ.
+- Nicholas J. Higham. *Accuracy and Stability of Numerical Algorithms*, SIAM (2002).
+- Peter Arbenz. *Lecture notes on solving large scale eigenvalue problems*, ETHZ.
   A PDF is available from [Peter Arbenz' website](https://people.inf.ethz.ch/arbenz/ewp/Lnotes/lsevp.pdf).
-- Mathieu Lewin *Théorie spectrale et mécanique quantique*, Springer (2022).
+- Mathieu Lewin. *Théorie spectrale et mécanique quantique*, Springer (2022).
 
 ## Numerical analysis
 **IS academia:** MATH-251(b)\newline

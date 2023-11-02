@@ -18,7 +18,10 @@
       <a class="sidebar-nav-item {{ispage software/*}}active{{end}}"           href="/software/"         >Software</a>
       <a class="sidebar-nav-item {{ispage teaching/*}}active{{end}}"           href="/teaching/"         >Teaching</a>
       <a class="sidebar-nav-item {{ispage jobs/*}}active{{end}}"               href="/jobs/"             >Job Openings</a>
-      <a class="sidebar-nav-item {{ispage student_projects/*}}active{{end}}"   href="/student_projects/" >Student projects</a>
+      <a class="sidebar-nav-item {{ispage student_projects/index.html}}active{{end}}"   href="/student_projects/" >Student projects</a>
+      {{ispage student_projects/*}}
+      <a class="sidebar-nav-subitem {{ispage student_projects/guidelines/*}}active{{end}}" href="/student_projects/guidelines/"          >Guidelines</a>
+      {{end}}
       <a class="sidebar-nav-item {{ispage contact/*}}active{{end}}"            href="/contact/"          >Contact</a>
     </nav>
     <!--
