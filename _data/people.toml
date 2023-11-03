@@ -1,0 +1,56 @@
+[charles-julie]
+current = true
+email = "julie.charles@epfl.ch"
+firstname = "Julie"
+github = ""
+gscholar = ""
+name = "Charles"
+orcid = ""
+position = "Administrative Assistant"
+priority = -50
+room = "MA B1 483"
+sciper = 372532
+website = "https://people.epfl.ch/372532"
+
+[herbst-michael]
+current = true
+email = "michael.herbst@epfl.ch"
+firstname = "Michael F."
+github = "mfherbst"
+gscholar = "https://scholar.google.com/citations?user=9jBO8o4AAAAJ"
+name = "Herbst"
+orcid = "0000-0003-0378-7921"
+phone = "+41216938989"
+position = "Tenure Track Assistant Professor"
+priority = -100
+room = "MA B1 467"
+sciper = 368484
+website = "https://michael-herbst.com"
+
+[schmitz-niklas]
+current = true
+email = "niklas.schmitz@epfl.ch"
+firstname = "Niklas Frederik"
+github = ""
+gscholar = ""
+name = "Schmitz"
+orcid = ""
+position = "Doctoral Assistant"
+priority = 0
+room = ""
+sciper = 299719
+website = "https://people.epfl.ch/299719"
+
+[travelletti-cedric]
+current = true
+email = "cedric.travelletti@epfl.ch"
+firstname = "Cédric"
+github = ""
+gscholar = ""
+name = "Travelletti"
+orcid = ""
+position = "Scientist"
+priority = -20
+room = ""
+sciper = 384805
+website = "https://people.epfl.ch/384805"

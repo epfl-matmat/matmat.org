@@ -1,3 +1,6 @@
+using TOML
+
+
 """Get all news sorted by publication date"""
 function news_sorted()
     all_articles = [joinpath(root, f)
@@ -27,7 +30,6 @@ function print_news(io::IO, article)
         doprint && println(io, line)
     end
 end
-
 
 """
     {{allnews}}
@@ -86,4 +88,36 @@ function hfun_newsheader()
     else
         return ""
     end
+end
+
+function normalised_from_email(s::AbstractString)
+    beginning  = split(s, "@")[1]
+    components = split(beginning, ".")
+    join(reverse(components), "-")
+end
+
+function hfun_people_table()
+    data   = open(TOML.parse, "_data/people.toml", "r")
+    people = sort(collect(values(data)), by=d -> (get(d, "priority", 0), d["name"]))
+
+    io = IOBuffer()
+    println(io, "<table>")
+    for p in people
+        imgkey = normalised_from_email(p["email"])
+        print(io, "<tr>")
+        print(io, replace("""<td>
+            <a href="$(p["website"])">
+            <img style="width:1.9rem;" class="profile-img" src="/assets/people/$imgkey.jpg" />
+            </a></td>
+        """, "\n" => ""))
+        print(io, """<td><a href="$(p["website"])">$(p["firstname"] * " " * p["name"])</a></td>""")
+        print(io, "<td>$(p["position"])</td>")
+        print(io, "<td>$(p["email"])</td>")
+        print(io, "<td>$(p["room"])</td>")
+        print(io, "<td></td>")  # TODO Extra stuff (website, scholar, github, etc.)
+
+        println(io, "</tr>")
+    end
+    println(io, "</table>")
+    String(take!(io))
 end
