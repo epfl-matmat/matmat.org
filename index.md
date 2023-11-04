@@ -21,7 +21,7 @@ feel free to take a look at our [our job openings](/jobs).
 We also offer [student projects](/student_projects) at various levels.
 
 ## Links
-- [~~~<img class="logo" alt="github" src="/assets/github.png" />~~~ epfl-matmat](https://github.com/epfl-matmat) github organisation
+- [~~~<img class="logo" alt="github" src="/assets/icons/github.png" />~~~ epfl-matmat](https://github.com/epfl-matmat) github organisation
 - [~~~<img class="logo" alt="dftk" src="/assets/DFTK_48.svg" />~~~ DFTK: The density-functional toolkit](https://dftk.org)
 - [Michael Herbst](https://michael-herbst.com)'s website
 
