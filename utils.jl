@@ -1,4 +1,23 @@
 using TOML
+using Markdown: htmlesc
+
+"""Insert a javascript blob for assembling emails"""
+function hfun_email_unprotect_js()
+    return """<script>
+    function msgto(mailID, mailDomain) {
+      var txt = mailID;
+      txt = txt + "@" + mailDomain;
+      document.write('<a href="mailto:'+ txt + '">' + txt + '</a>');
+    }
+    </script>"""
+end
+
+function protected_email_link(email::AbstractString)
+    dest, domain = split(email, "@")
+    ("""<script>msgto('$dest', '$domain')</script>""" *
+     """<noscript>Enable JavaScript to see email</noscript>""")
+end
+hfun_protect_email(params) = protected_email_link(params[1])
 
 
 """Get all news sorted by publication date"""
@@ -96,28 +115,99 @@ function normalised_from_email(s::AbstractString)
     join(reverse(components), "-")
 end
 
+function roomlink(room::AbstractString)
+    if isempty(room)
+        room
+    else
+        """<a href="https://plan.epfl.ch/?room==$(htmlesc(room))">$room</a>"""
+    end
+end
+
+function social_imagelink(key, value)
+    linkprefix = Dict(
+        "arxiv"    => "https://arxiv.org/a/",
+        "orcid"    => "https://orcid.org/",
+        "gscholar" => "https://scholar.google.com/citations?user=",
+        "github"   => "https://github.com/",
+    )
+    linktext = Dict(
+        "gscholar" => "Google Scholar",
+        "arxiv"    => "ArXiv",
+        "orcid"    => "ORCID",
+    )
+
+    io = IOBuffer()
+    print(io, """<a href="$(get(linkprefix, key, ""))$value" >""")
+    print(io, """<img class="social-logo" alt="$key" src="/assets/icons/$key.png"/>""")
+    print(io, """$(get(linktext, key, uppercasefirst(key)))""")
+    print(io, """</a>""")
+    String(take!(io))
+end
+
+function people_row(data::AbstractDict; showroom=true)
+    maxsocial = showroom ? 4 : 3
+
+    io = IOBuffer()
+    print(io, "<tr>")
+
+    # Profile picture
+    imgkey = normalised_from_email(data["email"])
+    print(io, """<td><a href="$(data["website"])">""")
+    print(io, """<img class="profile-img" src="/assets/people/$imgkey.jpg" />""")
+    print(io, """</a></td>""")
+
+    # Name, Email, Function, Office
+    print(io, """<td><strong><a href="$(data["website"])">$(data["firstname"]) """ *
+              """$(data["name"])</a></strong>""")
+    print(io, """<br />$(data["position"])""")
+    print(io, """<br /><span class="weak-text">Email:</span> """ *
+              """$(protected_email_link(data["email"]))""")
+    if showroom
+        print(io, """<br /><span class="weak-text">Office:</span> """ *
+                  """$(roomlink(data["room"]))""")
+    end
+    print(io, """</td>""")
+
+    # Social links
+    print(io, "<td>")
+    nsocial = 0
+    for key in ["website", "gscholar", "orcid", "github", "arxiv"]
+        value = get(data, key, "")
+        if !isempty(value) && nsocial < maxsocial
+            print(io, social_imagelink(key, value))
+            nsocial += 1
+            nsocial < maxsocial && print(io, "<br />")
+        end
+    end
+    print(io, "<br />"^(maxsocial-nsocial))
+    print(io, "</td>")
+
+    print(io, "</tr>")
+    String(take!(io))
+end
+
 function hfun_people_table()
     data   = open(TOML.parse, "_data/people.toml", "r")
     people = sort(collect(values(data)), by=d -> (get(d, "priority", 0), d["name"]))
 
     io = IOBuffer()
+
     println(io, "<table>")
     for p in people
-        imgkey = normalised_from_email(p["email"])
-        print(io, "<tr>")
-        print(io, replace("""<td>
-            <a href="$(p["website"])">
-            <img style="width:1.9rem;" class="profile-img" src="/assets/people/$imgkey.jpg" />
-            </a></td>
-        """, "\n" => ""))
-        print(io, """<td><a href="$(p["website"])">$(p["firstname"] * " " * p["name"])</a></td>""")
-        print(io, "<td>$(p["position"])</td>")
-        print(io, "<td>$(p["email"])</td>")
-        print(io, "<td>$(p["room"])</td>")
-        print(io, "<td></td>")  # TODO Extra stuff (website, scholar, github, etc.)
-
-        println(io, "</tr>")
+        p["current"] || continue
+        println(io, people_row(p; showroom=true))
     end
     println(io, "</table>")
+
+    if !all(p -> p["current"], people)
+        println(io, "<h2>Former members</h2>")
+        println(io, "<table>")
+        for p in people
+            p["current"] && continue
+            println(io, people_row(p; showroom=false))
+        end
+        println(io, "</table>")
+    end
+
     String(take!(io))
 end

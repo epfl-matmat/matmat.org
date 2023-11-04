@@ -32,6 +32,7 @@ function augment_defaults!(data::AbstractDict)
     get!(data, "website",  "https://people.epfl.ch/$(data["sciper"])")
     get!(data, "gscholar", "")
     get!(data, "orcid",    "")
+    get!(data, "arxiv",    "")
     get!(data, "github",   "")
     get!(data, "current",  true)
     data

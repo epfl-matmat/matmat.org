@@ -1,4 +1,5 @@
 [charles-julie]
+arxiv = ""
 current = true
 email = "julie.charles@epfl.ch"
 firstname = "Julie"
@@ -13,11 +14,12 @@ sciper = 372532
 website = "https://people.epfl.ch/372532"
 
 [herbst-michael]
+arxiv = "herbst_m_1"
 current = true
 email = "michael.herbst@epfl.ch"
 firstname = "Michael F."
 github = "mfherbst"
-gscholar = "https://scholar.google.com/citations?user=9jBO8o4AAAAJ"
+gscholar = "9jBO8o4AAAAJ"
 name = "Herbst"
 orcid = "0000-0003-0378-7921"
 phone = "+41216938989"
@@ -28,6 +30,7 @@ sciper = 368484
 website = "https://michael-herbst.com"
 
 [schmitz-niklas]
+arxiv = ""
 current = true
 email = "niklas.schmitz@epfl.ch"
 firstname = "Niklas Frederik"
@@ -42,6 +45,7 @@ sciper = 299719
 website = "https://people.epfl.ch/299719"
 
 [travelletti-cedric]
+arxiv = ""
 current = true
 email = "cedric.travelletti@epfl.ch"
 firstname = "Cédric"

@@ -1,7 +1,7 @@
 @def title = "People"
 
-# People
+{{ email_unprotect_js }}
 
-<!-- Larger box of Michael -->
+# People
 
 {{ people_table }}

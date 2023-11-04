@@ -163,6 +163,34 @@ a.sidebar-nav-subitem:focus {
     /* TODO styling of news-block on front page */
 }
 
+.franklin-content img.profile-img {
+  border-radius: 50% !important;
+  height: auto;
+  width:  3.8rem;
+  max-width: 100%;
+  min-width: 40px;
+  margin: 0;
+  padding: 0;
+  margin-top: -2px;
+  margin-bottom: -2px;
+}
+
+.franklin-content img.social-logo {
+  width:      16px;
+  min-width:  16px;
+  height:     16px;
+  min-height: 16px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-right: .6ex;
+  vertical-align: -0.2em;
+  opacity: 0.95;
+}
+
+.content .weak-text {
+  color: #909090;
+}
 
 /*
  *  EPFL adaption
@@ -194,12 +222,5 @@ a.sidebar-nav-subitem:focus {
 
 .sidebar .sidebar-nav a:hover { color: #ee3333; text-decoration: none; }
 
-.profile-img {
-  border-radius: 50% !important;
-  height: auto;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-  margin-top: -2px;
-  margin-bottom: -2px;
-}
+
+
