@@ -30,17 +30,17 @@ sciper = 368484
 website = "https://michael-herbst.com"
 
 [schmitz-niklas]
-arxiv = ""
+arxiv = "schmitz_n_1"
 current = true
 email = "niklas.schmitz@epfl.ch"
 firstname = "Niklas Frederik"
-github = ""
-gscholar = ""
+github = "niklasschmitz"
+gscholar = "2Lz5bWYAAAAJ"
 name = "Schmitz"
-orcid = ""
+orcid = "0000-0001-6362-3756"
 position = "Doctoral Assistant"
 priority = 0
-room = ""
+room = "MA B1 457"
 sciper = 299719
 website = "https://people.epfl.ch/299719"
 
