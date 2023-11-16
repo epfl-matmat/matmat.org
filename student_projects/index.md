@@ -8,6 +8,8 @@ are equally possible. Several of the projects could also be adapted to the Bache
 If you are interested in doing a project with us,
 **email the project proposer**, mentioning your grades in all relevant classes.
 Please be aware of the **[general guidelines](/student_projects/guidelines)**.
+We will in general not accept or decline any project
+until six weeks before the semester begins.
 
 Overview of projects:
 

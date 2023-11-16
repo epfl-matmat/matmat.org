@@ -4,6 +4,8 @@
 
 Here are some general guidelines about doing a student project within the MatMat group.
 See also the list of [available projects](/student_projects).
+Note, that we will in general *not* accept or decline an application for a project
+until six weeks before the semester begins.
 
 - We will start with a brief startup meeting. If you are given references or literature,
   please take a look at them. You will likely not understand very much, which is
