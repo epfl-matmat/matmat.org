@@ -70,6 +70,12 @@ you should probably apply to EDMA,
 whereas if the project will be more on the side of
 physical models / materials applications, you should apply to EDMX.
 
+## Specific openings
+
+Currently no specific openings to advertise.
+
+<!--
+
 ## PhD position: Self-adapting numerical methods for high-throughput DFT simulations
 
 #### Background
@@ -146,7 +152,7 @@ Continuous until a suitable candidate has been found.
 Note, that the chosen candidate will have to be accepted into
 one of the aforementioned doctoral schools
 before the contract can start.
-
+-->
 
 <!--
 
