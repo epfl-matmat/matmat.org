@@ -27,7 +27,7 @@ Schur complement approach to response calculations[^CHKLS2023] showing a conside
 reduction in the number of iterations required to solve the Sternheimer equations
 in a challenging Heusler-type system.
 
-## Efficiency boosts from mixed-precision and randomised methods
+## Efficiency boosts from mixed-precision and precision-adapting methods
 Our current research agenda extends such ideas further.
 For example one question to consider is
 **numerical stability of DFT algorithms**
@@ -38,8 +38,7 @@ neglected in the numerical analysis to date. Recently a number of opportunities
 to improve the efficiency of large-scale computations have emerged, which introduce
 further inexactness in order to increase performance.
 Examples are **mixed-precision methods** to exploit low-precision **16-bit floating-point types**
-on modern GPU architectures as well as **randomised methods** to avoid communication
-in high-performance calculations. However, to safely exploit
+on modern GPU architectures. However, to safely exploit
 such opportunities in the DFT context, understanding and reducing the susceptibility
 of DFT algorithms to numerical noise is key and thus needs to be investigated more closely.
 

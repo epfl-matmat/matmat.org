@@ -70,8 +70,8 @@ where further information can be found.
 ## Numerical analysis
 **IS academia:** MATH-251(b)\newline
 **Semester:** *Spring*\newline
-**Target audience:** Materials science Bachelor\newline
-**Moodle link:** <https://go.epfl.ch/MATH-251_b> \newline
+**Target audience:** 2nd year Bachelor materials science, electrical engineering, chemistry\newline
+**Moodle link:** <https://go.epfl.ch/numerical-analysis> \newline
 
 #### Summary
 The students will learn key numerical techniques for solving standard
