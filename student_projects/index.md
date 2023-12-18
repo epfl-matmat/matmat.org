@@ -6,8 +6,8 @@ This list is not exhaustive and other topics related to [our research](/research
 are equally possible. Several of the projects could also be adapted to the Bachelor level.
 
 If you are interested in doing a project with us,
-**email the project proposer**, mentioning your grades in all relevant classes.
-Please be aware of the **[general guidelines](/student_projects/guidelines)**.
+please make yourself familiar with **[general guidelines](/student_projects/guidelines)**
+we follow during the project.
 We will in general not accept or decline any project
 until six weeks before the semester begins.
 
@@ -59,10 +59,9 @@ knowledge of Julia programming is a bonus, but can also be acquired as we go alo
 interest in learning about the numerical and mathematical underpinnings of
 first-principle based materials simulations.
 
-**Contact:** [Michael F. Herbst](https://people.epfl.ch/michael.herbst) or [Austin Zadoks](mailto:austin.zadoks@epfl.ch)
-
 [^CDKL2022]: E. Cancès, G. Dusson, G. Kemlin and A. Levitt. SIAM J. Sci. Comp. **44** (2022). ArXiv [2111.01470](https://arxiv.org/abs/2111.01470v2)
 [^Aiida]: S. Huber, et al. Scientific Data. **7**, 300 (2020). https://www.aiida.net/
+
 
 ----
 
@@ -97,9 +96,6 @@ knowledge of Julia programming is a bonus, but can also be acquired as we go alo
 interest in learning about the numerical and mathematical underpinnings of
 first-principle based materials simulations.
 
-
-**Contact:** [Michael F. Herbst](https://people.epfl.ch/michael.herbst), [Iurii Timrov](https://people.epfl.ch/iurii.timrov)
-
 [^Lk99griffin]: S. M. Griffin. *Origin of correlated isolated flat bands in copper-substituted lead phosphate apatite*. ArXiv [2307.16892](https://arxiv.org/pdf/2307.16892.pdf)
 [^Hubbard]: V. I. Anisimov, J. Zaanen and O. K. Andersen. Phys. Rev. B **44**, 943 (1991). DOI [10.1103/physrevb.44.943](http://dx.doi.org/10.1103/physrevb.44.943)
 [^SelfConsistentU]: I. Timrov, N. Marzari and M. Cococcion. Phys. Rev. B **98** (2018). DOI [10.1103/physrevb.98.085127](http://dx.doi.org/10.1103/physrevb.98.085127)
@@ -126,7 +122,7 @@ for high-performance computing;
 knowledge of Julia programming is a bonus, but can also be acquired as we go along;
 interest in learning Julia's hardware abstractions for GPU computing
 
-**Contact:** [Michael F. Herbst](https://people.epfl.ch/michael.herbst)
+<!--
 
 ----
 
@@ -174,10 +170,12 @@ basic experience with data-driven methods or machine learning;
 interest in learning about the numerical and mathematical underpinnings of
 first-principle based materials simulations.
 
-**Contact:** [Michael F. Herbst](https://people.epfl.ch/michael.herbst)
-
 [^uncertanties]: A. Fowler, C. Pickard, J. Elliott. J. Phys. Mater. **2**, 034001 (2019) DOI [10.1088/2515-7639/ab0b4a](http://dx.doi.org/10.1088/2515-7639/ab0b4a)
 [^e3nn]: M. Geiger and T. Smidt *e3nn: Euclidean Neural Networks*. ArXiv [2207.09453](https://arxiv.org/abs/2207.09453)
+
+-->
+
+<!---
 
 ----
 
@@ -193,7 +191,7 @@ Strong background in numerical linear algebra in particular Krylov methods;
 considerable programming skills in python or Matlab;
 knowledge of Julia programming is a bonus, but can also be acquired as we go along
 
-**Contact:** [Michael F. Herbst](https://people.epfl.ch/michael.herbst)
+-->
 
 ----
 
@@ -211,5 +209,3 @@ and their respective algorithms.
 Experience in running first-principle simulations in standard codes
 such as VASP, ABINIT, QuantumEspresso; experience with AiiDA or DFTK is a bonus,
 but can also be acquired as we go along.
-
-**Contact:** [Michael F. Herbst](https://people.epfl.ch/michael.herbst)
