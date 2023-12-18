@@ -62,6 +62,26 @@ first-principle based materials simulations.
 [^CDKL2022]: E. Cancès, G. Dusson, G. Kemlin and A. Levitt. SIAM J. Sci. Comp. **44** (2022). ArXiv [2111.01470](https://arxiv.org/abs/2111.01470v2)
 [^Aiida]: S. Huber, et al. Scientific Data. **7**, 300 (2020). https://www.aiida.net/
 
+----
+
+## Manifold optimisation methods in density-functional theory
+
+The problem underlying density-functional theory (DFT) is a minimisation of an energy functional
+with respect to the density matrix. In turn the space of density matrices themselves
+has the structure of a smooth manifold. However, instead of solving this minimisation
+problem directly (termed *direct minimisation*, DM), most
+codes solve DFT by satisfying the first-order stationarity conditions,
+which leads to the self-consistent field (SCF) equations.
+For some settings the convergence of direct minimisation can be superior[^CKL2021],
+which has been stimulating for the recent mathematical studies
+of DM approaches to DFT[^DGYZ2022].
+In this project we want to build upon the readily available software stacks
+for optimisations on manifolds[^Manopt] and explore the use of their readily
+available manifold optimisation routines in the context of DFT approaches.
+
+[^CKL2021]: E. Cancès, G. Kemlin, A. Levitt SIAM J. Mat. Anal. Appl. **42**, 243 (2021). DOI [10.1137/20m1332864](http://dx.doi.org/10.1137/20m1332864)
+[^DGYZ2022]: X. Dai, S. de Gironcoli, B. Yang, A. Zhou. Multiscale Model. Simul. **21**, 777 (2023). DOI [10.1137/22M1472103](https://doi.org/10.1137/22M1472103)
+[^Manopt]: https://www.manopt.org/ and https://manoptjl.org/
 
 ----
 
@@ -69,26 +89,21 @@ first-principle based materials simulations.
 The study of transition-metal compounds using density-functional theory (DFT) is an established approach
 and has in the past been involved with the discovery of novel cathodes for Li batteries,
 thermoelectric devises or photovoltaic materials. Recently the literature discussion surrounding
-[LK-99](https://en.wikipedia.org/wiki/LK-99) as a promising candidate for high-temperature
-superconductivity is yet another example where DFT calculations are playing an important role
-to understand the effects of the copper (transition metal) doping[^Lk99griffin] in the
-lead phosphate apatite matrix. Unfortunately employing plain semi-local DFT is not sufficient
-to capture the physics of many transition-metal compounds due to the strongly localised
-and partially filled $d$-orbitals being inappropriately described. As a remedy the
-so-called Hubbard corrections[^Hubbard] have been proposed and excessively studied
-over the past years[^SelfConsistentU]. Practically all theoretical studies of LK-99
-employ Hubbard corrections to make their predictions
-(see e.g. the [list on wikipedia](https://en.wikipedia.org/wiki/LK-99)).
+[LK-99](https://en.wikipedia.org/wiki/LK-99) is yet another example where DFT calculations
+are playing an important role to understand the effects of the copper (transition metal)
+doping[^Lk99griffin] in the lead phosphate apatite matrix. Unfortunately employing plain
+semi-local DFT is not sufficient to capture the physics of many transition-metal compounds
+due to the strongly localised and partially filled $d$-orbitals being inappropriately
+described. As a remedy the so-called Hubbard corrections[^Hubbard] have been proposed
+and excessively studied over the past years[^SelfConsistentU].
 
 Within DFTK Hubbard corrections are so far missing.
 Moreover many fundamental mathematical and numerical aspects
 surrounding Hubbard corrections are so far understudied.
-As part of this project you will (a) implement Hubbard corrections into DFTK,
-(b) use them to simulate the bands of LK-99,
-and (c) investigate numerical techniques to improve the SCF convergence of DFT
-calculations with Hubbard corrections (termed also DFT+U calculations).
-The project will be conducted in collaboration
-with the [THEOS group](http://theossrv1.epfl.ch/) here at EPFL.
+As part of this project you will implement Hubbard corrections into DFTK
+and use them to study open problems with respect to standard task
+in electronic structure theory, such as the SCF convergence
+or the geometry optimisation related to DFT+U methods.
 
 **Requirements:**
 Strong programming skills; basic knowledge of quantum mechanics in solid-state physics;
@@ -102,25 +117,36 @@ first-principle based materials simulations.
 
 ----
 
-## Performance optimisation of GPU routines in DFTK
+## Reduced precision and GPU performance of DFTK
 
 DFTK currently provides preliminary support for running calculations on
 CUDA-based graphics processing units (GPUs). Support for HIP-based GPU
 (e.g. the ones by AMD) is on the way. In its current stage the GPU code
 still requires substantial performance improvements to be competitive.
 The main task of this project is to employ Julia's profiling and benchmarking
-tools to assess and improve the GPU performance of DFTK. Along the lines
+tools to assess and improve the GPU performance of DFTK. Along the line
+we will further explore the opportunities of the Julia programming language
+to enable reduced precision (e.g. single precision) DFT computations,
+which are ideally suited to run on GPUs.
+<!---
+In this project we want to explore the opportunities of the Julia
+programming language for performing mixed-precision computation is density functional theory.
+For this we will explore where single precision computations introduce inaccuracies
+and develop countermeasures using e.g. specific mixed-precision algorithms
+or iterative post-processing techniques.
+
+Along the lines
 you will learn how GPU programming in Julia works and how to improve the
 performance of a Julia code towards the HPC regime.
-
-If time permits we might also target an extension of the overall GPU support in DFTK
-towards new platforms (e.g. Intel) or new routines in DFTK.
+--->
 
 **Requirements:**
 Strong programming skills with experience in the implementation of algorithms
 for high-performance computing;
+knowledge of numerical linear algebra (e.g. Krylov methods);
 knowledge of Julia programming is a bonus, but can also be acquired as we go along;
 interest in learning Julia's hardware abstractions for GPU computing
+
 
 <!--
 
@@ -172,24 +198,6 @@ first-principle based materials simulations.
 
 [^uncertanties]: A. Fowler, C. Pickard, J. Elliott. J. Phys. Mater. **2**, 034001 (2019) DOI [10.1088/2515-7639/ab0b4a](http://dx.doi.org/10.1088/2515-7639/ab0b4a)
 [^e3nn]: M. Geiger and T. Smidt *e3nn: Euclidean Neural Networks*. ArXiv [2207.09453](https://arxiv.org/abs/2207.09453)
-
--->
-
-<!---
-
-----
-
-## Mixed-precision approaches in density-functional theory
-In this project we want to explore the opportunities of the Julia
-programming language for performing mixed-precision computation is density functional theory.
-For this we will explore where single precision computations introduce inaccuracies
-and develop countermeasures using e.g. specific mixed-precision algorithms
-or iterative post-processing techniques.
-
-**Requirements:**
-Strong background in numerical linear algebra in particular Krylov methods;
-considerable programming skills in python or Matlab;
-knowledge of Julia programming is a bonus, but can also be acquired as we go along
 
 -->
 
