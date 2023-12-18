@@ -60,7 +60,6 @@ interest in learning about the numerical and mathematical underpinnings of
 first-principle based materials simulations.
 
 [^CDKL2022]: E. Cancès, G. Dusson, G. Kemlin and A. Levitt. SIAM J. Sci. Comp. **44** (2022). ArXiv [2111.01470](https://arxiv.org/abs/2111.01470v2)
-[^Aiida]: S. Huber, et al. Scientific Data. **7**, 300 (2020). https://www.aiida.net/
 
 ----
 
@@ -81,7 +80,7 @@ available manifold optimisation routines in the context of DFT approaches.
 
 [^CKL2021]: E. Cancès, G. Kemlin, A. Levitt SIAM J. Mat. Anal. Appl. **42**, 243 (2021). DOI [10.1137/20m1332864](http://dx.doi.org/10.1137/20m1332864)
 [^DGYZ2022]: X. Dai, S. de Gironcoli, B. Yang, A. Zhou. Multiscale Model. Simul. **21**, 777 (2023). DOI [10.1137/22M1472103](https://doi.org/10.1137/22M1472103)
-[^Manopt]: https://www.manopt.org/ and https://manoptjl.org/
+[^Manopt]: <https://www.manopt.org/> and <https://manoptjl.org/>
 
 ----
 
@@ -128,7 +127,7 @@ tools to assess and improve the GPU performance of DFTK. Along the line
 we will further explore the opportunities of the Julia programming language
 to enable reduced precision (e.g. single precision) DFT computations,
 which are ideally suited to run on GPUs.
-<!---
+<!--
 In this project we want to explore the opportunities of the Julia
 programming language for performing mixed-precision computation is density functional theory.
 For this we will explore where single precision computations introduce inaccuracies
@@ -138,7 +137,7 @@ or iterative post-processing techniques.
 Along the lines
 you will learn how GPU programming in Julia works and how to improve the
 performance of a Julia code towards the HPC regime.
---->
+-->
 
 **Requirements:**
 Strong programming skills with experience in the implementation of algorithms
