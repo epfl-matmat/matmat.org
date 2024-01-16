@@ -81,8 +81,22 @@ theory and properties are discussed.
 #### Content
 The topics covered include:
 
-* Linear and non-linear systems of equations
-* Matrix factorisations and decompositions
-* Numerical differentiation and integration
-* Numerical solution of differential equations
-* Regression and least squares problems
+* Properties and issues with numerical computation
+* Finding roots and fixed points
+* Polynomial interpolation
+* Solving linear and non-linear equations
+* Gradient-based methods for solving linear and eigenproblems
+* Numerical integration and differentiation
+* Basic numerical techniques for solving differential equations
+
+#### Literature
+- Giray Ökten *First Semester Numerical analysis* (2023).
+  [Online pdf](https://diginole.lib.fsu.edu/islandora/object/fsu%3A657877/datastream/PDF/view)
+- Tobin A. Driscoll, Richard J. Braun *Fundamentals of Numerical Computation*, SIAM (2022).
+  [Web previow](http://tobydriscoll.net/unlinked/fnc-preview/)
+  [FundamentalsNumericalComputation](https://github.com/fncbook/FundamentalsNumericalComputation.jl) julia package
+
+#### A note to future teaching assistants
+For this course the recruitment of AEs (assistante-étudiant) is directly processed through STI.
+If you want to become an AE for this course please register via the respective STI platform
+and do not apply by email. All such direct application emails will be ignored.
