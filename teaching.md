@@ -93,7 +93,7 @@ The topics covered include:
 - Giray Ökten *First Semester Numerical analysis* (2023).
   [Online pdf](https://diginole.lib.fsu.edu/islandora/object/fsu%3A657877/datastream/PDF/view)
 - Tobin A. Driscoll, Richard J. Braun *Fundamentals of Numerical Computation*, SIAM (2022).
-  [Web previow](http://tobydriscoll.net/unlinked/fnc-preview/)
+  [Web version](https://tobydriscoll.net/fnc-julia/),
   [FundamentalsNumericalComputation](https://github.com/fncbook/FundamentalsNumericalComputation.jl) julia package
 
 #### A note to future teaching assistants
