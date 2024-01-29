@@ -68,7 +68,7 @@ where further information can be found.
 - Mathieu Lewin. *Théorie spectrale et mécanique quantique*, Springer (2022).
 
 ## Numerical analysis
-**IS academia:** MATH-251(b)\newline
+**IS academia:** [MATH-251(b)](https://edu.epfl.ch/coursebook/en/numerical-analysis-MATH-251-B)\newline
 **Semester:** *Spring*\newline
 **Target audience:** 2nd year Bachelor materials science, electrical engineering, chemistry\newline
 **Moodle link:** <https://go.epfl.ch/numerical-analysis> \newline
@@ -95,6 +95,9 @@ The topics covered include:
 - Tobin A. Driscoll, Richard J. Braun *Fundamentals of Numerical Computation*, SIAM (2022).
   [Web version](https://tobydriscoll.net/fnc-julia/),
   [FundamentalsNumericalComputation](https://github.com/fncbook/FundamentalsNumericalComputation.jl) julia package
+- MIT's [*Introduction to computational thinking*](https://computationalthinking.mit.edu/),
+  which introduces Julia as well as its way of solving scientific problems
+  in a hands-on and fun way.
 
 #### A note to future teaching assistants
 For this course the recruitment of AEs (assistante-étudiant) is directly processed through STI.
