@@ -1,6 +1,6 @@
 +++
 title       = "Seminar talk at Uni Fribourg chemistry department"
-rss_pubdate = Date(2023, 05, 30)
+rss_pubdate = Date(2024, 02, 15)
 type        = "talk"
 startpage   = false
 +++
