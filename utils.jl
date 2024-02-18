@@ -86,6 +86,7 @@ Plug in the highlighted news articles contained in `/news/` folder.
         print_news(io, article)
         println(io, "\n-------")
     end
+    println(io, "[[See all news]](news)")
     Franklin.fd2html(String(take!(io)); internal=true)
 end
 
