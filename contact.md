@@ -10,9 +10,9 @@ Email: {{ protect_email michael.herbst@epfl.ch }}\newline
 Office: [MA B1 467](https://plan.epfl.ch/?room==MA%20B1%20467)
 
 ## Administration
-**Ms. Julie Charles**\newline
-Email: {{ protect_email julie.charles@epfl.ch }}\newline
-Tel: +41 21 693 83 56\newline
+**Ms. Melis Martin**\newline
+Email: {{ protect_email melis.martin@epfl.ch }}\newline
+Tel: +41 21 693 54 48\newline
 Office: [MA B1 483](http://plan.epfl.ch/?room==MA%20B1%20483)
 
 ## Postal
