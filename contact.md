@@ -4,6 +4,10 @@
 
 # Contact
 
+## Find us on campus
+- **Institute of mathematics**: [MA B1 457](https://plan.epfl.ch/?room==MA%20B1%20457)
+- **Institute of materials**: [MXD 335](https://plan.epfl.ch/?room==MXD%20335)
+
 ## Head of group
 **Prof. Michael F. Herbst**\newline
 Email: {{ protect_email michael.herbst@epfl.ch }}\newline
