@@ -1,0 +1,60 @@
+[martin-melis]
+arxiv = ""
+current = true
+email = "melis.martin@epfl.ch"
+firstname = "Melis"
+github = ""
+gscholar = ""
+name = "Martin"
+orcid = ""
+position = "Administrative Assistant"
+priority = -50
+room = "MA B1 483"
+sciper = 206229
+website = ""
+
+[herbst-michael]
+arxiv = "herbst_m_1"
+current = true
+email = "michael.herbst@epfl.ch"
+firstname = "Michael F."
+github = "mfherbst"
+gscholar = "9jBO8o4AAAAJ"
+name = "Herbst"
+orcid = "0000-0003-0378-7921"
+phone = "+41216938989"
+position = "Tenure Track Assistant Professor"
+priority = -100
+room = "MA B1 467"
+sciper = 368484
+website = "https://michael-herbst.com"
+
+[schmitz-niklas]
+arxiv = "schmitz_n_1"
+current = true
+email = "niklas.schmitz@epfl.ch"
+firstname = "Niklas Frederik"
+github = "niklasschmitz"
+gscholar = "2Lz5bWYAAAAJ"
+name = "Schmitz"
+orcid = "0000-0001-6362-3756"
+position = "Doctoral Assistant"
+priority = 0
+room = "MA B1 457"
+sciper = 299719
+website = "https://people.epfl.ch/299719"
+
+[travelletti-cedric]
+arxiv = ""
+current = true
+email = "cedric.travelletti@epfl.ch"
+firstname = "Cédric"
+github = "CedricTravelletti"
+gscholar = "zvkbeqYAAAAJ"
+name = "Travelletti"
+orcid = "0009-0005-0364-6143"
+position = "Scientist"
+priority = -20
+room = "MA B1 457"
+sciper = 384805
+website = "https://cedrictravelletti.github.io/"
