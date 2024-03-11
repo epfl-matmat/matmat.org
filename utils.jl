@@ -78,11 +78,22 @@ Plug in the highlighted news articles contained in `/news/` folder.
 """
 @delay function hfun_firstpagenews()
     io = IOBuffer()
+    count = 0
     firstpage_articles = filter(news_sorted()) do article
-        startpage = pagevar(article, :startpage)
-        startpage !== nothing && startpage
+        on_startpage = something(pagevar(article, :startpage), false)
+        if isnothing(pagevar(article, :rss_pubdate))
+            in_future = false
+        else
+            in_future = pagevar(article, :rss_pubdate) > Dates.now()
+        end
+
+        if on_startpage && (in_future || count < 3)
+            count += 1
+            return true
+        end
+        return false
     end
-    for article in firstpage_articles[1:min(3, end)]
+    for article in firstpage_articles
         print_news(io, article)
         println(io, "\n-------")
     end
