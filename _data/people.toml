@@ -1,18 +1,3 @@
-[martin-melis]
-arxiv = ""
-current = true
-email = "melis.martin@epfl.ch"
-firstname = "Melis"
-github = ""
-gscholar = ""
-name = "Martin"
-orcid = ""
-position = "Administrative Assistant"
-priority = -50
-room = "MA B1 483"
-sciper = 206229
-website = ""
-
 [herbst-michael]
 arxiv = "herbst_m_1"
 current = true
@@ -28,6 +13,36 @@ priority = -100
 room = "MA B1 467"
 sciper = 368484
 website = "https://michael-herbst.com"
+
+[martin-melis]
+arxiv = ""
+current = true
+email = "melis.martin@epfl.ch"
+firstname = "Melis"
+github = ""
+gscholar = ""
+name = "Martin"
+orcid = ""
+position = "Administrative Assistant"
+priority = -50
+room = "MA B1 483"
+sciper = 206229
+website = ""
+
+[paulish-anna]
+arxiv = ""
+current = true
+email = "anna.paulish@epfl.ch"
+firstname = "Anna"
+github = ""
+gscholar = ""
+name = "Paulish"
+orcid = ""
+position = "Doctoral Assistant"
+priority = 0
+room = "MA B1 457"
+sciper = 336145
+website = "https://people.epfl.ch/336145"
 
 [schmitz-niklas]
 arxiv = "schmitz_n_1"
