@@ -162,3 +162,33 @@ and their respective algorithms.
 Experience in running first-principle simulations in standard codes
 such as VASP, ABINIT, QuantumEspresso; experience with AiiDA or DFTK is a bonus,
 but can also be acquired as we go along.
+
+----
+
+## Active learning with adaptive discretization cost
+
+Building large datasets with materials properties from density-functional theory (DFT) calculations
+is a challenge. Active learning techniques try to efficiently query simulators iteratively,
+based on a statistical model [^Garnett2023].
+The computational cost of DFT is however not uniform across materials.
+Understanding the cost for a given target accuracy is a problem of error control with numerical parameters.
+
+One of the core parameters determining the cost of a DFT calculation is the
+discretization. The baseline active-learning approach is computing with a fixed discretization
+(plane-wave cutoff) chosen a priori for the whole dataset (e.g. [^vanderOord] and [^Merchant2023]).
+
+The goal of this project is to formulate and implement an augmented active learning model which
+can choose not only the next material structure to query but also choose an appropriate discretization adaptively,
+trading off per-example uncertainty reduction against computational cost.
+
+**Requirements:**
+Strong programming skills; 
+Basic knowledge of numerical methods for partial differential equations;
+Experience with probabilistic machine learning methods is a bonus;
+Experience in running DFT calculations is a bonus;
+
+[^Garnett2023]: R. Garnett. *Bayesian Optimization*. Cambridge University Press (2023).
+
+[^vanderOord]: C. van der Oord, M. Sachs, D. P. Kovács, C. Ortner and G. Csányi . *Hyperactive learning for data-driven interatomic potentials*. npj Comput Mater 9, 168 (2023). DOI [10.1038/s41524-023-01104-6](https://doi.org/10.1038/s41524-023-01104-6)
+
+[^Merchant2023]: A. Merchant, S. Batzner, S. S. Schoenholz, M. Aykol, G. Cheon and E. D. Cubuk. *Scaling deep learning for materials discovery*. Nature 624, 80–85 (2023). DOI [10.1038/s41586-023-06735-9](https://doi.org/10.1038/s41586-023-06735-9)

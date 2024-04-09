@@ -5,3 +5,5 @@ package-lock.json
 jobs/gpe.jl
 *~
 .*.swp
+.vscode/
+Manifest.toml
