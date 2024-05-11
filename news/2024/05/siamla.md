@@ -13,6 +13,7 @@ Michael co-organises a
 [minitutorial *Linear Algebra Challenges in Electronic Structure Simulations*]
 (https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=79649)
 at SIAM Linear Algebra (**SIAM LA**) in Paris, France.
+[[Tutorial material]](https://github.com/mfherbst/2024-siamla-minitutorial)
 
 Later in the week Michael will also speak about
 *An Adaptive Line Search for Self-Consistent Field Problems of Electronic Structure Theory*
