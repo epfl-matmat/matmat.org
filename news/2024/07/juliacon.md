@@ -7,8 +7,8 @@ startpage   = true
 
 {{newsheader}}
 
-**09.07.2024 - 13.07.2024** Jointly with Rachel Kurchin
-Michael will give a **keynote lecture** on
+**09.07.2024 - 13.07.2024**
+Michael will give a **keynote lecture** (jointly with Rachel Kurchin) on
 *Materials Modeling: Bonding across atoms, code, and people* [(abstract)](https://pretalx.com/juliacon2024/talk/RDGSFV/)
 at this year's **JuliaCon** in Eindhoven, Netherlands.
 This talk will be streamed live. Check back later for the links.
