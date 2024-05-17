@@ -20,12 +20,12 @@ For updates, join the matrix chat room at
 
 Upcoming events:
 
-- **27.05.24 16:00 (BCH 3113): [Edrick Solís González](https://people.epfl.ch/edrick.solisgonzalez?lang=en)** TBA
+- **27.05.24 16:00 (BCH 3113): [Edrick Solís González](https://people.epfl.ch/edrick.solisgonzalez?lang=en)** *The Orbital Transformation Method.*
 - **10.06.24 16:00 (BCH 3113): [Marcel Langer](https://marcel.science/)** TBA
 - 24.06.24 16:00 (BCH 3113): TBD
 
 Past events:
-- 29.04.24 16:00 (BCH 3113): [Yuejia Zhang](https://people.epfl.ch/yuejia.zhang/?lang=en) The Density Matrix Renormalization Group in Quantum Chemistry.
+- 29.04.24 16:00 (BCH 3113): [Yuejia Zhang](https://people.epfl.ch/yuejia.zhang/?lang=en) *The Density Matrix Renormalization Group in Quantum Chemistry.*
 - 08.04.24 15:30 (BCH 3113): [Johan Felisaz](https://people.epfl.ch/johan.felisaz?lang=en) *The Bistritzer-Macdonald Model for Twisted Bilayer Graphene.*
 - 06.03.24 15:30 (MA B1 504): [Paolo Pegolo](https://people.epfl.ch/paolo.pegolo/?lang=en) *From the modern theory of polarization to the simulation of charge transport in ionic systems.*
 - 04.03.24 15:30 (BCH 3113): [Niklas Schmitz](https://people.epfl.ch/niklas.schmitz/?lang=en) *An overview of a posteriori error estimation and post-processing methods for nonlinear eigenvalue problems.*
