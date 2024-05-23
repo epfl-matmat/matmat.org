@@ -20,15 +20,15 @@ For updates, join the matrix chat room at
 
 Upcoming events:
 
-- **27.05.24 16:00 (BCH 3113): [Edrick Solís González](https://people.epfl.ch/edrick.solisgonzalez?lang=en)** *The Orbital Transformation Method.*
-- **10.06.24 16:00 (BCH 3113): [Marcel Langer](https://marcel.science/)** TBA
+- **27.05.24 16:00 (MA B2 485): [Edrick Solís González](https://people.epfl.ch/edrick.solisgonzalez?lang=en)** *The Orbital Transformation Method.* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-the-orbital-tra/)
+- **10.06.24 16:00 (MA B2 485): [Marcel Langer](https://marcel.science/)** TBA
 - 24.06.24 16:00 (BCH 3113): TBD
 
 Past events:
-- 29.04.24 16:00 (BCH 3113): [Yuejia Zhang](https://people.epfl.ch/yuejia.zhang/?lang=en) *The Density Matrix Renormalization Group in Quantum Chemistry.*
+- 29.04.24 16:00 (BCH 3113): [Yuejia Zhang](https://people.epfl.ch/yuejia.zhang/?lang=en) *The Density Matrix Renormalization Group in Quantum Chemistry.* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-the-density-m-2/)
 - 08.04.24 15:30 (BCH 3113): [Johan Felisaz](https://people.epfl.ch/johan.felisaz?lang=en) *The Bistritzer-Macdonald Model for Twisted Bilayer Graphene.*
 - 06.03.24 15:30 (MA B1 504): [Paolo Pegolo](https://people.epfl.ch/paolo.pegolo/?lang=en) *From the modern theory of polarization to the simulation of charge transport in ionic systems.*
 - 04.03.24 15:30 (BCH 3113): [Niklas Schmitz](https://people.epfl.ch/niklas.schmitz/?lang=en) *An overview of a posteriori error estimation and post-processing methods for nonlinear eigenvalue problems.*
 - 12.02.24 15:30 (BCH 3113): [Taylor Baird](https://people.epfl.ch/taylor.baird?lang=en) *Holonomy, the Quantum Adiabatic Theorem, and Berry's Phase.*
-- 29.01.24 15:30 (BCH 3113): [Muhammad Hassan](https://people.epfl.ch/muhammad.hassan). *Grassmann Extrapolation of Density Matrices for Born–Oppenheimer Molecular Dynamics. (Part 2)*
-- 15.01.24 15:30 (BCH 3113): [Muhammad Hassan](https://people.epfl.ch/muhammad.hassan). *Grassmann Extrapolation of Density Matrices for Born–Oppenheimer Molecular Dynamics. (Part 1)*
+- 29.01.24 15:30 (BCH 3113): [Muhammad Hassan](https://people.epfl.ch/muhammad.hassan) *Grassmann Extrapolation of Density Matrices for Born–Oppenheimer Molecular Dynamics. (Part 2)*
+- 15.01.24 15:30 (BCH 3113): [Muhammad Hassan](https://people.epfl.ch/muhammad.hassan) *Grassmann Extrapolation of Density Matrices for Born–Oppenheimer Molecular Dynamics. (Part 1)*
