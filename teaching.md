@@ -18,10 +18,11 @@ For some earlier teaching by Michael Herbst, see <https://michael-herbst.com/tea
 #### Summary
 Errors are ubiquitous in computational science as neither models nor numerical
 techniques are perfect. With respect to eigenvalue problems motivated from
-materials science (transfer problems, atomistic modelling) we discuss,
+materials science and atomistic modelling we discuss,
 implement and apply numerical techniques for estimating simulation error.
 
 #### Content
+* Important eigenvalue problems in materials science
 * Motivation for studying errors in eigenvalue problems
 * Types of simulation error
 * Residual-error relationships for eigenvalue problems
@@ -40,8 +41,8 @@ and interactive [Pluto](https://plutojl.org/) notebooks.
 * Analysis
 * Linear algebra
 * Exposure to numerical linear algebra
-* Exposure to numerical methods for solving partial differential equations
-  (such as finite-element methods, plane-wave methods)
+* Some experience with numerical methods for solving differential equations
+  (such as finite-element methods, finite-difference approaches, plane-wave methods)
 * Exposure to implementing numerical algorithms (e.g. using Python or Julia)
 
 This course delivers a mathematical viewpoint on materials modelling and it is
