@@ -73,3 +73,18 @@ priority = -20
 room = "MA B1 457"
 sciper = 384805
 website = "https://cedrictravelletti.github.io/"
+
+[sun-bonan]
+arxiv = ""
+current = false
+email = "bsun@mpi-magdeburg.mpg.de"
+firstname = "Bonan"
+github = "bonans"
+gscholar = ""
+name = "Sun"
+orcid = "0009-0002-2761-0661"
+position = "Master Student"
+priority = 20
+room = ""
+sciper = 000000
+website = "https://bonans.github.io/"
