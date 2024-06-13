@@ -122,6 +122,7 @@ function hfun_newsheader()
 end
 
 function normalised_from_email(s::AbstractString)
+    @assert endswith(s, "@epfl.ch")
     beginning  = split(s, "@")[1]
     components = split(beginning, ".")
     join(reverse(components), "-")
@@ -156,14 +157,20 @@ function social_imagelink(key, value)
     String(take!(io))
 end
 
-function people_row(data::AbstractDict; showroom=true)
-    maxsocial = showroom ? 4 : 3
+function people_row(data::AbstractDict; showroom=true, showemail=true, showdestination=true)
+    maxsocial = 2
 
     io = IOBuffer()
     print(io, "<tr>")
 
     # Profile picture
-    imgkey = normalised_from_email(data["email"])
+    if haskey(data, "image") 
+        imgkey = data["image"]
+    elseif endswith(data["email"], "@epfl.ch")
+        imgkey = normalised_from_email(data["email"])
+    else
+        error("Need to either have an epfl email or specify the 'image' key")
+    end
     print(io, """<td><a href="$(data["website"])">""")
     print(io, """<img class="profile-img" src="/assets/people/$imgkey.jpg" />""")
     print(io, """</a></td>""")
@@ -172,11 +179,21 @@ function people_row(data::AbstractDict; showroom=true)
     print(io, """<td><strong><a href="$(data["website"])">$(data["firstname"]) """ *
               """$(data["name"])</a></strong>""")
     print(io, """<br />$(data["position"])""")
-    print(io, """<br /><span class="weak-text">Email:</span> """ *
-              """$(protected_email_link(data["email"]))""")
+
+    if showemail
+        print(io, """<br /><span class="weak-text">Email:</span> """ *
+                  """$(protected_email_link(data["email"]))""")
+        maxsocial += 1
+    end
     if showroom
         print(io, """<br /><span class="weak-text">Office:</span> """ *
                   """$(roomlink(data["room"]))""")
+        maxsocial += 1
+    end
+    if haskey(data, "destination") && showdestination
+        print(io, """<br /><span class="weak-text">Now:</span> """ *
+                  """$(data["destination"])""")
+        maxsocial += 1
     end
     print(io, """</td>""")
 
@@ -199,7 +216,7 @@ function people_row(data::AbstractDict; showroom=true)
 end
 
 function hfun_people_table()
-    data   = open(TOML.parse, "_data/people.toml", "r")
+    data = open(TOML.parse, "_data/people.toml", "r")
     people = sort(collect(values(data)), by=d -> (get(d, "priority", 0), d["name"]))
 
     io = IOBuffer()

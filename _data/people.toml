@@ -77,14 +77,16 @@ website = "https://cedrictravelletti.github.io/"
 [sun-bonan]
 arxiv = ""
 current = false
+destination = """PhD at <a href="https://www.mpi-magdeburg.mpg.de/">MPI Madgeburg</a>"""
 email = "bsun@mpi-magdeburg.mpg.de"
 firstname = "Bonan"
 github = "bonans"
 gscholar = ""
+image = "sun-bonan"
 name = "Sun"
 orcid = "0009-0002-2761-0661"
 position = "Master Student"
 priority = 20
 room = ""
-sciper = 000000
+sciper = 999999
 website = "https://bonans.github.io/"

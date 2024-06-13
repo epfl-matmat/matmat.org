@@ -28,13 +28,14 @@ function get_csv_data()
 end
 
 function augment_defaults!(data::AbstractDict)
-    get!(data, "priority", 0)
-    get!(data, "website",  "https://people.epfl.ch/$(data["sciper"])")
-    get!(data, "gscholar", "")
-    get!(data, "orcid",    "")
-    get!(data, "arxiv",    "")
-    get!(data, "github",   "")
-    get!(data, "current",  true)
+    get!(data, "priority",    0)
+    get!(data, "website",     "https://people.epfl.ch/$(data["sciper"])")
+    get!(data, "gscholar",    "")
+    get!(data, "orcid",       "")
+    get!(data, "arxiv",       "")
+    get!(data, "github",      "")
+    get!(data, "destination", "")
+    get!(data, "current",     true)
     data
 end
 
