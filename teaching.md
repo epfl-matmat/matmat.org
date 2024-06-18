@@ -13,6 +13,7 @@ For some earlier teaching by Michael Herbst, see <https://michael-herbst.com/tea
 **IS academia:** [MATH-500](https://staging-edu.epfl.ch/coursebook/en/error-control-in-scientific-modelling-MATH-500)\newline
 **Semester:** *Autumn*\newline
 **Target audience:** Mathematics Master, Materials science Master\newline
+**Lecture notes:** <https://epfl-matmat.github.io/error-control-modelling>\newline
 **Moodle link:** <https://go.epfl.ch/error-control> \newline
 
 #### Summary
