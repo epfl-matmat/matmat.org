@@ -1,5 +1,11 @@
 using TOML
+using Bibliography
+using Bibliography: BibInternal
 using Markdown: htmlesc
+
+#
+# Email protection
+#
 
 """Insert a javascript blob for assembling emails"""
 function hfun_email_unprotect_js()
@@ -19,6 +25,9 @@ function protected_email_link(email::AbstractString)
 end
 hfun_protect_email(params) = protected_email_link(params[1])
 
+#
+# News
+#
 
 """Get all news sorted by publication date"""
 function news_sorted()
@@ -120,6 +129,10 @@ function hfun_newsheader()
         return ""
     end
 end
+
+#
+# People list
+#
 
 function normalised_from_email(s::AbstractString)
     @assert endswith(s, "@epfl.ch")
@@ -239,4 +252,63 @@ function hfun_people_table()
     end
 
     String(take!(io))
+end
+
+#
+# Publications
+#
+
+
+function format_bibentry(entry::BibInternal.Entry)
+    @assert entry.type == "article" || entry.type == "unpublished"
+    io = IOBuffer()
+
+    # TODO Highlight authors from my group
+
+    # Format authors
+    function format_name(s)
+        join(filter(!isempty, [s.first, s.middle, s.particle, s.last, s.junior]), " ")
+    end
+    join(io, format_name.(entry.authors), ", ", " and ")
+    print(io, ". ")
+    print(io, "*[$(entry.title)]($(entry.access.url))*. ")
+
+    if !isempty(entry.in.journal)
+        # Published article
+        print(io, entry.in.journal, " ")
+        if !isempty(entry.in.volume) && !isempty(entry.in.pages)
+            print(io, "**", entry.in.volume, "**, $(entry.in.pages) ")
+        end
+        print(io, "(", entry.date.year, ").")
+    end
+
+    if !isempty(entry.access.doi)
+        print(io, " [DOI $(entry.access.doi)](https://doi.org/$(entry.access.doi))")
+    end
+
+    # TODO Code, data etc.
+
+    String(take!(io))
+end
+
+function hfun_allpublications()
+    biblio = collect(values(Bibliography.import_bibtex("_data/publications.bib")))
+    biblio = sort(biblio, by=e -> Date(
+        parse(Int, e.date.year),
+        parse(Int, e.date.month),
+        parse(Int, e.date.day),
+    ), rev=true)
+    io = IOBuffer()
+
+    println(io, "## Under review")
+    for entry in filter(e -> e.type == "unpublished", biblio)
+        println(io, "- ", format_bibentry(entry))
+    end
+
+    println(io, "## Peer-reviewed articles")
+    for entry in filter(e -> e.type == "article", biblio)
+        # TODO Improve
+        println(io, "- ", format_bibentry(entry))
+    end
+    Franklin.fd2html(String(take!(io)); internal=true)
 end
