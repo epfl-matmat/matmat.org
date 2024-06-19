@@ -20,10 +20,10 @@ For updates, join the matrix chat room at
 
 Upcoming events:
 
-- **10.06.24 16:00 (MA B2 485): [Katharine Fisher (MIT)](https://cse.mit.edu/people/kate-fisher/)** *Multitask Surrogate Models for Heterogeneous Electronic Structures Data*. [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-multitask-surro/)
-- 24.06.24 16:00 (TBA): [Matteo Quinzi](https://people.epfl.ch/matteo.quinzi?lang=en) TBA
+- **24.06.24 16:00 (BCH 3113): [Matteo Quinzi](https://people.epfl.ch/matteo.quinzi?lang=en) *Green's functions in quantum many-body theory and quasiparticle equations*. [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-green-s-functio/)**
 
 Past events:
+- 10.06.24 16:00 (MA B2 485): [Katharine Fisher (MIT)](https://cse.mit.edu/people/kate-fisher/) *Multitask Surrogate Models for Heterogeneous Electronic Structures Data*. [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-multitask-surro/)
 - 27.05.24 16:00 (MA B2 485): [Edrick Solís González](https://people.epfl.ch/edrick.solisgonzalez?lang=en) *The Orbital Transformation Method.* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-the-orbital-tra/)
 - 29.04.24 16:00 (BCH 3113): [Yuejia Zhang](https://people.epfl.ch/yuejia.zhang/?lang=en) *The Density Matrix Renormalization Group in Quantum Chemistry.* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-the-density-m-2/)
 - 08.04.24 15:30 (BCH 3113): [Johan Felisaz](https://people.epfl.ch/johan.felisaz?lang=en) *The Bistritzer-Macdonald Model for Twisted Bilayer Graphene.*
