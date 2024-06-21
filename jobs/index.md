@@ -268,7 +268,8 @@ The activities of the MatMat group revolve around understanding
 modern materials simulations from a mathematical point of view
 -- and to come up with ways to make such simulations faster and quantify their errors.
 You will become part of a young and energetic team,
-fully integrated with both the mathematics and the materials institutes
+fully integrated with both the [mathematics](https://math.epfl.ch/)
+and the [materials](https://imx.epfl.ch/) institutes
 as well as multiple cross-disciplinary initiatives,
 such as the [NCCR MARVEL](https://nccr-marvel.ch/).
 Within the proposed topic you will be able to bring in your prior expertise,
@@ -284,8 +285,7 @@ The position will be a fixed-term position (CDD) for initially 2 years,
 renewable on a one-year basis.
 -->
 The position will be a fixed-term position (CDD) for initially 18 months.
-Further extensions depend on progress
-and the funding situation.
+Further extensions depend on progress and the funding situation.
 For more information on working at EPFL see also
 the website on [current employment conditions](https://www.epfl.ch/about/working/working-at-epfl/employment-conditions).
 
