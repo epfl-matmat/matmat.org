@@ -109,3 +109,30 @@ ManOpt.jl:
 [^CKL2021]: E. Cancès, G. Kemlin, A. Levitt SIAM J. Mat. Anal. Appl. **42**, 243 (2021). DOI [10.1137/20m1332864](http://dx.doi.org/10.1137/20m1332864)
 [^DGYZ2022]: X. Dai, S. de Gironcoli, B. Yang, A. Zhou. Multiscale Model. Simul. **21**, 777 (2023). DOI [10.1137/22M1472103](https://doi.org/10.1137/22M1472103)
 [^Manopt]: <https://www.manopt.org/> and <https://manoptjl.org/>
+
+----
+
+## Error propagation in statistical learning for data of heterogeneous quality
+
+Data-driven materials modeling has been shown to be essential in modern materials discovery. 
+Statistical models trained on large datasets of first-principle simulations provide efficient 
+and accurate predictions of materials properties, reducing the need for costly computations. 
+However, the underlying assumption of uniformly high-quality training data doesn't always meet reality. 
+When faced with data from diverse sources, incorporating the different level of uncertainty in the data 
+is necessary to ensure accurate predictions of the quantity of interest.
+
+In this project, we will use Gaussian Process (GP) regression that offers an approach to efficiently 
+handle data with varying quality, providing probabilistic predictions which enable 
+quantification of uncertainty [^RasmussenWilliams06]. We will explore the potential of error propagation 
+within GP regression with non-uniform noise model, and evaluate the accuracy of the developed model to ensure 
+its applicability for practical data-driven materials modelling.
+
+**Requirements:**
+Strong programming skills, ideally Julia or Python; 
+experience with probabilistic machine learning methods, Gaussian Processes, Bayesian optimization; 
+experience with DFTK is a bonus; 
+basic knowledge of numerical methods for partial differential equations is a bonus.
+
+
+[^RasmussenWilliams06]: C. E. Rasmussen & C. K. I. Williams, Gaussian Processes for Machine Learning, the MIT Press, 2006. DOI [3206.001.0001](https://doi.org/10.7551/mitpress/3206.001.0001)
+
