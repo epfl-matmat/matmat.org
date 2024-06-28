@@ -1,5 +1,11 @@
 using TOML
+using Bibliography
+using Bibliography: BibInternal
 using Markdown: htmlesc
+
+#
+# Email protection
+#
 
 """Insert a javascript blob for assembling emails"""
 function hfun_email_unprotect_js()
@@ -19,6 +25,9 @@ function protected_email_link(email::AbstractString)
 end
 hfun_protect_email(params) = protected_email_link(params[1])
 
+#
+# News
+#
 
 """Get all news sorted by publication date"""
 function news_sorted()
@@ -121,7 +130,12 @@ function hfun_newsheader()
     end
 end
 
+#
+# People list
+#
+
 function normalised_from_email(s::AbstractString)
+    @assert endswith(s, "@epfl.ch")
     beginning  = split(s, "@")[1]
     components = split(beginning, ".")
     join(reverse(components), "-")
@@ -156,14 +170,20 @@ function social_imagelink(key, value)
     String(take!(io))
 end
 
-function people_row(data::AbstractDict; showroom=true)
-    maxsocial = showroom ? 4 : 3
+function people_row(data::AbstractDict; showroom=true, showemail=true, showdestination=true)
+    maxsocial = 2
 
     io = IOBuffer()
     print(io, "<tr>")
 
     # Profile picture
-    imgkey = normalised_from_email(data["email"])
+    if haskey(data, "image") 
+        imgkey = data["image"]
+    elseif endswith(data["email"], "@epfl.ch")
+        imgkey = normalised_from_email(data["email"])
+    else
+        error("Need to either have an epfl email or specify the 'image' key")
+    end
     print(io, """<td><a href="$(data["website"])">""")
     print(io, """<img class="profile-img" src="/assets/people/$imgkey.jpg" />""")
     print(io, """</a></td>""")
@@ -172,11 +192,21 @@ function people_row(data::AbstractDict; showroom=true)
     print(io, """<td><strong><a href="$(data["website"])">$(data["firstname"]) """ *
               """$(data["name"])</a></strong>""")
     print(io, """<br />$(data["position"])""")
-    print(io, """<br /><span class="weak-text">Email:</span> """ *
-              """$(protected_email_link(data["email"]))""")
+
+    if showemail
+        print(io, """<br /><span class="weak-text">Email:</span> """ *
+                  """$(protected_email_link(data["email"]))""")
+        maxsocial += 1
+    end
     if showroom
         print(io, """<br /><span class="weak-text">Office:</span> """ *
                   """$(roomlink(data["room"]))""")
+        maxsocial += 1
+    end
+    if haskey(data, "destination") && showdestination
+        print(io, """<br /><span class="weak-text">Now:</span> """ *
+                  """$(data["destination"])""")
+        maxsocial += 1
     end
     print(io, """</td>""")
 
@@ -199,7 +229,7 @@ function people_row(data::AbstractDict; showroom=true)
 end
 
 function hfun_people_table()
-    data   = open(TOML.parse, "_data/people.toml", "r")
+    data = open(TOML.parse, "_data/people.toml", "r")
     people = sort(collect(values(data)), by=d -> (get(d, "priority", 0), d["name"]))
 
     io = IOBuffer()
@@ -222,4 +252,63 @@ function hfun_people_table()
     end
 
     String(take!(io))
+end
+
+#
+# Publications
+#
+
+
+function format_bibentry(entry::BibInternal.Entry)
+    @assert entry.type == "article" || entry.type == "unpublished"
+    io = IOBuffer()
+
+    # TODO Highlight authors from my group
+
+    # Format authors
+    function format_name(s)
+        join(filter(!isempty, [s.first, s.middle, s.particle, s.last, s.junior]), " ")
+    end
+    join(io, format_name.(entry.authors), ", ", " and ")
+    print(io, ". ")
+    print(io, "*[$(entry.title)]($(entry.access.url))*. ")
+
+    if !isempty(entry.in.journal)
+        # Published article
+        print(io, entry.in.journal, " ")
+        if !isempty(entry.in.volume) && !isempty(entry.in.pages)
+            print(io, "**", entry.in.volume, "**, $(entry.in.pages) ")
+        end
+        print(io, "(", entry.date.year, ").")
+    end
+
+    if !isempty(entry.access.doi)
+        print(io, " [DOI $(entry.access.doi)](https://doi.org/$(entry.access.doi))")
+    end
+
+    # TODO Code, data etc.
+
+    String(take!(io))
+end
+
+function hfun_allpublications()
+    biblio = collect(values(Bibliography.import_bibtex("_data/publications.bib")))
+    biblio = sort(biblio, by=e -> Date(
+        parse(Int, e.date.year),
+        parse(Int, e.date.month),
+        parse(Int, e.date.day),
+    ), rev=true)
+    io = IOBuffer()
+
+    println(io, "## Under review")
+    for entry in filter(e -> e.type == "unpublished", biblio)
+        println(io, "- ", format_bibentry(entry))
+    end
+
+    println(io, "## Peer-reviewed articles")
+    for entry in filter(e -> e.type == "article", biblio)
+        # TODO Improve
+        println(io, "- ", format_bibentry(entry))
+    end
+    Franklin.fd2html(String(take!(io)); internal=true)
 end

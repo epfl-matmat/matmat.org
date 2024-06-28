@@ -6,6 +6,7 @@
     </div>
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item {{ispage news/*}}active{{end}}"               href="/news/"             >News</a>
+      <a class="sidebar-nav-item {{ispage readinggroup/*}}active{{end}}"       href="/readinggroup/"     >Reading group</a>
       <a class="sidebar-nav-item {{ispage research/index.html}}active{{end}}"  href="/research/"         >Research</a>
       {{ispage research/*}}
       <a class="sidebar-nav-subitem {{ispage research/funding/*}}active{{end}}" href="/research/funding/"          >Funding &amp; collaborations</a>
@@ -18,6 +19,9 @@
       <a class="sidebar-nav-item {{ispage software/*}}active{{end}}"           href="/software/"         >Software</a>
       <a class="sidebar-nav-item {{ispage teaching/*}}active{{end}}"           href="/teaching/"         >Teaching</a>
       <a class="sidebar-nav-item {{ispage jobs/*}}active{{end}}"               href="/jobs/"             >Job Openings</a>
+      {{ispage jobs/*}}
+      <a class="sidebar-nav-subitem {{ispage jobs/guidelines/*}}active{{end}}" href="/jobs/guidelines/"          >Application guidelines</a>
+      {{end}}
       <a class="sidebar-nav-item {{ispage student_projects/index.html}}active{{end}}"   href="/student_projects/" >Student projects</a>
       {{ispage student_projects/*}}
       <a class="sidebar-nav-subitem {{ispage student_projects/guidelines/*}}active{{end}}" href="/student_projects/guidelines/"          >Guidelines</a>

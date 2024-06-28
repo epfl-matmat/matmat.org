@@ -11,8 +11,9 @@ If you are interested in working with us,
 but no openings matching your profile,
 you are still welcome to submit a general inquiry.
 
-In any case, please consider [application guidelines](#application_guidelines)
+In any case, please **consider the [application guidelines](/jobs/guidelines/)**
 before you contact us.
+
 <!--
 We like to give each serious candidates the proper consideration they deserve.
 Unfortunately the large number of mass applications
@@ -21,58 +22,10 @@ make it necessary to do a preliminary screening of candidates.
 All applications not following these guidelines might be silently ignored.
 -->
 
-\toc
-
-## Application guidelines
-
-In the Mathematics for Materials modelling (MatMat) group we have a highly interdisciplinary research
-programme including numerical, statistical and physical questions related to materials modelling.
-We work on understanding the mathematical properties of materials simulations, developing new physical models,
-techniques for understanding simulation error, reliable algorithms as well as modern software design
-and implementation strategies for simulation codes.
-
-For this work ideal candidates should have a solid knowledge of linear algebra and numerics,
-experience in programming and scientific computing
-as well as the application of these methods to chemistry, materials science and physics.
-But what is most important is that the applicant demonstrates broad interests
-as well as a curiosity to learn from the disciplines they might not be familiar with.
-On top of that we seek a good portion of critical thinking and creativity
-to come up with the unusual solutions we often require.
-In particular at the PhD level we are open to candidates from many backgrounds and study programmes
-while at the PostDoc level we often seek applicants whose expertise is more focused and topic-specific.
-
-Before you apply please take your time to familiarise yourself with the [ongoing research](/research) in our group.
-If you apply to one of the specific job openings below, please also read the project-specific information carefully.
-In your application we encourage you to make reference to the research programme of our group
-and discuss how your background and interests fit in.
-
-Your application should contain:
-
-- **Cover letter** (max 1 page): Explain here why you would like to work with us and how your profile fits our research programme.
-- **full CV**: Make sure to include a publication list *(if you have prior publications)*
-- Full transcript of marks *(for PhD applicants)*
-- Contact information for **two references**
-
-Please send your files to [this email address](mailto:michael.herbst@epfl.ch?subject=[APPLICATION]),
-making sure to include the text `[APPLICATION]` at the start of the subject.
-We may silently ignore your application if you do not comply with these instructions.
-
-A note for **PhD applicants**: Before you can start in our group you need to get *additionally* admitted into an EPFL doctoral school.
-In our group both the [doctoral school in mathematics (EDMA)](https://www.epfl.ch/education/phd/edma-mathematics/)
-as well as the [doctoral school in materials (EDMX)](https://www.epfl.ch/education/phd/edmx-materials-science-and-engineering/) are suitable.
-You can use these links to find further information about the schools and their respective application process (including the respective deadlines).
-
-We strongly recommend you to apply to one of these doctoral schools in parallel,
-since the required information is very similar (so you only need to collect it once).
-Moreover admission to a doctoral school gives you a chance to obtain a PhD position in other groups at EPFL as well.
-If your desired project topic is more closely related to numerics / analysis,
-you should probably apply to EDMA,
-whereas if the project will be more on the side of
-physical models / materials applications, you should apply to EDMX.
-
+<!--
 ## Specific openings
-
 Currently no specific openings to advertise.
+-->
 
 <!--
 
@@ -154,11 +107,26 @@ one of the aforementioned doctoral schools
 before the contract can start.
 -->
 
-<!--
-
-## PostDoc position: Quantifying uncertainties in first-principle material simulations
+## PostDoc position: Gradient-accelerated inverse materials design
 
 #### Background
+In inverse materials design one wishes to discover novel materials
+in a targeting fashion -- namely by systematically traversing
+a design space for those material structures, which best match
+the desired material properties.
+Commonly such methods
+employ a statistical surrogate (e.g. within a Bayesian Optimisation framework)
+such that the search only requires few queries to an underlying physical model
+-- typically a first-principle model based on density-functional theory (DFT).
+Due to the non-linear nature of DFT such simulations
+are not only costly, but advanced techniques based on employing gradient
+information are generally not employed.
+However, the advent of algorithmic differentiation (AD) techniques
+in DFT codes,
+such as our in-house [density-functional toolkit (DFTK)](https://dftk.org),
+makes it now feasible to employ gradient-based approaches for materials design.
+
+<!--
 One of the most widely used methods for
 modelling solid-state systems from first principles
 is plane-wave density-functional theory (DFT).
@@ -179,8 +147,24 @@ capabilities to the [density-functional toolkit (DFTK)](https://dftk.org),
 our in-house Julia-based DFT code,
 provides novel and so far unexplored opportunities
 for inference and uncertainty propagation.
+-->
 
-#### Project goals
+#### Project details
+Within this project we will explore the opportunities
+of gradient-based Bayesian optimisation
+to accelerate inverse materials design.
+In particular we will rely on the AD capabilities of DFTK
+to integrate with recent advances with first-order
+Bayesian optimisation procedures (e.g. [^1]).
+Your work will be integrated with similar
+efforts in our group, e.g. to develop
+multi-task Gaussian Process surrogates[^2]
+for materials modelling or to exploit analytical error
+estimates within statistical surrogates.
+Within ongoing collaborations with other materials simulation
+groups at EPFL your advances can be directly developed
+and tested within the scope of practical materials modelling problems.
+<!--
 The goal of this project is to investigate the opportunities
 with respect to uncertainty quantification in DFT
 enabled by AD. Due to the unexplored nature of this topic,
@@ -199,58 +183,68 @@ In collaboration with other researchers from our group
 and the other materials simulation groups at EPFL
 you will also work on scaling up your findings to the full DFT setting
 and in this way provide first tests of your methods on application problems.
+-->
 
 #### Candidate profile
 * You are motivated to tackle a challenging interdisciplinary research topic
-  and to substantially push the state of uncertainty quantification methods
-  for density-functional theory.
-* You obtained your PhD in mathematics, statistics or a related subject.
-* You have a strong background in Bayesian statistics
-  and worked on uncertainty quantification for physics or engineering simulations.
+  and push the state of Bayesian Optimisation methods
+  for inverse materials design.
+* You obtained your PhD in statistics, computational mathematics or a related subject.
 * You have an excellent academic track record and demonstrated prior research experience
-  working with Bayesian regression, multi-fidelity or multi-tasking methods
+  in Bayesian optimisation, experimental design or inverse problems
+  with an application in physics or engineering simulations.
+  <!--
+  with Bayesian regression, multi-fidelity or multi-tasking methods
   or inverse problems.
+  -->
 * You enjoy collaborating with researchers from a diverse background
-  and you look forward to acquiring the broad skillset required
+  and look forward to acquiring the broad skillset required
   for cross-disciplinary research in materials modelling.
+  <!--
 * You enjoy pen and paper analysis, but you are not afraid to implement and test your
   ideas in practice.
-* You have previously used Python, Matlab, R or Julia to conduct numerical experiments
-  or test your ideas in non-trivial settings.
+  -->
+* You are experienced in working with larger scientific codes in a collaborative
+  software development environment. You have a solid experience with
+  the Julia programming language or you are fluent in a related language (Python, Matlab)
+  and are curious to code in Julia.
 * You are fluent in written and oral English.
 * You enjoy occasionally supervising undergraduate students on topics related to your research.
 * Bonus skills for this application are considerable experience in
-  quantum-chemical or materials simulations, numerical linear algebra,
-  high-performance computing or Julia programming.
+  quantum-chemical or materials simulations or
+  high-performance computing.
 
 #### What is offered
 The activities of the MatMat group revolve around understanding
 modern materials simulations from a mathematical point of view
--- and to come up with ways to make such simulations faster,
-quantify their errors or make them more reliable.
+-- and to come up with ways to make such simulations faster and quantify their errors.
 You will become part of a young and energetic team,
-fully integrated with both the mathematics and the materials institutes
+fully integrated with both the [mathematics](https://math.epfl.ch/)
+and the [materials](https://imx.epfl.ch/) institutes
 as well as multiple cross-disciplinary initiatives,
 such as the [NCCR MARVEL](https://nccr-marvel.ch/).
 Within the proposed topic you will be able to bring in your prior expertise,
-explore your ideas and grow substantially your background
-in both the theory and practice of materials modelling.
-For this you have access to a stimulating community of researchers
-at EPFL's main campus beautifully located at the lake Geneva shore.
-For disseminating your work funds to attend suitable conferences
-and workshops as well as potential visits to our collaboration partners
-all over the world are provided.
+but also be able to get to know the exciting theory and practice of material modelling.
+EPFL's main campus is beautifully located at the lake Geneva shore
+hosting a stimulating community of interdisciplinary-minded researchers.
+Funds to disseminate your work at suitable conferences
+as well as potential visits to our international network of collaboration partners
+are provided.
 
+<!--
 The position will be a fixed-term position (CDD) for initially 2 years,
-renewable on a one-year basis. Further extensions depend on progress
-and the funding situation.
+renewable on a one-year basis.
+-->
+The position will be a fixed-term position (CDD) for initially 18 months.
+Further extensions depend on progress and the funding situation.
 For more information on working at EPFL see also
 the website on [current employment conditions](https://www.epfl.ch/about/working/working-at-epfl/employment-conditions).
 
 #### Deadline and starting date
-Initial screening will start 1st August 2023 and continue
+Initial screening of candidates will start 1st August 2024 and continue
 until a suitable candidate has been found.
-The expected starting date is January 2024,
+The expected starting date is late 2024,
 but this can be negotiated in both directions.
 
--->
+[^1]: J. Wu, M. Poloczek, A. Wilson, P. Frazier. [*Bayesian Optimization with Gradients.*](https://proceedings.neurips.cc/paper_files/paper/2017/file/64a08e5f1e6c39faeb90108c430eb120-Paper.pdf) NeurIPS (2017).
+[^2]: K. Fisher, M. F. Herbst, Y. Marzouk. [*Multitask methods for predicting molecular properties from heterogeneous data.*](https://arxiv.org/pdf/2401.17898) Journal of Chemical Physics (2024). [arXiv:2401.17898](https://arxiv.org/pdf/2401.17898)

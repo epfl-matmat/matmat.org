@@ -34,8 +34,8 @@ arxiv = ""
 current = true
 email = "anna.paulish@epfl.ch"
 firstname = "Anna"
-github = ""
-gscholar = ""
+github = "AnnaPaulish"
+gscholar = "Aazc2AYAAAAJ&hl"
 name = "Paulish"
 orcid = ""
 position = "Doctoral Assistant"
@@ -73,3 +73,20 @@ priority = -20
 room = "MA B1 457"
 sciper = 384805
 website = "https://cedrictravelletti.github.io/"
+
+[sun-bonan]
+arxiv = ""
+current = false
+destination = """PhD at <a href="https://www.mpi-magdeburg.mpg.de/">MPI Madgeburg</a>"""
+email = "bsun@mpi-magdeburg.mpg.de"
+firstname = "Bonan"
+github = "bonans"
+gscholar = ""
+image = "sun-bonan"
+name = "Sun"
+orcid = "0009-0002-2761-0661"
+position = "Master Student"
+priority = 20
+room = ""
+sciper = 999999
+website = "https://bonans.github.io/"
