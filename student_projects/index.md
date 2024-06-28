@@ -197,11 +197,9 @@ Experience in running DFT calculations is a bonus;
 
 ## Error propagation in statistical learning for data of heterogeneous quality
 
-Data-driven materials modeling has been shown to be essential in modern materials discovery. Statistical models trained on large datasets of first-principle simulations provide efficient and accurate predictions of materials properties, reducing the need for costly computations. However, the underlying assumption of uniformly high-quality training data doesn't always meet reality. When faced with data from diverse sources, incorporating the different level of uncertainty in the data is necessary to ensure accurate predictionsof the Quantity of Interest.
+Data-driven materials modeling has been shown to be essential in modern materials discovery. Statistical models trained on large datasets of first-principle simulations provide efficient and accurate predictions of materials properties, reducing the need for costly computations. However, the underlying assumption of uniformly high-quality training data doesn't always meet reality. When faced with data from diverse sources, incorporating the different level of uncertainty in the data is necessary to ensure accurate predictions of the quantity of interest.
 
-In this project, we will use Gaussian Process (GP) regression that offers an approach to efficiently handle data with varying quality. It provides not only probabilistic predictions but also quantifies the uncertainty associated with each prediction [^RasmussenWilliams06].
-
-The focus will be on exploring the potential of error propagation within GP regression with non-uniform noise model, as well as evaluating the accuracy of the developed model to ensure its applicability for practical data-driven materials modelling.
+In this project, we will use Gaussian Process (GP) regression that offers an approach to efficiently handle data with varying quality, providing probabilistic predictions which enable quantification of uncertainty [^RasmussenWilliams06]. We will explore the potential of error propagation within GP regression with non-uniform noise model, and evaluate the accuracy of the developed model to ensure its applicability for practical data-driven materials modelling.
 
 **Requirements:**
 Strong programming skills, ideally Julia or Python; experience with probabilistic machine learning methods, Gaussian Processes, Bayesian optimization; experience with DFTK is a bonus; basic knowledge of numerical methods for partial differential equations is a bonus.
