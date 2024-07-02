@@ -276,10 +276,11 @@ function format_bibentry(entry::BibInternal.Entry)
     if !isempty(entry.in.journal)
         # Published article
         print(io, entry.in.journal, " ")
-        if !isempty(entry.in.volume) && !isempty(entry.in.pages)
-            print(io, "**", entry.in.volume, "**, $(entry.in.pages) ")
+        if !isempty(entry.in.volume)
+            print(io, "**", entry.in.volume, "**")
+            !isempty(entry.in.pages) && print(io, ", ", entry.in.pages)
         end
-        print(io, "(", entry.date.year, ").")
+        print(io, " (", entry.date.year, ").")
     end
 
     if !isempty(entry.access.doi)
