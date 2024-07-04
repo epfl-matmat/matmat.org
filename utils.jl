@@ -102,7 +102,7 @@ Plug in the highlighted news articles contained in `/news/` folder.
         end
         return false
     end
-    for article in firstpage_articles
+    for article in reverse(firstpage_articles)
         print_news(io, article)
         println(io, "\n-------")
     end
