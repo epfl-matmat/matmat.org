@@ -90,13 +90,18 @@ Plug in the highlighted news articles contained in `/news/` folder.
     count = 0
     firstpage_articles = filter(news_sorted()) do article
         on_startpage = something(pagevar(article, :startpage), false)
-        if isnothing(pagevar(article, :rss_pubdate))
-            in_future = false
-        else
-            in_future = pagevar(article, :rss_pubdate) > Dates.now()
+        type = something(pagevar(article, :type), "")
+        pubdate = something(pagevar(article, :rss_pubdate), Date(1, 1, 1))
+
+        force_show = false
+        if pubdate > Dates.now()  # in the future
+            force_show = true
+        elseif type == "publication" && pubdate + Dates.Month(1) > Dates.now()
+            # Show publications for 1 month on start page
+            force_show = true
         end
 
-        if on_startpage && (in_future || count < 3)
+        if on_startpage && (force_show || count < 3)
             count += 1
             return true
         end
