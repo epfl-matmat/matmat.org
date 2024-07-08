@@ -7,7 +7,7 @@ startpage   = true
 
 {{newsheader}}
 
-**09.07.2024 - 13.07.2024**
+**10.07.2024**
 Michael will give a **keynote lecture**
 (jointly with [Rachel Kurchin, CMU](https://engineering.cmu.edu/directory/bios/kurchin-rachel.html)) on
 [*Materials Modeling: Bonding across atoms, code, and people*](https://michael-herbst.com/slides/juliacon2024)
@@ -19,6 +19,7 @@ and on the [JuliaCon 2024 website](https://juliacon.org/2024/).
 [[Slides]](https://michael-herbst.com/slides/juliacon2024)
 [[Code]](https://github.com/mfherbst/juliamolsim-demo)
 
+**12.07.2024**
 Afterwards on Friday 12th Michael will also give an update about [DFTK](https://dftk.org)
 in a talk titled *DFTK.jl: 5 years of a multidisciplinary electronic-structure code*
 [(abstract)](https://pretalx.com/juliacon2024/talk/WRQE3H/).
