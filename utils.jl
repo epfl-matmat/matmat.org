@@ -306,9 +306,12 @@ function hfun_allpublications()
     ), rev=true)
     io = IOBuffer()
 
-    println(io, "## Under review")
-    for entry in filter(e -> e.type == "unpublished", biblio)
-        println(io, "- ", format_bibentry(entry))
+    articles_unpublished = filter(e -> e.type == "unpublished", biblio)
+    if !isempty(articles_unpublished)
+        println(io, "## Under review")
+        for entry in articles_unpublished
+            println(io, "- ", format_bibentry(entry))
+        end
     end
 
     println(io, "## Peer-reviewed articles")
