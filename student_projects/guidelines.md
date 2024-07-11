@@ -7,6 +7,19 @@ See also the list of [available projects](/student_projects).
 Note, that we will in general *not* accept or decline an application for a project
 until six weeks before the semester begins.
 
+## Project allocation
+**Mathematics section.** For Bachelor and Master semester projects
+within the study programmes handled by the mathematics section
+we participate in the central allocation of student projects.
+Please follow the guidelines published by the section
+and register your interest in the
+[Semester project portal](https://sma-semester-projects.epfl.ch/students).
+
+**Other sections.** Please directly get in contact with us by email
+to discuss the details of a project. If available, directly get in touch with
+the person indicated on the list of [available projects](/student_projects).
+
+## During the semester
 - We will start with a brief startup meeting. If you are given references or literature,
   please take a look at them. You will likely not understand very much, which is
   completely fine. Try to grasp the general idea, so we can have a productive meeting.
