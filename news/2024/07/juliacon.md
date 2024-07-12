@@ -20,5 +20,8 @@ on the [JuliaLang youtube channel](https://www.youtube.com/c/TheJuliaLanguage).
 
 **12.07.2024**
 Afterwards on Friday 12th Michael will also give an update about [DFTK](https://dftk.org)
-in a talk titled *DFTK.jl: 5 years of a multidisciplinary electronic-structure code*
+in a talk titled
+[*DFTK.jl: 5 years of a multidisciplinary electronic-structure code*](https://michael-herbst.com/talks/2024.07.12_5years_DFTK.pdf)
 [(abstract)](https://pretalx.com/juliacon2024/talk/WRQE3H/).
+[[Slides]](https://michael-herbst.com/talks/2024.07.12_5years_DFTK.pdf)
+[[Code]](https://michael-herbst.com/talks/2024.07.12_5years_DFTK.html)
