@@ -1,6 +1,7 @@
 +++
 title       = "JuliaCon keynote talk on Materials Modeling"
 rss_pubdate = Date(2024, 07, 10)
+showdate    = Date(2024, 08, 10)
 type        = "conference"
 startpage   = true
 +++
@@ -14,7 +15,7 @@ on [**Materials Modeling: Bonding across atoms, code, and people**](https://mich
 [(abstract)](https://juliacon.org/2024/keynotes/#materials_modeling_bonding_across_atoms_code_and_people)
 at this year's **JuliaCon** in Eindhoven, Netherlands.
 This talk will be streamed live on Wednesday **10th July, 17:40 - 18:40**
-on the [JuliaLang youtube channel](https://www.youtube.com/c/TheJuliaLanguage).
+on the [JuliaLang youtube channel](https://www.youtube.com/c/TheJuliaLanguage/streams).
 [[Slides]](https://michael-herbst.com/slides/juliacon2024)
 [[Code]](https://github.com/mfherbst/juliamolsim-demo)
 
