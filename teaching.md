@@ -21,32 +21,7 @@ For some earlier teaching by Michael Herbst, see <https://michael-herbst.com/tea
 **Semester:** *Spring*\newline
 **Target audience:** 2nd year Bachelor materials science, electrical engineering, chemistry\newline
 **Moodle link:** <https://go.epfl.ch/numerical-analysis> \newline
-
-#### Summary
-The students will learn key numerical techniques for solving standard
-mathematical problems in science and engineering. The underlying mathematical
-theory and properties are discussed.
-
-#### Content
-The topics covered include:
-
-* Properties and issues with numerical computation
-* Finding roots and fixed points
-* Polynomial interpolation
-* Solving linear and non-linear equations
-* Gradient-based methods for solving linear and eigenproblems
-* Numerical integration and differentiation
-* Basic numerical techniques for solving differential equations
-
-#### Literature
-- Giray Ökten *First Semester Numerical analysis* (2023).
-  [Online pdf](https://diginole.lib.fsu.edu/islandora/object/fsu%3A657877/datastream/PDF/view)
-- Tobin A. Driscoll, Richard J. Braun *Fundamentals of Numerical Computation*, SIAM (2022).
-  [Web version](https://tobydriscoll.net/fnc-julia/),
-  [FundamentalsNumericalComputation](https://github.com/fncbook/FundamentalsNumericalComputation.jl) julia package
-- MIT's [*Introduction to computational thinking*](https://computationalthinking.mit.edu/),
-  which introduces Julia as well as its way of solving scientific problems
-  in a hands-on and fun way.
+**Details and lecture notes:** <https://teaching.matmat.org/numerical-analysis>
 
 #### A note to future teaching assistants
 For this course the recruitment of AEs (assistante-étudiant) is directly processed through STI.

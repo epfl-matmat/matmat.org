@@ -39,6 +39,11 @@ Experience in running DFT calculations is a bonus;
 
 [^CDKL2022]: E. Cancès, G. Dusson, G. Kemlin and A. Levitt. SIAM J. Sci. Comp. **44** (2022). ArXiv [2111.01470](https://arxiv.org/abs/2111.01470v2)
 
+<!--
+α-Manangese structures (see noteworthy systems)
+(if stress) MOF structures
+-->
+
 ----
 
 ## Active learning with adaptive discretisation cost
