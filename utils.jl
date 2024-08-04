@@ -268,7 +268,7 @@ end
 #
 
 
-function format_bibentry(entry::BibInternal.Entry)
+function format_bibentry(entry::BibInternal.Entry; maxauthors=5)
     @assert entry.type == "article" || entry.type == "unpublished"
     io = IOBuffer()
 
@@ -278,10 +278,14 @@ function format_bibentry(entry::BibInternal.Entry)
     function format_name(s)
         join(filter(!isempty, [s.first, s.middle, s.particle, s.last, s.junior]), " ")
     end
-    join(io, format_name.(entry.authors), ", ", " and ")
+    if length(entry.authors) > maxauthors
+        print(io, join(format_name.(entry.authors[1:5]), ", "), " and others")
+    else
+        print(io, join(format_name.(entry.authors), ", ", " and "))
+    end
     print(io, ". ")
-    print(io, "*[$(entry.title)]($(entry.access.url))*. ")
 
+    print(io, "*[$(entry.title)]($(entry.access.url))*. ")
     if !isempty(entry.in.journal)
         # Published article
         print(io, entry.in.journal, " ")
@@ -319,7 +323,13 @@ function hfun_allpublications()
     end
 
     println(io, "## Peer-reviewed articles")
+    lastyear = 0
     for entry in filter(e -> e.type == "article", biblio)
+        if entry.date.year != lastyear
+            println(io, "### $(entry.date.year)")
+            lastyear = entry.date.year
+        end
+
         # TODO Improve
         println(io, "- ", format_bibentry(entry))
     end
