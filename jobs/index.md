@@ -241,9 +241,9 @@ For more information on working at EPFL see also
 the website on [current employment conditions](https://www.epfl.ch/about/working/working-at-epfl/employment-conditions).
 
 #### Deadline and starting date
-Initial screening of candidates will start 1st August 2024 and continue
+Screening of candidates has started and will continue
 until a suitable candidate has been found.
-The expected starting date is late 2024,
+The expected starting date is early 2025,
 but this can be negotiated in both directions.
 
 [^1]: J. Wu, M. Poloczek, A. Wilson, P. Frazier. [*Bayesian Optimization with Gradients.*](https://proceedings.neurips.cc/paper_files/paper/2017/file/64a08e5f1e6c39faeb90108c430eb120-Paper.pdf) NeurIPS (2017).
