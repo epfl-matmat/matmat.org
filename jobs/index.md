@@ -241,10 +241,9 @@ For more information on working at EPFL see also
 the website on [current employment conditions](https://www.epfl.ch/about/working/working-at-epfl/employment-conditions).
 
 #### Deadline and starting date
-Screening of candidates has started and will continue
+Screening of candidates is done on a rolling basis
 until a suitable candidate has been found.
-The expected starting date is early 2025,
-but this can be negotiated in both directions.
+The expected starting date is the first half of 2025.
 
 [^1]: J. Wu, M. Poloczek, A. Wilson, P. Frazier. [*Bayesian Optimization with Gradients.*](https://proceedings.neurips.cc/paper_files/paper/2017/file/64a08e5f1e6c39faeb90108c430eb120-Paper.pdf) NeurIPS (2017).
 [^2]: K. Fisher, M. F. Herbst, Y. Marzouk. [*Multitask methods for predicting molecular properties from heterogeneous data.*](https://arxiv.org/pdf/2401.17898) Journal of Chemical Physics (2024). [arXiv:2401.17898](https://arxiv.org/pdf/2401.17898)
