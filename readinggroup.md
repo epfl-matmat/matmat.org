@@ -19,7 +19,7 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- **30.09.24 16:00 (BCH 3113): [Marcel Langer](https://marcel.science/)** *(Title TBA)*.
+- **30.09.24 16:00 (BCH 3113): [Marcel Langer](https://marcel.science/) *Information causality and quantum mechanics*. [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-information-cau/)**
 
 Past events:
 - 24.06.24 16:00 (BCH 3113): [Matteo Quinzi](https://people.epfl.ch/matteo.quinzi?lang=en) *Green's functions in quantum many-body theory and quasiparticle equations*. [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-green-s-functio/)
