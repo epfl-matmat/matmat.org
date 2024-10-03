@@ -212,7 +212,7 @@ function people_row(data::AbstractDict; showroom=true, showemail=true, showdesti
                   """$(roomlink(data["room"]))""")
         maxsocial += 1
     end
-    if haskey(data, "destination") && showdestination
+    if haskey(data, "destination") && !isempty(data["destination"]) && showdestination
         print(io, """<br /><span class="weak-text">Now:</span> """ *
                   """$(data["destination"])""")
         maxsocial += 1

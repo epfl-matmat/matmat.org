@@ -11,7 +11,7 @@ const IMAGES = joinpath(@__DIR__, "..", "_assets", "people")
 function get_csv_data()
     csv1 = Downloads.download("https://search-api.epfl.ch/api/unit/csv?q=MATMAT1&hl=en")
     csv2 = Downloads.download("https://search-api.epfl.ch/api/unit/csv?q=MATMAT2&hl=en")
-    df = append!(CSV.read(csv1, DataFrame), CSV.read(csv2, DataFrame))
+    df = append!(CSV.read(csv1, DataFrame), CSV.read(csv2, DataFrame); promote=true)
     df = unique(df, :Sciper)
 
     map(eachrow(df)) do row

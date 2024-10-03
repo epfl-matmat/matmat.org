@@ -1,6 +1,7 @@
 [herbst-michael]
 arxiv = "herbst_m_1"
 current = true
+destination = ""
 email = "michael.herbst@epfl.ch"
 firstname = "Michael F."
 github = "mfherbst"
@@ -17,6 +18,7 @@ website = "https://michael-herbst.com"
 [martin-melis]
 arxiv = ""
 current = true
+destination = ""
 email = "melis.martin@epfl.ch"
 firstname = "Melis"
 github = ""
@@ -32,6 +34,7 @@ website = ""
 [paulish-anna]
 arxiv = ""
 current = true
+destination = ""
 email = "anna.paulish@epfl.ch"
 firstname = "Anna"
 github = "AnnaPaulish"
@@ -44,9 +47,26 @@ room = "MA B1 457"
 sciper = 336145
 website = "https://people.epfl.ch/336145"
 
+[ploumhans-bruno]
+arxiv = ""
+current = true
+destination = ""
+email = "bruno.ploumhans@epfl.ch"
+firstname = "Bruno"
+github = ""
+gscholar = ""
+name = "Ploumhans"
+orcid = ""
+position = "Doctoral Assistant"
+priority = 0
+room = "MA B1 457"
+sciper = 338679
+website = "https://people.epfl.ch/338679"
+
 [schmitz-niklas]
 arxiv = "schmitz_n_1"
 current = true
+destination = ""
 email = "niklas.schmitz@epfl.ch"
 firstname = "Niklas Frederik"
 github = "niklasschmitz"
@@ -58,21 +78,6 @@ priority = 0
 room = "MA B1 457"
 sciper = 299719
 website = "https://people.epfl.ch/299719"
-
-[travelletti-cedric]
-arxiv = ""
-current = true
-email = "cedric.travelletti@epfl.ch"
-firstname = "Cédric"
-github = "CedricTravelletti"
-gscholar = "zvkbeqYAAAAJ"
-name = "Travelletti"
-orcid = "0009-0005-0364-6143"
-position = "Scientist"
-priority = -20
-room = "MA B1 457"
-sciper = 384805
-website = "https://cedrictravelletti.github.io/"
 
 [sun-bonan]
 arxiv = ""
@@ -90,3 +95,19 @@ priority = 20
 room = ""
 sciper = 999999
 website = "https://bonans.github.io/"
+
+[travelletti-cedric]
+arxiv = ""
+current = true
+destination = ""
+email = "cedric.travelletti@epfl.ch"
+firstname = "Cédric"
+github = "CedricTravelletti"
+gscholar = "zvkbeqYAAAAJ"
+name = "Travelletti"
+orcid = "0009-0005-0364-6143"
+position = "Scientist"
+priority = -20
+room = "MA B1 457"
+sciper = 384805
+website = "https://cedrictravelletti.github.io/"
