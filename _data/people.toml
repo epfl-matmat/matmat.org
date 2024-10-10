@@ -1,0 +1,113 @@
+[herbst-michael]
+arxiv = "herbst_m_1"
+current = true
+destination = ""
+email = "michael.herbst@epfl.ch"
+firstname = "Michael F."
+github = "mfherbst"
+gscholar = "9jBO8o4AAAAJ"
+name = "Herbst"
+orcid = "0000-0003-0378-7921"
+phone = "+41216938989"
+position = "Tenure Track Assistant Professor"
+priority = -100
+room = "MA B1 467"
+sciper = 368484
+website = "https://michael-herbst.com"
+
+[martin-melis]
+arxiv = ""
+current = true
+destination = ""
+email = "melis.martin@epfl.ch"
+firstname = "Melis"
+github = ""
+gscholar = ""
+name = "Martin"
+orcid = ""
+position = "Administrative Assistant"
+priority = -50
+room = "MA B1 483"
+sciper = 206229
+website = ""
+
+[paulish-anna]
+arxiv = ""
+current = true
+destination = ""
+email = "anna.paulish@epfl.ch"
+firstname = "Anna"
+github = "AnnaPaulish"
+gscholar = "Aazc2AYAAAAJ&hl"
+name = "Paulish"
+orcid = ""
+position = "Doctoral Assistant"
+priority = 0
+room = "MA B1 457"
+sciper = 336145
+website = "https://people.epfl.ch/336145"
+
+[ploumhans-bruno]
+arxiv = ""
+current = true
+destination = ""
+email = "bruno.ploumhans@epfl.ch"
+firstname = "Bruno"
+github = "Technici4n"
+gscholar = ""
+name = "Ploumhans"
+orcid = ""
+position = "Doctoral Assistant"
+priority = 0
+room = "MA B1 457"
+sciper = 338679
+website = "https://people.epfl.ch/338679"
+
+[schmitz-niklas]
+arxiv = "schmitz_n_1"
+current = true
+destination = ""
+email = "niklas.schmitz@epfl.ch"
+firstname = "Niklas Frederik"
+github = "niklasschmitz"
+gscholar = "2Lz5bWYAAAAJ"
+name = "Schmitz"
+orcid = "0000-0001-6362-3756"
+position = "Doctoral Assistant"
+priority = 0
+room = "MA B1 457"
+sciper = 299719
+website = "https://people.epfl.ch/299719"
+
+[sun-bonan]
+arxiv = ""
+current = false
+destination = """PhD at <a href="https://www.mpi-magdeburg.mpg.de/">MPI Madgeburg</a>"""
+email = "bsun@mpi-magdeburg.mpg.de"
+firstname = "Bonan"
+github = "bonans"
+gscholar = ""
+image = "sun-bonan"
+name = "Sun"
+orcid = "0009-0002-2761-0661"
+position = "Master Student"
+priority = 20
+room = ""
+sciper = 999999
+website = "https://bonans.github.io/"
+
+[travelletti-cedric]
+arxiv = ""
+current = true
+destination = ""
+email = "cedric.travelletti@epfl.ch"
+firstname = "Cédric"
+github = "CedricTravelletti"
+gscholar = "zvkbeqYAAAAJ"
+name = "Travelletti"
+orcid = "0009-0005-0364-6143"
+position = "Scientist"
+priority = -20
+room = "MA B1 457"
+sciper = 384805
+website = "https://cedrictravelletti.github.io/"
