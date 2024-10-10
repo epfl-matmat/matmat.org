@@ -19,7 +19,7 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- **14.10.24 16:00 (TBA): [Bruno Ploumhans](https://people.epfl.ch/bruno.ploumhans) *Practical Error Bounds for Properties in Plane-wave Electronic Structure Calculations*.**
+- **14.10.24 16:00 (MA B2 485): [Bruno Ploumhans](https://people.epfl.ch/bruno.ploumhans) *Practical Error Bounds for Properties in Plane-wave Electronic Structure Calculations*.** [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-practical-error/)
 - **28.10.24 16:00 (TBA): [Kevin Huguenin-Dumittan](https://people.epfl.ch/kevin.huguenin-dumittan?lang=en) *TBA***
 
 Past events:
