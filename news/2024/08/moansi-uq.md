@@ -1,5 +1,5 @@
 +++
-title       = "Moansi UQ worksop: Uncertainty Quantification in Molecular Simulation"
+title       = "Moansi UQ workshop: Uncertainty Quantification in Molecular Simulation"
 rss_pubdate = Date(2024, 08, 30)
 type        = "conference"
 startpage   = true

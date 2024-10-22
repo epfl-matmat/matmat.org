@@ -35,8 +35,7 @@ function news_sorted()
                     for (root, dirs, files) in walkdir("news")
                     for f in files
                     if endswith(f, ".md") && root != "news"]
-
-    by = function (article)
+    all_dates = map(all_articles) do article
         pubdate = pagevar(article, :rss_pubdate)
         if isnothing(pubdate)
             m = match(r"([0-9]+)/([0-9]+)/[^/]+\.md", article)
@@ -44,7 +43,8 @@ function news_sorted()
         end
         pubdate
     end
-    sort(all_articles; by, rev=true)
+    perm = sortperm(all_dates; rev=true)
+    all_articles[perm]
 end
 
 """Print a news article path"""

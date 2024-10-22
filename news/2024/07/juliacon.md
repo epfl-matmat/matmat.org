@@ -18,6 +18,7 @@ This talk will be streamed live on Wednesday **10th July, 17:40 - 18:40**
 on the [JuliaLang youtube channel](https://www.youtube.com/c/TheJuliaLanguage/streams).
 [[Slides]](https://michael-herbst.com/slides/juliacon2024)
 [[Code]](https://github.com/mfherbst/juliamolsim-demo)
+[[Youtube Recording]](https://www.youtube.com/watch?v=zDh6LmEGUDc)
 
 **12.07.2024**
 Afterwards on Friday 12th Michael will also give an update about [DFTK](https://dftk.org)
@@ -26,3 +27,4 @@ in a talk titled
 [(abstract)](https://pretalx.com/juliacon2024/talk/WRQE3H/).
 [[Slides]](https://michael-herbst.com/talks/2024.07.12_5years_DFTK.pdf)
 [[Code]](https://michael-herbst.com/talks/2024.07.12_5years_DFTK.html)
+[[Youtube Recording]](https://www.youtube.com/watch?v=ox_j2zKOuIk)
