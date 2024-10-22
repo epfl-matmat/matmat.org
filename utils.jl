@@ -35,8 +35,7 @@ function news_sorted()
                     for (root, dirs, files) in walkdir("news")
                     for f in files
                     if endswith(f, ".md") && root != "news"]
-
-    by = function (article)
+    all_dates = map(all_articles) do article
         pubdate = pagevar(article, :rss_pubdate)
         if isnothing(pubdate)
             m = match(r"([0-9]+)/([0-9]+)/[^/]+\.md", article)
@@ -44,7 +43,9 @@ function news_sorted()
         end
         pubdate
     end
-    sort(all_articles; by, rev=true)
+    perm = sortperm(all_dates; rev=true)
+    [(; article, pubdate)
+     for (article, pubdate) in zip(all_articles[perm], all_dates[perm])]
 end
 
 """Print a news article path"""
@@ -67,13 +68,13 @@ Plug in all news articles contained in the `/news/` folder.
 @delay function hfun_allnews()
     io = IOBuffer()
     current_year = nothing
-    for article in news_sorted()
-        yr = year(pagevar(article, :rss_pubdate))
+    for data in news_sorted()
+        yr = year(data.pubdate)
         if yr != current_year
             current_year = yr
             println(io, "## $yr")
         end
-        print_news(io, article)
+        print_news(io, data.article)
         println(io, "\n-------")
     end
     Franklin.fd2html(String(take!(io)); internal=true)
@@ -88,18 +89,17 @@ Plug in the highlighted news articles contained in `/news/` folder.
 @delay function hfun_firstpagenews()
     io = IOBuffer()
     count = 0
-    firstpage_articles = filter(news_sorted()) do article
-        on_startpage = something(pagevar(article, :startpage), false)
-        type = something(pagevar(article, :type), "")
-        pubdate  = something(pagevar(article, :rss_pubdate), Date(1, 1, 1))
+    firstpage_articles = filter(news_sorted()) do data
+        on_startpage = something(pagevar(data.article, :startpage), false)
+        type = something(pagevar(data.article, :type), "")
 
         default_showdate = (type == "publication"
-                            ? pubdate + Dates.Month(1)
-                            : pubdate)
-        showdate = something(pagevar(article, :showdate), default_showdate)
+                            ? data.pubdate + Dates.Month(1)
+                            : data.pubdate)
+        showdate = something(pagevar(data.article, :showdate), default_showdate)
 
         force_show = false
-        if pubdate > Dates.now()  # in the future
+        if data.pubdate > Dates.now()  # in the future
             force_show = true
         elseif showdate > Dates.now()  # should still show the article
             force_show = true
@@ -111,8 +111,8 @@ Plug in the highlighted news articles contained in `/news/` folder.
         end
         return false
     end
-    for article in reverse(firstpage_articles)
-        print_news(io, article)
+    for data in reverse(firstpage_articles)
+        print_news(io, data.article)
         println(io, "\n-------")
     end
     println(io, "[[See all news]](news)")
