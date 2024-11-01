@@ -15,6 +15,22 @@ room = "MA B1 467"
 sciper = 368484
 website = "https://michael-herbst.com"
 
+[maliyov-ivan]
+arxiv = ""
+current = true
+destination = ""
+email = "ivan.maliyov@epfl.ch"
+firstname = "Ivan"
+github = ""
+gscholar = ""
+name = "Maliyov"
+orcid = ""
+position = "Scientist"
+priority = -20
+room = "MA B1 527"
+sciper = 404030
+website = "https://people.epfl.ch/404030"
+
 [martin-melis]
 arxiv = ""
 current = true
@@ -43,7 +59,7 @@ name = "Paulish"
 orcid = ""
 position = "Doctoral Assistant"
 priority = 0
-room = "MA B1 457"
+room = "MA B1 527"
 sciper = 336145
 website = "https://people.epfl.ch/336145"
 
@@ -82,7 +98,7 @@ website = "https://people.epfl.ch/299719"
 [sun-bonan]
 arxiv = ""
 current = false
-destination = """PhD at <a href="https://www.mpi-magdeburg.mpg.de/">MPI Madgeburg</a>"""
+destination = "PhD at <a href=\"https://www.mpi-magdeburg.mpg.de/\">MPI Madgeburg</a>"
 email = "bsun@mpi-magdeburg.mpg.de"
 firstname = "Bonan"
 github = "bonans"
@@ -108,6 +124,6 @@ name = "Travelletti"
 orcid = "0009-0005-0364-6143"
 position = "Scientist"
 priority = -20
-room = "MA B1 457"
+room = "MA B1 527"
 sciper = 384805
 website = "https://cedrictravelletti.github.io/"

@@ -28,7 +28,12 @@ function get_csv_data()
 end
 
 function augment_defaults!(data::AbstractDict)
-    get!(data, "priority",    0)
+    priority_default = 0
+    if get(data, "position", "") in ("Scientist", )
+        priority_default = -20
+    end
+
+    get!(data, "priority",    priority_default)
     get!(data, "website",     "https://people.epfl.ch/$(data["sciper"])")
     get!(data, "gscholar",    "")
     get!(data, "orcid",       "")
