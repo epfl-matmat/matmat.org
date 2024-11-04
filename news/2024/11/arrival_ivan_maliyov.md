@@ -9,5 +9,5 @@ startpage   = true
 
 **01.11.2024**
 Today we welcome **Dr. Ivan Maliyov** to our group. All the best and happy
-beginnings! We we hope you'll have a smooth upward gradient into
+beginnings! We hope you'll have a smooth upward gradient into
 more exciting discoveries.
