@@ -16,20 +16,20 @@ sciper = 368484
 website = "https://michael-herbst.com"
 
 [maliyov-ivan]
-arxiv = ""
+arxiv = "imaliyov"
 current = true
 destination = ""
 email = "ivan.maliyov@epfl.ch"
 firstname = "Ivan"
-github = ""
-gscholar = ""
+github = "imaliyov"
+gscholar = "DPIWLXoAAAAJ"
 name = "Maliyov"
-orcid = ""
+orcid = "0000-0003-4130-6033"
 position = "Scientist"
 priority = -20
 room = "MA B1 527"
 sciper = 404030
-website = "https://people.epfl.ch/404030"
+website = "https://www.linkedin.com/in/ivan-maliyov-406626b5"
 
 [martin-melis]
 arxiv = ""
