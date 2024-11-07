@@ -19,9 +19,10 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- **28.10.24 16:00 (MA B2 485): [Kevin Huguenin-Dumittan](https://people.epfl.ch/kevin.huguenin-dumittan?lang=en) *Renormalization Group and Phase Transitions*** [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-renormalization/)
+- **11.11.24 16:00 (BCH 3113): [Muhammad Hassan](https://people.epfl.ch/muhammad.hassan?lang=en) *Analysis of Coupled Cluster Methods.* [Mememento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-analysis-of-cou/)**
 
 Past events:
+- 28.10.24 16:00 (MA B2 485): [Kevin Huguenin-Dumittan](https://people.epfl.ch/kevin.huguenin-dumittan?lang=en) *Renormalization Group and Phase Transitions.* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-renormalization/)
 - 14.10.24 16:00 (MA B2 485): [Bruno Ploumhans](https://people.epfl.ch/bruno.ploumhans) *Practical Error Bounds for Properties in Plane-wave Electronic Structure Calculations*. [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-practical-error/)
 - 30.09.24 16:00 (BCH 3113): [Marcel Langer](https://marcel.science/) *Information causality and quantum mechanics*. [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-information-cau/)
 - 24.06.24 16:00 (BCH 3113): [Matteo Quinzi](https://people.epfl.ch/matteo.quinzi?lang=en) *Green's functions in quantum many-body theory and quasiparticle equations*. [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-green-s-functio/)
