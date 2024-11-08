@@ -7,7 +7,7 @@ startpage   = false
 
 {{newsheader}}
 
-**03.06.2023** Michael co-organises the minisymposium
+**03.06.2024** Michael co-organises the minisymposium
 [Composable Julia Software in Atomistic Materials Modeling](https://pasc24.pasc-conference.org/program/minisymposia/)
 (jointly with Rachel Kurchin)
 at the [Platform for Advanced Scientific Computing](https://pasc24.pasc-conference.org/) (**PASC**) conference in Zürich, Switzerland.
