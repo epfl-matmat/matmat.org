@@ -16,3 +16,9 @@ researchers from aforementioned communities to join forces.
 The workshop is titled
 [**Julia for numerical problems in quantum and solid-state physics**](https://www.cecam.org/workshop-details/1355)
 and will take place at the [CECAM HQ](https://www.cecam.org/) in **Lausanne, Switzerland**.
+
+The workshop turned out to be a full success with about 60 Julia-interested researchers
+coming together in Lausanne:
+
+
+![Conference picture](/assets/2024.11_Psik_Julia_Conference_picture.jpg)
