@@ -19,7 +19,7 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 27.01.25 16:00 (TBA) [Michael Herbst](https://people.epfl.ch/michael.herbst) *Moreau-Yosida regularisation meets DFTK: How to do Kohn-Sham forward and inverse.*
+- 27.01.25 16:00 (TBA) [Michael Herbst](https://michael-herbst.com/) *Moreau-Yosida regularisation meets DFTK: How to do Kohn-Sham forward and inverse.*
 - 10.02.25 16:00 (TBA)
 - 24.02.25 16:00 (TBA)
 - 17.03.25 16:00 (TBA)
