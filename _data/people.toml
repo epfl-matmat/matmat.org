@@ -95,6 +95,22 @@ room = "MA B1 457"
 sciper = 299719
 website = "https://people.epfl.ch/299719"
 
+[shin-yongjoong]
+arxiv = ""
+current = false
+destination = "Master valorisation at <a href=\"http://theossrv1.epfl.ch/\">EPFL Theos</a>"
+email = "yongjoong.shin@epfl.ch"
+firstname = "Yongjoong"
+github = ""
+gscholar = ""
+name = "Shin"
+orcid = ""
+position = "Master Student"
+priority = 20
+room = ""
+sciper = 999999
+website = ""
+
 [sun-bonan]
 arxiv = ""
 current = false
