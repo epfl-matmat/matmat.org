@@ -19,12 +19,12 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 27.01.25 16:00 (TBA) [Michael Herbst](https://michael-herbst.com/) *Moreau-Yosida regularisation meets DFTK: How to do Kohn-Sham forward and inverse.*
-- 10.02.25 16:00 (TBA)
-- 24.02.25 16:00 (TBA)
-- 17.03.25 16:00 (TBA)
-- 31.03.25 16:00 (TBA)
-- 14.04.25 16:00 (TBA)
+- 27.01.25 16:00 (MA B1 524) [Michael Herbst](https://michael-herbst.com/) *Moreau-Yosida regularisation meets DFTK: How to do Kohn-Sham forward and inverse.*
+- 10.02.25 16:00 (BCH 3113) [Anna Paulish](https://people.epfl.ch/anna.paulish?lang=en) *Gaussian Process Regression for Materials and Molecules.*
+- 24.02.25 16:00 (BCH 3113) *TBA*
+- 17.03.25 16:00 (MA B1 524) *TBA*
+- 31.03.25 16:00 (MA B1 524) *TBA*
+- 14.04.25 16:00 (BCH 3113) *TBA*
 
 Past events:
 - 11.11.24 16:00 (BCH 3113): [Muhammad Hassan](https://people.epfl.ch/muhammad.hassan?lang=en) *Analysis of Coupled Cluster Methods.* [Mememento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-analysis-of-cou/)
