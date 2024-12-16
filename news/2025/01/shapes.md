@@ -8,8 +8,9 @@ startpage   = true
 {{newsheader}}
 
 **17.01 - 09.03.2025** For a good month and a half in early 2025
-the [EPFL Pavilions](https://epfl-pavilions.ch/) will host the exhibition
-**Shapes: Patterns in Art and Science**. This **outreach event** we co-organise
+the EPFL Pavilions will host the exhibition
+[**Shapes: Patterns in Art and Science**](https://epfl-pavilions.ch/fr/exhibitions/shapes).
+This **outreach event** we co-organise
 in collaboration with two fellow mathematicians,
 [Hugo Parlier](https://math.uni.lu/parlier/) and [Marc Troyanov](https://people.epfl.ch/marc.troyanov),
 as well as help from colleagues in physics and the EPFL Pavilion team.

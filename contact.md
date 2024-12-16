@@ -11,6 +11,7 @@
 ## Head of group
 **Prof. Michael F. Herbst**\newline
 Email: {{ protect_email michael.herbst@epfl.ch }}\newline
+Tel: +41 21 693 89 89\newline
 Office: [MA B1 467](https://plan.epfl.ch/?room==MA%20B1%20467)
 
 ## Administration
