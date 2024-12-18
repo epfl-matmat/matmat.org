@@ -46,6 +46,32 @@ Experience in running DFT calculations is a bonus;
 
 ----
 
+## Error-aware acceleration methods for density-functional theory simulations
+
+Density-functional theory (DFT) simulations are a central ingredient in modern
+materials modelling and such simulations are run in the millions every day
+across the world's supercomputers. The typical fixed-point problem underlying
+DFT is solved iteratively using a variant of standard fixed-point iterations
+termed *self-consistent field (SCF) iterations*. In particular for challenging
+materials system the SCF can converge very slowly. Convergence acceleration
+techniques (such as [Anderson acceleration](https://en.wikipedia.org/wiki/Anderson_acceleration))
+are thus regularly employed and amount to speed up convergence.
+In a nutshell these methods build adapted linear combinations by solving
+a linear regression problem. However, typically the error in the regressed
+iterates (i.e. the fact that these are polluted with numerical noise)
+is completely ignored. In this project we want to develop a suitable adaptation
+of Anderson acceleration by combining this method with ideas from statistical
+learning in order to take numerical errors into account.
+
+**Requirements:**
+Strong programming skills, ideally Julia or python;
+Background in numerical methods, in particular for
+solving non-linear problems and eigenvalue problems;
+Interest or experience with statistical regression, in particular Bayesian methods;
+Experience in solid-state physics and materials modelling is a bonus;
+
+----
+
 ## Active learning with adaptive discretisation cost
 
 Building large datasets with materials properties from density-functional
@@ -100,46 +126,12 @@ its applicability for practical data-driven materials modelling.
 
 **Requirements:**
 Strong programming skills, ideally Julia or Python; 
-experience with probabilistic machine learning methods, Gaussian Processes, Bayesian optimization; 
-experience with DFTK is a bonus; 
-basic knowledge of numerical methods for partial differential equations is a bonus.
+Experience with probabilistic machine learning methods, Gaussian Processes, Bayesian optimization; 
+Experience with DFTK is a bonus; 
+Basic knowledge of numerical methods for partial differential equations is a bonus.
 
 
 [^RasmussenWilliams06]: C. E. Rasmussen & C. K. I. Williams, Gaussian Processes for Machine Learning, the MIT Press, 2006. DOI [3206.001.0001](https://doi.org/10.7551/mitpress/3206.001.0001)
-
-----
-
-## Manifold optimisation methods in density-functional theory
-
-The problem underlying density-functional theory (DFT) is a minimisation of an energy functional
-with respect to the density matrix. In turn the space of density matrices themselves
-has the structure of a smooth manifold. However, instead of solving this minimisation
-problem directly (termed *direct minimisation*, DM), most
-codes solve DFT by satisfying the first-order stationarity conditions,
-which leads to the self-consistent field (SCF) equations.
-For some settings the convergence of direct minimisation can be superior[^CKL2021],
-which has been stimulating for the recent mathematical studies
-of DM approaches to DFT[^DGYZ2022].
-In this project we want to build upon the readily available software stacks
-for optimisations on manifolds[^Manopt] and explore the use of their readily
-available manifold optimisation routines in the context of DFT approaches.
-
-**Requirements:**
-Strong programming skills, ideally Julia or python;
-Basic knowledge of Riemannian optimisation;
-Basic knowledge of numerical methods for partial differential equations;
-Experience in numerical analysis of PDEs is a bonus;
-Experience in running DFT calculations is a bonus;
-
-<!--
-https://ronnybergmann.net/talks/2024-Aachen-Difference-of-Convex-Manopt.pdf
-ManOpt.jl:
-* ManifoldCostGradientObjective
--->
-
-[^CKL2021]: E. Cancès, G. Kemlin, A. Levitt SIAM J. Mat. Anal. Appl. **42**, 243 (2021). DOI [10.1137/20m1332864](http://dx.doi.org/10.1137/20m1332864)
-[^DGYZ2022]: X. Dai, S. de Gironcoli, B. Yang, A. Zhou. Multiscale Model. Simul. **21**, 777 (2023). DOI [10.1137/22M1472103](https://doi.org/10.1137/22M1472103)
-[^Manopt]: <https://www.manopt.org/> and <https://manoptjl.org/>
 
 ----
 
