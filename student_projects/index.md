@@ -172,7 +172,7 @@ AiiDA is a software developed at the [THEOS group](http://theossrv1.epfl.ch/) he
 which simplifies and automates workflows for high-throughput studies.
 
 In our group, we develop a new player in the field:
-the density-functional toolkit (DFTK).
+the [density-functional toolkit (DFTK)](https://dftk.org).
 DFTK is a new implementation developed in collaboration with researchers all
 across the world and which enables joint research between
 mathematicians and scientists on first-principle materials simulations.
@@ -184,7 +184,8 @@ The goal of this project is to extend the verification study to DFTK.
 We will start by running with the datasets from [^VerificationStudy2023].
 Along the way, we will encounter many systems where convergence fails.
 We will implement automated error detection, handling, and restarting for the most common error cases.
-We will then extend the verification to larger and more complex systems.
+We will then extend the verification to more complex systems,
+which are known to be difficult to converge even with established codes.
 
 
 **Requirements:**
