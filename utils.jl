@@ -38,7 +38,7 @@ function news_sorted()
     all_dates = map(all_articles) do article
         pubdate = pagevar(article, :rss_pubdate)
         if isnothing(pubdate)
-            m = match(r"([0-9]+)/([0-9]+)/[^/]+\.md", article)
+            m = match(r"([0-9]+)/([0-9]+)/[^/]+\.md", replace(article, "\\" => "/"))
             pubdate = Date(parse(Int, m[1]), parse(Int, m[2]), 1)
         end
         pubdate
