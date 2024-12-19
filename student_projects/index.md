@@ -72,64 +72,29 @@ Experience in solid-state physics and materials modelling is a bonus;
 
 ----
 
-## Active learning with adaptive discretisation cost
+## Data-driven materials modelling with uncertainty-informed Gaussian processes
 
-Building large datasets with materials properties from density-functional
-theory (DFT) calculations
-is a challenge. Active learning techniques try to efficiently query simulators
-iteratively,
-based on a statistical model [^Garnett2023].
-The computational cost of DFT is however not uniform across materials.
-Understanding the cost for a given target accuracy is a problem of error
-control with numerical parameters.
+Data-driven materials modeling plays a crucial role in modern materials discovery. Statistical models trained on large datasets of first-principles simulations provide efficient and accurate predictions of material properties, reducing the need for costly computations. However, datasets generated from density-functional theory (DFT) calculations, which underlie many data-driven approaches, face two key challenges:
 
-One of the core parameters determining the cost of a DFT calculation is the
-discretisation. The baseline active-learning approach is computing with a fixed
-discretisation
-(plane-wave cutoff) chosen a priori for the whole dataset (e.g. [^vanderOord]
-and [^Merchant2023]).
+- Non-uniform computational cost: The cost of DFT calculations varies significantly across materials due to differences in numerical parameters, such as discretization basis, k-point sampling, tolerances, required to achieve a target accuracy.
 
-The goal of this project is to formulate and implement an augmented active
-learning model which
-can choose not only the next material structure to query but also choose an
-appropriate discretisation adaptively,
-trading off per-example uncertainty reduction against computational cost.
+- Data heterogeneity: Training data often come from diverse sources with varying levels of uncertainty, which affects the reliability of predictive models. 
+
+Active learning is a promising approach for improving the efficiency of data-driven materials modeling by adaptively selecting the most informative data points for further computations.
+Currently, a common approach is to compute the entire dataset with a fixed discretization (e.g., plane-wave cutoff) chosen a priori (e.g. [^vanderOord] and [^Merchant2023]), which may not optimally balance computational cost and accuracy across diverse materials. 
+
+
+The goal of this project is to develop a framework that overcomes these challenges by integrating active learning with uncertainty-aware models. This involves formulating an active learning approach that adaptively selects both material structures and numerical parameters to optimize computational resources, while employing Gaussian process regression [^RasmussenWilliams06] to effectively propagate and manage uncertainties in heterogeneous datasets. By combining these techniques, the project aims to improve the accuracy, efficiency, and reliability of data-driven materials modeling.
 
 **Requirements:**
-Strong programming skills, ideally Julia or python;
-Basic knowledge of numerical methods for partial differential equations;
-Experience with probabilistic machine learning methods is a bonus;
+Strong programming skills, ideally Julia or Python; 
+Experience with probabilistic machine learning methods, Gaussian processes, Bayesian optimization; 
 Experience in running DFT calculations is a bonus;
-
-[^Garnett2023]: R. Garnett. *Bayesian Optimization*. Cambridge University Press (2023).
+Basic knowledge of numerical methods for partial differential equations is a bonus.
 
 [^vanderOord]: C. van der Oord, M. Sachs, D. P. Kovács, C. Ortner and G. Csányi . *Hyperactive learning for data-driven interatomic potentials*. npj Comput Mater 9, 168 (2023). DOI [10.1038/s41524-023-01104-6](https://doi.org/10.1038/s41524-023-01104-6)
 
 [^Merchant2023]: A. Merchant, S. Batzner, S. S. Schoenholz, M. Aykol, G. Cheon and E. D. Cubuk. *Scaling deep learning for materials discovery*. Nature 624, 80–85 (2023). DOI [10.1038/s41586-023-06735-9](https://doi.org/10.1038/s41586-023-06735-9)
-
-----
-
-## Error propagation in statistical learning for data of heterogeneous quality
-
-Data-driven materials modeling has been shown to be essential in modern materials discovery. 
-Statistical models trained on large datasets of first-principle simulations provide efficient 
-and accurate predictions of materials properties, reducing the need for costly computations. 
-However, the underlying assumption of uniformly high-quality training data doesn't always meet reality. 
-When faced with data from diverse sources, incorporating the different level of uncertainty in the data 
-is necessary to ensure accurate predictions of the quantity of interest.
-
-In this project, we will use Gaussian Process (GP) regression that offers an approach to efficiently 
-handle data with varying quality, providing probabilistic predictions which enable 
-quantification of uncertainty [^RasmussenWilliams06]. We will explore the potential of error propagation 
-within GP regression with non-uniform noise model, and evaluate the accuracy of the developed model to ensure 
-its applicability for practical data-driven materials modelling.
-
-**Requirements:**
-Strong programming skills, ideally Julia or Python; 
-Experience with probabilistic machine learning methods, Gaussian Processes, Bayesian optimization; 
-Experience with DFTK is a bonus; 
-Basic knowledge of numerical methods for partial differential equations is a bonus.
-
 
 [^RasmussenWilliams06]: C. E. Rasmussen & C. K. I. Williams, Gaussian Processes for Machine Learning, the MIT Press, 2006. DOI [3206.001.0001](https://doi.org/10.7551/mitpress/3206.001.0001)
 
