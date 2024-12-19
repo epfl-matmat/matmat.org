@@ -74,22 +74,19 @@ Experience in solid-state physics and materials modelling is a bonus;
 
 ## Data-driven materials modelling with uncertainty-informed Gaussian processes
 
-Modern materials discovery relies heavily on data-driven methods to efficiently and accurately predict material properties, 
-using datasets generated from density-functional theory (DFT) calculations. 
-However, these datasets often face two key challenges:
+Data-driven materials modeling plays a crucial role in modern materials discovery. Statistical models trained on large datasets of first-principles simulations provide efficient and accurate predictions of material properties, reducing the need for costly computations. However, datasets generated from density-functional theory (DFT) calculations, which underlie many data-driven approaches, face two key challenges:
 
-- Non-uniform computational cost: The cost of DFT calculations varies significantly across materials due to differences in numerical parameters (discretisation basis, k-point sampling, tolerances) required for a given accuracy. The baseline active learning approach is computing with a fixed discretisation (plane-wave cutoff) chosen a priori for the whole dataset (e.g. [^vanderOord] and [^Merchant2023]), which may not optimally balance cost and accuracy across diverse materials.
+- Non-uniform computational cost: The cost of DFT calculations varies significantly across materials due to differences in numerical parameters, such as discretization basis, k-point sampling, tolerances, required for a required accuracy. The baseline active learning approach is computing with a fixed discretization (e.g., plane-wave cutoff) chosen a priori for the entire dataset (e.g. [^vanderOord] and [^Merchant2023]), which may not optimally balance computational cost and accuracy across diverse materials.
 
-- Data heterogeneity: Training data often come from diverse sources, exhibiting varying levels of uncertainty, which affects the reliability of predictive models. 
+- Data heterogeneity: Training data often come from diverse sources with varying levels of uncertainty, which affects the reliability of predictive models. 
 
-The goal of this project is to develop a framework that overcomes these challenges by integrating adaptive learning with uncertainty-aware models. This involves formulating an active learning approach that adaptively selects both material structures and numerical parameters to optimize computational resources, while employing Gaussian Process regression [^RasmussenWilliams06] to effectively propagate and manage uncertainties in heterogeneous datasets. By combining these techniques, the project aims to improve the accuracy, efficiency, and reliability of data-driven materials modeling.
-
+The goal of this project is to develop a framework that overcomes these challenges by integrating adaptive learning with uncertainty-aware models. This involves formulating an active learning approach that adaptively selects both material structures and numerical parameters to optimize computational resources, while employing Gaussian process regression [^RasmussenWilliams06] to effectively propagate and manage uncertainties in heterogeneous datasets. By combining these techniques, the project aims to improve the accuracy, efficiency, and reliability of data-driven materials modeling.
 
 **Requirements:**
-Strong programming skills, ideally Julia or python; 
-Basic knowledge of numerical methods for partial differential equations; 
-Experience with probabilistic machine learning methods is a bonus; 
-Experience in running DFT calculations is a bonus.
+Strong programming skills, ideally Julia or Python; 
+Experience with probabilistic machine learning methods, Gaussian processes, Bayesian optimization; 
+Experience in running DFT calculations is a bonus;
+Basic knowledge of numerical methods for partial differential equations is a bonus.
 
 [^vanderOord]: C. van der Oord, M. Sachs, D. P. Kovács, C. Ortner and G. Csányi . *Hyperactive learning for data-driven interatomic potentials*. npj Comput Mater 9, 168 (2023). DOI [10.1038/s41524-023-01104-6](https://doi.org/10.1038/s41524-023-01104-6)
 
