@@ -122,3 +122,40 @@ Knowledge of quantum physics is a bonus but not required.
 [^Blondel2024]: Blondel, Mathieu, and Vincent Roulet. "The elements of differentiable programming." arXiv preprint [arXiv:2403.14606](https://arxiv.org/abs/2403.14606) (2024).
 
 [^Sapienza2024]: Sapienza, F., Bolibar, J., Schäfer, F., Groenke, B., Pal, A., Boussange, V., Heimbach, P., Hooker, G., Pérez, F., Persson, P.O. and Rackauckas, C., 2024. Differentiable Programming for Differential Equations: A Review. arXiv preprint [arXiv:2406.09699](https://arxiv.org/abs/2406.09699)
+
+---
+
+## High-throughput automated verification of DFTK on a large set of systems
+
+Density-functional theory (DFT) calculations are a key tool used to simulate the properties of materials.
+There exist many implementations of DFT for solid-state physics (e.g. ABINIT, Quantum ESPRESSO, VASP),
+each solving the same problem in principle but with different internal choices and different sets of parameters.
+
+To validate the consistency of these implementations, verification studies have been performed recently,
+such as [^VerificationStudy2023] built on top of [AiiDA](https://aiida.net).
+AiiDA is a software developed at the [THEOS group](http://theossrv1.epfl.ch/) here at EPFL,
+which simplifies and automates workflows for high-throughput studies.
+
+In our group, we develop a new player in the field:
+the [density-functional toolkit (DFTK)](https://dftk.org).
+DFTK is a new implementation developed in collaboration with researchers all
+across the world and which enables joint research between
+mathematicians and scientists on first-principle materials simulations.
+
+We have developed an interface between AiiDA and DFTK already,
+but it has only received limited usage and lacks automated handling of common failures.
+
+The goal of this project is to extend the verification study to DFTK.
+We will start by running with the datasets from [^VerificationStudy2023].
+Along the way, we will encounter many systems where convergence fails.
+We will implement automated error detection, handling, and restarting for the most common error cases.
+We will then extend the verification to more complex systems,
+which are known to be difficult to converge even with established codes.
+
+
+**Requirements:**
+Good programming skills, ideally Julia or Python;
+Experience in solid-state physics and materials modelling is a bonus;
+Experience with running DFT simulations and/or running programs on a supercomputer is a bonus.
+
+[^VerificationStudy2023]: Bosoni, E., Beal, L., Bercx, M. et al. How to verify the precision of density-functional-theory implementations via reproducible and universal workflows. [Nat Rev Phys 6, 45–58 (2024).](https://doi.org/10.1038/s42254-023-00655-3)
