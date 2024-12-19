@@ -76,11 +76,15 @@ Experience in solid-state physics and materials modelling is a bonus;
 
 Data-driven materials modeling plays a crucial role in modern materials discovery. Statistical models trained on large datasets of first-principles simulations provide efficient and accurate predictions of material properties, reducing the need for costly computations. However, datasets generated from density-functional theory (DFT) calculations, which underlie many data-driven approaches, face two key challenges:
 
-- Non-uniform computational cost: The cost of DFT calculations varies significantly across materials due to differences in numerical parameters, such as discretization basis, k-point sampling, tolerances, required for a required accuracy. The baseline active learning approach is computing with a fixed discretization (e.g., plane-wave cutoff) chosen a priori for the entire dataset (e.g. [^vanderOord] and [^Merchant2023]), which may not optimally balance computational cost and accuracy across diverse materials.
+- Non-uniform computational cost: The cost of DFT calculations varies significantly across materials due to differences in numerical parameters, such as discretization basis, k-point sampling, tolerances, required to achieve a target accuracy.
 
 - Data heterogeneity: Training data often come from diverse sources with varying levels of uncertainty, which affects the reliability of predictive models. 
 
-The goal of this project is to develop a framework that overcomes these challenges by integrating adaptive learning with uncertainty-aware models. This involves formulating an active learning approach that adaptively selects both material structures and numerical parameters to optimize computational resources, while employing Gaussian process regression [^RasmussenWilliams06] to effectively propagate and manage uncertainties in heterogeneous datasets. By combining these techniques, the project aims to improve the accuracy, efficiency, and reliability of data-driven materials modeling.
+Active learning is a promising approach for improving the efficiency of data-driven materials modeling by adaptively selecting the most informative data points for further computations.
+Currently, a common approach is to compute the entire dataset with a fixed discretization (e.g., plane-wave cutoff) chosen a priori (e.g. [^vanderOord] and [^Merchant2023]), which may not optimally balance computational cost and accuracy across diverse materials. 
+
+
+The goal of this project is to develop a framework that overcomes these challenges by integrating active learning with uncertainty-aware models. This involves formulating an active learning approach that adaptively selects both material structures and numerical parameters to optimize computational resources, while employing Gaussian process regression [^RasmussenWilliams06] to effectively propagate and manage uncertainties in heterogeneous datasets. By combining these techniques, the project aims to improve the accuracy, efficiency, and reliability of data-driven materials modeling.
 
 **Requirements:**
 Strong programming skills, ideally Julia or Python; 
