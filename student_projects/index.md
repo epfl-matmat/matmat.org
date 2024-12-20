@@ -18,12 +18,14 @@ Overview of projects:
 ----
 
 ## Quantifying the discretisation error in structure optimisations
-A key step when simulating the properties of a material is structure optimisation,
-in which an approximate arrangement of atoms in a crystal is optimized
-to the most stable configuration.
+A key step when simulating the properties of a material is structure optimisation.
+In this process
+an approximate arrangement of atoms in a crystal is optimised
+to obtain the most stable configuration.
 In this work we will investigate how reducing the size
-of the discretisation basis impacts the quality of the obtained structure
-in such a structure optimisation. Moreover we will employ recent perturbative
+of the discretisation basis employed for the simulations
+impacts the quality of the obtained structure.
+Moreover we will employ recent perturbative
 error estimates[^CDKL2022] in order to quantify the expected error in the obtained
 structure versus a fully converged discretisation.
 For this work we will employ the
@@ -74,17 +76,38 @@ Experience in solid-state physics and materials modelling is a bonus;
 
 ## Data-driven materials modelling with uncertainty-informed Gaussian processes
 
-Data-driven materials modeling plays a crucial role in modern materials discovery. Statistical models trained on large datasets of first-principles simulations provide efficient and accurate predictions of material properties, reducing the need for costly computations. However, datasets generated from density-functional theory (DFT) calculations, which underlie many data-driven approaches, face two key challenges:
+Data-driven materials modeling plays a crucial role in modern materials
+discovery. Statistical models trained on large datasets of first-principles
+simulations provide efficient and accurate predictions of material properties,
+reducing the need for costly computations. However, datasets generated from
+density-functional theory (DFT) calculations, which underlie many data-driven
+approaches, face two key challenges:
 
-- Non-uniform computational cost: The cost of DFT calculations varies significantly across materials due to differences in numerical parameters, such as discretization basis, k-point sampling, tolerances, required to achieve a target accuracy.
+- Non-uniform computational cost: The cost of DFT calculations varies
+  significantly across materials due to differences in numerical parameters,
+  such as discretization basis, k-point sampling, tolerances, required to
+  achieve a target accuracy.
 
-- Data heterogeneity: Training data often come from diverse sources with varying levels of uncertainty, which affects the reliability of predictive models. 
+- Data heterogeneity: Training data often come from diverse sources with
+  varying levels of uncertainty, which affects the reliability of predictive
+  models. 
 
-Active learning is a promising approach for improving the efficiency of data-driven materials modeling by adaptively selecting the most informative data points for further computations.
-Currently, a common approach is to compute the entire dataset with a fixed discretization (e.g., plane-wave cutoff) chosen a priori (e.g. [^vanderOord] and [^Merchant2023]), which may not optimally balance computational cost and accuracy across diverse materials. 
+Active learning is a promising approach for improving the efficiency of
+data-driven materials modeling by adaptively selecting the most informative
+data points for further computations.
+Currently, a common approach is to compute the entire dataset with a fixed
+discretization (e.g., plane-wave cutoff) chosen a priori (e.g. [^vanderOord]
+and [^Merchant2023]), which may not optimally balance computational cost and
+accuracy across diverse materials. 
 
-
-The goal of this project is to develop a framework that overcomes these challenges by integrating active learning with uncertainty-aware models. This involves formulating an active learning approach that adaptively selects both material structures and numerical parameters to optimize computational resources, while employing Gaussian process regression [^RasmussenWilliams06] to effectively propagate and manage uncertainties in heterogeneous datasets. By combining these techniques, the project aims to improve the accuracy, efficiency, and reliability of data-driven materials modeling.
+The goal of this project is to investigate directions that overcome these
+challenges by integrating active learning with uncertainty-aware models. This
+involves formulating an active learning approach that adaptively selects both
+material structures and numerical parameters to optimize computational
+resources, while employing Gaussian process regression [^RasmussenWilliams06]
+to effectively propagate and manage uncertainties in heterogeneous datasets. By
+combining these techniques, the project aims to improve the accuracy,
+efficiency, and reliability of data-driven materials modeling.
 
 **Requirements:**
 Strong programming skills, ideally Julia or Python; 
