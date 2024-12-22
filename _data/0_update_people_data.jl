@@ -40,7 +40,7 @@ function augment_defaults!(data::AbstractDict)
     get!(data, "arxiv",       "")
     get!(data, "github",      "")
     get!(data, "destination", "")
-    get!(data, "current",     true)
+    get!(data, "departure",   "")
     data
 end
 

@@ -175,6 +175,27 @@ We will implement automated error detection, handling, and restarting for the mo
 We will then extend the verification to more complex systems,
 which are known to be difficult to converge even with established codes.
 
+<!--
+
+- Implement and make use of heuristics such as
+  https://github.com/aiidateam/aiida-quantumespresso/pull/987/
+  in DFTK
+
+- Implement adaptive damping plus potential mixing
+
+- Aiida-based benchmark set for testing various kinds of issues in DFT calculations
+  * Focus: Automatic Benchmarking of performance of algorithms
+  * Goal: Easily accessible, also for mathematicians
+  * Based on SCF-xn, maybe even including beyond SCF data
+  * Use that as a way to prove that LDOS, adaptive damping etc. work and reduce
+    computational cost
+
+- Do a proper timing comparision between DFTK and (Vaps, QE, Abinit) on
+  * Small system (Xe, 1 kpt)
+  * Surface e.g. Al2 (16 kpts)
+  * Fe unit cell (1000 kpts)
+
+-->
 
 **Requirements:**
 Good programming skills, ideally Julia or Python;

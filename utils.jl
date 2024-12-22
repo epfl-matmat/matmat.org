@@ -245,16 +245,17 @@ function hfun_people_table()
 
     println(io, "<table>")
     for p in people
-        p["current"] || continue
+        isempty(p["departure"]) || continue
         println(io, people_row(p; showroom=true))
     end
     println(io, "</table>")
 
-    if !all(p -> p["current"], people)
+    if !all(p -> isempty(p["departure"]), people)
         println(io, "<h2>Former members</h2>")
         println(io, "<table>")
-        for p in people
-            p["current"] && continue
+        departed = sort(filter(e -> !isempty(e["departure"]), people),
+                        by=e -> parse(Date, e["departure"]), rev=true)
+        for p in departed
             println(io, people_row(p; showroom=false))
         end
         println(io, "</table>")

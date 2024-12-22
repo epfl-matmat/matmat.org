@@ -1,6 +1,6 @@
 [herbst-michael]
 arxiv = "herbst_m_1"
-current = true
+departure = ""
 destination = ""
 email = "michael.herbst@epfl.ch"
 firstname = "Michael F."
@@ -17,7 +17,7 @@ website = "https://michael-herbst.com"
 
 [maliyov-ivan]
 arxiv = "imaliyov"
-current = true
+departure = ""
 destination = ""
 email = "ivan.maliyov@epfl.ch"
 firstname = "Ivan"
@@ -33,7 +33,7 @@ website = "https://www.linkedin.com/in/ivan-maliyov-406626b5"
 
 [martin-melis]
 arxiv = ""
-current = true
+departure = ""
 destination = ""
 email = "melis.martin@epfl.ch"
 firstname = "Melis"
@@ -49,7 +49,7 @@ website = ""
 
 [paulish-anna]
 arxiv = ""
-current = true
+departure = ""
 destination = ""
 email = "anna.paulish@epfl.ch"
 firstname = "Anna"
@@ -65,7 +65,7 @@ website = "https://people.epfl.ch/336145"
 
 [ploumhans-bruno]
 arxiv = ""
-current = true
+departure = ""
 destination = ""
 email = "bruno.ploumhans@epfl.ch"
 firstname = "Bruno"
@@ -81,7 +81,7 @@ website = "https://people.epfl.ch/338679"
 
 [schmitz-niklas]
 arxiv = "schmitz_n_1"
-current = true
+departure = ""
 destination = ""
 email = "niklas.schmitz@epfl.ch"
 firstname = "Niklas Frederik"
@@ -97,7 +97,7 @@ website = "https://people.epfl.ch/299719"
 
 [shin-yongjoong]
 arxiv = ""
-current = false
+departure = "2024-10-07"
 destination = "Master valorisation at <a href=\"http://theossrv1.epfl.ch/\">EPFL Theos</a>"
 email = "yongjoong.shin@epfl.ch"
 firstname = "Yongjoong"
@@ -113,7 +113,7 @@ website = ""
 
 [sun-bonan]
 arxiv = ""
-current = false
+departure = "2024-05-31"
 destination = "PhD at <a href=\"https://www.mpi-magdeburg.mpg.de/\">MPI Madgeburg</a>"
 email = "bsun@mpi-magdeburg.mpg.de"
 firstname = "Bonan"
@@ -130,8 +130,8 @@ website = "https://bonans.github.io/"
 
 [travelletti-cedric]
 arxiv = ""
-current = true
-destination = ""
+departure = "2024-12-31"
+destination = "Scientific staff at <a href=\"https://www.hevs.ch/\">HES Valais</a>"
 email = "cedric.travelletti@epfl.ch"
 firstname = "Cédric"
 github = "CedricTravelletti"
