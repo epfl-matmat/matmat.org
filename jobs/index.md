@@ -111,20 +111,19 @@ before the contract can start.
 
 #### Background
 In inverse materials design one wishes to discover novel materials
-in a targeting fashion -- namely by systematically traversing
-a design space for those material structures, which best match
-the desired material properties.
-Commonly such methods
-employ a statistical surrogate (e.g. within a Bayesian Optimisation framework)
-such that the search only requires few queries to an underlying physical model
--- typically a first-principle model based on density-functional theory (DFT).
-Due to the non-linear nature of DFT such simulations
-are not only costly, but advanced techniques based on employing gradient
-information are generally not employed.
-However, the advent of algorithmic differentiation (AD) techniques
-in DFT codes,
-such as our in-house [density-functional toolkit (DFTK)](https://dftk.org),
-makes it now feasible to employ gradient-based approaches for materials design.
+in a targeting fashion. That is guided by systematic simulations of
+the expected properties of candidate structures, one aims to find the
+structure best matching a prescribed targeted property combination.
+A common approach is to employ a statistical surrogate (e.g. within a Bayesian
+Optimisation framework) such that the search only requires as few as possible
+of the expensive first-principle simulations.
+We will focus on approaches based on density-functional theory (DFT) simulation
+-- an extremely common electronic-structure model.
+For DFT our recent work on algorithmic differentiation techniques within the
+[density-functional toolkit (DFTK)](https://dftk.org) is extremely promising
+to be exploited for such inverse design searches, as it enables to compute
+gradients of materials properties with respect to possible design parameters
+in a simple and efficient way.
 
 <!--
 One of the most widely used methods for
@@ -150,20 +149,19 @@ for inference and uncertainty propagation.
 -->
 
 #### Project details
-Within this project we will explore the opportunities
-of gradient-based Bayesian optimisation
-to accelerate inverse materials design.
-In particular we will rely on the AD capabilities of DFTK
-to integrate with recent advances with first-order
+In this project we will explore the opportunities
+of algorithmic differentiation
+to accelerate inverse materials design,
+e.g. by considering recent advances in first-order
 Bayesian optimisation procedures (e.g. [^1]).
 Your work will be integrated with similar
 efforts in our group, e.g. to develop
 multi-task Gaussian Process surrogates[^2]
-for materials modelling or to exploit analytical error
-estimates within statistical surrogates.
+for materials modelling.
 Within ongoing collaborations with other materials simulation
 groups at EPFL your advances can be directly developed
 and tested within the scope of practical materials modelling problems.
+
 <!--
 The goal of this project is to investigate the opportunities
 with respect to uncertainty quantification in DFT
@@ -189,10 +187,13 @@ and in this way provide first tests of your methods on application problems.
 * You are motivated to tackle a challenging interdisciplinary research topic
   and push the state of Bayesian Optimisation methods
   for inverse materials design.
-* You obtained your PhD in statistics, computational mathematics or a related subject.
+* You obtained your PhD in statistics, computational mathematics,
+  method development for computational solid-state physics or a related subject.
 * You have an excellent academic track record and demonstrated prior research experience
-  in Bayesian optimisation, experimental design or inverse problems
-  with an application in physics or engineering simulations.
+  in at least one of the following:
+  - Quantum-chemical or materials simulations, computational materials design,
+  - Bayesian optimisation, Bayesian experimental design or inverse problems
+    with an application in physics or engineering simulations.
   <!--
   with Bayesian regression, multi-fidelity or multi-tasking methods
   or inverse problems.
@@ -211,8 +212,7 @@ and in this way provide first tests of your methods on application problems.
 * You are fluent in written and oral English.
 * You enjoy occasionally supervising undergraduate students on topics related to your research.
 * Bonus skills for this application are considerable experience in
-  quantum-chemical or materials simulations or
-  high-performance computing.
+  sustainable software engineering or high-performance computing.
 
 #### What is offered
 The activities of the MatMat group revolve around understanding
@@ -231,19 +231,16 @@ Funds to disseminate your work at suitable conferences
 as well as potential visits to our international network of collaboration partners
 are provided.
 
-<!--
 The position will be a fixed-term position (CDD) for initially 2 years,
 renewable on a one-year basis.
--->
-The position will be a fixed-term position (CDD) for initially 18 months.
 Further extensions depend on progress and the funding situation.
 For more information on working at EPFL see also
 the website on [current employment conditions](https://www.epfl.ch/about/working/working-at-epfl/employment-conditions).
 
 #### Deadline and starting date
 Screening of candidates is done on a rolling basis
-until a suitable candidate has been found.
-The expected starting date is the first half of 2025.
+until a suitable candidate has been found, starting from 1st February 2025
+The expected starting date is the first half of 2025, but can be negotiated.
 
 [^1]: J. Wu, M. Poloczek, A. Wilson, P. Frazier. [*Bayesian Optimization with Gradients.*](https://proceedings.neurips.cc/paper_files/paper/2017/file/64a08e5f1e6c39faeb90108c430eb120-Paper.pdf) NeurIPS (2017).
 [^2]: K. Fisher, M. F. Herbst, Y. Marzouk. [*Multitask methods for predicting molecular properties from heterogeneous data.*](https://arxiv.org/pdf/2401.17898) Journal of Chemical Physics (2024). [arXiv:2401.17898](https://arxiv.org/pdf/2401.17898)
