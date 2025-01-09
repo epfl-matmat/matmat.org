@@ -3,6 +3,8 @@
 
 # Mathematics for materials modelling (MatMat)
 
+[![Group picture](/assets/2024.12.18_group.jpg)](/people)
+
 Welcome to the website of the *Mathematics for materials modelling* research group.
 Our research centres on bringing insight from maths to materials modelling,
 with the aim to understand simulation error and improve robustness of modelling schemes.
