@@ -188,7 +188,9 @@ and in this way provide first tests of your methods on application problems.
   and push the state of Bayesian Optimisation methods
   for inverse materials design.
 * You obtained your PhD in statistics, computational mathematics,
-  method development for computational solid-state physics or a related subject.
+  method development for computational materials discovery,
+  method development for the modelling of electronic properties in solids
+  or a related subject.
 * You have an excellent academic track record and demonstrated prior research experience
   in at least one of the following:
   - Quantum-chemical or materials simulations, computational materials design,
