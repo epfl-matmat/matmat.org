@@ -240,9 +240,10 @@ For more information on working at EPFL see also
 the website on [current employment conditions](https://www.epfl.ch/about/working/working-at-epfl/employment-conditions).
 
 #### Deadline and starting date
-Screening of candidates
-<!-- is done on a rolling basis
+<!-- Screening of candidates
+is done on a rolling basis
 until a suitable candidate has been found -->
+Screening of candidates
 will start on 1st February 2025
 and continue until a suitable candidate has been found.
 The expected starting date is the first half of 2025, but can be negotiated.
