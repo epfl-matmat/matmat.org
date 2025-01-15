@@ -72,6 +72,17 @@ solving non-linear problems and eigenvalue problems;
 Interest or experience with statistical regression, in particular Bayesian methods;
 Experience in solid-state physics and materials modelling is a bonus;
 
+<!--
+Antoine:
+One thing I wanted to explore was to annotate each residual
+vector with an error bar, coming additively both from the approximate
+eigensolve (which we can try to estimate from the eigenvalue residuals)
+and from some estimate of the nonlinear effects (which we maybe try to
+model as an isotropic quadratic), and take that into account in the least
+squares. I never got around to it, but do ping me if you're interested in
+exploring this kind of things further.
+-->
+
 ----
 
 ## Data-driven materials modelling with uncertainty-informed Gaussian processes
@@ -168,7 +179,8 @@ mathematicians and scientists on first-principle materials simulations.
 We have developed an interface between AiiDA and DFTK already,
 but it has only received limited usage and lacks automated handling of common failures.
 
-The goal of this project is to extend the verification study to DFTK.
+The goal of this project is to extend the verification study to DFTK
+and its novel mathematically-inspired algorithms[^Herbst2020][^Herbst2022].
 We will start by running with the datasets from [^VerificationStudy2023].
 Along the way, we will encounter many systems where convergence fails.
 We will implement automated error detection, handling, and restarting for the most common error cases.
@@ -202,4 +214,6 @@ Good programming skills, ideally Julia or Python;
 Experience in solid-state physics and materials modelling is a bonus;
 Experience with running DFT simulations and/or running programs on a supercomputer is a bonus.
 
-[^VerificationStudy2023]: Bosoni, E., Beal, L., Bercx, M. et al. How to verify the precision of density-functional-theory implementations via reproducible and universal workflows. [Nat Rev Phys 6, 45–58 (2024).](https://doi.org/10.1038/s42254-023-00655-3)
+[^VerificationStudy2023]: Bosoni, E., Beal, L., Bercx, M. et al. *How to verify the precision of density-functional-theory implementations via reproducible and universal workflows.* [Nat Rev Phys 6, 45–58 (2024).](https://doi.org/10.1038/s42254-023-00655-3)
+[^Herbst2020]: M. F. Herbst & A. Levitt *Black-box inhomogeneous preconditioning for self-consistent field iterations in density functional theory*. J. Phys. Cond. Matt. **33**, 085503 (2020). DOI [10.1088/1361-648x/abcbdb](https://doi.org/10.1088/1361-648x/abcbdb)
+[^Herbst2022]: M. F. Herbst & A. Levitt *A robust and efficient line search for self-consistent field iterations* J. Comput. Phys. **459**, 111127 (2022). DOI [10.1016/j.jcp.2022.111127](http://dx.doi.org/10.1016/j.jcp.2022.111127)
