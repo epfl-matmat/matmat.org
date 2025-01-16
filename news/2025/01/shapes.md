@@ -24,7 +24,8 @@ in collaboration with two fellow mathematicians,
 [Hugo Parlier](https://math.uni.lu/parlier/) and [Marc Troyanov](https://people.epfl.ch/marc.troyanov),
 as well as help from colleagues in physics, biology and the EPFL Pavilion team.
 
-Some events of the accompanying programme:
+Some events of the [accompanying programme](https://epfl-pavilions.ch/en/exhibitions/shapes):
 - **Vernissage**: Thursday 16th January 17h-20h
 - **Scientific symposium on shapes**: Tuesday 11th February
-- **Symposium on the interaction art and science**: Wednesday 12th February
+- **Public Symposium on the interaction art and science**: Wednesday 12th February
+  [(more information and registration)](https://epfl-pavilions.ch/en/events/shapes-symposium)

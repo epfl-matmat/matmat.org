@@ -19,7 +19,7 @@ But what is most important is that the applicant demonstrates broad interests
 as well as a curiosity to learn from the disciplines they might not be familiar with.
 On top of that we seek a good portion of critical thinking and creativity
 to come up with the unusual solutions we often require.
-In particular at the PhD level we are open to candidates from many backgrounds and study programmes
+At the PhD level we are open to candidates from many backgrounds and study programmes
 while at the PostDoc level we often seek applicants whose expertise is more focused and topic-specific.
 
 Before you apply please take your time to familiarise yourself with the [ongoing research](/research) in our group.
