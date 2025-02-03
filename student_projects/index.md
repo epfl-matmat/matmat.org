@@ -159,6 +159,19 @@ Knowledge of quantum physics is a bonus but not required.
 
 ---
 
+## Symmetry-Aware Automatic Differentiation in DFT Calculations
+
+This project is to extend DFTK's symmetry handling capabilities to work with automatic differentiation. The project involves deriving methods that combine crystallographic symmetry analysis[^Togo2024] with derivative computations, helping to optimize density-functional theory calculations [^DFTKsymmetrydocs]. This would be a fruitful contribution the the open-source DFTK framework.
+
+**Requirements:**
+Solid numerical programming skills, ideally in Julia or python; Basic understanding of group theory; Bonus: Prior knowledge about DFT.
+
+[^Togo2024]: Togo, A., Shinohara, K., & Tanaka, I. (2024). Spglib: a software library for crystal symmetry search. Science and Technology of Advanced Materials: Methods, 4(1). https://doi.org/10.1080/27660400.2024.2384822
+
+[^DFTKsymmetrydocs]: https://docs.dftk.org/stable/developer/symmetries/
+
+---
+
 ## High-throughput automated verification of DFTK on a large set of systems
 
 Density-functional theory (DFT) calculations are a key tool used to simulate the properties of materials.
