@@ -15,22 +15,6 @@ room = "MA B1 467"
 sciper = 368484
 website = "https://michael-herbst.com"
 
-[maliyov-ivan]
-arxiv = "imaliyov"
-departure = ""
-destination = ""
-email = "ivan.maliyov@epfl.ch"
-firstname = "Ivan"
-github = "imaliyov"
-gscholar = "DPIWLXoAAAAJ"
-name = "Maliyov"
-orcid = "0000-0003-4130-6033"
-position = "Scientist"
-priority = -20
-room = "MA B1 527"
-sciper = 404030
-website = "https://www.linkedin.com/in/ivan-maliyov-406626b5"
-
 [martin-melis]
 arxiv = ""
 departure = ""
@@ -143,3 +127,19 @@ priority = -20
 room = "MA B1 527"
 sciper = 384805
 website = "https://cedrictravelletti.github.io/"
+
+[maliyov-ivan]
+arxiv = "imaliyov"
+departure = "2025-01-31"
+destination = "Research Scientist at Microsoft Quantum"
+email = "ivan.maliyov@gmail.com"
+firstname = "Ivan"
+github = "imaliyov"
+gscholar = "DPIWLXoAAAAJ"
+name = "Maliyov"
+orcid = "0000-0003-4130-6033"
+position = "Scientist"
+priority = -20
+room = "MA B1 527"
+sciper = 404030
+website = "https://www.linkedin.com/in/ivan-maliyov-406626b5"
