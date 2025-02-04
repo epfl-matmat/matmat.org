@@ -2,6 +2,9 @@
 
 # Funding and collaborations
 
+## Individual funding
+- **Practical discretisation error estimates for data-driven materials modelling** (Swiss National Science Foundation, from 2025)
+
 <!-- TODO Add info about my funding that I got -->
 <!-- TODO add logos for each of these funding opportunities -->
 
