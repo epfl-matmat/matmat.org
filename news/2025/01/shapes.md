@@ -3,6 +3,7 @@ title       = "Exhibition Shapes: Patterns in Art and Science"
 rss_pubdate = Date(2025, 01, 16)
 type        = "outreach"
 startpage   = true
+showdate    = Date(2025, 03, 30)
 +++
 
 {{newsheader}}
