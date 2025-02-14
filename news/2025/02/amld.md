@@ -1,13 +1,13 @@
 +++
 title       = "Julia for numerical problems in quantum and solid-state physics"
-rss_pubdate = Date(2025, 02, 11)
+rss_pubdate = Date(2025, 02, 13)
 type        = "conference"
-startpage   = true
+startpage   = false
 +++
 
 {{newsheader}}
 
-**11.02.2025 - 13.02.2025** Jointly with Michele Ceriotti (EPFL) we will organise
+**13.02.2025** Jointly with Michele Ceriotti (EPFL) we will organise
 a track **Quantifying Uncertainties in multiphysics learning** at EPFL's
 [Applied Machine Learning Days 2025](https://2025.appliedmldays.org).
 In a line-up featuring [Jigyasa Nigam](https://curiosity54.github.io/),

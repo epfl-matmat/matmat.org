@@ -27,7 +27,7 @@ as well as help from colleagues in physics, biology and the EPFL Pavilion team.
 
 Some events of the [accompanying programme](https://epfl-pavilions.ch/en/exhibitions/shapes):
 - **Vernissage**: Thursday 16th January 17h-20h
-- **Scientific symposium on shapes**: Tuesday 11th February
+- **Scientific symposium on shapes**: Tuesday 11th February [[Youtube recording]](https://www.youtube.com/watch?v=Q1bKNmgQz5w)
   [(more information)](https://memento.epfl.ch/event/the-art-of-geometry/)
 - **Public Symposium on the interaction art and science**: Wednesday 12th February
   [(more information and registration)](https://epfl-pavilions.ch/en/events/shapes-symposium)
