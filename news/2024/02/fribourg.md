@@ -1,5 +1,6 @@
 +++
 title       = "Seminar talk at Uni Fribourg chemistry department"
+rss         = "Michael gives a talk at the niversität Freiburg chemistry department"
 rss_pubdate = Date(2024, 02, 15)
 type        = "talk"
 startpage   = false

@@ -1,5 +1,6 @@
 +++
 title       = "Exhibition Shapes in the Media"
+rss         = "A summary of Media coverage of the Exhibition Shapes"
 rss_pubdate = Date(2025, 02, 11)
 type        = "outreach"
 startpage   = true

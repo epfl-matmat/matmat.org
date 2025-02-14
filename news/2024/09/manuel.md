@@ -1,5 +1,6 @@
 +++
 title       = "MANUEL: Invited talk on AD and DFT derivatives"
+rss         = "The MatMat group participates in the MANUEL Conference in Stuttgart, Germany"
 rss_pubdate = Date(2024, 09, 16)
 type        = "conference"
 startpage   = true

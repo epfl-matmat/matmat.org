@@ -1,5 +1,6 @@
 +++
 title       = "JuliaCon keynote talk on Materials Modeling"
+rss         = "The MatMat group attends JuliaCon 2024 where Michael will give a keynote lecture"
 rss_pubdate = Date(2024, 07, 10)
 showdate    = Date(2024, 08, 10)
 type        = "conference"

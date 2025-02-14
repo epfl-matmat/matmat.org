@@ -1,5 +1,6 @@
 +++
 title       = "SIAM LA: Minitutorial on electronic structure simulations"
+rss         = "Michael attends SIAM LA"
 rss_pubdate = Date(2024, 05, 13)
 type        = "minisymposium"
 startpage   = true

@@ -1,5 +1,6 @@
 +++
 title       = "Ivan Maliyov joins our group"
+rss         = "Ivan Maliyov joins our group"
 rss_pubdate = Date(2024, 11, 01)
 type        = "group"
 startpage   = true

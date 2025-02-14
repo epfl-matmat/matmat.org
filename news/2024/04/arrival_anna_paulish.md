@@ -1,5 +1,6 @@
 +++
 title       = "Anna Paulish joins our group"
+rss         = "Anna Paulish joins our group"
 rss_pubdate = Date(2024, 04, 01)
 type        = "group"
 startpage   = true

@@ -1,5 +1,6 @@
 +++
 title       = "GAMM Accelerating mathematical developments in materials modelling"
+rss         = "MatMat group attends the 94th GAMM annual meeting"
 rss_pubdate = Date(2024, 03, 18)
 type        = "minisymposium"
 startpage   = true

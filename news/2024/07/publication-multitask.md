@@ -1,5 +1,6 @@
 +++
 title       = "New Publication: Multitask methods for molecular properties"
+rss         = "New Publication: Multitask methods for molecular properties"
 rss_pubdate = Date(2024, 07, 04)
 type        = "publication"
 startpage   = true

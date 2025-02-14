@@ -1,5 +1,6 @@
 +++
 title       = "PASC Minisymposium: Julia for atomistic modelling"
+rss         = "Michael co-organises the minisymposium 'Julia for atomistic modelling' at PASC 2024"
 rss_pubdate = Date(2024, 06, 03)
 type        = "minisymposium"
 startpage   = false

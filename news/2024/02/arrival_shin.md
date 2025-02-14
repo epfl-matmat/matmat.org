@@ -1,5 +1,6 @@
 +++
 title       = "Yongjoong Shin joins as master student"
+rss         = "Yongjoong Shin joins as master student"
 rss_pubdate = Date(2024, 02, 19)
 type        = "group"
 startpage   = true

@@ -1,5 +1,6 @@
 +++
 title       = "IMX Seminar: Novel mathematics to discover novel materials"
+rss         = "Michael gives this week's Materials Science institute seminar"
 rss_pubdate = Date(2024, 11, 25)
 type        = "talk"
 startpage   = false

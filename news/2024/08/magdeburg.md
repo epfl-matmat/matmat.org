@@ -1,5 +1,6 @@
 +++
 title       = "MPI Magdeburg: Reliable methods for DFT derivatives"
+rss         = "Michael speaks at the seminar of the MPI for Dynamical Systems in Magdeburg"
 rss_pubdate = Date(2024, 08, 28)
 type        = "talk"
 startpage   = false

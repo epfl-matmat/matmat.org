@@ -1,5 +1,6 @@
 +++
 title       = "Optimization Techniques in Quantum Chemistry"
+rss         = "The MatMat group participates in the workshop 'Optimization Techniques in Quantum Chemistry'"
 rss_pubdate = Date(2024, 06, 05)
 type        = "conference"
 startpage   = false

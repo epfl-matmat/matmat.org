@@ -1,5 +1,6 @@
 +++
 title       = "Julia for numerical problems in quantum and solid-state physics"
+rss         = "Michael co-organises a Psi-k workshop on 'Julia for numerical problems'"
 rss_pubdate = Date(2024, 11, 26)
 type        = "conference"
 startpage   = true

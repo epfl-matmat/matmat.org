@@ -1,5 +1,6 @@
 +++
 title       = "Exhibition Shapes: Patterns in Art and Science"
+rss         = "Michael co-organises an exhibition at the EPFL Pavilions named 'Shapes: Patterns in Art and Science'"
 rss_pubdate = Date(2025, 01, 16)
 type        = "outreach"
 startpage   = true

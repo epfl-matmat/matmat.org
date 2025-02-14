@@ -1,5 +1,6 @@
 +++
 title       = "Mathematical Methods in Quantum Chemistry"
+rss         = "Michael co-organises the workshop 'Mathematical Methods in Quantum Chemistry' at the Mathematical Research Institute Oberwolfach."
 rss_pubdate = Date(2025, 03, 09)
 type        = "conference"
 startpage   = true

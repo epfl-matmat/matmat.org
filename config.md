@@ -3,7 +3,7 @@ Add here global page variables to use throughout your website.
 -->
 +++
 mintoclevel = 2
-author = "Michael F. Herbst"
+author      = "MatMat group"
 prepath     = ""
 
 # Add here files or directories that should be ignored by Franklin, otherwise
@@ -13,10 +13,11 @@ prepath     = ""
 ignore = ["node_modules/", "_data", "Project.toml", "Manifest.toml"]
 
 # RSS (the website_{title, descr, url} must be defined to get RSS)
-generate_rss  = false
+generate_rss  = true
 website_title = "Mathematics for Materials Modelling group"
 website_url   = "https://matmat.org"
 website_descr = "News from the Mathematics for Materials Modelling group at EPFL."
+rss_full_content = true
 +++
 
 <!--

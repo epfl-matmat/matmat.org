@@ -1,5 +1,6 @@
 +++
 title       = "Julia for numerical problems in quantum and solid-state physics"
+rss         = "Michael co-organises the track 'Quantifying Uncertainties in multiphysics learning' at the Applied Machine Learning Days"
 rss_pubdate = Date(2025, 02, 13)
 type        = "conference"
 startpage   = false

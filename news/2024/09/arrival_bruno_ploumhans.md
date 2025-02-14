@@ -1,5 +1,6 @@
 +++
 title       = "Bruno Ploumhans joins our group"
+rss         = "Bruno Ploumhans joins our group"
 rss_pubdate = Date(2024, 09, 15)
 type        = "group"
 startpage   = true

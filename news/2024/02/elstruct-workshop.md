@@ -1,5 +1,6 @@
 +++
 title       = "CECAM workshop on electronic structure software"
+rss         = "MatMat group participates in 'CECAM-Psik workshop on electronic structure software development'"
 rss_pubdate = Date(2024, 02, 19)
 type        = "conference"
 startpage   = false

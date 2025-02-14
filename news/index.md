@@ -1,8 +1,8 @@
 @def title = "News"
 
 # News
-All news: The future, the present and the past.
-<!-- Also available as an [RSS feed](/feed.xml). -->
+**[~~~<img class="logo" alt="github" src="/assets/icons/rss.png" />~~~ RSS feed of all MatMat news](/feed.xml):**\newline
+The future, the present and the past.
 
 \toc
 

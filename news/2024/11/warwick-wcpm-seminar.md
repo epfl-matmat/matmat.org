@@ -1,5 +1,6 @@
 +++
 title       = "Warwick: Robust error-controlled materials simulations"
+rss         = "Michael has been invited to give a seminar talk at the Warwick Centre for Predictive Modelling"
 rss_pubdate = Date(2024, 11, 11)
 type        = "talk"
 startpage   = false

@@ -1,5 +1,6 @@
 +++
-title       = "MANUEL: Invited talk on AD and DFT derivatives"
+title       = "MolSSI workshop: Hands-on presentation of DFTK"
+rss         = "Our group participates in the MolSSI workshop on Julia for Computational Molecular and Materials Science"
 rss_pubdate = Date(2024, 10, 21)
 type        = "conference"
 startpage   = true

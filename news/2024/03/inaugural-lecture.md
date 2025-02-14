@@ -1,5 +1,6 @@
 +++
 title       = "Inaugural lecture: Robust error-controlled materials simulations"
+rss         = "Michael gives his inaugural lecture 'Robust error-controlled materials simulations'"
 rss_pubdate = Date(2024, 03, 13)
 type        = "talk"
 startpage   = true

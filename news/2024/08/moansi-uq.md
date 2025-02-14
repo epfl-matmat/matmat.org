@@ -1,5 +1,6 @@
 +++
 title       = "Moansi UQ workshop: Uncertainty Quantification in Molecular Simulation"
+rss         = "Michael co-organises the workshop on 'Uncertainty Quantification in Molecular Simulation' at MPI Magdeburg"
 rss_pubdate = Date(2024, 08, 30)
 type        = "conference"
 startpage   = true

@@ -1,5 +1,6 @@
 +++
 title       = "New Publication: ddx: Continuum solvation from Small Molecules to Proteins"
+rss         = "New Publication: ddx: Continuum solvation from Small Molecules to Proteins"
 rss_pubdate = Date(2024, 07, 08)
 type        = "publication"
 startpage   = true

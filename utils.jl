@@ -115,7 +115,9 @@ Plug in the highlighted news articles contained in `/news/` folder.
         print_news(io, data.article)
         println(io, "\n-------")
     end
-    println(io, "[[See all news]](news)")
+    println(io,
+            """[[~~~<img class="logo" alt="github" src="/assets/icons/rss.png" />~~~""" *
+            """RSS feed]](/feed.xml) [[See all news]](/news)""")
     Franklin.fd2html(String(take!(io)); internal=true)
 end
 
