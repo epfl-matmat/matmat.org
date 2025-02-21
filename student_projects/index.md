@@ -161,7 +161,7 @@ Knowledge of quantum physics is a bonus but not required.
 
 ## Symmetry-Aware Automatic Differentiation in DFT Calculations
 
-This project is to extend DFTK's symmetry handling capabilities to work with automatic differentiation. The project involves deriving methods that combine crystallographic symmetry analysis[^Togo2024] with derivative computations, helping to optimize density-functional theory calculations [^DFTKsymmetrydocs]. This would be a fruitful contribution to the open-source DFTK framework.
+This project is to extend DFTK's symmetry handling capabilities to work with automatic differentiation. Symmetry handling becomes even more important in the case of partially symmetry-breaking perturbations, for materials properties such as phonons and elastic constants. The project involves deriving methods that combine crystallographic symmetry analysis[^Togo2024] with derivative computations, helping to optimize density-functional theory calculations [^DFTKsymmetrydocs]. This would be a fruitful contribution to the open-source DFTK framework.
 
 **Requirements:**
 Solid numerical programming skills, ideally in Julia or python; Basic understanding of group theory; Bonus: Prior knowledge about DFT.
