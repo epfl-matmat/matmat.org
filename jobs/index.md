@@ -248,7 +248,7 @@ Screening of candidates
 will start on 1st February 2025
 and continue until a suitable candidate has been found.
 -->
-The expected starting date is mid 2025, but can be negotiated.
+The expected starting date is the second half of 2025, but can be negotiated.
 
 [^1]: J. Wu, M. Poloczek, A. Wilson, P. Frazier. [*Bayesian Optimization with Gradients.*](https://proceedings.neurips.cc/paper_files/paper/2017/file/64a08e5f1e6c39faeb90108c430eb120-Paper.pdf) NeurIPS (2017).
 [^2]: K. Fisher, M. F. Herbst, Y. Marzouk. [*Multitask methods for predicting molecular properties from heterogeneous data.*](https://arxiv.org/pdf/2401.17898) Journal of Chemical Physics (2024). [arXiv:2401.17898](https://arxiv.org/pdf/2401.17898)
