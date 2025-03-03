@@ -27,6 +27,19 @@ All applications not following these guidelines might be silently ignored.
 Currently no specific openings to advertise.
 -->
 
+## PhD position: Error-controlled Bayesian methods for inverse materials design
+
+In this PhD thesis we will explore combining recent advances from analytical a
+posteriori error estimates with Bayesian approaches for the inverse design of
+materials. The ideal candidate has an interest in learning about electronic
+structure theory or atomistic modelling as well as a prior background in
+multiple of the following: Bayesian optimisation, Gaussian Process Regression,
+inverse design for PDEs in engineering or physics, mathematical structure of
+quantum physics, condensed matter physics.
+The position is available from autumn 2025.
+
+More details will follow shortly.
+
 <!--
 
 ## PhD position: Self-adapting numerical methods for high-throughput DFT simulations
