@@ -19,12 +19,12 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 24.02.25 16:00 (BCH 3113) [Michael Herbst](https://michael-herbst.com/) *Moreau-Yosida regularisation meets DFTK: How to do Kohn-Sham forward and inverse.* [Memento Link](https://memento.epfl.ch/private/workspace/None/event/115375)
-- 17.03.25 16:00 (MA B1 524) *TBA*
+- 17.03.25 16:00 (MA B1 524) [Simone Cigagna](https://people.epfl.ch/simone.cigagna/?lang=en) *Electronic Structure Reading Group: Connecting DFT with Green's function methods through the effective action formalism*. [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-connecting-dft/)
 - 01.04.25 16:00 (MA B1 524) [Thomas Swinburne (CNRS)](https://tomswinburne.github.io/) *TBA*
 - 14.04.25 16:00 (BCH 3113) *TBA*
 
 Past events:
+- 24.02.25 16:00 (BCH 3113) [Michael Herbst](https://michael-herbst.com/) *Moreau-Yosida regularisation meets DFTK: How to do Kohn-Sham forward and inverse.* [Memento Link](https://memento.epfl.ch/private/workspace/None/event/115375)
 - 03.02.25 16:00 (MA B1 524) [Anna Paulish](https://people.epfl.ch/anna.paulish?lang=en) *Gaussian Process Regression for Materials and Molecules.* [Memento Link](https://memento.epfl.ch/private/workspace/None/event/115374)
 - 11.11.24 16:00 (BCH 3113): [Muhammad Hassan](https://people.epfl.ch/muhammad.hassan?lang=en) *Analysis of Coupled Cluster Methods.* [Mememento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-analysis-of-cou/)
 - 28.10.24 16:00 (MA B2 485): [Kevin Huguenin-Dumittan](https://people.epfl.ch/kevin.huguenin-dumittan?lang=en) *Renormalization Group and Phase Transitions.* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-renormalization/)
