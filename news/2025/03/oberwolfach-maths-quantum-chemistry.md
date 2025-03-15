@@ -4,6 +4,7 @@ rss         = "Michael co-organises the workshop 'Mathematical Methods in Quantu
 rss_pubdate = Date(2025, 03, 09)
 type        = "conference"
 startpage   = true
+showdate    = Date(2025, 03, 31)
 +++
 
 {{newsheader}}
@@ -14,3 +15,11 @@ on [**Mathematical Methods in Quantum Chemistry**](https://www.mfo.de/occasion/2
 together the community of mathematicians interested on problems in quantum chemistry and
 electronic structure theory as well as some application researchers interested in the
 mathematical aspects of these models.
+
+The week at the MFO
+turned out to be intense and lively with many good discussions
+sometimes going on until the morning hours.
+Thanks to all participants:
+
+![Conference picture](/assets/2025.03_MFO_Mathematics_Quantum_Chem.jpg)
+(Credits: Marlene Ruf, MFO)

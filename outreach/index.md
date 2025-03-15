@@ -9,6 +9,8 @@
 From January 2025 until March 2025 Michael Herbst co-organised an exhibition
 [**Shapes: Patterns in Art and Science**](https://epfl-pavilions.ch/en/exhibitions/shapes)
 at the EPFL Pavilions.
+In case you missed it there is a [[virtual tour]](https://epfl-pavilions.ch/en/exhibitions/shapes)
+available online (scroll to the bottom of the page).
 
 Our collection explores the richness of the natural and artificial patterns
 that surround us. Bringing together art, mathematics, materials science and
@@ -34,3 +36,4 @@ The exhibition has been **covered multiple times** by the **Swiss public radio c
 
 For more information on the exhibition,
 see [the EPFL Pavilions website](https://epfl-pavilions.ch/en/exhibitions/shapes).
+Scroll to the bottom to access a recorded **virtual tour** of the exhibition.
