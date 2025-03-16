@@ -4,7 +4,7 @@ rss         = "Michael co-organises an exhibition at the EPFL Pavilions named 'S
 rss_pubdate = Date(2025, 01, 16)
 type        = "outreach"
 startpage   = true
-showdate    = Date(2025, 03, 30)
+showdate    = Date(2025, 03, 15)
 +++
 
 {{newsheader}}

@@ -28,7 +28,7 @@ We also offer [student projects](/student_projects) at various levels.
 - [Michael Herbst](https://michael-herbst.com)'s website
 
 @@frontnews
-## Selected news
+## Selected news and conference attendance
 
 {{firstpagenews}}
 
