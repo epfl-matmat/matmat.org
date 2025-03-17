@@ -29,44 +29,25 @@ Currently no specific openings to advertise.
 
 ## PhD position: Error-controlled Bayesian methods for inverse materials design
 
-In this PhD thesis we will explore combining recent advances from analytical a
-posteriori error estimates with Bayesian approaches for the inverse design of
-materials. The ideal candidate has an interest in learning about electronic
-structure theory or atomistic modelling as well as a prior background in
-multiple of the following: Bayesian optimisation, Gaussian Process Regression,
-inverse design for PDEs in engineering or physics, mathematical structure of
-quantum physics, condensed matter physics.
-The position is available from autumn 2025.
-
-More details will follow shortly.
-
-<!--
-
-## PhD position: Self-adapting numerical methods for high-throughput DFT simulations
-
 #### Background
-Density-functional theory (DFT) is one of the most widely employed simulation methods
-to predict the properties of materials from first principles.
-An important application is the computational discovery of novel materials,
-where many thousands of systematic simulations may be performed.
-At this level a limiting factor remains the robustness of numerical schemes
-for DFT simulations.
+In inverse materials design one wishes to discover novel materials
+in a targeting fashion. That is guided by systematic simulations of
+the expected properties of candidate structures, one aims to find the
+structure best matching a prescribed targeted property combination.
+A common approach is to employ a statistical surrogate (e.g. within a Bayesian
+Optimisation framework) such that the search only requires as few as possible
+of the expensive first-principle simulations.
+We will focus on approaches based on density-functional theory (DFT) simulation
+-- an extremely common electronic-structure model.
 
 #### Project goals
-In this project you will obtain and combine physical and mathematical insights
-in order to develop algorithmic techniques,
-which robustly adapt to the simulated material on the fly.
-You will apply and extend existing results in numerical analysis
-to obtain novel preconditioners
-(building [upon previous work](https://michael-herbst.com/publications/2020.09.03_ldos_preconditioning.pdf))
-as well as adaptive basis selection techniques.
-Your methods will be implemented into codes
-such as the [density-functional toolkit (DFTK)](https://dftk.org)
-as well as the [SIRIUS](https://github.com/electronic-structure/SIRIUS) electronic structure library,
-such that they can be tested in the high-throughput context.
-You will be integrated into the materials simulation activities
-at EPFL, e.g. within the [NCCR MARVEL](https://nccr-marvel.ch/),
-and collaborate with physicists, mathematicians and computer scientists from EPFL, Switzerland and abroad.
+Recent advances in the direction of multi-fidelity statistical models [^2]
+as well as techniques to estimate numerical errors [^3] in DFT simulations
+provide new opportunities for efficient, error-controlled
+Bayesian optimisation schemes for inverse materials design.
+In collaboration with similar ongoing projects in the group
+we will explore how these opportunities enable to accelerate
+the discovery of materials for electronics and mechanical devices.
 
 #### Candidate profile
 * You are highly motivated and want to become an independent researcher in a fascinating
@@ -76,35 +57,39 @@ and collaborate with physicists, mathematicians and computer scientists from EPF
 * You have completed a Master (or 4-year Bachelor) in physics, mathematics or a related subject.
   Candidates who will complete their degree within the next months are also welcome to apply.
 * Your academic record is strong and underpins your potential to become an excellent researcher.
-* You have a broad background in computational physics, numerical mathematics or computer science
-  and you look forward to acquiring expertise in domains beyond your current background.
+* The ideal candidate has a prior background in multiple of the following subject areas:
+  Bayesian optimisation, Gaussian Process Regression,
+  inverse design for PDEs in engineering or physics,
+  mathematical structure of quantum physics, condensed matter physics,
+  atomistic modelling, atomistic machine learning, electronic structure theory.
+* While you may not have expertise in all of these domains you look forward
+  to acquiring expertise in electronic structure theory and atomistic modelling.
 * You have a strong interest in numerical methods, their implementation and application
   to physics and materials simulations.
+<!--
 * You enjoy programming and implementing algorithms and have solid experience
   in an HPC programming language such as C++, Fortran or Julia.
+-->
 * You are fluent in written and oral English.
 * Bonus skills for this application are considerable experience in
-  numerical analysis, numerical linear algebra,
-  high-performance computing, quantum physics,
-  solid-state physics or Julia programming.
+  sustainable software engineering or high-performance computing.
 
 #### What is offered
 The activities of the MatMat group revolve around understanding
 modern materials simulations from a mathematical point of view
--- and to develop algorithms to make such simulations faster,
-quantify their errors or make them more reliable.
+-- and to come up with ways to make such simulations faster and quantify their errors.
 You will become part of a young and energetic team,
-fully integrated with both the mathematics and the materials institutes
+fully integrated with both the [mathematics](https://math.epfl.ch/)
+and the [materials](https://imx.epfl.ch/) institutes
 as well as multiple cross-disciplinary initiatives,
 such as the [NCCR MARVEL](https://nccr-marvel.ch/).
-Guided by your research topic you have the opportunity
-to grow substantially your background and obtain expertise
-in theory as well as applications.
-For this you have access to a stimulating community of researchers
-at EPFL's main campus beautifully located at the lake Geneva shore.
-For disseminating your work funds to attend suitable conferences
-and workshops as well as potential visits to our collaboration partners
-all over the world are provided.
+Within the proposed topic you will be able to bring in your prior expertise,
+but also be able to get to know the exciting theory and practice of material modelling.
+EPFL's main campus is beautifully located at the lake Geneva shore
+hosting a stimulating community of interdisciplinary-minded researchers.
+Funds to disseminate your work at suitable conferences
+as well as potential visits to our international network of collaboration partners
+are provided.
 
 The current regulations regarding salary and working conditions of PhD students at EPFL
 can be found on the detailed websites on
@@ -112,13 +97,12 @@ can be found on the detailed websites on
 [employment conditions](https://www.epfl.ch/about/working/working-at-epfl/employment-conditions)
 and [PhD admission criteria](https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/).
 
-
 #### Deadline and starting date
-Continuous until a suitable candidate has been found.
+The position is available from autumn 2025 and hiring will be done on a continuous basis
+until a suitable candidate has been found.
 Note, that the chosen candidate will have to be accepted into
 one of the aforementioned doctoral schools
 before the contract can start.
--->
 
 ## PostDoc position: Gradient-accelerated inverse materials design
 
@@ -263,5 +247,6 @@ and continue until a suitable candidate has been found.
 -->
 The expected starting date is the second half of 2025, but can be negotiated.
 
-[^1]: J. Wu, M. Poloczek, A. Wilson, P. Frazier. [*Bayesian Optimization with Gradients.*](https://proceedings.neurips.cc/paper_files/paper/2017/file/64a08e5f1e6c39faeb90108c430eb120-Paper.pdf) NeurIPS (2017).
 [^2]: K. Fisher, M. F. Herbst, Y. Marzouk. [*Multitask methods for predicting molecular properties from heterogeneous data.*](https://arxiv.org/pdf/2401.17898) Journal of Chemical Physics (2024). [arXiv:2401.17898](https://arxiv.org/pdf/2401.17898)
+[^3]: E. Cancès, G. Dusson, G. Kemlin and A. Levitt. [*Practical error bounds for properties in plane-wave electronic structure calculations*](https://doi.org/10.1137/21M1456224) SIAM Journal on Scientific Computing, **44**, B1312 (2022). [ArXiv:2111.01470](https://arxiv.org/abs/2111.01470).
+[^1]: J. Wu, M. Poloczek, A. Wilson, P. Frazier. [*Bayesian Optimization with Gradients.*](https://proceedings.neurips.cc/paper_files/paper/2017/file/64a08e5f1e6c39faeb90108c430eb120-Paper.pdf) NeurIPS (2017).
