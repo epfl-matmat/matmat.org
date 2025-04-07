@@ -19,13 +19,13 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 01.04.25 16:00 (MA B1 524) [Thomas Swinburne (CNRS)](https://tomswinburne.github.io/) *Quantifying and propagating model-form uncertainty via misspecification-aware Bayesian regression* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-quantifying-and/)
-- 15.04.25 16:15 (*TBA*) [Felix Nüske (MPI Magdeburg)](https://www.mpi-magdeburg.mpg.de/person/122339/823076) *TBA*
+- 15.04.25 16:15 (*TBA*) [Feliks Nüske (MPI Magdeburg)](https://www.mpi-magdeburg.mpg.de/person/122339/823076) *Learning Metastable Dynamics: Application to Molecular Dynamics*
 - 28.04.25 16:00 (*TBA*) [Matteo Quinzi](https://people.epfl.ch/matteo.quinzi/?lang=en) *Pseudopotentials*
 - 12.05.25 16:00 (*TBA*) [Davide Tisi](https://people.epfl.ch/davide.tisi?lang=en) *Green-Kubo*
 - 26.05.25 16:00 (*TBA*)
 
 Past events:
+- 01.04.25 16:00 (MA B1 524) [Thomas Swinburne (CNRS)](https://tomswinburne.github.io/) *Quantifying and propagating model-form uncertainty via misspecification-aware Bayesian regression* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-quantifying-and/)
 - 17.03.25 16:00 (MA B1 524) [Simone Cigagna](https://people.epfl.ch/simone.cigagna/?lang=en) *Electronic Structure Reading Group: Connecting DFT with Green's function methods through the effective action formalism*. [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-connecting-dft/)
 - 24.02.25 16:00 (BCH 3113) [Michael Herbst](https://michael-herbst.com/) *Moreau-Yosida regularisation meets DFTK: How to do Kohn-Sham forward and inverse.* [Memento Link](https://memento.epfl.ch/private/workspace/None/event/115375)
 - 03.02.25 16:00 (MA B1 524) [Anna Paulish](https://people.epfl.ch/anna.paulish?lang=en) *Gaussian Process Regression for Materials and Molecules.* [Memento Link](https://memento.epfl.ch/private/workspace/None/event/115374)
