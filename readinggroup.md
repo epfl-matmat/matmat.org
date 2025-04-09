@@ -19,7 +19,7 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 15.04.25 16:15 (*TBA*) [Feliks Nüske (MPI Magdeburg)](https://www.mpi-magdeburg.mpg.de/person/122339/823076) *Learning Metastable Dynamics: Application to Molecular Dynamics*
+- 15.04.25 16:15 (CM 1 517) [Feliks Nüske (MPI Magdeburg)](https://www.mpi-magdeburg.mpg.de/person/122339/823076) *Learning Metastable Dynamics: Application to Molecular Dynamics* [Memento Link](https://memento.epfl.ch/event/learning-metastable-dynamics-application-to-molecu/)
 - 28.04.25 16:00 (*TBA*) [Matteo Quinzi](https://people.epfl.ch/matteo.quinzi/?lang=en) *Pseudopotentials*
 - 12.05.25 16:00 (*TBA*) [Davide Tisi](https://people.epfl.ch/davide.tisi?lang=en) *Green-Kubo*
 - 26.05.25 16:00 (*TBA*)
