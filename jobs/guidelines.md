@@ -32,7 +32,7 @@ Your application should contain:
 - **Cover letter** (max 1 page): Explain here why you would like to work with us and how your profile fits our research programme.
 - **full CV**: Make sure to include a publication list *(if you have prior publications)*
 - Full transcript of marks *(for PhD applicants)*
-- Contact information for **two references**
+- Contact information for **three references**
 
 Please send your files to [this email address](mailto:michael.herbst@epfl.ch?subject=[APPLICATION]),
 making sure to include the text `[APPLICATION]` at the start of the subject.
