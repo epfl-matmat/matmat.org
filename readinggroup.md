@@ -7,8 +7,6 @@
 The electronic structure reading group brings together researchers and students
 interested in mathematical aspects of electronic structure problems and adjacent topics.
 
-The meetings usually take place in the [CECAM Moser Room, BCH 3113](https://plan.epfl.ch/?room==BCH%203113).
-
 Organizers:
 - Michael Herbst {{ protect_email michael.herbst@epfl.ch }}
 - Niklas Schmitz {{ protect_email niklas.schmitz@epfl.ch }}
@@ -19,12 +17,12 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 15.04.25 16:15 (CM 1 517) [Feliks Nüske (MPI Magdeburg)](https://www.mpi-magdeburg.mpg.de/person/122339/823076) *Learning Metastable Dynamics: Application to Molecular Dynamics* [Memento Link](https://memento.epfl.ch/event/learning-metastable-dynamics-application-to-molecu/)
-- 28.04.25 16:00 (*TBA*) [Matteo Quinzi](https://people.epfl.ch/matteo.quinzi/?lang=en) *Pseudopotentials*
-- 12.05.25 16:00 (*TBA*) [Davide Tisi](https://people.epfl.ch/davide.tisi?lang=en) *Green-Kubo*
+- 28.04.25 16:00 (MA B2 485) [Matteo Quinzi](https://people.epfl.ch/matteo.quinzi/?lang=en) *Pseudopotentials*
+- 12.05.25 16:00 (MA B1 524) [Davide Tisi](https://people.epfl.ch/davide.tisi?lang=en) *Green-Kubo*
 - 26.05.25 16:00 (*TBA*)
 
 Past events:
+- 15.04.25 16:15 (CM 1 517) [Feliks Nüske (MPI Magdeburg)](https://www.mpi-magdeburg.mpg.de/person/122339/823076) *Learning Metastable Dynamics: Application to Molecular Dynamics* [Memento Link](https://memento.epfl.ch/event/learning-metastable-dynamics-application-to-molecu/)
 - 01.04.25 16:00 (MA B1 524) [Thomas Swinburne (CNRS)](https://tomswinburne.github.io/) *Quantifying and propagating model-form uncertainty via misspecification-aware Bayesian regression* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-quantifying-and/)
 - 17.03.25 16:00 (MA B1 524) [Simone Cigagna](https://people.epfl.ch/simone.cigagna/?lang=en) *Electronic Structure Reading Group: Connecting DFT with Green's function methods through the effective action formalism*. [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-connecting-dft/)
 - 24.02.25 16:00 (BCH 3113) [Michael Herbst](https://michael-herbst.com/) *Moreau-Yosida regularisation meets DFTK: How to do Kohn-Sham forward and inverse.* [Memento Link](https://memento.epfl.ch/private/workspace/None/event/115375)
