@@ -17,7 +17,7 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 28.04.25 16:00 (MA B2 485) [Matteo Quinzi](https://people.epfl.ch/matteo.quinzi/?lang=en) *Pseudopotentials*
+- 28.04.25 16:00 (MA B2 485) [Matteo Quinzi](https://people.epfl.ch/matteo.quinzi/?lang=en) *Pseudopotentials* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-pseudopotential/)
 - 12.05.25 16:00 (MA B1 524) [Davide Tisi](https://people.epfl.ch/davide.tisi?lang=en) *Green-Kubo*
 - 26.05.25 16:00 (*TBA*)
 
