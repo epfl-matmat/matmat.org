@@ -14,7 +14,6 @@ For some earlier teaching by Michael Herbst, see <https://michael-herbst.com/tea
 **Target audience:** Master mathematics, Materials science, Computational science\newline
 **More details:** <https://teaching.matmat.org/error-control> \newline
 **Moodle link:** <https://go.epfl.ch/error-control> \newline
-**IS academia:** [MATH-500](https://edu.epfl.ch/coursebook/en/error-control-in-scientific-modelling-MATH-500)\newline
 **Semester:** *Autumn*\newline
 
 ## Numerical analysis
@@ -22,10 +21,10 @@ For some earlier teaching by Michael Herbst, see <https://michael-herbst.com/tea
 **Target audience:** Bachelor Materials science, Electrical engineering, Chemistry\newline
 **More details:** <https://teaching.matmat.org/numerical-analysis> \newline
 **Moodle link:** <https://go.epfl.ch/numerical-analysis> \newline
-**IS academia:** [MATH-251(b)](https://edu.epfl.ch/coursebook/en/numerical-analysis-MATH-251-B)\newline
 **Semester:** *Spring*\newline
 
 #### A note to future teaching assistants
-For this course the recruitment of AEs (assistante-étudiant) is directly processed through STI.
-If you want to become an AE for this course please register via the respective STI platform
-and do not apply by email. All such direct application emails will be ignored.
+For this course the recruitment of AEs (assistante-étudiant) is directly processed through
+the [EPFL teaching pools website](https://teaching-pools.epfl.ch/).
+If you want to become an AE for this course please use this platform to apply.
+All other applications including email applications will be ignored.
