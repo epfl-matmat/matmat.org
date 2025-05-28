@@ -4,7 +4,7 @@
 Below are examples of projects our group can offer as **semester** or **Master thesis** projects.
 This list is not exhaustive and other topics related to [our research](/research)
 are equally possible. Several of the projects could also be adapted to the Bachelor level.
-Additionally we typically have some projects available for **paid student research work**,
+Additionally we typically have some projects available for paid student research work,
 i.e. projects outside of the requirements of your study curriculum. Contact us if interested.
 
 If you are interested in doing a semester project or Master thesis with us,
@@ -44,6 +44,10 @@ Experience in running DFT calculations is a bonus;
 <!--
 α-Manangese structures (see noteworthy systems)
 (if stress) MOF structures
+
+Use Hessian from foundational model
+Use GP Hessian trained on geoopt trajectory (energy + forces), perhaps with foundational model as prior
+
 -->
 
 ----
@@ -139,7 +143,7 @@ Basic knowledge of numerical methods for partial differential equations is a bon
 Solutions from atomic calculations are a key building block to reduce
 the computational cost of larger calculations of molecules and materials [^Martin2020].
 For example, the construction of pseudopotentials depends on solving challenging
-inverse problems on top of single atom calculations. Automatic differentiation, 
+inverse problems on top of single atom calculations. Automatic differentiation,
 the ability to compute arbitrary parameter derivatives,
 enables development of novel methods using gradient-based optimization and error propagation[^Blondel2024][^Sapienza2024].
 
