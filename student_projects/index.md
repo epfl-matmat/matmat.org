@@ -1,15 +1,18 @@
 @def title = "Student projects"
 
 # Student projects
-Below are examples of projects our group can offer as **semester** or **Master thesis** projects.
+Below are examples of projects our group can offer as Bachelor or Master
+**semester projects** or **Master thesis projects** (PdM).
 This list is not exhaustive and other topics related to [our research](/research)
-are equally possible. Several of the projects could also be adapted to the Bachelor level.
-Additionally we typically have some projects available for paid student research work,
-i.e. projects outside of the requirements of your study curriculum. Contact us if interested.
+are equally possible.
+If you are interested in a project or Master thesis with us,
+please make yourself familiar with
+our **[general guidelines](/student_projects/guidelines)**
+about student projects.
 
-If you are interested in doing a semester project or Master thesis with us,
-please make yourself familiar with **[general guidelines](/student_projects/guidelines)**
-we follow for project allocation as well as during the project.
+Finally, if you are a student outside EPFL,
+please take a look at the *summer research opportunities*
+listed on our [Job Openings website](/jobs).
 
 Overview of projects:
 

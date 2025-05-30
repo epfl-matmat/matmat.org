@@ -4,10 +4,10 @@ mintoclevel = 2
 maxtoclevel = 3
 +++
 
-
 # Job Openings
-This page lists the current PhD or PostDoc openings in our group.
-If you are interested in working with us,
+This page lists the current openings in our group
+(PostDoc, PhD, summer projects).
+If you are looking for a PhD or PostDoc position with us,
 but no openings matching your profile,
 you are still welcome to submit a general inquiry.
 
@@ -108,3 +108,14 @@ before the contract can start.
 
 [^2]: K. Fisher, M. F. Herbst, Y. Marzouk. [*Multitask methods for predicting molecular properties from heterogeneous data.*](https://arxiv.org/pdf/2401.17898) Journal of Chemical Physics (2024). [arXiv:2401.17898](https://arxiv.org/pdf/2401.17898)
 [^3]: E. Cancès, G. Dusson, G. Kemlin and A. Levitt. [*Practical error bounds for properties in plane-wave electronic structure calculations*](https://doi.org/10.1137/21M1456224) SIAM Journal on Scientific Computing, **44**, B1312 (2022). [ArXiv:2111.01470](https://arxiv.org/abs/2111.01470).
+
+## Summer research opportunities
+
+We are always looking for outstanding students to join our
+group over summer as part of the
+[EPFL excellence in engineering (E3)](https://eee.epfl.ch)
+programme. The program is open to Bachelor and Master students
+in science, mathematics or engineering degrees. To submit your
+application and for more information please see the 
+[E3 website](https://eee.epfl.ch). Deadlines are usually in autumn
+for an internship in the following summer.
