@@ -188,7 +188,7 @@ function people_row(data::AbstractDict; showroom=true, showemail=true, showdesti
     print(io, "<tr>")
 
     # Profile picture
-    if haskey(data, "image") 
+    if haskey(data, "image")
         imgkey = data["image"]
     elseif endswith(data["email"], "@epfl.ch")
         imgkey = normalised_from_email(data["email"])
@@ -202,7 +202,13 @@ function people_row(data::AbstractDict; showroom=true, showemail=true, showdesti
     # Name, Email, Function, Office
     print(io, """<td><strong><a href="$(data["website"])">$(data["firstname"]) """ *
               """$(data["name"])</a></strong>""")
-    print(io, """<br />$(data["position"])""")
+    if isempty(data["departure"])
+        print(io, """<br />$(data["position"])""")
+    else
+        sdepart = Dates.format(parse(Date, data["departure"]), "u Y")
+        print(io, """<br /><span class="weak-text">Until $sdepart:</span> """ *
+              """$(data["position"])""")
+    end
 
     if showemail
         print(io, """<br /><span class="weak-text">Email:</span> """ *
@@ -215,7 +221,7 @@ function people_row(data::AbstractDict; showroom=true, showemail=true, showdesti
         maxsocial += 1
     end
     if haskey(data, "destination") && !isempty(data["destination"]) && showdestination
-        print(io, """<br /><span class="weak-text">Now:</span> """ *
+        print(io, """<br /><span class="weak-text">After MatMat:</span> """ *
                   """$(data["destination"])""")
         maxsocial += 1
     end
