@@ -17,9 +17,11 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 21.05.25 16:00 (MA B2 486) [Marcel Langer](https://marcel.science/) *Computing thermal conductivity with the Green-Kubo method and neural networks* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-computing-therm/)
+- 11.06.25 16:00 (MXG 312) [Teitur Hansen (DTU)](https://orbit.dtu.dk/en/persons/teitur-hansen) *Uncertainty-aware functional distributions* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-uncertainty-awa/)
+- 09.07.25 16:00 (TBA) *TBA*
 
 Past events:
+- 21.05.25 16:00 (MA B2 486) [Marcel Langer](https://marcel.science/) *Computing thermal conductivity with the Green-Kubo method and neural networks* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-computing-therm/)
 - 13.05.25 16:00 (MA B1 524) [Davide Tisi](https://people.epfl.ch/davide.tisi?lang=en) *Green-Kubo Method for Computing Transport Coefficients: Heat Transport from Classical to Ab Initio Molecular Dynamics* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-green-kubo-meth/)
 - 28.04.25 16:00 (MA B2 485) [Matteo Quinzi](https://people.epfl.ch/matteo.quinzi/?lang=en) *Pseudopotentials* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-pseudopotential/)
 - 15.04.25 16:15 (CM 1 517) [Feliks Nüske (MPI Magdeburg)](https://www.mpi-magdeburg.mpg.de/person/122339/823076) *Learning Metastable Dynamics: Application to Molecular Dynamics* [Memento Link](https://memento.epfl.ch/event/learning-metastable-dynamics-application-to-molecu/)
