@@ -18,7 +18,8 @@ For updates, join the matrix chat room at
 
 Upcoming events:
 - 11.06.25 16:00 (MXG 312) [Teitur Hansen (DTU)](https://orbit.dtu.dk/en/persons/teitur-hansen) *Uncertainty-aware functional distributions* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-uncertainty-awa/)
-- 09.07.25 16:00 (TBA) *TBA*
+- 09.07.25 16:00 (TBA) [Michelangelo Domina](https://people.epfl.ch/michelangelo.domina?lang=en) *TBA / Representation theory in atomistic ML*
+- 23.07.25 16:00 (TBA) [Pol Febrer](https://people.epfl.ch/pol.febrer?lang=en) *TBA / Non-equilibrium Green's functions for electronic transport*
 
 Past events:
 - 21.05.25 16:00 (MA B2 486) [Marcel Langer](https://marcel.science/) *Computing thermal conductivity with the Green-Kubo method and neural networks* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-computing-therm/)
