@@ -92,6 +92,44 @@ exploring this kind of things further.
 
 ----
 
+## Advanced Krylov subspace methods for materials property simulations
+
+A central goal of modern materials modelling is to predict the chemical
+and physical properties of a material. Such properties colloquially describe
+how the material behaves under a change of external conditions such as
+a change of electromagnetic field, some external pressure.
+In the context of density-functional theory (DFT) simulations computing
+such properties requires the solution of a nested set of linear systems,
+that is one outer linear system, where each application of the linear
+operator itself requires solving hundreds of inner linear systems.
+Our recent research [^Schur] [^InexactKrylov] has proposed a framework
+based on inexact Krylov subspace methods to solve this problem efficiently.
+In this project we will investigate the adaptation of block Krylov
+techniques and Krylov subspace recycling techniques (such as [^Morgan2002])
+to this challenging application setting.
+
+**Requirements:**
+Strong programming skills, ideally Julia or python;
+Background in numerical methods, in particular for solving non-linear problems
+and eigenvalue problems; Interest or experience in Krylov subspace methods,
+such as GMRES or Arnoldi; Experience in solid-state physics and materials
+modelling is a bonus;
+
+[^Schur]: E. Cancès, M. F. Herbst, G. Kemlin, A. Levitt, B. Stamm. *Numerical stability and efficiency of response property calculations in density functional theory.* Lett. Math. Phys. **113**, 21 (2023). DOI [10.1007/s11005-023-01645-3](https://doi.org/10.1007/s11005-023-01645-3)
+[^InexactKrylov]: M. F. Herbst and B. Sun. *Efficient Krylov methods for linear response in plane-wave electronic structure calculations.* ArXiv [2505.02319](http://arxiv.org/abs/2505.02319)
+[^Morgan2002]: R. B. Morgan. *GMRES with Deflated Restarting* SIAM J. Sci. Comp. **24**, 20 (2002).
+
+<!--
+Goal: "Make response calculations fast" (follow-up work from Bonan)
+  * Project with Daniel Kressner ?
+  * Use preconditioning consistently
+  * Using single precision for storing GMRES Krylov vectors towards the end
+  * Block CG / GMRES methods (?)
+  * Switch to single precision in later CG steps (?)
+-->
+
+----
+
 ## Data-driven materials modelling with uncertainty-informed Gaussian processes
 
 Data-driven materials modeling plays a crucial role in modern materials
@@ -139,32 +177,8 @@ Basic knowledge of numerical methods for partial differential equations is a bon
 
 [^RasmussenWilliams06]: C. E. Rasmussen & C. K. I. Williams, Gaussian Processes for Machine Learning, the MIT Press, 2006. DOI [3206.001.0001](https://doi.org/10.7551/mitpress/3206.001.0001)
 
-----
 
-## A differentiable solver for the electronic structure of atoms
-
-Solutions from atomic calculations are a key building block to reduce
-the computational cost of larger calculations of molecules and materials [^Martin2020].
-For example, the construction of pseudopotentials depends on solving challenging
-inverse problems on top of single atom calculations. Automatic differentiation,
-the ability to compute arbitrary parameter derivatives,
-enables development of novel methods using gradient-based optimization and error propagation[^Blondel2024][^Sapienza2024].
-
-The goal of this project is to implement a differentiable DFT code for isolated atoms in Julia.
-An important focus will be mathematical correctness and careful validation against high accuracy reference results.
-
-**Requirements:** Strong numerical programming skills.
-Working knowledge of numerical methods for differential equations.
-Understanding of automatic differentiation (e.g. Julia, JAX, PyTorch) is a bonus.
-Knowledge of quantum physics is a bonus but not required.
-
-[^Martin2020]: Martin RM. Electronic Structure: Basic Theory and Practical Methods. 2nd ed. Cambridge University Press; 2020. DOI [10.1017/9781108555586](https://doi.org/10.1017/9781108555586)
-
-[^Blondel2024]: Blondel, Mathieu, and Vincent Roulet. "The elements of differentiable programming." arXiv preprint [arXiv:2403.14606](https://arxiv.org/abs/2403.14606) (2024).
-
-[^Sapienza2024]: Sapienza, F., Bolibar, J., Schäfer, F., Groenke, B., Pal, A., Boussange, V., Heimbach, P., Hooker, G., Pérez, F., Persson, P.O. and Rackauckas, C., 2024. Differentiable Programming for Differential Equations: A Review. arXiv preprint [arXiv:2406.09699](https://arxiv.org/abs/2406.09699)
-
----
+-----
 
 ## Symmetry-Aware Automatic Differentiation in DFT Calculations
 
@@ -177,7 +191,7 @@ Solid numerical programming skills, ideally in Julia or python; Basic understand
 
 [^DFTKsymmetrydocs]: https://docs.dftk.org/stable/developer/symmetries/
 
----
+-----
 
 ## High-throughput automated verification of DFTK on a large set of systems
 
@@ -208,7 +222,6 @@ We will then extend the verification to more complex systems,
 which are known to be difficult to converge even with established codes.
 
 <!--
-
 - Implement and make use of heuristics such as
   https://github.com/aiidateam/aiida-quantumespresso/pull/987/
   in DFTK
@@ -226,7 +239,6 @@ which are known to be difficult to converge even with established codes.
   * Small system (Xe, 1 kpt)
   * Surface e.g. Al2 (16 kpts)
   * Fe unit cell (1000 kpts)
-
 -->
 
 **Requirements:**
