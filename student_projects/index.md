@@ -120,6 +120,10 @@ modelling is a bonus;
 [^Morgan2002]: R. B. Morgan. *GMRES with Deflated Restarting* SIAM J. Sci. Comp. **24**, 20 (2002).
 
 <!--
+Main points to work on is:
+  - Block methods
+  - Implement a baseline method based on Anderson+Richardson (what other codes do)
+
 Goal: "Make response calculations fast" (follow-up work from Bonan)
   * Project with Daniel Kressner ?
   * Use preconditioning consistently
