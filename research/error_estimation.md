@@ -23,10 +23,13 @@ Motivated by aforementioned prospect we currently investigate
 both analytical as well as statistical error estimates for materials simulations
 in [ongoing research collaborations](/research/funding/).
 A key ingredient in this research is **algorithmic differentiation**,
-i.e. the ability to compute arbitrary gradients.
+i.e. the ability to compute arbitrary gradients of output versus input quantities.
 Recently we integrated AD tools into our DFTK code (see [software](/software)),
-making it (to the best of our knowledge) the first plane-wave DFT code,
-where arbitrary user-desired gradients can be computed.
+making it (to the best of our knowledge) the first plane-wave DFT code
+with AD capabilities.
+See the showcase notebook
+[*Algorithmic Differentiation in Plane-wave Density Functional Theory*](https://showcases.matmat.org/2025/autodiff_dftk.html)
+by Niklas Schmitz for a hands-on example.
 
 Our ongoing research investigates how this ability can be exploited
 for sensitivity analysis,
@@ -34,6 +37,10 @@ uncertainty quantification or for analytical error estimations
 with a first goal being to obtain a better **understanding of the
 error of the DFT model** (pseudopotential, exchange-correlation functional)
 in first-principle simulations.
+
+See also the showcase notebook
+[*Practical error estimates for DFT-computed properties*](https://showcases.matmat.org/2025/error_estimate_properties.html)
+by Bruno Ploumhans provides an introduction.
 
 [^HLC2020]: M. F. Herbst, A. Levitt, E. Cancès. Faraday Discuss. **224**, 227 (2020). DOI <https://doi.org/10.1039/D0FD00048E> ArXiv [2004.13549](https://arxiv.org/abs/2004.13549)
 [^CDKL2022]: E. Cancès, G. Dusson, G. Kemlin and A. Levitt. SIAM J. Sci. Comp. **44** (2022). DOI <https://doi.org/10.1137/21M1456224> ArXiv [2111.01470](https://arxiv.org/abs/2111.01470v2)

@@ -163,14 +163,16 @@ end
 function social_imagelink(key, value)
     linkprefix = Dict(
         "arxiv"    => "https://arxiv.org/a/",
-        "orcid"    => "https://orcid.org/",
-        "gscholar" => "https://scholar.google.com/citations?user=",
         "github"   => "https://github.com/",
+        "gscholar" => "https://scholar.google.com/citations?user=",
+        "orcid"    => "https://orcid.org/",
     )
     linktext = Dict(
-        "gscholar" => "Google Scholar",
         "arxiv"    => "ArXiv",
+        "github"   => "GitHub",
+        "gscholar" => "Google Scholar",
         "orcid"    => "ORCID",
+        "showcase" => "Research Demo",
     )
 
     io = IOBuffer()
@@ -230,7 +232,8 @@ function people_row(data::AbstractDict; showroom=true, showemail=true, showdesti
     # Social links
     print(io, "<td>")
     nsocial = 0
-    for key in ["website", "gscholar", "orcid", "github", "arxiv"]
+    firstkey = haskey(data, "showcase") ? "showcase" : "website"
+    for key in [firstkey, "gscholar", "orcid", "github", "arxiv"]
         value = get(data, key, "")
         if !isempty(value) && nsocial < maxsocial
             print(io, social_imagelink(key, value))

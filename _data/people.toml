@@ -62,6 +62,7 @@ priority = 0
 room = "MA B1 457"
 sciper = 338679
 website = "https://people.epfl.ch/338679"
+showcase = "https://showcases.matmat.org/2025/error_estimate_properties.html"
 
 [schmitz-niklas]
 arxiv = "schmitz_n_1"
@@ -78,6 +79,7 @@ priority = 0
 room = "MA B1 457"
 sciper = 299719
 website = "https://people.epfl.ch/299719"
+showcase = "https://showcases.matmat.org/2025/autodiff_dftk.html"
 
 [shin-yongjoong]
 arxiv = ""

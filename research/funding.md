@@ -51,18 +51,18 @@
 ## Key collaborators
 - [Eric Cancès (Numerical analysis, École des Ponts ParisTech):](http://cermics.enpc.fr/~cances/)  
     *A posteriori error analysis for electronic-structure simulations.*
+- [Genevieve Dusson (Applied mathematics, CNRS):](http://gdusson.perso.math.cnrs.fr/)  
+  *Error analysis in density-functional theory*
+- [Gaspard Kemlin (Applied mathematics, Université de Picardie):](https://gaspardkemlin.frama.io/)  
+  *Error analysis in density-functional theory*
 - [Youssef Marzouk (Uncertainty quantification, Massachusetts Institute of Technology):](https://uqgroup.mit.edu)
     *Uncertainty quantification in density-functional theory.*
 - [Antoine Levitt (Numerical analysis, University of Paris-Saclay):](http://antoine.levitt.fr/)  
     *Reliable black-box algorithms for electronic structure simulations.*
 - [Andre Laestadius (Applied mathematics, Oslo Met University):](https://uni.oslomet.no/regal/andre-laestadius/)  
     *Mathematical formulation of density-functional theory.*
-- [Matteo Rizzi(Correlated quantum systems, Universität Köln):](https://www.rizzi-matteo.com/)  
-    *Reduced basis methods for correlated quantum spin systems.*
 - [Benjamin Stamm (Numerical analysis, Universität Stuttgart):](https://www.ians.uni-stuttgart.de/institute/team/Stamm/)  
-    *Reduced basis methods for quantum spin systems & solvation models*
-- [Stefan Wessel(Correlated quantum systems, RWTH Aachen University):](https://www.solidtheory.rwth-aachen.de/go/id/fpbi)  
-    *Reduced basis methods for correlated quantum spin systems.*
+    *Reduced basis methods & analysis of quantum-chemical methods*
 
 <!--
 - [Mi-Song Dupuy (Numerical analysis, Sorbonne University):](https://msdupuy.github.io/)  
@@ -78,4 +78,8 @@
     *Numerical methods for nuclear density-functional theory.*
 - [Erik Tellgren (Theoretical chemistry, University of Oslo):](https://www.mn.uio.no/kjemi/english/people/aca/eriktel/index.html)  
     *Numerical techniques to discover global minima in SCF methods.*
+- [Matteo Rizzi(Correlated quantum systems, Universität Köln):](https://www.rizzi-matteo.com/)  
+    *Reduced basis methods for correlated quantum spin systems.*
+- [Stefan Wessel (Correlated quantum systems, RWTH Aachen University):](https://www.solidtheory.rwth-aachen.de/go/id/fpbi)  
+    *Reduced basis methods for correlated quantum spin systems.*
 -->
