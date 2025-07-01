@@ -33,8 +33,8 @@ website = ""
 
 [paulish-anna]
 arxiv = ""
-departure = ""
-destination = ""
+departure = "2025-06-30"
+destination = """Doctoral assistant at <a href="https://homes.epfl.ch">EPFL HOMES</a>"""
 email = "anna.paulish@epfl.ch"
 firstname = "Anna"
 github = "AnnaPaulish"
