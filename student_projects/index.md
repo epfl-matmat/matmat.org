@@ -33,7 +33,7 @@ For this work we will employ the
 a first-principle materials simulation code based on density-functional theory
 in which the aforementioned error estimates are implemented and readily available.
 
-The first properties that we want to focus on are:
+The properties that we want to focus on are:
 - **Geometry - Atom positions**: A key step when simulating the properties of a material is structure optimisation.
   In this process an approximate arrangement of atoms in a crystal is optimised
   to obtain the most stable configuration, based on the computed **interatomic forces**.
