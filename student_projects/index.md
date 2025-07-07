@@ -20,21 +20,30 @@ Overview of projects:
 
 ----
 
-## Quantifying the discretisation error in structure optimisations
-A key step when simulating the properties of a material is structure optimisation.
-In this process
-an approximate arrangement of atoms in a crystal is optimised
-to obtain the most stable configuration.
+## Quantifying the discretisation error in material structure computations
+Density-functional theory simulations allow computing key material properties.
 In this work we will investigate how reducing the size
 of the discretisation basis employed for the simulations
-impacts the quality of the obtained structure.
-Moreover we will employ recent perturbative
+impacts the quality of the obtained properties (see below).
+We will employ recent perturbative
 error estimates[^CDKL2022] in order to quantify the expected error in the obtained
-structure versus a fully converged discretisation.
+properties versus a fully converged discretisation.
 For this work we will employ the
 [density-functional toolkit (DFTK)](https://dftk.org),
 a first-principle materials simulation code based on density-functional theory
 in which the aforementioned error estimates are implemented and readily available.
+
+The properties that we want to focus on are:
+- **Geometry - Atom positions**: A key step when simulating the properties of a material is structure optimisation.
+  In this process an approximate arrangement of atoms in a crystal is optimised
+  to obtain the most stable configuration, based on the computed **interatomic forces**.
+- **Geometry - Stresses**: Another key step is the computation of the optimal crystal cell parameters,
+  based on the computed **stresses**.
+- **Equations of state**, which relate the volume change of a material to its total energy.
+  The equation of state of a material can be used to extract important properties such as the bulk modulus,
+  as well as a precision benchmark across many DFT codes [^VerificationStudy2023].
+- **Band structures**, which are often a first step in the computation of more advanced properties such as electrical resistivity and optical absorption.
+
 
 **Requirements:**
 Strong programming skills, ideally Julia or python;
@@ -43,6 +52,7 @@ Experience in numerical analysis of PDEs is a bonus;
 Experience in running DFT calculations is a bonus;
 
 [^CDKL2022]: E. Cancès, G. Dusson, G. Kemlin and A. Levitt. SIAM J. Sci. Comp. **44** (2022). ArXiv [2111.01470](https://arxiv.org/abs/2111.01470v2)
+[^VerificationStudy2023]: Bosoni, E., Beal, L., Bercx, M. et al. *How to verify the precision of density-functional-theory implementations via reproducible and universal workflows.* [Nat Rev Phys 6, 45–58 (2024).](https://doi.org/10.1038/s42254-023-00655-3)
 
 <!--
 α-Manangese structures (see noteworthy systems)
@@ -195,61 +205,3 @@ Solid numerical programming skills, ideally in Julia or python; Basic understand
 
 [^DFTKsymmetrydocs]: https://docs.dftk.org/stable/developer/symmetries/
 
------
-
-## High-throughput automated verification of DFTK on a large set of systems
-
-Density-functional theory (DFT) calculations are a key tool used to simulate the properties of materials.
-There exist many implementations of DFT for solid-state physics (e.g. ABINIT, Quantum ESPRESSO, VASP),
-each solving the same problem in principle but with different internal choices and different sets of parameters.
-
-To validate the consistency of these implementations, verification studies have been performed recently,
-such as [^VerificationStudy2023] built on top of [AiiDA](https://aiida.net).
-AiiDA is a software developed at the [THEOS group](http://theossrv1.epfl.ch/) here at EPFL,
-which simplifies and automates workflows for high-throughput studies.
-
-In our group, we develop a new player in the field:
-the [density-functional toolkit (DFTK)](https://dftk.org).
-DFTK is a new implementation developed in collaboration with researchers all
-across the world and which enables joint research between
-mathematicians and scientists on first-principle materials simulations.
-
-We have developed an interface between AiiDA and DFTK already,
-but it has only received limited usage and lacks automated handling of common failures.
-
-The goal of this project is to extend the verification study to DFTK
-and its novel mathematically-inspired algorithms[^Herbst2020][^Herbst2022].
-We will start by running with the datasets from [^VerificationStudy2023].
-Along the way, we will encounter many systems where convergence fails.
-We will implement automated error detection, handling, and restarting for the most common error cases.
-We will then extend the verification to more complex systems,
-which are known to be difficult to converge even with established codes.
-
-<!--
-- Implement and make use of heuristics such as
-  https://github.com/aiidateam/aiida-quantumespresso/pull/987/
-  in DFTK
-
-- Implement adaptive damping plus potential mixing
-
-- Aiida-based benchmark set for testing various kinds of issues in DFT calculations
-  * Focus: Automatic Benchmarking of performance of algorithms
-  * Goal: Easily accessible, also for mathematicians
-  * Based on SCF-xn, maybe even including beyond SCF data
-  * Use that as a way to prove that LDOS, adaptive damping etc. work and reduce
-    computational cost
-
-- Do a proper timing comparision between DFTK and (Vaps, QE, Abinit) on
-  * Small system (Xe, 1 kpt)
-  * Surface e.g. Al2 (16 kpts)
-  * Fe unit cell (1000 kpts)
--->
-
-**Requirements:**
-Good programming skills, ideally Julia or Python;
-Experience in solid-state physics and materials modelling is a bonus;
-Experience with running DFT simulations and/or running programs on a supercomputer is a bonus.
-
-[^VerificationStudy2023]: Bosoni, E., Beal, L., Bercx, M. et al. *How to verify the precision of density-functional-theory implementations via reproducible and universal workflows.* [Nat Rev Phys 6, 45–58 (2024).](https://doi.org/10.1038/s42254-023-00655-3)
-[^Herbst2020]: M. F. Herbst & A. Levitt *Black-box inhomogeneous preconditioning for self-consistent field iterations in density functional theory*. J. Phys. Cond. Matt. **33**, 085503 (2020). DOI [10.1088/1361-648x/abcbdb](https://doi.org/10.1088/1361-648x/abcbdb)
-[^Herbst2022]: M. F. Herbst & A. Levitt *A robust and efficient line search for self-consistent field iterations* J. Comput. Phys. **459**, 111127 (2022). DOI [10.1016/j.jcp.2022.111127](http://dx.doi.org/10.1016/j.jcp.2022.111127)
