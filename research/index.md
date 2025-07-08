@@ -5,12 +5,15 @@ Simulations are nowadays a crucial ingredient in the development of
 new materials. Despite being nowadays routinely run in the millions,
 the mathematical understanding of common materials simulations is still lacking.
 
-With our work we want to accelerate computational materials discovery.
-Key thrusts are working towards
+In the Mathematics for Materials Modelling group
+we want to accelerate computational materials discovery
+by applying mathematical tools to common simulation approaches.
+As key thrusts are working towards
 [**efficient self-adapting simulations**](/research/self_adapting_simulations/)
 and
 [**mathematical understanding of simulation error**](/research/error_estimation/).
-That is in particular methods for propagating error from first-principle data generation
+What interests us particularly are ideas how to estimate and propagate
+errors from first-principle data generation
 to machine-learned interatomic potentials (MLIPs)
 and further to predictions of material properties.
 Our research is supported by

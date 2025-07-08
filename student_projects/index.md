@@ -32,6 +32,7 @@ For this work we will employ the
 [density-functional toolkit (DFTK)](https://dftk.org),
 a first-principle materials simulation code based on density-functional theory
 in which the aforementioned error estimates are implemented and readily available.
+To see how this works in practice, see this [Research Demo](https://showcases.matmat.org/2025/error_estimate_properties.html).
 
 The properties that we want to focus on are:
 - **Geometry - Atom positions**: A key step when simulating the properties of a material is structure optimisation.
@@ -144,6 +145,42 @@ Goal: "Make response calculations fast" (follow-up work from Bonan)
 
 ----
 
+## Analysing pseudopotential model mismatch
+In almost all plane-wave density-functional theory (DFT)
+simulations one employs a pseudopotential to model
+the interactions between atoms and electrons.
+While this represents an additional approximation
+(on top of the DFT model and the discretisation basis),
+this trick contributes considerably to making the numerics feasible in practice.
+Common pseudopotential models feature a multitude of parameters,
+which are determined following an involved fitting procedure.
+In practice the pseudopotential choice and the choice of DFT model
+are tightly coupled.
+However, since targeted pseudopotentials are not known for all DFT models,
+practitioners frequently perform DFT calculations with a mismatching pseudopotential.
+
+The goal of this project is to understand the discrepancy introduced
+by a mismatch between pseudopotential and DFT functional.
+This will involve both an analytical component,
+studying the variation under a change of pseudopotential
+using perturbation theory
+as well as a numerical component featuring systematic numerical experiments
+on standard DFT test problems.
+
+**Requirements:**
+Strong programming skills, ideally Julia or python;
+Basic knowledge of numerical methods for partial differential equations;
+Experience in numerical analysis of PDEs is a bonus;
+Experience in running DFT calculations is a bonus;
+
+<!--
+  Perturbative ansatz when electron count is conserved
+  Re-perform verification study with mismatching pseudopotential.
+  Perturbative ansatz when electron count is changing
+-->
+
+----
+
 ## Data-driven materials modelling with uncertainty-informed Gaussian processes
 
 Data-driven materials modeling plays a crucial role in modern materials
@@ -196,10 +233,27 @@ Basic knowledge of numerical methods for partial differential equations is a bon
 
 ## Symmetry-Aware Automatic Differentiation in DFT Calculations
 
-This project is to extend DFTK's symmetry handling capabilities to work with automatic differentiation. Symmetry handling becomes even more important in the case of partially symmetry-breaking perturbations, for materials properties such as phonons and elastic constants. The project involves deriving methods that combine crystallographic symmetry analysis[^Togo2024] with derivative computations, helping to optimize density-functional theory calculations [^DFTKsymmetrydocs]. This would be a fruitful contribution to the open-source DFTK framework.
+Automatic differentiation (AD) is a technique to reinterpret the implementation
+of an algorithm in order to compute not only the output quantities of the map,
+but *also* its Jacobian, that is all derivatives of all outputs versus all inputs.
+As derivatives play an essential role in physics, it is worthwhile developing
+such capabilities further. For a showcase example how AD can be used
+in density-functional theory and materials modelling see this
+[Research Demo](https://showcases.matmat.org/2025/autodiff_dftk.html).
+
+This project is to extend DFTK's symmetry handling capabilities to work with
+automatic differentiation. Symmetry handling becomes even more important in the
+case of partially symmetry-breaking perturbations, for materials properties
+such as phonons and elastic constants. The project involves deriving methods
+that combine crystallographic symmetry analysis[^Togo2024] with derivative
+computations, helping to optimize density-functional theory calculations
+[^DFTKsymmetrydocs]. This would be a fruitful contribution to the open-source
+DFTK framework.
 
 **Requirements:**
-Solid numerical programming skills, ideally in Julia or python; Basic understanding of group theory; Bonus: Prior knowledge about DFT.
+Solid numerical programming skills, ideally in Julia or python;
+Practical knowledge of group theory and representation theory;
+Bonus: Prior knowledge about DFT.
 
 [^Togo2024]: Togo, A., Shinohara, K., & Tanaka, I. (2024). Spglib: a software library for crystal symmetry search. Science and Technology of Advanced Materials: Methods, 4(1). https://doi.org/10.1080/27660400.2024.2384822
 
