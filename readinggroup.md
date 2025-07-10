@@ -17,7 +17,7 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 16.07.25 16:00 (TBA) [Pol Febrer](https://people.epfl.ch/pol.febrer?lang=en) *TBA / Non-equilibrium Green's functions for electronic transport*
+- 16.07.25 16:00 (MA B1 524) [Pol Febrer](https://people.epfl.ch/pol.febrer?lang=en) *Non-equilibrium Green's functions for electronic structure* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-non-equilibrium/)
 - 23.07.25 16:00 (TBA) [Michelangelo Domina](https://people.epfl.ch/michelangelo.domina?lang=en) *TBA / Representation theory in atomistic ML*
 
 Past events:
