@@ -5,21 +5,22 @@
 
 [![Group picture](/assets/2024.12.18_group.jpg)](/people)
 
-Welcome to the website of the *Mathematics for materials modelling* research group.
-Our research centres on bringing insight from maths to materials modelling,
-with the aim to understand simulation error and improve robustness of modelling schemes.
-This is an interdisciplinary mission and we frequently collaborate with researchers
-across the fields of mathematics, physics, computer science and materials.
-At EPFL we are part of both
-the [Institute of Mathematics](https://www.epfl.ch/schools/sb/research/math/)
-and the [Institute of Materials](https://sti.epfl.ch/imx/).
+Simulations are a crucial ingredient to develop new materials.
+At the *Mathematics for materials modelling* research group
+our mission is to **make practical modelling workflows more efficient
+and reliable** by importing mathematical insights into practical
+simulation schemes.
+Here our focus is the development of **faster algorithms**
+as well as a **rigorous understanding of simulation error**
+across the modelling scales.
 
-You can learn more about our work by taking a look at
-[our research topics](/research),
-the [software we develop](/software)
-or our [recent publications](/publications).
+You can learn more about our work by taking a look at our
+[**research topics**](/research),
+our [**publications**](/publications),
+our [**demo notebooks**](https://showcases.matmat.org/),
+the [**software we develop**](/software).
 If you are interested and you want to work with us,
-feel free to take a look at our [our job openings](/jobs).
+feel free to take a look at our [**job openings**](/jobs).
 We also offer [student projects](/student_projects) at various levels.
 
 ## Links

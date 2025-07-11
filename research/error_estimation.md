@@ -21,7 +21,7 @@ well as finite floating-point arithmetic). Details in [^HLC2020].
 ## Algorithmic differentiation and ongoing efforts
 Motivated by aforementioned prospect we currently investigate
 both analytical as well as statistical error estimates for materials simulations
-in [ongoing research collaborations](/research/funding/).
+in [ongoing research collaborations](/funding/).
 A key ingredient in this research is **algorithmic differentiation**,
 i.e. the ability to compute arbitrary gradients of output versus input quantities.
 Recently we integrated AD tools into our DFTK code (see [software](/software)),

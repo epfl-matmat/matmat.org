@@ -8,27 +8,60 @@ the mathematical understanding of common materials simulations is still lacking.
 In the Mathematics for Materials Modelling group
 we want to accelerate computational materials discovery
 by applying mathematical tools to common simulation approaches.
-As key thrusts are working towards
+At EPFL we are part of both
+the [Institute of Mathematics](https://www.epfl.ch/schools/sb/research/math/)
+and the [Institute of Materials](https://sti.epfl.ch/imx/)
+and in our work we [frequently collaborate](/funding)
+with researchers from other scientific fields.
+
+Currently our main interests are developing
 [**efficient self-adapting simulations**](/research/self_adapting_simulations/)
-and
+and a
 [**mathematical understanding of simulation error**](/research/error_estimation/).
 What interests us particularly are ideas how to estimate and propagate
 errors from first-principle data generation
 to machine-learned interatomic potentials (MLIPs)
 and further to predictions of material properties.
-Our research is supported by
-[**international funding schemes and collaborations**](/research/funding/)
-with researchers from multiple scientific disciplines.
+Here, the goal is twofold:
+first to **make simulation accuracy more quantitative**
+and second to develop **adaptive modelling workflows**,
+that obtain an accurate prediction
+along a **path of least computational cost**.
 
-For a **hands-on introductions** to our research topics
-see our [**website of showcase Pluto notebooks**](https://showcases.matmat.org/).
+For a high-level introduction to some of our work,
+see our [**research demo notebooks**](https://showcases.matmat.org/):
 
-On the first-principles side
-our main focus is density-functional theory (DFT),
-where most of our development takes place in the
-[**Density-Functional ToolKit (DFTK)**](https://dftk.org),
-see also a general overview of [**our software**](/software).
-On the MLIP side our interests are exploiting DFT error
-in the context of  **active learning** or **adaptive numerical schemes**,
-such that errors are balanced to obtain
-a simulation result along a **path of least computational effort**.
+
+@@showcases
+
+~~~
+
+<table>
+<tr>
+<td width="50%" >
+<a href="https://showcases.matmat.org/2025/autodiff_dftk.html">
+    <img src="showcases/2025_autodiff_dftk.png" /></a>
+<a href="https://showcases.matmat.org/2025/autodiff_dftk.html">
+    Algorithmic Differentiation in Plane-wave Density Functional Theory</a>
+</td>
+<td>
+<a href="https://showcases.matmat.org/2025/error_estimate_properties.html">
+    <img src="showcases/2025_error_estimate_properties.svg"/></a>
+<a href="https://showcases.matmat.org/2025/error_estimate_properties.html">
+    Practical error estimates for DFT-computed properties</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="https://showcases.matmat.org/2025/kohn_sham_inversion.html">
+    <img src="showcases/2025_kohn_sham_inversion.svg" /></a>
+<a href="https://showcases.matmat.org/2025/kohn_sham_inversion.html">
+    Kohn-Sham inversion using Moreau-Yosida regularisation</a>
+</td>
+</tr>
+</table>
+
+~~~
+
+@@

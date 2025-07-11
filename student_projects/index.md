@@ -99,6 +99,14 @@ and from some estimate of the nonlinear effects (which we maybe try to
 model as an isotropic quadratic), and take that into account in the least
 squares. I never got around to it, but do ping me if you're interested in
 exploring this kind of things further.
+
+Error propagation for Anderson: Assume to use Anderson to accelerate F(x) = 0. Assume
+$F$ is noisy with known noise level (e.g. assume the noise decreases over time in a
+quantifyable way). Can way say something about the uncertainty on the Anderson
+coefficients? When shall not trust a snapshot any more and better discard it?
+see also `Error propagation for Anderson (linear problem first, then SCF)` in
+DFT_Plane_Waves/00_Ideas project.
+
 -->
 
 ----
@@ -177,6 +185,14 @@ Experience in running DFT calculations is a bonus;
   Perturbative ansatz when electron count is conserved
   Re-perform verification study with mismatching pseudopotential.
   Perturbative ansatz when electron count is changing
+
+Pseudopotential finetuning:
+  Niklas: Pseudopotential by gradients could be a nice project
+  now, to do the experiment from the paper with Niklas but better. A deeper look at
+  smoothness preservation and how much norm conservation is violated. Next step
+  is to include norm conservation in the loss function as a regularization term
+  directly in the bulk (skipping atomic calculations). Another bonus step is to
+  include a Gaussian NLCC for GTH (as Willand 2013) and optimize those params as well.
 -->
 
 ----

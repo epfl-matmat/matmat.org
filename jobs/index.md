@@ -14,19 +14,10 @@ you are still welcome to submit a general inquiry.
 In any case, please **consider the [application guidelines](/jobs/guidelines/)**
 before you contact us.
 
-<!--
-We like to give each serious candidates the proper consideration they deserve.
-Unfortunately the large number of mass applications
-with no connections to the projects or general research in our group
-make it necessary to do a preliminary screening of candidates.
-All applications not following these guidelines might be silently ignored.
--->
-
-<!--
 ## Specific openings
 Currently no specific openings to advertise.
--->
 
+<!--
 ## PhD position: Error-controlled Bayesian methods for inverse materials design
 
 #### Background
@@ -66,10 +57,8 @@ the discovery of materials for electronics and mechanical devices.
   to acquiring expertise in electronic structure theory and atomistic modelling.
 * You have a strong interest in numerical methods, their implementation and application
   to physics and materials simulations.
-<!--
 * You enjoy programming and implementing algorithms and have solid experience
   in an HPC programming language such as C++, Fortran or Julia.
--->
 * You are fluent in written and oral English.
 * Bonus skills for this application are considerable experience in
   sustainable software engineering or high-performance computing.
@@ -108,6 +97,7 @@ before the contract can start.
 
 [^2]: K. Fisher, M. F. Herbst, Y. Marzouk. [*Multitask methods for predicting molecular properties from heterogeneous data.*](https://arxiv.org/pdf/2401.17898) Journal of Chemical Physics (2024). [arXiv:2401.17898](https://arxiv.org/pdf/2401.17898)
 [^3]: E. Cancès, G. Dusson, G. Kemlin and A. Levitt. [*Practical error bounds for properties in plane-wave electronic structure calculations*](https://doi.org/10.1137/21M1456224) SIAM Journal on Scientific Computing, **44**, B1312 (2022). [ArXiv:2111.01470](https://arxiv.org/abs/2111.01470).
+-->
 
 ## Summer research opportunities
 
