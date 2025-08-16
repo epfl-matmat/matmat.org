@@ -15,15 +15,13 @@ Michael is **co-organising two sessions** at the conference,
 one on *Modern collaborative electronic structure development* **(B3)**
 and one on *Sharing software development practices across communities* **(B7)**.
 
-On top of multiple posters there will also be **two lectures about our reserach**.
+On top of multiple posters there will also be **two lectures about our research**.
 One by Augustin Bussy on *DFTK.jl: A flexible and performant DFT code written in Julia*
+(Wednesday morning, B7)
 and one by Michael on
-*Quantifying errors in DFT simulations: towards reducing first-principle accuracy without harm*.
-<!--
-in the minisymposium *Accelerating first-principles calculations across the scales* **(B1)**.
--->
-
+[*Quantifying errors in DFT simulations: towards reducing first-principle accuracy without harm*](https://michael-herbst.com/talks/2025.08.25_Psik.pdf)
+(Monday morning, B1).
+[[Slides]](https://michael-herbst.com/talks/2025.08.25_Psik.pdf)
 
 [![Conference logo](/assets/2025.08.25_Psik_Header.png)](https://sites.google.com/view/psik2025/)
-
 
