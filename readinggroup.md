@@ -17,10 +17,11 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 16.07.25 16:00 (MA B1 524) [Pol Febrer](https://people.epfl.ch/pol.febrer?lang=en) *Non-equilibrium Green's functions for electronic structure* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-non-equilibrium/)
-- 23.07.25 16:00 (TBA) [Michelangelo Domina](https://people.epfl.ch/michelangelo.domina?lang=en) *TBA / Representation theory in atomistic ML*
+- 16.09.25 16:15 (*TBA*) [Andre Laestadius (OsloMet)](https://uni.oslomet.no/regal/andre-laestadius/) *TBA*
 
 Past events:
+- 23.07.25 16:00 (MA B1 524) [Michelangelo Domina](https://people.epfl.ch/michelangelo.domina?lang=en) *Clebsch-Gordan Coefficients: Making Sense of Rotations in ML and Beyond* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-clebsch-gordan/)
+- 16.07.25 16:00 (MA B1 524) [Pol Febrer](https://people.epfl.ch/pol.febrer?lang=en) *Non-equilibrium Green's functions for electronic structure* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-non-equilibrium/)
 - 11.06.25 16:00 (MXG 312) [Teitur Hansen (DTU)](https://orbit.dtu.dk/en/persons/teitur-hansen) *Uncertainty-aware functional distributions* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-uncertainty-awa/)
 - 21.05.25 16:00 (MA B2 486) [Marcel Langer](https://marcel.science/) *Computing thermal conductivity with the Green-Kubo method and neural networks* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-computing-therm/)
 - 13.05.25 16:00 (MA B1 524) [Davide Tisi](https://people.epfl.ch/davide.tisi?lang=en) *Green-Kubo Method for Computing Transport Coefficients: Heat Transport from Classical to Ab Initio Molecular Dynamics* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-green-kubo-meth/)
