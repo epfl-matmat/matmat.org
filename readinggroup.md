@@ -17,7 +17,7 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 16.09.25 16:15 (*TBA*) [Andre Laestadius (OsloMet)](https://uni.oslomet.no/regal/andre-laestadius/) *TBA*
+- 16.09.25 16:15 (CM 1 517) [Andre Laestadius (OsloMet)](https://uni.oslomet.no/regal/andre-laestadius/) *Smoothing the Landscape: Moreau-Yosida Regularization in Modern Density‑Functional Theory*
 
 Past events:
 - 23.07.25 16:00 (MA B1 524) [Michelangelo Domina](https://people.epfl.ch/michelangelo.domina?lang=en) *Clebsch-Gordan Coefficients: Making Sense of Rotations in ML and Beyond* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-clebsch-gordan/)
