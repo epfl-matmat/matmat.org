@@ -3,13 +3,13 @@
 # Funding and collaborations
 
 ## Individual funding
-- **Practical discretisation error estimates for data-driven materials modelling** (Swiss National Science Foundation, from Oct 2025)
+- [**Practical discretisation error estimates for data-driven materials modelling**](https://snfdataportal.iterativ.ch/grants/grant/10002757) (Swiss National Science Foundation, Oct 2025 -- Sept 2029)
 
 <!-- TODO Add info about my funding that I got -->
 <!-- TODO add logos for each of these funding opportunities -->
 
-## Participation in cross-departmental initiatives
-- [**National competence centre in research MARVEL**](https://nccr-marvel.ch), *École Polytechnique Federale Lausanne (EPFL)*  
+## Participation in centres and cross-institutional initiatives
+- [**National competence centre in research MARVEL**](https://nccr-marvel.ch), *École Polytechnique Federale Lausanne (EPFL)* (2023 -- 2026) \newline
   Swiss national research centre on Computational Design and Discovery of Novel material
   including researchers in experimental and computational physics and chemistry
   as well as computer science. The goal is to bridge between communities
@@ -22,7 +22,7 @@
   with the high-throughput and pre-exascale platforms
   currently under development at MARVEL.
 
-- [**Center for Exascale Simulation of Material Interfaces in Extreme Environments**](https://cesmix.mit.edu), *Massachusetts Institute of Technology.*  
+- [**Center for Exascale Simulation of Material Interfaces in Extreme Environments**](https://cesmix.mit.edu), *Massachusetts Institute of Technology.* (2022 -- 2025 \newline
   Research initiative advancing state-of-the-art first-principle simulations
   by connecting method development with (a) advances in programming languages,
   compiler technologies and performance engineering tools
@@ -36,7 +36,7 @@
   on [uncertainty quantification](/research/error_estimation/)
   in first-principles simulations.
 
-- [**Extreme-scale Mathematically-based Computational Chemistry**](https://erc-emc2.eu/), *Sorbonne University, Inria Paris and École des Ponts ParisTech.*  
+- [**Extreme-scale Mathematically-based Computational Chemistry**](https://erc-emc2.eu/), *Sorbonne University, Inria Paris and École des Ponts ParisTech.* (2019 -- 2024) \newline
   Interdisciplinary initiative to advance the state of the art in first-principle
   simulations by integrating recent advances in numerical linear algebra
   (e.g. low-rank factorisations, randomised methods, GPU acceleration)
