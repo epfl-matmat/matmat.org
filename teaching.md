@@ -1,6 +1,8 @@
-@def title = "Teaching"
-@def mintoclevel=2
-@def maxtoclevel=3
++++
+title = "Teaching"
+mintoclevel=2
+maxtoclevel=3
++++
 
 # Teaching
 
