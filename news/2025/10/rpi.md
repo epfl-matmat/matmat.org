@@ -13,9 +13,11 @@ Michael has been invited to **Rensselaer Polytechnic Institute (RPI)**
 in Troy, New York to give a talk in the
 [Mathematical Sciences Seminar Series](https://math.rpi.edu/events/kohn-sham-density-functional-theory-perspectives-various-inverse-problems).
 In his talk titled
-*Kohn-Sham Density-Functional Theory: Perspectives on various inverse problems*
+[*Kohn-Sham Density-Functional Theory: Perspectives on various inverse problems*](https://michael-herbst.com/talks/2025.10.15_Rensselaer_Polytechnic.pdf)
 Michael will talk about inverse problems in Kohn-Sham DFT,
 such as learning the exchange-correlation potential,
 or the Kohn-Sham potential
 knowing only physical observables such as the optimised structure
 or the electron density.
+
+[[Slides]](https://michael-herbst.com/talks/2025.10.15_Rensselaer_Polytechnic.pdf)
