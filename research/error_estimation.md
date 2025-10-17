@@ -27,6 +27,8 @@ i.e. the ability to compute arbitrary gradients of output versus input quantitie
 Recently we integrated AD tools into our DFTK code (see [software](/software)),
 making it (to the best of our knowledge) the first plane-wave DFT code
 with AD capabilities.
+See this [youtube recording of Michael's IPAM talk](https://www.youtube.com/watch?v=g6j1beYSWV4)
+on algorithmic differentiation.
 See the showcase notebook
 [*Algorithmic Differentiation in Plane-wave Density Functional Theory*](https://showcases.matmat.org/2025/autodiff_dftk.html)
 by Niklas Schmitz for a hands-on example.
