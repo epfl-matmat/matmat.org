@@ -3,7 +3,20 @@
 # Funding and collaborations
 
 ## Individual funding
-- [**Practical discretisation error estimates for data-driven materials modelling**](https://snfdataportal.iterativ.ch/grants/grant/10002757) (Swiss National Science Foundation, Oct 2025 -- Sept 2029)
+- [**Practical discretisation error estimates for data-driven materials modelling**](https://data.snf.ch/grants/grant/10002757) (Swiss National Science Foundation, Oct 2025 -- Sept 2029, 600k CHF)
+  Modern computational materials discovery frequently involves machine-learned
+  surrogates trained by running density-functional theory (DFT) simulations on a
+  large set of structures. The error in the training data itself is predominantly
+  modelled as small, homoscedastic Gaussian noise, such that the simulated DFT
+  quantities need to be of consistently good quality across the entire data set.
+  Recent mathematical advances offer a quantitative approach to model the error
+  due to the chosen plane-wave cutoff in energy and forces. In this project we
+  will (1) to develop these discretisation error estimates into a routine tool
+  for materials modelling and (2) to employ such quantitative estimates to
+  overcome the limitations of a homoscedastic error model
+  within Gaussian Processes (GP) regression.
+
+- [**A novel approach to first-principles inverse materials design leveraging algorithmic property derivatives**](https://data.snf.ch/grants/grant/221186) (Swiss National Science Foundation, Apr 2024 -- Mar 2026, 100k CHF)
 
 <!-- TODO Add info about my funding that I got -->
 <!-- TODO add logos for each of these funding opportunities -->
