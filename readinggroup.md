@@ -17,9 +17,10 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 16.09.25 16:15 (CM 1 517) [Andre Laestadius (OsloMet)](https://uni.oslomet.no/regal/andre-laestadius/) *Smoothing the Landscape: Moreau-Yosida Regularization in Modern Density‑Functional Theory* [Memento Link](https://memento.epfl.ch/event/smoothing-the-landscape-moreauyosida-regularizatio/)
+- 24.11.25 16:00 (TBA) [Edrick Solís González](https://people.epfl.ch/edrick.solisgonzalez?lang=en) *Car-Parrinello molecular dynamics*
 
 Past events:
+- 16.09.25 16:15 (CM 1 517) [Andre Laestadius (OsloMet)](https://uni.oslomet.no/regal/andre-laestadius/) *Smoothing the Landscape: Moreau-Yosida Regularization in Modern Density‑Functional Theory* [Memento Link](https://memento.epfl.ch/event/smoothing-the-landscape-moreauyosida-regularizatio/)
 - 23.07.25 16:00 (MA B1 524) [Michelangelo Domina](https://people.epfl.ch/michelangelo.domina?lang=en) *Clebsch-Gordan Coefficients: Making Sense of Rotations in ML and Beyond* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-clebsch-gordan/)
 - 16.07.25 16:00 (MA B1 524) [Pol Febrer](https://people.epfl.ch/pol.febrer?lang=en) *Non-equilibrium Green's functions for electronic structure* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-non-equilibrium/)
 - 11.06.25 16:00 (MXG 312) [Teitur Hansen (DTU)](https://orbit.dtu.dk/en/persons/teitur-hansen) *Uncertainty-aware functional distributions* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-uncertainty-awa/)
