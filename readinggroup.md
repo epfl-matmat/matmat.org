@@ -17,7 +17,7 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 24.11.25 16:00 (TBA) [Edrick Solís González](https://people.epfl.ch/edrick.solisgonzalez?lang=en) *Car-Parrinello molecular dynamics*
+- 24.11.25 16:00 (TBA) [Edrick Solís González](https://people.epfl.ch/edrick.solisgonzalez?lang=en) *Car-Parrinello molecular dynamics* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-car-parrinello/)
 
 Past events:
 - 16.09.25 16:15 (CM 1 517) [Andre Laestadius (OsloMet)](https://uni.oslomet.no/regal/andre-laestadius/) *Smoothing the Landscape: Moreau-Yosida Regularization in Modern Density‑Functional Theory* [Memento Link](https://memento.epfl.ch/event/smoothing-the-landscape-moreauyosida-regularizatio/)
