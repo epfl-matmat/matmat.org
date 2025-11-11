@@ -3,7 +3,7 @@
 # Funding and collaborations
 
 ## Individual funding
-- [**Practical discretisation error estimates for data-driven materials modelling**](https://data.snf.ch/grants/grant/10002757) (Swiss National Science Foundation, Oct 2025 -- Sept 2029, 600k CHF)
+- [**Practical discretisation error estimates for data-driven materials modelling**](https://data.snf.ch/grants/grant/10002757) (Swiss National Science Foundation, Oct 2025 -- Sept 2029, 600k CHF)  \newline
   Modern computational materials discovery frequently involves machine-learned
   surrogates trained by running density-functional theory (DFT) simulations on a
   large set of structures. The error in the training data itself is predominantly
@@ -16,10 +16,16 @@
   overcome the limitations of a homoscedastic error model
   within Gaussian Processes (GP) regression.
 
-- [**A novel approach to first-principles inverse materials design leveraging algorithmic property derivatives**](https://data.snf.ch/grants/grant/221186) (Swiss National Science Foundation, Apr 2024 -- Mar 2026, 100k CHF)
-
-<!-- TODO Add info about my funding that I got -->
-<!-- TODO add logos for each of these funding opportunities -->
+- [**A novel approach to first-principles inverse materials design leveraging algorithmic property derivatives**](https://data.snf.ch/grants/grant/221186) (Swiss National Science Foundation, Apr 2024 -- Mar 2026, 100k CHF) \newline
+  Computational discovery of new materials is increasingly important. One
+  technique is inverse design, where the search over all possible candidate
+  materials is directly guided by finding the best match to a set of desired
+  materials properties. This research explores utilizing property derivatives
+  within density-functional theory (DFT) simulations to improve inverse design,
+  a technique currently limited by the availability of these derivatives.
+  Algorithmic differentiation (AD) offers a solution by automating the
+  calculation of these derivatives, saving significant development time and
+  enabling new algorithms for inverse materials design.
 
 ## Participation in centres and cross-institutional initiatives
 - [**National competence centre in research MARVEL**](https://nccr-marvel.ch), *École Polytechnique Federale Lausanne (EPFL)* (2023 -- 2026) \newline
@@ -35,7 +41,7 @@
   with the high-throughput and pre-exascale platforms
   currently under development at MARVEL.
 
-- [**Center for Exascale Simulation of Material Interfaces in Extreme Environments**](https://cesmix.mit.edu), *Massachusetts Institute of Technology.* (2022 -- 2025 \newline
+- [**Center for Exascale Simulation of Material Interfaces in Extreme Environments**](https://cesmix.mit.edu), *Massachusetts Institute of Technology.* (2022 -- 2025) \newline
   Research initiative advancing state-of-the-art first-principle simulations
   by connecting method development with (a) advances in programming languages,
   compiler technologies and performance engineering tools
@@ -63,23 +69,23 @@
 
 ## Key collaborators
 - [Eric Cancès (Numerical analysis, École des Ponts ParisTech):](http://cermics.enpc.fr/~cances/)  
-    *A posteriori error analysis for electronic-structure simulations.*
+  *A posteriori error analysis for electronic-structure simulations.*
 - [Genevieve Dusson (Applied mathematics, CNRS):](http://gdusson.perso.math.cnrs.fr/)  
-  *Error analysis in density-functional theory*
-- [Gaspard Kemlin (Applied mathematics, Université de Picardie):](https://gaspardkemlin.frama.io/)  
-  *Error analysis in density-functional theory*
+  *Error analysis in density-functional theory.*
+- [Mi-Song Dupuy (Numerical analysis, Sorbonne University):](https://msdupuy.github.io/)  
+  *Error analysis in density-functional theory.*
+- [Gaspard Kemlin (Applied mathematics, Université de Picardie):](https://gkemlin.pages.math.cnrs.fr/)  
+  *Error analysis in density-functional theory.*
 - [Youssef Marzouk (Uncertainty quantification, Massachusetts Institute of Technology):](https://uqgroup.mit.edu)
-    *Uncertainty quantification in density-functional theory.*
+  *Uncertainty quantification in density-functional theory.*
 - [Antoine Levitt (Numerical analysis, University of Paris-Saclay):](http://antoine.levitt.fr/)  
-    *Reliable black-box algorithms for electronic structure simulations.*
+  *Reliable black-box algorithms for electronic structure simulations.*
 - [Andre Laestadius (Applied mathematics, Oslo Met University):](https://uni.oslomet.no/regal/andre-laestadius/)  
-    *Mathematical formulation of density-functional theory.*
+  *Mathematical formulation of density-functional theory.*
 - [Benjamin Stamm (Numerical analysis, Universität Stuttgart):](https://www.ians.uni-stuttgart.de/institute/team/Stamm/)  
-    *Reduced basis methods & analysis of quantum-chemical methods*
+  *Reduced basis methods & analysis of quantum-chemical methods.*
 
 <!--
-- [Mi-Song Dupuy (Numerical analysis, Sorbonne University):](https://msdupuy.github.io/)  
-    *Anderson acceleration methods for self-consistent field problems.*
 - [Alan Edelman (Computer science, Massachusetts Institute of Technology):](https://math.mit.edu/~edelman)
     *Modern software development techniques for electronic-structure simulations
     / data-driven molecular dynamics.*
