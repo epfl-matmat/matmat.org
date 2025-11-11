@@ -5,5 +5,5 @@ NodeJS = "2bd173c7-0d6d-553b-b6af-13a54713934c"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 
 [compat]
-Franklin = "0.10.93"
+Franklin = "0.10.97"
 NodeJS = "2"
