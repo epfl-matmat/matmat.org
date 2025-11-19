@@ -17,4 +17,4 @@ A recording is available [on youtube](https://youtube.com/watch?v=g6j1beYSWV4).
 [[Demo on DFTK]](https://michael-herbst.com/talks/2025.10.09_IPAM_DFT_Gradients_3_dftk.html)
 [[Youtube recording]](https://youtube.com/watch?v=g6j1beYSWV4)
 
-![Conference logo](https://www.ipam.ucla.edu/wp-content/uploads/2024/04/IPAM-WS2-image.png)
+[![Conference logo](/assets/2025.10.06_IPAM_WS2_image.png)](https://www.ipam.ucla.edu/programs/workshops/workshop-ii-bridging-scales-from-atomistic-to-continuum-in-electrochemical-systems/)
