@@ -3,7 +3,8 @@
 # Funding and collaborations
 
 ## Individual funding
-- [**Practical discretisation error estimates for data-driven materials modelling**](https://data.snf.ch/grants/grant/10002757) (Swiss National Science Foundation, Oct 2025 -- Sept 2029, 600k CHF)  \newline
+- [**Practical discretisation error estimates for data-driven materials modelling**](https://data.snf.ch/grants/grant/10002757), *Swiss National Science Foundation*, Oct 2025 -- Sept 2029, 600k CHF
+  ~~~<details><summary>~~~ *Details on the project* ~~~</summary>~~~
   Modern computational materials discovery frequently involves machine-learned
   surrogates trained by running density-functional theory (DFT) simulations on a
   large set of structures. The error in the training data itself is predominantly
@@ -15,8 +16,10 @@
   for materials modelling and (2) to employ such quantitative estimates to
   overcome the limitations of a homoscedastic error model
   within Gaussian Processes (GP) regression.
+  ~~~</details>~~~
 
-- [**A novel approach to first-principles inverse materials design leveraging algorithmic property derivatives**](https://data.snf.ch/grants/grant/221186) (Swiss National Science Foundation, Apr 2024 -- Mar 2026, 100k CHF) \newline
+- [**A novel approach to first-principles inverse materials design leveraging algorithmic property derivatives**](https://data.snf.ch/grants/grant/221186), *Swiss National Science Foundation*, Apr 2024 -- Mar 2026, 100k CHF
+  ~~~<details><summary>~~~ *Details on the project* ~~~</summary>~~~
   Computational discovery of new materials is increasingly important. One
   technique is inverse design, where the search over all possible candidate
   materials is directly guided by finding the best match to a set of desired
@@ -26,9 +29,11 @@
   Algorithmic differentiation (AD) offers a solution by automating the
   calculation of these derivatives, saving significant development time and
   enabling new algorithms for inverse materials design.
+  ~~~</details>~~~
 
 ## Participation in centres and cross-institutional initiatives
-- [**National competence centre in research MARVEL**](https://nccr-marvel.ch), *École Polytechnique Federale Lausanne (EPFL)* (2023 -- 2026) \newline
+- [**National competence centre in research MARVEL**](https://nccr-marvel.ch), *École Polytechnique Federale Lausanne (EPFL)* (2023 -- 2026)
+  ~~~<details><summary>~~~ *Details on the project* ~~~</summary>~~~
   Swiss national research centre on Computational Design and Discovery of Novel material
   including researchers in experimental and computational physics and chemistry
   as well as computer science. The goal is to bridge between communities
@@ -40,8 +45,10 @@
   [efficient black-box algorithms](/research/self_adapting_simulations/)
   with the high-throughput and pre-exascale platforms
   currently under development at MARVEL.
+  ~~~</details>~~~
 
 - [**Center for Exascale Simulation of Material Interfaces in Extreme Environments**](https://cesmix.mit.edu), *Massachusetts Institute of Technology.* (2022 -- 2025) \newline
+  ~~~<details><summary>~~~ *Details on the project* ~~~</summary>~~~
   Research initiative advancing state-of-the-art first-principle simulations
   by connecting method development with (a) advances in programming languages,
   compiler technologies and performance engineering tools
@@ -54,8 +61,10 @@
   [Youssef Marzouk](https://uqgroup.mit.edu)
   on [uncertainty quantification](/research/error_estimation/)
   in first-principles simulations.
+  ~~~</details>~~~
 
 - [**Extreme-scale Mathematically-based Computational Chemistry**](https://erc-emc2.eu/), *Sorbonne University, Inria Paris and École des Ponts ParisTech.* (2019 -- 2024) \newline
+  ~~~<details><summary>~~~ *Details on the project* ~~~</summary>~~~
   Interdisciplinary initiative to advance the state of the art in first-principle
   simulations by integrating recent advances in numerical linear algebra
   (e.g. low-rank factorisations, randomised methods, GPU acceleration)
@@ -66,6 +75,7 @@
   [a posteriori error estimates](/research/error_estimation),
   mainly working with [Eric Cancès](http://cermics.enpc.fr/~cances/) and
   [Antoine Levitt](http://antoine.levitt.fr/).
+  ~~~</details>~~~
 
 ## Key collaborators
 - [Eric Cancès (Numerical analysis, École des Ponts ParisTech):](http://cermics.enpc.fr/~cances/)  

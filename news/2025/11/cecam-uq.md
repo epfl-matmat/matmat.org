@@ -19,4 +19,10 @@ In the workshop we want to
 bridge various topics and directions on how to quantify and propagate
 uncertainties from DFT through ML towards predicted properties.
 
+During the conference **Niklas Schmitz** will give a **tutorial** on
+[*Uncertainty quantification methods for density-functional theory*](https://github.com/niklasschmitz/tutorial-cecam-workshop-dftk-2025)
+based on our [recent preprint](https://arxiv.org/abs/2509.07785).
+
+[[Code]](https://github.com/niklasschmitz/tutorial-cecam-workshop-dftk-2025)
+
 [![Conference logo](/assets/2025.11.25_CECAM_uqam_logo.png)](https://www.cecam.org/workshop-details/1380)
