@@ -88,6 +88,8 @@
   *Error analysis in density-functional theory.*
 - [Youssef Marzouk (Uncertainty quantification, Massachusetts Institute of Technology):](https://uqgroup.mit.edu)
   *Uncertainty quantification in density-functional theory.*
+- [James Kermode (Engineering, University of Warwick):](https://warwick.ac.uk/fac/sci/eng/people/james_kermode/)  
+  *Uncertainty quantification in atomistic machine learning.*
 - [Antoine Levitt (Numerical analysis, University of Paris-Saclay):](http://antoine.levitt.fr/)  
   *Reliable black-box algorithms for electronic structure simulations.*
 - [Andre Laestadius (Applied mathematics, Oslo Met University):](https://uni.oslomet.no/regal/andre-laestadius/)  
