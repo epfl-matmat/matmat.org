@@ -24,5 +24,7 @@ During the conference **Niklas Schmitz** will give a **tutorial** on
 based on our [recent preprint](https://arxiv.org/abs/2509.07785).
 
 [[Code]](https://github.com/niklasschmitz/tutorial-cecam-workshop-dftk-2025)
+[[Slides]](https://github.com/niklasschmitz/tutorial-cecam-workshop-dftk-2025/blob/main/slides.pdf)
+
 
 [![Conference logo](/assets/2025.11.25_CECAM_uqam_logo.png)](https://www.cecam.org/workshop-details/1380)
