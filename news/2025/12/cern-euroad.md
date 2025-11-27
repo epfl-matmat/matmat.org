@@ -1,7 +1,7 @@
 +++
 title       = "28th EuroAD workshop"
 rss         = "Niklas Schmitz gives a contributed talk at the EuroAD workshop at CERN"
-rss_pubdate = Date(2025, 12, 8)
+rss_pubdate = Date(2025, 12, 08)
 type        = "conference"
 startpage   = true
 +++
