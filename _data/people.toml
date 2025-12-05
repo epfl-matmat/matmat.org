@@ -48,13 +48,13 @@ sciper = 336145
 website = "https://people.epfl.ch/336145"
 
 [ploumhans-bruno]
-arxiv = ""
+arxiv = "ploumhans_b_1"
 departure = ""
 destination = ""
 email = "bruno.ploumhans@epfl.ch"
 firstname = "Bruno"
 github = "Technici4n"
-gscholar = ""
+gscholar = "e4N12SAAAAAJ"
 name = "Ploumhans"
 orcid = "0009-0006-8204-4905"
 position = "Doctoral Assistant"
