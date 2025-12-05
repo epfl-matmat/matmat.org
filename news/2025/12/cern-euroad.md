@@ -8,6 +8,6 @@ startpage   = true
 
 {{newsheader}}
 
-**08.12.-10.12.2025** **Niklas Schmitz** is giving a contributed talk at the [28th EuroAD workshop](https://indico.cern.ch/event/1543104/overview) at CERN. He will talk about *Algorithmic Differentiation for plane-wave DFT* based on our [recent preprint](https://arxiv.org/abs/2509.07785).
+**08.12.-10.12.2025** **Niklas Schmitz** is giving a contributed talk at the [28th EuroAD workshop](https://indico.cern.ch/event/1543104/overview) at CERN. He will talk about *Algorithmic Differentiation for plane-wave DFT* based on our [recent article in npj Computational Materials](https://doi.org/10.1038/s41524-025-01880-3).
 
 [![Conference logo](/assets/2025.12.08_EuroAD_logo.jpg)](https://indico.cern.ch/event/1543104/overview)
