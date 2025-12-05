@@ -271,7 +271,33 @@ Solid numerical programming skills, ideally in Julia or python;
 Practical knowledge of group theory and representation theory;
 Bonus: Prior knowledge about DFT.
 
-[^Togo2024]: Togo, A., Shinohara, K., & Tanaka, I. (2024). Spglib: a software library for crystal symmetry search. Science and Technology of Advanced Materials: Methods, 4(1). https://doi.org/10.1080/27660400.2024.2384822
+[^Togo2024]: Togo, A., Shinohara, K., & Tanaka, I. (2024). *Spglib: a software library for crystal symmetry search*. Science and Technology of Advanced Materials: Methods, 4(1). https://doi.org/10.1080/27660400.2024.2384822
 
 [^DFTKsymmetrydocs]: https://docs.dftk.org/stable/developer/symmetries/
 
+-----
+
+## Differentiable Learning of Pseudopotentials
+
+Pseudopotentials are an essential component of modern plane-wave
+density-functional theory (DFT) computations for materials.
+Their construction represents a fundamental trade-off between smoothness (or "softness"),
+which dictates the computational cost, and transferability across diverse chemical environments.
+
+Standard generation involves a two-phase approach: fitting parameters to isolated atoms,
+followed by validation in bulk systems (e.g. [^pseudodojo]). In practice, this process is
+frequently repeated in an iterative trial-and-error fashion to semi-automatically navigate this trade-off.
+
+In this project, we aim at a more targeted optimization using gradient information.
+We will explore the learning of pseudopotentials directly in bulk materials,
+utilizing recent algorithmic differentiation (AD) tools for plane-wave DFT [^addfpt].
+The goal is to minimize errors against high-precision all-electron references automatically,
+yielding potentials that are both efficient and highly accurate for specific applications.
+
+**Requirements:** 
+Strong numerical programming skills, ideally Julia or Python;
+Understanding of gradient-based optimization methods; Bonus: Prior knowledge about DFT.
+
+[^pseudodojo]: M.J. van Setten, M. Giantomassi, E. Bousquet, M.J. Verstraete, D.R. Hamann, X. Gonze, & G.-M. Rignanese (2018). *The PseudoDojo: Training and grading a 85 element optimized norm-conserving pseudopotential table*. Computer Physics Communications, 226, 39-54. DOI [10.1016/j.cpc.2018.01.012](https://doi.org/10.1016/j.cpc.2018.01.012)
+
+[^addfpt]: N. F. Schmitz, B. Ploumhans, M. F. Herbst. (2025) *Algorithmic differentiation for plane-wave DFT: materials design, error control and learning model parameters*. npj Computational Materials (*in press*). DOI [10.1038/S41524-025-01880-3](https://doi.org/10.1038/S41524-025-01880-3) (Preprint: https://arxiv.org/abs/2509.07785)
