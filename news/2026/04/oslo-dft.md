@@ -8,7 +8,7 @@ startpage   = true
 
 {{newsheader}}
 
-**20.04.2026 - 24.04.2026** Michael has been invited to the workshop
+**20.04.2026 - 24.04.2026** **Michael** has been invited to the workshop
 on the [Foundations and Extensions of Density-Functional Theory](https://uni.oslomet.no/regal/workshop-foundations-and-extensions-of-dft/) in Oslo, Norway.
 He will talk about *Perspectives of algorithmic differentiation in plane-wave DFT*
 at the workshop.
