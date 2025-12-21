@@ -3,7 +3,7 @@
 
 # Mathematics for materials modelling (MatMat)
 
-[![Group picture](/assets/2024.12.18_group.jpg)](/people)
+[![Group picture](/assets/2025.12.12_group.jpg)](/people)
 
 Simulations are a crucial ingredient to develop new materials.
 At the *Mathematics for materials modelling* research group
