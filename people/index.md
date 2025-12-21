@@ -5,3 +5,5 @@
 # People
 
 {{ people_table }}
+
+See also our [group pictures over time](/people/time).
