@@ -13,4 +13,4 @@ on the [Foundations and Extensions of Density-Functional Theory](https://uni.osl
 He will talk about *Perspectives of algorithmic differentiation in plane-wave DFT*
 at the workshop.
 
-[![Conference logo](https://uni.oslomet.no/regal/wp-content/uploads/sites/1308/2025/10/REGAL-Workshop-Illustration.png)](https://uni.oslomet.no/regal/workshop-foundations-and-extensions-of-dft/)
+[![Conference logo](/assets/2026.04.20_REGAL.png)](https://uni.oslomet.no/regal/workshop-foundations-and-extensions-of-dft/)
