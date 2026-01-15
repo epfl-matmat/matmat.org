@@ -1,0 +1,165 @@
+[herbst-michael]
+arxiv = "herbst_m_1"
+departure = ""
+destination = ""
+email = "michael.herbst@epfl.ch"
+firstname = "Michael F."
+github = "mfherbst"
+gscholar = "9jBO8o4AAAAJ"
+name = "Herbst"
+orcid = "0000-0003-0378-7921"
+phone = "+41216938989"
+position = "Tenure Track Assistant Professor"
+priority = -100
+room = "MA B1 467"
+sciper = 368484
+website = "https://michael-herbst.com"
+
+[martin-melis]
+arxiv = ""
+departure = ""
+destination = ""
+email = "melis.martin@epfl.ch"
+firstname = "Melis"
+github = ""
+gscholar = ""
+name = "Martin"
+orcid = ""
+position = "Administrative Assistant"
+priority = -50
+room = "MA B1 483"
+sciper = 206229
+website = ""
+
+[paulish-anna]
+arxiv = ""
+departure = "2025-06-30"
+destination = """Doctoral assistant at <a href="https://homes.epfl.ch">EPFL HOMES</a>"""
+email = "anna.paulish@epfl.ch"
+firstname = "Anna"
+github = "AnnaPaulish"
+gscholar = "Aazc2AYAAAAJ&hl"
+name = "Paulish"
+orcid = ""
+position = "Doctoral Assistant"
+priority = 0
+room = "MA B1 527"
+sciper = 336145
+website = "https://people.epfl.ch/336145"
+
+[ploumhans-bruno]
+arxiv = "ploumhans_b_1"
+departure = ""
+destination = ""
+email = "bruno.ploumhans@epfl.ch"
+firstname = "Bruno"
+github = "Technici4n"
+gscholar = "e4N12SAAAAAJ"
+name = "Ploumhans"
+orcid = "0009-0006-8204-4905"
+position = "Doctoral Assistant"
+priority = 0
+room = "MA B1 457"
+sciper = 338679
+website = "https://people.epfl.ch/338679"
+showcase = "https://showcases.matmat.org/2025/error_estimate_properties.html"
+
+[schmitz-niklas]
+arxiv = "schmitz_n_1"
+departure = ""
+destination = ""
+email = "niklas.schmitz@epfl.ch"
+firstname = "Niklas Frederik"
+github = "niklasschmitz"
+gscholar = "2Lz5bWYAAAAJ"
+name = "Schmitz"
+orcid = "0000-0001-6362-3756"
+position = "Doctoral Assistant"
+priority = 0
+room = "MA B1 457"
+sciper = 299719
+website = "https://people.epfl.ch/299719"
+showcase = "https://showcases.matmat.org/2025/autodiff_dftk.html"
+
+[shin-yongjoong]
+arxiv = ""
+departure = "2024-10-07"
+destination = "Master valorisation at <a href=\"http://theossrv1.epfl.ch/\">EPFL Theos</a>"
+email = "yongjoong.shin@epfl.ch"
+firstname = "Yongjoong"
+github = ""
+gscholar = ""
+name = "Shin"
+orcid = ""
+position = "Master Student"
+priority = 20
+room = ""
+sciper = 999999
+website = ""
+
+[sun-bonan]
+arxiv = ""
+departure = "2024-05-31"
+destination = "PhD at <a href=\"https://www.mpi-magdeburg.mpg.de/\">MPI Madgeburg</a>"
+email = "bsun@mpi-magdeburg.mpg.de"
+firstname = "Bonan"
+github = "bonans"
+gscholar = ""
+image = "sun-bonan"
+name = "Sun"
+orcid = "0009-0002-2761-0661"
+position = "Master Student"
+priority = 20
+room = ""
+sciper = 999999
+website = "https://bonans.github.io/"
+
+[travelletti-cedric]
+arxiv = ""
+departure = "2024-12-31"
+destination = "Scientific staff at <a href=\"https://www.hevs.ch/\">HES Valais</a>"
+email = "cedric.travelletti@epfl.ch"
+firstname = "Cédric"
+github = "CedricTravelletti"
+gscholar = "zvkbeqYAAAAJ"
+name = "Travelletti"
+orcid = "0009-0005-0364-6143"
+position = "Scientist"
+priority = -20
+room = "MA B1 527"
+sciper = 384805
+website = "https://cedrictravelletti.github.io/"
+
+[maliyov-ivan]
+arxiv = "imaliyov"
+departure = "2025-01-31"
+destination = "Research Scientist at Microsoft Quantum"
+email = "ivan.maliyov@gmail.com"
+firstname = "Ivan"
+github = "imaliyov"
+gscholar = "DPIWLXoAAAAJ"
+image = "maliyov-ivan"
+name = "Maliyov"
+orcid = "0000-0003-4130-6033"
+position = "Scientist"
+priority = -20
+room = "MA B1 527"
+sciper = 404030
+website = "https://www.linkedin.com/in/ivan-maliyov-406626b5"
+
+[bosch-nathanael]
+arxiv = "nathanael.bosch"
+email = "nathanael.bosch@epfl.ch"
+firstname = "Nathanael"
+name = "Bosch"
+position = "PostDoc"
+image = "bosch-nathanael"
+github = "nathanaelbosch"
+website = "https://nathanaelbosch.github.io"
+gscholar = "2vejDygAAAAJ"
+orcid = "0000-0003-0139-4622"
+priority = -20
+room = "MA B1 477"
+sciper = "420430"
+departure = ""
+destination = ""
