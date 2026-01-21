@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  Mathematics for Materials Modelling group  ]]>
+    </title>
+    <link> https://matmat.org </link>
+    <description>
+      <![CDATA[  News from the Mathematics for Materials Modelling group at EPFL.  ]]>
+    </description>
+    <atom:link
+      href="https://matmat.org/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  Aachen Workshop on Analysis and Simulation of Quantum and Molecular Systems  ]]>
+  </title>
+  <link> https://matmat.org/news/2026/05/analysis-quantum-systems/index.html </link>
+  <guid> https://matmat.org/news/2026/05/analysis-quantum-systems/index.html </guid>
+  <description>
+    <![CDATA[  Michael has been invited to give a talk at the Analysis and Simulation of Quantum and Molecular Systems workshop in Aachen.  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Aachen Workshop on Analysis and Simulation of Quantum and Molecular Systems</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>26.05.2026 - 29.05.2026</strong> <strong>Michael</strong> has been invited to the workshop <a href="https://sfb1481.rwth-aachen.de/news-events/events/analysis-and-simulation-of-quantum-and-molecular-systems">Analysis and Simulation of Quantum and Molecular Systems</a> in Aachen, Germany.</p>
+<p><a href="https://sfb1481.rwth-aachen.de/news-events/events/analysis-and-simulation-of-quantum-and-molecular-systems"><img src="https://matmat.org/assets/2026.06.26_AnalysisQuantumSystems.png" alt="Conference logo" /></a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Oslo Workshop on Foundations and Extensions of DFT  ]]>
+  </title>
+  <link> https://matmat.org/news/2026/04/oslo-dft/index.html </link>
+  <guid> https://matmat.org/news/2026/04/oslo-dft/index.html </guid>
+  <description>
+    <![CDATA[  Michael has been invited to Workshop on Foundations and Extensions of Density-Functional Theory.  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Oslo Workshop on Foundations and Extensions of DFT</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>20.04.2026 - 24.04.2026</strong> <strong>Michael</strong> has been invited to the workshop on the <a href="https://uni.oslomet.no/regal/workshop-foundations-and-extensions-of-dft/">Foundations and Extensions of Density-Functional Theory</a> in Oslo, Norway. He will talk about <em>Perspectives of algorithmic differentiation in plane-wave DFT</em> at the workshop.</p>
+<p><a href="https://uni.oslomet.no/regal/workshop-foundations-and-extensions-of-dft/"><img src="https://matmat.org/assets/2026.04.20_REGAL.png" alt="Conference logo" /></a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  GAMM annual meeting  ]]>
+  </title>
+  <link> https://matmat.org/news/2026/03/gamm/index.html </link>
+  <guid> https://matmat.org/news/2026/03/gamm/index.html </guid>
+  <description>
+    <![CDATA[  MatMat group attends the 96th GAMM annual meeting in Stuttgart  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>GAMM annual meeting</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>16.03.2026 - 20.03.2026</strong> The MatMat group attends the <a href="https://jahrestagung.gamm.org/annual-meeting-2026/96th-annual-meeting/">96th annual meeting</a> of the German Association of Applied Mathematics and Mechanics &#40;<strong>GAMM</strong>&#41; in Stuttgart, Germany.</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Talk at CECAM atomistic ML meeting  ]]>
+  </title>
+  <link> https://matmat.org/news/2026/01/cecam-ml-software/index.html </link>
+  <guid> https://matmat.org/news/2026/01/cecam-ml-software/index.html </guid>
+  <description>
+    <![CDATA[  Michael speaks the CECAM event &#39;A roadmap for an atomistic machine learning software ecosystem&#39;  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Talk at CECAM atomistic ML meeting</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>19.01 - 21.01.2026</strong> <strong>Michael</strong> will speak at the CECAM workshop <a href="https://www.cecam.org/workshop-details/1376"><strong>A roadmap for an atomistic machine learning software ecosystem</strong></a>. In his contribution he will provide an overview of <a href="https://michael-herbst.com/talks/2026.01.20_CECAM_ML_Roadmap.pdf"><em>Atomistic modelling using the Julia language: Software integration across research communities</em></a>. <a href="https://michael-herbst.com/talks/2026.01.20_CECAM_ML_Roadmap.pdf">&#91;Slides&#93;</a></p>
+<p><a href="https://www.cecam.org/workshop-details/1376"><img src="https://matmat.org/assets/2026.01.19_CECAM_atomistic_ML.jpg" alt="Conference logo" /></a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  DFTK included in virtual oxide verification study  ]]>
+  </title>
+  <link> https://matmat.org/news/2026/01/dftk-verification/index.html </link>
+  <guid> https://matmat.org/news/2026/01/dftk-verification/index.html </guid>
+  <description>
+    <![CDATA[  DFTK included in virtual oxide verification study comparing against other plane-wave DFT codes.  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>DFTK included in virtual oxide verification study</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>15.01.2026</strong> Recently <strong>Bruno Ploumhans</strong> from our team has been running the <a href="https://doi.org/10.1038/s42254-023-00655-3"><strong>virtual oxide verification study</strong> by Bosoni <em>et. al.</em></a> with the <strong>density-functional toolkit &#40;DFTK&#41;</strong>. Our code is now fully included in the interactive results shown on <a href="https://acwf-verification.materialscloud.org/">https://acwf-verification.materialscloud.org/</a>. General agreement with other codes is excellent, save a few examples on the bottom right of the periodic table, where we are currently investigating the deviations.</p>
+<p><a href="https://acwf-verification.materialscloud.org/"><img src="https://matmat.org/assets/2026.01.15_DFTK_verification.png" alt="Website screenshot" /></a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Our publication on algorithmic differentiation for plane-wave DFT featured as MARVEL highlight  ]]>
+  </title>
+  <link> https://matmat.org/news/2026/01/addfpt-marvel/index.html </link>
+  <guid> https://matmat.org/news/2026/01/addfpt-marvel/index.html </guid>
+  <description>
+    <![CDATA[  Our recent publication on algorithmic differentiation for plane-wave DFT is featured as a MARVEL highlight.  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Our publication on algorithmic differentiation for plane-wave DFT featured as MARVEL highlight</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>13.01.2026</strong> Our work on <a href="https://doi.org/10.1038/s41524-025-01880-3"><strong>Algorithmic Differentiation for plane-wave DFT</strong></a> has been featured as a <a href="https://nccr-marvel.ch/highlights/AD-DFPT-Herbst"><strong>scientific highlight</strong></a> from the MARVEL collaboration: <a href="https://nccr-marvel.ch/highlights/AD-DFPT-Herbst">see the article by Nicola Nosengo</a>.</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Merry Christmas 2025  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/12/christmas/index.html </link>
+  <guid> https://matmat.org/news/2025/12/christmas/index.html </guid>
+  <description>
+    <![CDATA[  Merry Christmas 2025  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Merry Christmas 2025</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>12.12.2025</strong> Today we had our annual Christmas dinner with the group. This time in the Peruvian restaurant <em>Guanaco</em> in Morges, which we all agreed to be a nice discovery. Delicious food and an authentic atmosphere, including a few into the kitchen, where our dish was prepared in front of our eyes –- the occasional open flame :&#41;.</p>
+<p><a href="https://matmat.org/people/"><img src="https://matmat.org/assets/2025.12.12_group.jpg" alt="Group picture" /></a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  28th EuroAD workshop  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/12/cern-euroad/index.html </link>
+  <guid> https://matmat.org/news/2025/12/cern-euroad/index.html </guid>
+  <description>
+    <![CDATA[  Niklas Schmitz gives a contributed talk at the EuroAD workshop at CERN  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>28th EuroAD workshop</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>08.12.-10.12.2025</strong> <strong>Niklas Schmitz</strong> is giving a contributed talk at the <a href="https://indico.cern.ch/event/1543104/overview">28th EuroAD workshop</a> at CERN. He will talk about <em>Algorithmic Differentiation for plane-wave DFT</em> based on our <a href="https://doi.org/10.1038/s41524-025-01880-3">recent article in npj Computational Materials</a>.</p>
+<p><a href="https://indico.cern.ch/event/1543104/contributions/6791576/attachments/3189072/5675096/2025_12_09_addfpt_euroad.pdf">&#91;Slides&#93;</a></p>
+<p><a href="https://indico.cern.ch/event/1543104/overview"><img src="https://matmat.org/assets/2025.12.08_EuroAD_logo.jpg" alt="Conference logo" /></a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  New Publication: Algorithmic Differentiation for plane-wave DFT  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/12/publication-addfpt/index.html </link>
+  <guid> https://matmat.org/news/2025/12/publication-addfpt/index.html </guid>
+  <description>
+    <![CDATA[  New Publication: Algorithmic Differentiation for plane-wave DFT  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>New Publication: Algorithmic Differentiation for plane-wave DFT</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>04.12.2025: New publication</strong> Today our article <a href="https://doi.org/10.1038/s41524-025-01880-3">Algorithmic Differentiation for plane-wave DFT: materials design, error control and learning model parameters</a> has been published in npj Computational Materials.</p>
+<p><a href="https://doi.org/10.1038/s41524-025-01880-3">&#91;Paper&#93;</a> <a href="https://github.com/niklasschmitz/ad-dfpt">&#91;Code&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  CECAM: Uncertainty quantification in atomistic modeling  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/11/cecam-uq/index.html </link>
+  <guid> https://matmat.org/news/2025/11/cecam-uq/index.html </guid>
+  <description>
+    <![CDATA[  Michael co-organises a CECAM flagship workshop on &#39;Uncertainty quantification in atomistic modelling&#39; in Lausanne  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>CECAM: Uncertainty quantification in atomistic modeling</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>25.11 - 28.11.2025</strong> Jointly with  Sanggyu Chong &#40;EPFL&#41;, Genevieve Dusson &#40;CNRS&#41;, Federico Grasselli &#40;Modena&#41; and Julia Westermayr &#40;Leipzig&#41; we  will organise a <strong>CECAM / Psi-k workshop</strong> <a href="https://www.cecam.org/workshop-details/1380"><strong>Uncertainty quantification in atomistic modelling</strong></a> in <strong>Lausanne, Switzerland</strong>. In the workshop we want to bridge various topics and directions on how to quantify and propagate uncertainties from DFT through ML towards predicted properties.</p>
+<p>During the conference <strong>Niklas Schmitz</strong> will give a <strong>tutorial</strong> on <a href="https://github.com/niklasschmitz/tutorial-cecam-workshop-dftk-2025"><em>Uncertainty quantification methods for density-functional theory</em></a> based on our <a href="https://arxiv.org/abs/2509.07785">recent preprint</a>.</p>
+<p><a href="https://github.com/niklasschmitz/tutorial-cecam-workshop-dftk-2025">&#91;Code&#93;</a> <a href="https://github.com/niklasschmitz/tutorial-cecam-workshop-dftk-2025/blob/main/slides.pdf">&#91;Slides&#93;</a></p>
+<p><a href="https://www.cecam.org/workshop-details/1380"><img src="https://matmat.org/assets/2025.11.25_CECAM_uqam_logo.png" alt="Conference logo" /></a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  University of Augsburg: Inverse DFT problems  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/11/unia/index.html </link>
+  <guid> https://matmat.org/news/2025/11/unia/index.html </guid>
+  <description>
+    <![CDATA[  Michael has been invited to give a seminar talk in the group of Daniel Petersheim at the University of Augsburg  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>University of Augsburg: Inverse DFT problems</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>04.11.2025</strong> Michael has been invited to the <strong>University of Augsburg</strong> in Bavaria, Germany to give a talk in the seminar of the group of Daniel Petersheim. His talk is titled <a href="https://michael-herbst.com/talks/2025.11.03_Augsburg_ForwardInverse_DFT.pdf"><em>Kohn-Sham Density-Functional Theory: Perspectives on various inverse problems</em></a> and he talk about inverse problems in Kohn-Sham DFT, such as learning the exchange-correlation potential, or the Kohn-Sham potential knowing only physical observables such as the optimised structure or the electron density.</p>
+<p><a href="https://michael-herbst.com/talks/2025.11.03_Augsburg_ForwardInverse_DFT.pdf">&#91;Slides&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Rensselaer Polytechnic Institute: Inverse DFT problems  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/10/rpi/index.html </link>
+  <guid> https://matmat.org/news/2025/10/rpi/index.html </guid>
+  <description>
+    <![CDATA[  Michael has been invited to give a seminar talk at the Michigan Institute for Computational Discovery and Engineering &#40;MICDE&#41;  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Rensselaer Polytechnic Institute: Inverse DFT problems</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>15.10.2025</strong> Michael has been invited to <strong>Rensselaer Polytechnic Institute &#40;RPI&#41;</strong> in Troy, New York to give a talk in the <a href="https://math.rpi.edu/events/kohn-sham-density-functional-theory-perspectives-various-inverse-problems">Mathematical Sciences Seminar Series</a>. In his talk titled <a href="https://michael-herbst.com/talks/2025.10.15_Rensselaer_Polytechnic.pdf"><em>Kohn-Sham Density-Functional Theory: Perspectives on various inverse problems</em></a> Michael will talk about inverse problems in Kohn-Sham DFT, such as learning the exchange-correlation potential, or the Kohn-Sham potential knowing only physical observables such as the optimised structure or the electron density.</p>
+<p><a href="https://michael-herbst.com/talks/2025.10.15_Rensselaer_Polytechnic.pdf">&#91;Slides&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  IPAM: Bridging Scales from Atomistic to Continuum in Electrochemical Systems  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/10/ipam/index.html </link>
+  <guid> https://matmat.org/news/2025/10/ipam/index.html </guid>
+  <description>
+    <![CDATA[  Michael has been invited to the IPAM workshop Bridging Scales from Atomistic to Continuum in Electrochemical Systems.  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>IPAM: Bridging Scales from Atomistic to Continuum in Electrochemical Systems</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>06.10.2025 - 10.10.2025</strong> Michael has been invited to the workshop <a href="https://www.ipam.ucla.edu/programs/workshops/workshop-ii-bridging-scales-from-atomistic-to-continuum-in-electrochemical-systems/">Bridging Scales from Atomistic to Continuum in Electrochemical Systems</a> at the <a href="https://www.ipam.ucla.edu/"><strong>Institute of pure and applied mathematics &#40;IPAM&#41;</strong></a> at UCLA, Los Angeles, California. At the workshop he will give a talk about <a href="https://michael-herbst.com/talks/2025.10.09_IPAM_DFT_Gradients.pdf"><em>Algorithmic differentiation in plane-wave DFT</em></a> including a few hands-on examples. A recording is available <a href="https://youtube.com/watch?v&#61;g6j1beYSWV4">on youtube</a>.</p>
+<p><a href="https://michael-herbst.com/talks/2025.10.09_IPAM_DFT_Gradients.pdf">&#91;Slides&#93;</a> <a href="https://michael-herbst.com/talks/2025.10.09_IPAM_DFT_Gradients_1_ad.html">&#91;Demo AD&#93;</a> <a href="https://michael-herbst.com/talks/2025.10.09_IPAM_DFT_Gradients_2_design.html">&#91;Demo Inverse design&#93;</a> <a href="https://michael-herbst.com/talks/2025.10.09_IPAM_DFT_Gradients_3_dftk.html">&#91;Demo on DFTK&#93;</a> <a href="https://youtube.com/watch?v&#61;g6j1beYSWV4">&#91;Youtube recording&#93;</a></p>
+<p><a href="https://www.ipam.ucla.edu/programs/workshops/workshop-ii-bridging-scales-from-atomistic-to-continuum-in-electrochemical-systems/"><img src="https://matmat.org/assets/2025.10.06_IPAM_WS2_image.png" alt="Conference logo" /></a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  MICDE: Algorithmic differentiation in plane-wave DFT  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/10/umich-micde/index.html </link>
+  <guid> https://matmat.org/news/2025/10/umich-micde/index.html </guid>
+  <description>
+    <![CDATA[  Michael has been invited to give a seminar talk at the Michigan Institute for Computational Discovery and Engineering &#40;MICDE&#41;  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>MICDE: Algorithmic differentiation in plane-wave DFT</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>02.10.2025</strong> Michael gives a seminar talk at the <a href="https://micde.umich.edu/"><strong>Michigan Institute for Computational Discovery and Engineering &#40;MICDE&#41;</strong></a> of the University of Michigan. He will talk about <a href="https://michael-herbst.com/talks/2025.10.03_MICDE_DFTK_AD.pdf"><em>Algorithmic differentiation in plane-wave DFT</em></a>. A recording is available <a href="https://youtube.com/watch?v&#61;HWm6uh0uqXU">on youtube</a>.</p>
+<p><a href="https://michael-herbst.com/talks/2025.10.03_MICDE_DFTK_AD.pdf">&#91;Slides&#93;</a> <a href="https://michael-herbst.com/talks/2025.10.03_MICDE_DFTK_AD_design.html">&#91;Demo&#93;</a> <a href="https://youtube.com/watch?v&#61;HWm6uh0uqXU">&#91;Youtube recording&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Nathanael Bosch joins our group  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/10/arrival_nathanael_bosch/index.html </link>
+  <guid> https://matmat.org/news/2025/10/arrival_nathanael_bosch/index.html </guid>
+  <description>
+    <![CDATA[  Nathanael Bosch joins our group  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Nathanael Bosch joins our group</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>01.10.2025</strong> Today <strong>Dr. Nathanael Bosch</strong> starts in our group as a PostDoc. We hope you&#39;ll have a smooth start and we look forward to all the many questions we will ask ourselves in the next years.</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  1st DFTK developers meeting  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/09/dftkdev/index.html </link>
+  <guid> https://matmat.org/news/2025/09/dftkdev/index.html </guid>
+  <description>
+    <![CDATA[  The first DFTK developers meeting takes place at University Paris-Saclay.  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>1st DFTK developers meeting</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>03.09 - 05.09.2025</strong> This week the first developer meeting of the <a href="https://dftk.org">Density-Functional ToolKit</a> community took place at the University Paris-Saclay in Orsay. We had a nice few days of hacking and brainstorming about future developments. Thanks to everyone who made it:</p>
+<p><img src="https://matmat.org/assets/2025.09.05_dftkdev.jpg" alt="Conference picture" /></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Psi-k conference 2025  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/08/psik/index.html </link>
+  <guid> https://matmat.org/news/2025/08/psik/index.html </guid>
+  <description>
+    <![CDATA[  The MatMat group will attend the Psi-k conference in Lausanne  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Psi-k conference 2025</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>25.08 - 28.08.2025</strong> The MatMat group will attend the <a href="https://sites.google.com/view/psik2025/">Psi-k conference</a> in Lausanne, Switzerland. Michael is <strong>co-organising two sessions</strong> at the conference, one on <em>Modern collaborative electronic structure development</em> <strong>&#40;B3&#41;</strong> and one on <em>Sharing software development practices across communities</em> <strong>&#40;B7&#41;</strong>.</p>
+<p>On top of multiple posters there will also be <strong>two lectures about our research</strong>. One by Augustin Bussy on <em>DFTK.jl: A flexible and performant DFT code written in Julia</em> &#40;Wednesday morning, B7&#41; and one by Michael on <a href="https://michael-herbst.com/talks/2025.08.25_Psik.pdf"><em>Quantifying errors in DFT simulations: towards reducing first-principle accuracy without harm</em></a> &#40;Monday morning, B1&#41;. <a href="https://michael-herbst.com/talks/2025.08.25_Psik.pdf">&#91;Slides&#93;</a></p>
+<p><a href="https://sites.google.com/view/psik2025/"><img src="https://matmat.org/assets/2025.08.25_Psik_Header.png" alt="Conference logo" /></a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  DTU: Robust error-controlled materials simulations  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/08/dtu-camd/index.html </link>
+  <guid> https://matmat.org/news/2025/08/dtu-camd/index.html </guid>
+  <description>
+    <![CDATA[  Michael has been invited to give a seminar talk at the DTU Computational Atomic-scale Materials Design group  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>DTU: Robust error-controlled materials simulations</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>18.08.2025</strong> Michael to gives a seminar talk at DTU&#39;s <a href="https://physics.dtu.dk/research/sections/camd">Computational Atomic-scale Materials Design group</a>. He will talk about <a href="https://michael-herbst.com/talks/2025.08.18_DTU_DFTK_AD.pdf"><em>Algorithmic differentiation in plane-wave DFT</em></a>. <a href="https://michael-herbst.com/talks/2025.08.18_DTU_DFTK_AD.pdf">&#91;Slides&#93;</a> <a href="https://michael-herbst.com/talks/2025.08.18_DTU_DFTK_AD_design.html">&#91;Demo&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Invited talk at CECAM-ASE meeting  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/06/cecam-ase/index.html </link>
+  <guid> https://matmat.org/news/2025/06/cecam-ase/index.html </guid>
+  <description>
+    <![CDATA[  Michael is an invited speaker at the CECAM event &#39;The atomic simulation environment ecosystem: Present and perspectives&#39;  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Invited talk at CECAM-ASE meeting</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>23.06 - 27.06.2025</strong> Michael has been <strong>invited to speak</strong> at the CECAM workshop <a href="https://www.cecam.org/workshop-details/1373"><strong>The atomic simulation environment ecosystem: Present and perspectives</strong></a> organised by the <a href="https://wiki.fysik.dtu.dk/ase/">atomistic simulation environment &#40;ASE&#41;</a> community. He will present on the <a href="https://juliamolsim.org">JuliaMolSim ecosystem</a> for atomistic modelling in Julia and its integration with the ASE python world. <a href="https://michael-herbst.com/talks/2025.06.23_ASE_perspectives.pdf">&#91;Slides&#93;</a> <a href="https://michael-herbst.com/talks/2025.06.23_ASE_perspectives_demo.tar.gz">&#91;Demo&#93;</a></p>
+<p><a href="https://juliamolsim.org"><img src="https://matmat.org/assets/juliamolsim.png" alt="JuliaMolSim" /></a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Invited talk at third general meeting of GDR NBODY  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/06/gdr-nbody/index.html </link>
+  <guid> https://matmat.org/news/2025/06/gdr-nbody/index.html </guid>
+  <description>
+    <![CDATA[  Michael has been invited to give a talk at the third general meeting of the French working group on many-body theory &#40;GDR NBODY&#41;  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Invited talk at third general meeting of GDR NBODY</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>16.06 - 18.06.2025</strong> Michael is an <strong>invited speaker</strong> at the <a href="https://lpct.cnrs.fr/&#37;C3&#37;A9v&#37;C3&#37;A8nement/icmbt/"><strong>3rd general meeting</strong></a> of the <strong>French working group on many-body theory</strong> &#40;GDR NBODY&#41; in Nancy, Francy. He will give a talk titled <a href="https://michael-herbst.com/talks/2025.06.16_GdR_nbody_Nancy.pdf"><em>Efficient and flexible computation of response properties in DFT</em></a>. <a href="https://michael-herbst.com/talks/2025.06.16_GdR_nbody_Nancy.pdf">&#91;Slides&#93;</a> <a href="https://michael-herbst.com/talks/2025.06.16_GdR_nbody_Nancy_design.html">&#91;Demo&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  New Publication: Kohn-Sham inversion with mathematical guarantees  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/05/publication-ks-inversion/index.html </link>
+  <guid> https://matmat.org/news/2025/05/publication-ks-inversion/index.html </guid>
+  <description>
+    <![CDATA[  New Publication: Kohn-Sham inversion with mathematical guarantees  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>New Publication: Kohn-Sham inversion with mathematical guarantees</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>28.05.2025: New publication</strong> Today our paper <a href="https://doi.org/10.1103/PhysRevB.111.205143">Kohn-Sham inversion with mathematical guarantees</a> has been published in Physical Review B. This article is the outcome of a fun collaboration with the group of Andre Laestadius from Oslo Mettropolitan University &#40;OsloMet&#41;, which came to life during a 2-week research stay in <a href="https://mfo.de">Oberwolfach</a>.</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Mathematical Methods in Quantum Chemistry  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/03/oberwolfach-maths-quantum-chemistry/index.html </link>
+  <guid> https://matmat.org/news/2025/03/oberwolfach-maths-quantum-chemistry/index.html </guid>
+  <description>
+    <![CDATA[  Michael co-organises the workshop &#39;Mathematical Methods in Quantum Chemistry&#39; at the Mathematical Research Institute Oberwolfach.  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Mathematical Methods in Quantum Chemistry</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>09.03 - 14.03.2025</strong> Jointly with Geneviève Dusson &#40;Besançon&#41; and Benjamin Stamm &#40;Stuttgart&#41; we will organise a workshop at the <a href="https://mfo.de"><strong>Mathematical Research Institute Oberwolfach</strong></a> on <a href="https://www.mfo.de/occasion/2511/www_view"><strong>Mathematical Methods in Quantum Chemistry</strong></a> bringing together the community of mathematicians interested on problems in quantum chemistry and electronic structure theory as well as some application researchers interested in the mathematical aspects of these models.</p>
+<p>The week at the MFO turned out to be intense and lively with many good discussions sometimes going on until the morning hours. Thanks to all participants:</p>
+<p><a href="https://www.mfo.de/occasion/2511/www_view"><img src="https://matmat.org/assets/2025.03_MFO_Mathematics_Quantum_Chem.jpg" alt="Conference picture" /></a> &#40;Credits: Marlene Ruf, MFO&#41;</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Invited talk at DFT and AI learning from each other  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/03/cecam-dft-ai/index.html </link>
+  <guid> https://matmat.org/news/2025/03/cecam-dft-ai/index.html </guid>
+  <description>
+    <![CDATA[  The MatMat group participates in the CECAM workshop &#39;DFT and AI learning from each other&#39;  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Invited talk at DFT and AI learning from each other</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>03.03 - 06.03.2024</strong> Our group participates in the CECAM workshop <a href="https://www.cecam.org/workshop-details/1281"><strong>Density Functional Theory and Artificial Intelligence learning from each other</strong></a> at EPFL. At the workshop Niklas will present a poster about his recent work on exploring algorithmic differentiation for density-functional theory and Michael will give a related <strong>invited talk</strong> titled <a href="https://michael-herbst.com/talks/2025.03.04_DFT_AI_Learning_each_other.pdf"><em>Algorithmic differentiation in plane-wave DFT</em></a>. <a href="https://michael-herbst.com/talks/2025.03.04_DFT_AI_Learning_each_other.pdf">&#91;Slides&#93;</a> <a href="https://michael-herbst.com/talks/2025.03.04_DFT_AI_Learning_each_other_design.html">&#91;Demo&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Julia for numerical problems in quantum and solid-state physics  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/02/amld/index.html </link>
+  <guid> https://matmat.org/news/2025/02/amld/index.html </guid>
+  <description>
+    <![CDATA[  Michael co-organises the track &#39;Quantifying Uncertainties in multiphysics learning&#39; at the Applied Machine Learning Days  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Julia for numerical problems in quantum and solid-state physics</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>13.02.2025</strong> Jointly with Michele Ceriotti &#40;EPFL&#41; we will organise a track <strong>Quantifying Uncertainties in multiphysics learning</strong> at EPFL&#39;s <a href="https://2025.appliedmldays.org">Applied Machine Learning Days 2025</a>. In a line-up featuring <a href="https://curiosity54.github.io/">Jigyasa Nigam</a>, <a href="https://tomswinburne.github.io/">Thomas Swinburne</a> and <a href="https://www.professoren.tum.de/en/koutsourelakis-phaedon-stelios/">Phaedon-Stelios Koutsourelakis</a> we will discuss the challenges of learning across different physical scales and some ideas how errors can be quantified along the way.</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Shapes Symposium: Youtube recording  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/02/shapes-symposium/index.html </link>
+  <guid> https://matmat.org/news/2025/02/shapes-symposium/index.html </guid>
+  <description>
+    <![CDATA[  Today the scientific symposium accompanying our exhibition Shapes took place. A youtube recording is available.  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Shapes Symposium: Youtube recording</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>12.02.2025</strong> Today the <a href="https://epfl-pavilions.ch/en/events/shapes-symposium">scientific symposium</a> accompanying our exhibition <strong>Shapes: Patterns in Art and Science</strong> took place. In three panels we discussed questions such as the mediation and communication of mathematics and science by the means of art.</p>
+<p>As part of the symposium Michael lead a <strong>panel discussing</strong> the <strong>interaction of art, scientific visualisation and science</strong> as a whole. The discussion has been broadcasted live on youtube and can be <a href="https://www.youtube.com/watch?v&#61;Q1bKNmgQz5w&amp;t&#61;17940s">&#91;watched using this youtube link&#93;</a>.</p>
+<p>For <strong>more details on the exhibition</strong>, still running until 9th March, take a look at <a href="https://epfl-pavilions.ch/en/exhibitions/shapes">our website</a> and <a href="https://matmat.org/news/2025/01/shapes/">this earlier article</a>.</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Exhibition Shapes in the Media  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/02/shapes-cqfd/index.html </link>
+  <guid> https://matmat.org/news/2025/02/shapes-cqfd/index.html </guid>
+  <description>
+    <![CDATA[  A summary of Media coverage of the Exhibition Shapes  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Exhibition Shapes in the Media</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>11.02.2025</strong> The <strong>national radio programme CQFD</strong> from the Swiss public radio channel RTS has aired various segments about our exhibition <strong>Shapes: Patterns in Art and Science</strong> &#40;all in French&#41;:</p>
+<ul>
+<li><p>On 5th Feb a <a href="https://www.rts.ch/audio-podcast/2025/audio/une-exposition-pour-mettre-en-valeur-la-beaute-des-mathematiques-28780656.html">10-minute segment</a> and a broad overview.  It features an <strong>interview with Hugo Parlier</strong> &#40;one of Michael&#39;s co-organisers&#41; and <strong>Paul Turner</strong> &#40;one of the artists contributing&#41;. <strong><a href="https://www.rts.ch/audio-podcast/2025/audio/une-exposition-pour-mettre-en-valeur-la-beaute-des-mathematiques-28780656.html">download link</a></strong></p>
+</li>
+<li><p>On 6th Feb a <a href="https://www.rts.ch/audio-podcast/2025/audio/des-casse-tetes-mathematiques-rigolos-et-colores-mis-au-point-a-l-epfl-28782083.html">14-minute special</a> about the mathematical puzzles Hugo Parlier and Paul Turner developed, which are on display in the exhibition. <strong><a href="https://www.rts.ch/audio-podcast/2025/audio/des-casse-tetes-mathematiques-rigolos-et-colores-mis-au-point-a-l-epfl-28782083.html">download link</a></strong></p>
+</li>
+<li><p>On 11th Feb a short <a href="https://www.rts.ch/audio-podcast/2025/audio/formes-les-motifs-dans-l-art-et-la-science-une-exposition-a-voir-a-l-epfl-28788057.html">6 minute segment</a> in the RTS Vertigo Podcast. <strong><a href="https://www.rts.ch/audio-podcast/2025/audio/formes-les-motifs-dans-l-art-et-la-science-une-exposition-a-voir-a-l-epfl-28788057.html">download link</a></strong></p>
+</li>
+</ul>
+<p>On 5th February the <strong>news blog of EPFL</strong> <a href="https://actu.epfl.ch/news/les-geometries-qui-nous-entourent-sublimees-par--2/">published an article</a> on our exhibition, too.</p>
+<p>For <strong>more details on the exhibition</strong>, still running until 9th March, take a look at <a href="https://epfl-pavilions.ch/en/exhibitions/shapes">our website</a> and <a href="https://matmat.org/news/2025/01/shapes/">this earlier article</a>.</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Exhibition Shapes: Patterns in Art and Science  ]]>
+  </title>
+  <link> https://matmat.org/news/2025/01/shapes/index.html </link>
+  <guid> https://matmat.org/news/2025/01/shapes/index.html </guid>
+  <description>
+    <![CDATA[  Michael co-organises an exhibition at the EPFL Pavilions named &#39;Shapes: Patterns in Art and Science&#39;  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Exhibition Shapes: Patterns in Art and Science</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>17.01 - 09.03.2025</strong> For a good month and a half in early 2025 the EPFL Pavilions will host the exhibition <a href="https://epfl-pavilions.ch/en/exhibitions/shapes"><strong>Shapes: Patterns in Art and Science</strong></a>.</p>
+<p><a href="https://epfl-pavilions.ch/en/exhibitions/shapes"><img src="https://matmat.org/assets/2025.01_SHAPES_Poster.jpg" alt="Shapes psoster" /></a></p>
+<p>Inspired by the works of the painter M. C. Escher this exhibition explores the richness of the natural and artificial patterns that surround us. Bringing together art, mathematics, materials science and biology, it highlights the shared fascination of scientists and artists with geometric, dynamic and symmetrical structures. </p>
+<p>This exhibition Michael co-organises in collaboration with two fellow mathematicians, <a href="https://math.uni.lu/parlier/">Hugo Parlier</a> and <a href="https://people.epfl.ch/marc.troyanov">Marc Troyanov</a>, as well as help from colleagues in physics, biology and the EPFL Pavilion team.</p>
+<p>Some events of the <a href="https://epfl-pavilions.ch/en/exhibitions/shapes">accompanying programme</a>:</p>
+<ul>
+<li><p><strong>Vernissage</strong>: Thursday 16th January 17h-20h</p>
+</li>
+<li><p><strong>Scientific symposium on shapes</strong>: Tuesday 11th February <a href="https://www.youtube.com/watch?v&#61;Q1bKNmgQz5w">&#91;Youtube recording&#93;</a> <a href="https://memento.epfl.ch/event/the-art-of-geometry/">&#40;more information&#41;</a></p>
+</li>
+<li><p><strong>Public Symposium on the interaction art and science</strong>: Wednesday 12th February <a href="https://epfl-pavilions.ch/en/events/shapes-symposium">&#40;more information and registration&#41;</a></p>
+</li>
+</ul>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Oslo workshop on Quantum Theory  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/12/oslo-quantum-theory/index.html </link>
+  <guid> https://matmat.org/news/2024/12/oslo-quantum-theory/index.html </guid>
+  <description>
+    <![CDATA[  Michael has been invited to give a talk at the Oslo workshop on Quantum Theory  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Oslo workshop on Quantum Theory</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>02.12 - 06.12.2024</strong> Michael has been invited to give a talk at the <a href="https://uni.oslomet.no/quantum/workshop-foundations-and-extensions-of-dft/">Oslo workshop on Quantum Theory: Foundations and Extensions of Density-Functional Theory</a> in Oslo, Norway. At the workshop Michael will present on <a href="https://michael-herbst.com/talks/2024.12.03_Oslo_KS_Inversion.pdf"><em>From proof to practice, an example employing DFTK for Kohn-Sham inversion</em></a>. <a href="https://michael-herbst.com/talks/2024.12.03_Oslo_KS_Inversion.pdf">&#91;Slides&#93;</a> <a href="https://michael-herbst.com/talks/2024.12.03_Oslo_KS_Inversion_1_scf.html">&#91;Notebook 1 Custom SCF&#93;</a> <a href="https://michael-herbst.com/talks/2024.12.03_Oslo_KS_Inversion_2_inversion.html">&#91;Notebook 2 Inversion&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Julia for numerical problems in quantum and solid-state physics  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/11/psik-numerics-solid-state/index.html </link>
+  <guid> https://matmat.org/news/2024/11/psik-numerics-solid-state/index.html </guid>
+  <description>
+    <![CDATA[  Michael co-organises a Psi-k workshop on &#39;Julia for numerical problems&#39;  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Julia for numerical problems in quantum and solid-state physics</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>26.11.2024 - 28.11.2024</strong> Jointly with Antoine Levitt &#40;University of Paris Orsay&#41; and Jutho Haegeman &#40;University of Ghent&#41; we will organise a <strong>Psi-k workshop</strong> at the intersection of quantum physics, computer science and numerical linear algebra / optimisation. The main motivation is to explore current problems in the field and the opportunities of the Julia programming language for researchers from aforementioned communities to join forces. The workshop is titled <a href="https://www.cecam.org/workshop-details/1355"><strong>Julia for numerical problems in quantum and solid-state physics</strong></a> and will take place at the <a href="https://www.cecam.org/">CECAM HQ</a> in <strong>Lausanne, Switzerland</strong>.</p>
+<p>The workshop turned out to be a full success with about 60 Julia-interested researchers coming together in Lausanne:</p>
+<p><img src="https://matmat.org/assets/2024.11_Psik_Julia_Conference_picture.jpg" alt="Conference picture" /></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  IMX Seminar: Novel mathematics to discover novel materials  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/11/imx-seminar/index.html </link>
+  <guid> https://matmat.org/news/2024/11/imx-seminar/index.html </guid>
+  <description>
+    <![CDATA[  Michael gives this week&#39;s Materials Science institute seminar  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>IMX Seminar: Novel mathematics to discover novel materials</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>25.11.2024</strong> Michael will give this week&#39;s talk in the <a href="https://memento.epfl.ch/event/imx-seminar-series-novel-mathematics-to-discover-n/">Seminar Series of the Institute of Materials</a> titled <a href="https://michael-herbst.com/talks/2024.11.25_IMX_Seminar.pdf"><em>Novel mathematics to discover novel materials</em></a>. <a href="https://michael-herbst.com/talks/2024.11.25_IMX_Seminar.pdf">&#91;Slides&#93;</a> <a href="https://michael-herbst.com/talks/2024.11.25_IMX_Seminar_1_scf.html">&#91;Notebook 1 Custom SCF&#93;</a> <a href="https://michael-herbst.com/talks/2024.11.25_IMX_Seminar_2_design.html">&#91;Notebook 2 Inverse Design&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Warwick: Robust error-controlled materials simulations  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/11/warwick-wcpm-seminar/index.html </link>
+  <guid> https://matmat.org/news/2024/11/warwick-wcpm-seminar/index.html </guid>
+  <description>
+    <![CDATA[  Michael has been invited to give a seminar talk at the Warwick Centre for Predictive Modelling  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Warwick: Robust error-controlled materials simulations</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>11.11.2024</strong> Michael has been invited to give a seminar talk at the <a href="https://warwick.ac.uk/fac/sci/wcpm/seminars/">Warwick Centre for Predictive Modelling &#40;WCPM&#41;</a>. He will talk about <a href="https://michael-herbst.com/talks/2024.11.11_Warwick.pdf"><em>Robust error-controlled materials simulations</em></a>. <a href="https://michael-herbst.com/talks/2024.11.11_Warwick.pdf">&#91;Slides&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Ivan Maliyov joins our group  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/11/arrival_ivan_maliyov/index.html </link>
+  <guid> https://matmat.org/news/2024/11/arrival_ivan_maliyov/index.html </guid>
+  <description>
+    <![CDATA[  Ivan Maliyov joins our group  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Ivan Maliyov joins our group</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>01.11.2024</strong> Today we welcome <strong>Dr. Ivan Maliyov</strong> to our group. All the best and happy beginnings&#33; We hope you&#39;ll have a smooth upward gradient into more exciting discoveries.</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  MolSSI workshop: Hands-on presentation of DFTK  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/10/molssi-juliamolsim/index.html </link>
+  <guid> https://matmat.org/news/2024/10/molssi-juliamolsim/index.html </guid>
+  <description>
+    <![CDATA[  Our group participates in the MolSSI workshop on Julia for Computational Molecular and Materials Science  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>MolSSI workshop: Hands-on presentation of DFTK</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>21.10 - 22.10.2024</strong> Our group participates in the <a href="https://juliamolsim.org/molssi_workshop/">MolSSI workshop on Julia for Computational Molecular and Materials Science</a> taking place in Carnegie Mellon University in Pittsburgh and hybrid. Michael has been invited to give a <a href="https://github.com/mfherbst/demo-molssi-workshop-dftk">hands-on presentation on DFTK</a>. <a href="https://michael-herbst.com/talks/2024.10.21_JuliaMolSim_DFTK.pdf">&#91;Slides&#93;</a> <a href="https://github.com/mfherbst/demo-molssi-workshop-dftk">&#91;Pluto notebooks&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  MANUEL: Invited talk on AD and DFT derivatives  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/09/manuel/index.html </link>
+  <guid> https://matmat.org/news/2024/09/manuel/index.html </guid>
+  <description>
+    <![CDATA[  The MatMat group participates in the MANUEL Conference in Stuttgart, Germany  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>MANUEL: Invited talk on AD and DFT derivatives</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>16.09 - 20.09.2024</strong> Our group participates in this year&#39;s <a href="https://www.ians.uni-stuttgart.de/nmh/manuel-conf/">MANUEL Conference</a> in Stuttgart, Germany. Michael is an <strong>invited speaker</strong> and will present on <a href="https://michael-herbst.com/talks/2024.09.18_MANUEL_Stuttgart.pdf"><em>Reliable and efficient methods for computing DFT properties and derivatives</em></a> <a href="https://michael-herbst.com/talks/2024.09.18_MANUEL_Stuttgart.pdf">&#91;Slides&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Bruno Ploumhans joins our group  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/09/arrival_bruno_ploumhans/index.html </link>
+  <guid> https://matmat.org/news/2024/09/arrival_bruno_ploumhans/index.html </guid>
+  <description>
+    <![CDATA[  Bruno Ploumhans joins our group  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Bruno Ploumhans joins our group</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>15.09.2024</strong> Bruno Ploumhans returns to our group as a PhD after a few months following up from his master thesis. Welcome back Bruno and we look forward to have you around for many more scientific endeavours.</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Moansi UQ workshop: Uncertainty Quantification in Molecular Simulation  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/08/moansi-uq/index.html </link>
+  <guid> https://matmat.org/news/2024/08/moansi-uq/index.html </guid>
+  <description>
+    <![CDATA[  Michael co-organises the workshop on &#39;Uncertainty Quantification in Molecular Simulation&#39; at MPI Magdeburg  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Moansi UQ workshop: Uncertainty Quantification in Molecular Simulation</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>29.08.2024 - 30.08.2024</strong> As part of our group&#39;s involvement in the <a href="https://moansi.wixsite.com/gamm">Modelling, Analysis and Simulation of Molecular Systems</a> interest group, Michael co-organises a workshop on <a href="https://indico3.mpi-magdeburg.mpg.de/event/40/">Uncertainty Quantification in Molecular Simulation</a> &#40;jointly with Feliks Nüske&#41;. The workshop will be a lunch-to-lunch event tailored to people, who are familiar with the modelling of molecular simulations, but not yet familiar with UQ and error estimation.</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  MPI Magdeburg: Reliable methods for DFT derivatives  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/08/magdeburg/index.html </link>
+  <guid> https://matmat.org/news/2024/08/magdeburg/index.html </guid>
+  <description>
+    <![CDATA[  Michael speaks at the seminar of the MPI for Dynamical Systems in Magdeburg  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>MPI Magdeburg: Reliable methods for DFT derivatives</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>28.08.2024</strong> Michael has been invited to the seminar of the MPI for Dynamical Systems in Magdeburg and gives a talk on <a href="https://michael-herbst.com/talks/2024.08.28_magdeburg.pdf"><em>Reliable and efficient methods for computing DFT properties and derivatives</em></a>. <a href="https://michael-herbst.com/talks/2024.08.28_magdeburg.pdf">&#91;Slides&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  JuliaCon keynote talk on Materials Modeling  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/07/juliacon/index.html </link>
+  <guid> https://matmat.org/news/2024/07/juliacon/index.html </guid>
+  <description>
+    <![CDATA[  The MatMat group attends JuliaCon 2024 where Michael will give a keynote lecture  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>JuliaCon keynote talk on Materials Modeling</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>10.07.2024</strong> Michael will give a <strong>keynote lecture</strong> &#40;jointly with <a href="https://engineering.cmu.edu/directory/bios/kurchin-rachel.html">Rachel Kurchin, CMU</a>&#41; on <a href="https://michael-herbst.com/slides/juliacon2024"><strong>Materials Modeling: Bonding across atoms, code, and people</strong></a> <a href="https://juliacon.org/2024/keynotes/#materials_modeling_bonding_across_atoms_code_and_people">&#40;abstract&#41;</a> at this year&#39;s <strong>JuliaCon</strong> in Eindhoven, Netherlands. This talk will be streamed live on Wednesday <strong>10th July, 17:40 - 18:40</strong> on the <a href="https://www.youtube.com/c/TheJuliaLanguage/streams">JuliaLang youtube channel</a>. <a href="https://michael-herbst.com/slides/juliacon2024">&#91;Slides&#93;</a> <a href="https://github.com/mfherbst/juliamolsim-demo">&#91;Code&#93;</a> <a href="https://www.youtube.com/watch?v&#61;zDh6LmEGUDc">&#91;Youtube Recording&#93;</a></p>
+<p><strong>12.07.2024</strong> Afterwards on Friday 12th Michael will also give an update about <a href="https://dftk.org">DFTK</a> in a talk titled <a href="https://michael-herbst.com/talks/2024.07.12_5years_DFTK.pdf"><em>DFTK.jl: 5 years of a multidisciplinary electronic-structure code</em></a> <a href="https://pretalx.com/juliacon2024/talk/WRQE3H/">&#40;abstract&#41;</a>. <a href="https://michael-herbst.com/talks/2024.07.12_5years_DFTK.pdf">&#91;Slides&#93;</a> <a href="https://michael-herbst.com/talks/2024.07.12_5years_DFTK.html">&#91;Code&#93;</a> <a href="https://www.youtube.com/watch?v&#61;ox_j2zKOuIk">&#91;Youtube Recording&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  New Publication: ddx: Continuum solvation from Small Molecules to Proteins  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/07/publication-ddx/index.html </link>
+  <guid> https://matmat.org/news/2024/07/publication-ddx/index.html </guid>
+  <description>
+    <![CDATA[  New Publication: ddx: Continuum solvation from Small Molecules to Proteins  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>New Publication: ddx: Continuum solvation from Small Molecules to Proteins</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>31.07.2024: New publication</strong> Today our paper <a href="https://doi.org/10.1002/wcms.1726">ddX: Polarizable Continuum Solvation from Small Molecules to Proteins</a> is published in WIREs Computational Molecular Science.</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  New Publication: Multitask methods for molecular properties  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/07/publication-multitask/index.html </link>
+  <guid> https://matmat.org/news/2024/07/publication-multitask/index.html </guid>
+  <description>
+    <![CDATA[  New Publication: Multitask methods for molecular properties  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>New Publication: Multitask methods for molecular properties</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>04.07.2024: New publication</strong> Today our paper <a href="https://doi.org/10.1063/5.0201681">Multitask methods for predicting molecular properties from heterogeneous data</a> is published in the Journal of Chemical Physics.</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Thu, 04 Jul 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Optimization Techniques in Quantum Chemistry  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/06/qchem-opt/index.html </link>
+  <guid> https://matmat.org/news/2024/06/qchem-opt/index.html </guid>
+  <description>
+    <![CDATA[  The MatMat group participates in the workshop &#39;Optimization Techniques in Quantum Chemistry&#39;  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Optimization Techniques in Quantum Chemistry</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>05.06 - 07.06.2024</strong> Our group participates in the workshop <a href="https://sfb1481.rwth-aachen.de/news-events/events/optimization-qc">Optimization Techniques in Quantum Chemistry</a> at RWTH Aachen. At the workshop Michael will present on <a href="https://michael-herbst.com/talks/2024.06.07_optim_qchem.pdf"><em>Reliable and efficient methods for computing DFT properties and derivatives</em></a> <a href="https://michael-herbst.com/talks/2024.06.07_optim_qchem.pdf">&#91;Slides&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  PASC Minisymposium: Julia for atomistic modelling  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/06/pasc-multiscale-materials-modelling/index.html </link>
+  <guid> https://matmat.org/news/2024/06/pasc-multiscale-materials-modelling/index.html </guid>
+  <description>
+    <![CDATA[  Michael co-organises the minisymposium &#39;Julia for atomistic modelling&#39; at PASC 2024  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>PASC Minisymposium: Julia for atomistic modelling</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>03.06.2024</strong> Michael co-organises the minisymposium <a href="https://pasc24.pasc-conference.org/program/minisymposia/">Composable Julia Software in Atomistic Materials Modeling</a> &#40;jointly with Rachel Kurchin&#41; at the <a href="https://pasc24.pasc-conference.org/">Platform for Advanced Scientific Computing</a> &#40;<strong>PASC</strong>&#41; conference in Zürich, Switzerland.</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  SIAM LA: Minitutorial on electronic structure simulations  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/05/siamla/index.html </link>
+  <guid> https://matmat.org/news/2024/05/siamla/index.html </guid>
+  <description>
+    <![CDATA[  Michael attends SIAM LA  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>SIAM LA: Minitutorial on electronic structure simulations</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>13.05.2024 - 17.05.2024</strong> Jointly with Eric Cancès and Antoine Levitt Michael co-organises a <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE&#61;79649">minitutorial <em>Linear Algebra Challenges in Electronic Structure Simulations</em></a> at SIAM Linear Algebra &#40;<strong>SIAM LA</strong>&#41; in Paris, France. <a href="https://github.com/mfherbst/2024-siamla-minitutorial">&#91;Tutorial material&#93;</a></p>
+<p>Later in the week Michael will also speak about <a href="https://michael-herbst.com/talks/2024.05.15_siamla_adaptive.pdf"><em>An Adaptive Line Search for Self-Consistent Field Problems of Electronic Structure Theory</em></a> in the minisymposium <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE&#61;78744"><em>Eigenvector-Dependent Nonlinear Eigenvalue Problems and Applications</em></a>. <a href="https://michael-herbst.com/talks/2024.05.15_siamla_adaptive.pdf">&#91;Slides&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Anna Paulish joins our group  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/04/arrival_anna_paulish/index.html </link>
+  <guid> https://matmat.org/news/2024/04/arrival_anna_paulish/index.html </guid>
+  <description>
+    <![CDATA[  Anna Paulish joins our group  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Anna Paulish joins our group</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>01.04.2024</strong> Anna Paulish joins our group as a PhD student. Welcome Anna&#33; We look forward to our part in your scientific explorations in the years to come.</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  GAMM Accelerating mathematical developments in materials modelling  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/03/gamm/index.html </link>
+  <guid> https://matmat.org/news/2024/03/gamm/index.html </guid>
+  <description>
+    <![CDATA[  MatMat group attends the 94th GAMM annual meeting  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>GAMM Accelerating mathematical developments in materials modelling</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>18.03.2024 - 22.03.2024</strong> The MatMat group attends the <a href="https://jahrestagung.gamm.org/annual-meeting-2024/94th-annual-meeting/">94th annual meeting</a> of the German Association of Applied Mathematics and Mechanics &#40;<strong>GAMM</strong>&#41; in Magdeburg, Germany. This year Michael co-organises the section <em>Modelling, analysis and simulation of molecular systems</em> &#40;with Sebastian Matera&#41;. Due to many strong submissions there are <strong>over 12 hours of talks</strong> about electronic structures and atomistic modelling taking place at GAMM &#33;</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Inaugural lecture: Robust error-controlled materials simulations  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/03/inaugural-lecture/index.html </link>
+  <guid> https://matmat.org/news/2024/03/inaugural-lecture/index.html </guid>
+  <description>
+    <![CDATA[  Michael gives his inaugural lecture &#39;Robust error-controlled materials simulations&#39;  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Inaugural lecture: Robust error-controlled materials simulations</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>13.03.2024</strong>: Michael gives his <a href="https://memento.epfl.ch/event/inaugural-lecture-robust-error-controlled-materi-2/"><strong>inaugural lecture</strong></a>, speaking about <a href="https://michael-herbst.com/slides/inaugural2024"><em>Robust error-controlled materials simulations</em></a>. The talk will be transmitted live via <a href="https://epfl.zoom.us/j/62519319142">zoom</a>. See the <a href="https://memento.epfl.ch/event/inaugural-lecture-robust-error-controlled-materi-2/">memento page</a> for further details and please <a href="https://docs.google.com/forms/d/e/1FAIpQLSfY8gfOSNR3b3qQD8G5xCS8Jkkj7r6JfhvC0bUWPPljf7hjlw/viewform">register here</a>. <a href="https://michael-herbst.com/slides/inaugural2024">&#91;Slides&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  CECAM workshop on electronic structure software  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/02/elstruct-workshop/index.html </link>
+  <guid> https://matmat.org/news/2024/02/elstruct-workshop/index.html </guid>
+  <description>
+    <![CDATA[  MatMat group participates in &#39;CECAM-Psik workshop on electronic structure software development&#39;  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>CECAM workshop on electronic structure software</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>19.02.2024 - 23.02.2024</strong> The MatMat group participates in the <a href="https://www.cecam.org/workshop-details/1194">CECAM-Psik workshop on electronic structure software development</a> taking place in CECAM HQ in Lausanne. As part of the meeting Michael will on <a href="https://michael-herbst.com/talks/2024.02.20_elstruct_code_workshop.pdf"><em>Fostering Interdisciplinary Research in Materials Modelling by Composable Julia Software</em></a>. <a href="https://michael-herbst.com/talks/2024.02.20_elstruct_code_workshop.pdf">&#91;Slides&#93;</a></p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Yongjoong Shin joins as master student  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/02/arrival_shin/index.html </link>
+  <guid> https://matmat.org/news/2024/02/arrival_shin/index.html </guid>
+  <description>
+    <![CDATA[  Yongjoong Shin joins as master student  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Yongjoong Shin joins as master student</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>19.02.2024</strong> Today Yongjoong Shin joins us as a master student for the upcoming semester. Welcome Shin to the mathy side of materials modelling &#33;</p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Seminar talk at Uni Fribourg chemistry department  ]]>
+  </title>
+  <link> https://matmat.org/news/2024/02/fribourg/index.html </link>
+  <guid> https://matmat.org/news/2024/02/fribourg/index.html </guid>
+  <description>
+    <![CDATA[  Michael gives a talk at the niversität Freiburg chemistry department  ]]>
+  </description>  
+  
+  <content:encoded>
+    <![CDATA[  
+<h1>Seminar talk at Uni Fribourg chemistry department</h1>
+<p><a href="https://matmat.org/news">Other news articles</a></p><p><strong>15.02.2024</strong> Michael has been invited to give a talk at the <a href="https://www.unifr.ch/chem/fr/info/agenda.html?eventid&#61;15006">Universität Freiburg chemistry department seminar</a>. He will talk about <a href="https://michael-herbst.com/talks/2024.02.15_unifr.pdf"><em>A Mathematical Viewpoint on Robustness and Efficiency in First-Principle Simulations</em></a>. <a href="https://michael-herbst.com/talks/2024.02.15_unifr.pdf">&#91;Slides&#93;</a>  </p>
+ ]]>
+  </content:encoded>
+    
+  <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>MatMat group</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>
