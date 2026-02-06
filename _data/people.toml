@@ -180,3 +180,20 @@ room = "MA B1 457"
 sciper = "423350"
 departure = ""
 destination = ""
+
+[menges-benedikt]
+arxiv = ""
+departure = ""
+destination = ""
+email = "benedikt.menges@epfl.ch"
+firstname = "Benedikt"
+github = "Apollon0212"
+gscholar = ""
+name = "Menges"
+orcid = ""
+position = "Doctoral Assistant"
+priority = 0
+room = "MA B1 477"
+sciper = 414522
+website = "https://people.epfl.ch/414522"
+showcase = ""
