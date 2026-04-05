@@ -94,8 +94,6 @@
   *Reliable black-box algorithms for electronic structure simulations.*
 - [Andre Laestadius (Applied mathematics, Oslo Met University):](https://uni.oslomet.no/regal/andre-laestadius/)  
   *Mathematical formulation of density-functional theory.*
-- [Benjamin Stamm (Numerical analysis, Universität Stuttgart):](https://www.ians.uni-stuttgart.de/institute/team/Stamm/)  
-  *Reduced basis methods & analysis of quantum-chemical methods.*
 
 <!--
 - [Alan Edelman (Computer science, Massachusetts Institute of Technology):](https://math.mit.edu/~edelman)
@@ -107,6 +105,8 @@
     *Algorithmic differentiation in DFTK / density-functional theory simulations.*
 - [Wouter Ryssens (Nuclear physics, Free University of Brussels):](https://wryssens.com)  
     *Numerical methods for nuclear density-functional theory.*
+- [Benjamin Stamm (Numerical analysis, Universität Stuttgart):](https://www.ians.uni-stuttgart.de/institute/team/Stamm/)  
+  *Reduced basis methods & analysis of quantum-chemical methods.*
 - [Erik Tellgren (Theoretical chemistry, University of Oslo):](https://www.mn.uio.no/kjemi/english/people/aca/eriktel/index.html)  
     *Numerical techniques to discover global minima in SCF methods.*
 - [Matteo Rizzi(Correlated quantum systems, Universität Köln):](https://www.rizzi-matteo.com/)  
