@@ -17,7 +17,7 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 05.05.26 (MA B1 524) [Bruno Ploumhans](https://people.epfl.ch/bruno.ploumhans) *Density Functional Perturbation Theory Treatment of Monochromatic and Electric Field Perturbations* [Memento Link](https://memento.epfl.ch/private/event/71763/en/preview/)
+- 05.05.26 16:00 (MA B1 524) [Bruno Ploumhans](https://people.epfl.ch/bruno.ploumhans) *Density Functional Perturbation Theory Treatment of Monochromatic and Electric Field Perturbations* [Memento Link](https://memento.epfl.ch/event/matmat-electronic-structure-reading-group-bruno-pl/)
 
 Past events:
 - 24.11.25 16:00 (MA B1 524) [Edrick Solís González](https://people.epfl.ch/edrick.solisgonzalez?lang=en) *Car-Parrinello molecular dynamics* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-car-parrinello/)
