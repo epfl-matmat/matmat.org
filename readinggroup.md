@@ -9,7 +9,7 @@ interested in mathematical aspects of electronic structure problems and adjacent
 
 Organizers:
 - Michael Herbst {{ protect_email michael.herbst@epfl.ch }}
-- Niklas Schmitz {{ protect_email niklas.schmitz@epfl.ch }}
+- Noé Blassel {{ protect_email noe.blassel@epfl.ch }}
 
 For updates, join the matrix chat room at 
 [#electronic-structure:epfl.ch](https://matrix.epfl.ch/#/#/room/#electronic-structure:epfl.ch)
@@ -17,9 +17,11 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 05.05.26 16:00 (MA B1 524) [Bruno Ploumhans](https://people.epfl.ch/bruno.ploumhans) *Density Functional Perturbation Theory Treatment of Monochromatic and Electric Field Perturbations* [Memento Link](https://memento.epfl.ch/event/matmat-electronic-structure-reading-group-bruno-pl/)
+- 19.05.26 16:00 (MA B1 504) [Vebjørn Bakkestuen](https://uni.oslomet.no/regal/vebjorn-h-bakkestuen/), Kohn-Sham inversion (TBA)
+- 15.06.26 16:00 (MA B1 524) [Niklas Schmitz](https://people.epfl.ch/niklas.schmitz), Learning the exchange-correlation functional (TBA)
 
 Past events:
+- 05.05.26 16:00 (MA B1 524) [Bruno Ploumhans](https://people.epfl.ch/bruno.ploumhans) *Density Functional Perturbation Theory Treatment of Monochromatic and Electric Field Perturbations* [Memento Link](https://memento.epfl.ch/event/matmat-electronic-structure-reading-group-bruno-pl/)
 - 24.11.25 16:00 (MA B1 524) [Edrick Solís González](https://people.epfl.ch/edrick.solisgonzalez?lang=en) *Car-Parrinello molecular dynamics* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-car-parrinello/)
 - 16.09.25 16:15 (CM 1 517) [Andre Laestadius (OsloMet)](https://uni.oslomet.no/regal/andre-laestadius/) *Smoothing the Landscape: Moreau-Yosida Regularization in Modern Density‑Functional Theory* [Memento Link](https://memento.epfl.ch/event/smoothing-the-landscape-moreauyosida-regularizatio/)
 - 23.07.25 16:00 (MA B1 524) [Michelangelo Domina](https://people.epfl.ch/michelangelo.domina?lang=en) *Clebsch-Gordan Coefficients: Making Sense of Rotations in ML and Beyond* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-clebsch-gordan/)
