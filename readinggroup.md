@@ -11,13 +11,16 @@ Organizers:
 - Michael Herbst {{ protect_email michael.herbst@epfl.ch }}
 - Noé Blassel {{ protect_email noe.blassel@epfl.ch }}
 
+Past organizers:
+- Niklas Schmitz {{ protect_email niklas.schmitz@epfl.ch }}
+
 For updates, join the matrix chat room at 
 [#electronic-structure:epfl.ch](https://matrix.epfl.ch/#/#/room/#electronic-structure:epfl.ch)
 (requires a GASPAR account).
 
 
 Upcoming events:
-- 19.05.26 16:00 (MA B1 504) [Vebjørn Bakkestuen](https://uni.oslomet.no/regal/vebjorn-h-bakkestuen/), Kohn-Sham inversion (TBA)
+- 19.05.26 16:00 (MA B1 504) [Vebjørn Bakkestuen](https://uni.oslomet.no/regal/vebjorn-h-bakkestuen/), A Moreau–Yosida-Based Kohn–Sham Inversion Scheme [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-a-moreauyosida/)
 - 15.06.26 16:00 (MA B1 524) [Niklas Schmitz](https://people.epfl.ch/niklas.schmitz), Learning the exchange-correlation functional (TBA)
 
 Past events:
