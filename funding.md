@@ -18,7 +18,7 @@
   within Gaussian Processes (GP) regression.
   ~~~</details>~~~
 
-- [**A novel approach to first-principles inverse materials design leveraging algorithmic property derivatives**](https://data.snf.ch/grants/grant/221186), *Swiss National Science Foundation*, Apr 2024 -- Mar 2026, 100k CHF
+- [**A novel approach to first-principles inverse materials design leveraging algorithmic property derivatives**](https://data.snf.ch/grants/grant/221186), *Swiss National Science Foundation*, Apr 2024 -- Apr 2026, 100k CHF
   ~~~<details><summary>~~~ *Details on the project* ~~~</summary>~~~
   Computational discovery of new materials is increasingly important. One
   technique is inverse design, where the search over all possible candidate
