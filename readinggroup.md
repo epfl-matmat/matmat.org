@@ -20,7 +20,7 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 15.06.26 16:00 (MA B1 524) [Niklas Schmitz](https://people.epfl.ch/niklas.schmitz), Learning the exchange-correlation functional (TBA)
+- 15.06.26 16:00 (MA B1 524) [Niklas Schmitz](https://people.epfl.ch/niklas.schmitz), Exact Constraints of Exchange-Correlation [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-exact-constrain/))
 - 14.07.2026 16:00 (MA B2 485) [Muhammad Hassan](https://prometheus-1757.github.io/), Numerical analysis for a periodic Kohn-Sham LDA pseudopotential model [Memento Link TBA]()
 
 Past events:
