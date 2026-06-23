@@ -20,11 +20,12 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 15.06.26 16:00 (MA B1 524) [Niklas Schmitz](https://people.epfl.ch/niklas.schmitz), Exact Constraints of Exchange-Correlation [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-exact-constrain/))
-- 14.07.2026 16:00 (MA B2 485) [Muhammad Hassan](https://prometheus-1757.github.io/), Numerical analysis for a periodic Kohn-Sham LDA pseudopotential model [Memento Link TBA]()
+- 02.07.2026 16:00 (TBA) [Danny Perez (LANL)](https://sites.google.com/view/dannyperez/home), Exploring the Extremes: Entropy-Driven Data Generation for Universal Atomistic Simulation
+- 14.07.2026 16:00 (MA B2 485) [Muhammad Hassan (TUM)](https://prometheus-1757.github.io/), Numerical analysis for a periodic Kohn-Sham LDA pseudopotential model [Memento Link TBA]()
 
 Past events:
-- 19.05.26 16:00 (MA B1 504) [Vebjørn Bakkestuen](https://uni.oslomet.no/regal/vebjorn-h-bakkestuen/), A Moreau–Yosida-Based Kohn–Sham Inversion Scheme [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-a-moreauyosida/)
+- 15.06.26 16:00 (MA B1 524) [Niklas Schmitz](https://people.epfl.ch/niklas.schmitz), Exact Constraints of Exchange-Correlation [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-exact-constrain/))
+- 19.05.26 16:00 (MA B1 504) [Vebjørn Bakkestuen (OsloMet)](https://uni.oslomet.no/regal/vebjorn-h-bakkestuen/), A Moreau–Yosida-Based Kohn–Sham Inversion Scheme [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-a-moreauyosida/)
 - 05.05.26 16:00 (MA B1 524) [Bruno Ploumhans](https://people.epfl.ch/bruno.ploumhans) *Density Functional Perturbation Theory Treatment of Monochromatic and Electric Field Perturbations* [Memento Link](https://memento.epfl.ch/event/matmat-electronic-structure-reading-group-bruno-pl/)
 - 24.11.25 16:00 (MA B1 524) [Edrick Solís González](https://people.epfl.ch/edrick.solisgonzalez?lang=en) *Car-Parrinello molecular dynamics* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-car-parrinello/)
 - 16.09.25 16:15 (CM 1 517) [Andre Laestadius (OsloMet)](https://uni.oslomet.no/regal/andre-laestadius/) *Smoothing the Landscape: Moreau-Yosida Regularization in Modern Density‑Functional Theory* [Memento Link](https://memento.epfl.ch/event/smoothing-the-landscape-moreauyosida-regularizatio/)
