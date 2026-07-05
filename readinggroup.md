@@ -19,7 +19,7 @@ For updates, join the matrix chat room at
 
 Upcoming events:
 - 02.07.2026 16:00 (CM 1 517) [Danny Perez (LANL)](https://sites.google.com/view/dannyperez/home), *Exploring the Extremes: Entropy-Driven Data Generation for Universal Atomistic Simulation*
-- 14.07.2026 16:00 (MA B2 485) [Muhammad Hassan (TUM)](https://prometheus-1757.github.io/), *Numerical analysis for a periodic Kohn-Sham LDA pseudopotential model* [Memento Link TBA]()
+- 14.07.2026 16:00 (MA B2 485) [Muhammad Hassan (TUM)](https://prometheus-1757.github.io/), *Numerical Analysis of Mean-Field Models for Electronic Structure Calculations in Perfect Crystals* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-numerical-analy/)
 
 Past events:
 - 15.06.26 16:00 (MA B1 524) [Niklas Schmitz](https://people.epfl.ch/niklas.schmitz), *Exact Constraints of Exchange-Correlation* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-exact-constrain/)
