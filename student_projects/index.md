@@ -20,48 +20,33 @@ Overview of projects:
 
 ----
 
-## Quantifying the discretisation error in material structure computations
-Density-functional theory simulations allow computing key material properties.
-In this work we will investigate how reducing the size
-of the discretisation basis employed for the simulations
-impacts the quality of the obtained properties (see below).
-We will employ recent perturbative
-error estimates[^CDKL2022] in order to quantify the expected error in the obtained
-properties versus a fully converged discretisation.
-For this work we will employ the
-[density-functional toolkit (DFTK)](https://dftk.org),
-a first-principle materials simulation code based on density-functional theory
-in which the aforementioned error estimates are implemented and readily available.
-To see how this works in practice, see this [Research Demo](https://showcases.matmat.org/2025/error_estimate_properties.html).
+## Analyzing pseudopotential-functional mismatch
+The key approximation in plane-wave density-functional theory (DFT)
+is the usage of an approximate exchange-correlation (XC) functional.
+Additionally, a pseudopotential is
+used to model the interactions between atoms and electrons,
+which is in principle specific to the chosen XC functional.
 
-The properties that we want to focus on are:
-- **Geometry - Atom positions**: A key step when simulating the properties of a material is structure optimisation.
-  In this process an approximate arrangement of atoms in a crystal is optimised
-  to obtain the most stable configuration, based on the computed **interatomic forces**.
-- **Geometry - Stresses**: Another key step is the computation of the optimal crystal cell parameters,
-  based on the computed **stresses**.
-- **Equations of state**, which relate the volume change of a material to its total energy.
-  The equation of state of a material can be used to extract important properties such as the bulk modulus,
-  as well as a precision benchmark across many DFT codes [^VerificationStudy2023].
-- **Band structures**, which are often a first step in the computation of more advanced properties such as electrical resistivity and optical absorption.
-
+In recent years, new promising XC functionals such as r2SCAN [^r2SCAN]
+have been developed, however adapted pseudopotentials have not become
+widely available yet. These new functionals are thus typically used with
+inconsistent pseudopotentials generated for older functionals.
+In this project, we will analyze the error that this mismatch induces,
+first for the simpler norm-conserving pseudopotentials and then for the
+more advanced projector-augmented wave pseudopotential formalism.
 
 **Requirements:**
-Strong programming skills, ideally Julia or python;
-Basic knowledge of numerical methods for partial differential equations;
-Experience in numerical analysis of PDEs is a bonus;
-Experience in running DFT calculations is a bonus;
+Previous experience with running simulations
+or with general solid-state physics and materials modelling is a bonus.
 
-[^CDKL2022]: E. Cancès, G. Dusson, G. Kemlin and A. Levitt. SIAM J. Sci. Comp. **44** (2022). ArXiv [2111.01470](https://arxiv.org/abs/2111.01470v2)
-[^VerificationStudy2023]: Bosoni, E., Beal, L., Bercx, M. et al. *How to verify the precision of density-functional-theory implementations via reproducible and universal workflows.* [Nat Rev Phys 6, 45–58 (2024).](https://doi.org/10.1038/s42254-023-00655-3)
+[^r2SCAN]: James W. Furness, Aaron D. Kaplan, Jinliang Ning, John P. Perdew, and Jianwei Sun. *Accurate and Numerically Efficient r2SCAN Meta-Generalized Gradient Approximation.* The Journal of Physical Chemistry Letters **2020** 11 (19), 8208-8215. DOI [10.1021/acs.jpclett.0c02405](https://doi.org/10.1021/acs.jpclett.0c02405)
 
 <!--
-α-Manangese structures (see noteworthy systems)
-(if stress) MOF structures
+use r2SCAN01 as a meta-GGA for which we have AE reference EOS
+use ABINIT which has both NC and PAW mGGA support
+compare PBE x r2SCAN01 pseudos for NC x PAW
 
-Use Hessian from foundational model
-Use GP Hessian trained on geoopt trajectory (energy + forces), perhaps with foundational model as prior
-
+look at other r2SCAN benchmark quantities if time allows
 -->
 
 ----
@@ -149,50 +134,6 @@ Goal: "Make response calculations fast" (follow-up work from Bonan)
   * Using single precision for storing GMRES Krylov vectors towards the end
   * Block CG / GMRES methods (?)
   * Switch to single precision in later CG steps (?)
--->
-
-----
-
-## Analysing pseudopotential model mismatch
-In almost all plane-wave density-functional theory (DFT)
-simulations one employs a pseudopotential to model
-the interactions between atoms and electrons.
-While this represents an additional approximation
-(on top of the DFT model and the discretisation basis),
-this trick contributes considerably to making the numerics feasible in practice.
-Common pseudopotential models feature a multitude of parameters,
-which are determined following an involved fitting procedure.
-In practice the pseudopotential choice and the choice of DFT model
-are tightly coupled.
-However, since targeted pseudopotentials are not known for all DFT models,
-practitioners frequently perform DFT calculations with a mismatching pseudopotential.
-
-The goal of this project is to understand the discrepancy introduced
-by a mismatch between pseudopotential and DFT functional.
-This will involve both an analytical component,
-studying the variation under a change of pseudopotential
-using perturbation theory
-as well as a numerical component featuring systematic numerical experiments
-on standard DFT test problems.
-
-**Requirements:**
-Strong programming skills, ideally Julia or python;
-Basic knowledge of numerical methods for partial differential equations;
-Experience in numerical analysis of PDEs is a bonus;
-Experience in running DFT calculations is a bonus;
-
-<!--
-  Perturbative ansatz when electron count is conserved
-  Re-perform verification study with mismatching pseudopotential.
-  Perturbative ansatz when electron count is changing
-
-Pseudopotential finetuning:
-  Niklas: Pseudopotential by gradients could be a nice project
-  now, to do the experiment from the paper with Niklas but better. A deeper look at
-  smoothness preservation and how much norm conservation is violated. Next step
-  is to include norm conservation in the loss function as a regularization term
-  directly in the bulk (skipping atomic calculations). Another bonus step is to
-  include a Gaussian NLCC for GTH (as Willand 2013) and optimize those params as well.
 -->
 
 ----
