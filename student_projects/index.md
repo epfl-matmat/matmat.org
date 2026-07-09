@@ -301,3 +301,34 @@ Understanding of gradient-based optimization methods; Bonus: Prior knowledge abo
 [^pseudodojo]: M.J. van Setten, M. Giantomassi, E. Bousquet, M.J. Verstraete, D.R. Hamann, X. Gonze, & G.-M. Rignanese (2018). *The PseudoDojo: Training and grading a 85 element optimized norm-conserving pseudopotential table*. Computer Physics Communications, 226, 39-54. DOI [10.1016/j.cpc.2018.01.012](https://doi.org/10.1016/j.cpc.2018.01.012)
 
 [^addfpt]: N. F. Schmitz, B. Ploumhans, M. F. Herbst. (2025) *Algorithmic differentiation for plane-wave DFT: materials design, error control and learning model parameters*. npj Computational Materials (*in press*). DOI [10.1038/S41524-025-01880-3](https://doi.org/10.1038/S41524-025-01880-3) (Preprint: https://arxiv.org/abs/2509.07785)
+
+-----
+
+## Environment-aware uncertainty quantification by clustering of surrogate models
+
+Surrogate models of the potential energy surface (PES) approach the accuracy of DFT at a much lower computational cost, and are becoming popular in large-scale material science applications, notably for machine-learning interaction potentials (MLIPs) in molecular dynamics simulations.
+
+Informative and affordable uncertainty quantification (UQ) methods is crucial here, both to put error bars on predictions in the interpolative regime, and also to detect the boundary of the extrapolative regime where surrogate models break down, enabling active learning strategies.
+
+Parametric surrogate models are fitted using a dataset of a high-fidelity method (e.g. from DFT computations), where observation noise is typically negligible. The dominant source of the prediction error is by far the *incompleteness* or of the model: no choice of the model parameters can explain all the data. In this misspecified regime, we can describe the predictive uncertainty is by defining a probability distribution over model parameters or *posterior ensemble*, as in Bayesian regression.
+
+The POPS[^pops] algorithm, recently proposed in[^ps24], has proven to be a scalable method for materials applications[^psm25], but relies on a crude error model. In particular, the error model is independent of the position on the PES. As a result, we expect the standard POPS posterior to overestimate the uncertainty in well-fitted regions of the PES.
+
+The goal of this project is to extend the POPS algorithm with clustering methods in the space of model parameters, allowing the construction of more complex posteriors. By training a classifier to assign configurations to parameter clusters, we will create a refined, configuration-dependent model of the mispecification error, and hopefully obtain better-calibrated uncertainties. This clustered POPS approach is closely related to *mixture-of-experts* strategies explored in the recent MLIP literature (e.g. [^ns24]).
+
+A first target application is the estimation of defect migration barriers in imperfect crystals, using high-dimensional linear models. If succesful, the approach could be extended to more sophisticated MLIPs, and released within the [POPSRegression.jl](https://github.com/POPS-UQ/POPSRegression.jl) package.
+
+**Requirements:** 
+Strong programming skills, ideally Julia (or Python and a willingless to learn Julia); 
+Working knowledge of Bayesian statistics/probabilistic regression;
+Experience in implementing machine learning models;
+Experience in running DFT calculations is a plus;
+
+
+[^ps24]: T.D. Swinburne & D. Perez (2024). *Parameter uncertainties for imperfect surrogate models in the low-noise regime*. Machine Learning: Science and Technology, 6(1). DOI [10.1088/2632-2153/ad9fce](https://doi.org/10.1088/2632-2153/ad9fce)
+(Preprint: https://arxiv.org/abs/2402.01810)
+
+[^psms25]: D. Perez, A.P.A. Subramanyam, I. Maliyov, T.D. Swinburne (2025). *Uncertainty quantification for misspecified machine learned interatomic potentials*. npj Computational Materials, 11(1). DOI [10.1038/s41524-025-01758-4](https://doi.org/10.1038/s41524-025-01758-4) (Preprint: https://arxiv.org/abs/2502.07104)
+
+[^ns24]: N.C. Nguyen & D. Sema (2024). *Environment-adaptive machine learning potentials*. Physical Review B, 110(6). DOI [10.1103/PhysRevB.110.064101](https://doi.org/10.1103/PhysRevB.110.064101) (Preprint: https://arxiv.org/abs/2405.00306)
+[^pops]: pointwise optimal parameter sets
