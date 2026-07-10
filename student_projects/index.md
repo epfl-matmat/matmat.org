@@ -332,3 +332,36 @@ Experience in running DFT calculations is a plus;
 
 [^ns24]: N.C. Nguyen & D. Sema (2024). *Environment-adaptive machine learning potentials*. Physical Review B, 110(6). DOI [10.1103/PhysRevB.110.064101](https://doi.org/10.1103/PhysRevB.110.064101) (Preprint: https://arxiv.org/abs/2405.00306)
 [^pops]: pointwise optimal parameter sets
+
+-----
+
+## Resolving High-Frequency Features in Kohn–Sham Inversion
+
+Density-functional theory (DFT) is one of the most widely used methods for simulations in 
+chemistry and materials science. In a standard Kohn-Sham DFT calculation, the electron 
+density is computed for a given effective potential. Kohn-Sham inversion asks the inverse 
+question: Given an electron density, can we reconstruct the effective potential that produces 
+it? Such inversions can provide insight into exact Kohn–Sham potentials and are useful for 
+developing and benchmarking density-functional approximations.[^herbstKohnShamInversionMathematical2025][^bakkestuenMoreauYosidabasedKohnShamInversion2026] 
+
+This inverse problem is mathematically and numerically challenging. In exact DFT, the 
+universal density functional is in general not differentiable, such that the corresponding 
+potential cannot always be obtained as a functional derivative. Moreau–Yosida regularization 
+gives a differentiable formulation and thereby a well-defined regularized density–potential 
+relation.[^penzPerspectiveMoreauYosidaRegularization2025]
+
+In this project we will investigate how well high-frequency and strongly localized features 
+of a potential can be reconstructed. We will study how the inversion depends on the numerical 
+resolution, on the consistency of the wavefunction and density grids, and on how errors in 
+the density and potential are measured. The aim is to understand how 
+these choices influence the accuracy and stability of the reconstructed potential.
+
+**Requirements:** Strong programming skills, ideally Julia; Background in numerical 
+methods, optimisation, and Fourier-based discretisations; Basic 
+knowledge of quantum mechanics and experience in density-functional theory are a bonus.
+
+[^herbstKohnShamInversionMathematical2025]: M. F. Herbst, V. H. Bakkestuen, and A. Laestadius. *Kohn-Sham inversion with mathematical guarantees.* Phys. Rev. B **111**, 205143 (2025). DOI [10.1103/PhysRevB.111.205143](https://doi.org/10.1103/PhysRevB.111.205143)
+
+[^bakkestuenMoreauYosidabasedKohnShamInversion2026]: V. H. Bakkestuen, M. F. Herbst, V. Falmår, M. Penz, and A. Laestadius. *Moreau-Yosida-based Kohn-Sham Inversion for Periodic Systems.* arXiv:[2606.19471](https://arxiv.org/abs/2606.19471) (2026).
+
+[^penzPerspectiveMoreauYosidaRegularization2025]: M. Penz, M. F. Herbst, T. Helgaker, and A. Laestadius. *Perspective on Moreau-Yosida Regularization in Density-Functional Theory.* arXiv:[2511.06957](https://arxiv.org/abs/2511.06957) (2025).
