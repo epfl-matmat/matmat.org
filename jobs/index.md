@@ -14,8 +14,27 @@ you are still welcome to submit a general inquiry.
 In any case, please **consider the [application guidelines](/jobs/guidelines/)**
 before you contact us.
 
+<!--
 ## Specific openings
+
 Currently no specific openings to advertise.
+-->
+
+## PhD or PostDoc: Exploiting error control in first-principle materials modelling
+
+We will have an opening for a PhD or PostDoc position with a flexible starting point
+(earliest start in October 2026).
+
+Possible topics include:
+
+* Machine-learned interatomic potential surrogates informed by error
+  estimation techniques in first-principle
+  density-functional theory (DFT) simulations.
+* Error estimation of DFT model predictions
+* Constructing novel DFT models using data-driven techniques (machine-learned XC functionals)
+* Algorithmic differentiation techniques to access higher-order DFT properties
+
+More details on this opening will follow soon.
 
 <!--
 ## PhD position: Error-controlled Bayesian methods for inverse materials design
