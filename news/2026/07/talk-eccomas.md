@@ -1,7 +1,7 @@
 +++
 title       = "ECCOMAS PhD Olympiads 2026"
 rss         = "Noé will compete in the PhD Olympiads at WCCM ECCOMAS 2026"
-rss_pubdate = Date(2026, 06, 29)
+rss_pubdate = Date(2026, 07, 21)
 type        = "talk"
 startpage   = true
 +++
