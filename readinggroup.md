@@ -19,19 +19,7 @@ For updates, join the matrix chat room at
 
 Upcoming events:
 - 08.10.2026 **09:30** (CM 1 5) [Virginie Ehrlacher (ENPC)](https://team.inria.fr/matherials/team-members/virginie-ehrlacher-galland/)
-  ~~~<details><summary>~~~ *Jastrow Factors and Barron Regularity of Electronic Wave Functions* ~~~</summary>~~~
-  Wave functions describing bound states of electronic systems satisfy high-dimensional Schrödinger equations whose potentials exhibit Coulomb
-  singularities at particle-collision configurations. These singularities generate cusps that limit the global regularity of the wave function
-  in spectral Barron spaces, which are particularly relevant to the analysis of Fourier-based approximation methods and neural networks.
-
-  In this talk, we study the effect of extracting a truncated Jastrow factor designed to capture the leading coalescence singularities while
-  preserving the asymptotic behavior of the wave function at infinity. We show that the resulting quotient gains one full order of spectral
-  Barron regularity: whereas the original wave function typically belongs to spaces of order (s<1), the Jastrow quotient belongs to those of
-  order (s<2). An explicit hydrogenic example shows that the threshold (s=2) is natural.
-  
-  The proof relies on conjugating the Hamiltonian by the Jastrow factor and carrying out a global Fourier-space analysis. It combines
-  resolvent estimates, precise control of singular coefficients, and a fixed-point argument separating low and high frequencies.
-  ~~~</details>~~~
+*Jastrow Factors and Barron Regularity of Electronic Wave Functions* [Memento Link](https://memento.epfl.ch/event/jastrow-factors-and-barron-regularity-of-electroni/) 
 
 Past events:
 - 02.07.2026 16:00 (CM 1 517) [Danny Perez (LANL)](https://sites.google.com/view/dannyperez/home), *Exploring the Extremes: Entropy-Driven Data Generation for Universal Atomistic Simulation*
