@@ -67,14 +67,13 @@ Working knowledge of Bayesian statistics/probabilistic regression;
 Experience in implementing machine learning models;
 Experience in running DFT calculations is a plus;
 
+[^pops]: Pointwise optimal parameter sets
 
-[^ps24]: T.D. Swinburne & D. Perez (2024). *Parameter uncertainties for imperfect surrogate models in the low-noise regime*. Machine Learning: Science and Technology, 6(1). DOI [10.1088/2632-2153/ad9fce](https://doi.org/10.1088/2632-2153/ad9fce)
-(Preprint: https://arxiv.org/abs/2402.01810)
+[^ps24]: T.D. Swinburne & D. Perez (2024). *Parameter uncertainties for imperfect surrogate models in the low-noise regime*. Machine Learning: Science and Technology, 6(1). DOI [10.1088/2632-2153/ad9fce](https://doi.org/10.1088/2632-2153/ad9fce) (Preprint: https://arxiv.org/abs/2402.01810)
 
 [^psms25]: D. Perez, A.P.A. Subramanyam, I. Maliyov, T.D. Swinburne (2025). *Uncertainty quantification for misspecified machine learned interatomic potentials*. npj Computational Materials, 11(1). DOI [10.1038/s41524-025-01758-4](https://doi.org/10.1038/s41524-025-01758-4) (Preprint: https://arxiv.org/abs/2502.07104)
 
 [^ns24]: N.C. Nguyen & D. Sema (2024). *Environment-adaptive machine learning potentials*. Physical Review B, 110(6). DOI [10.1103/PhysRevB.110.064101](https://doi.org/10.1103/PhysRevB.110.064101) (Preprint: https://arxiv.org/abs/2405.00306)
-[^pops]: pointwise optimal parameter sets
 
 
 ----
@@ -249,7 +248,7 @@ Understanding of gradient-based optimisation methods; Bonus: Prior knowledge abo
 
 [^pseudodojo]: M.J. van Setten, M. Giantomassi, E. Bousquet, M.J. Verstraete, D.R. Hamann, X. Gonze, & G.-M. Rignanese (2018). *The PseudoDojo: Training and grading a 85 element optimized norm-conserving pseudopotential table*. Computer Physics Communications, 226, 39-54. DOI [10.1016/j.cpc.2018.01.012](https://doi.org/10.1016/j.cpc.2018.01.012)
 
-[^addfpt]: N. F. Schmitz, B. Ploumhans, M. F. Herbst. (2025) *Algorithmic differentiation for plane-wave DFT: materials design, error control and learning model parameters*. npj Computational Materials (*in press*). DOI [10.1038/S41524-025-01880-3](https://doi.org/10.1038/S41524-025-01880-3) (Preprint: https://arxiv.org/abs/2509.07785)
+[^addfpt]: N. F. Schmitz, B. Ploumhans, M. F. Herbst. (2025) *Algorithmic differentiation for plane-wave DFT: materials design, error control and learning model parameters*. npj Computational Materials (*in press*). DOI [10.1038/S41524-025-01880-3](https://doi.org/10.1038/S41524-025-01880-3) (Preprint: <https://arxiv.org/abs/2509.07785>)
 
 -----
 
