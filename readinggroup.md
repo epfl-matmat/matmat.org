@@ -18,8 +18,7 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 08.10.2026 **09:30** (CM 1 5) [Virginie Ehrlacher (ENPC)](https://team.inria.fr/matherials/team-members/virginie-ehrlacher-galland/)
-*Jastrow Factors and Barron Regularity of Electronic Wave Functions* [Memento Link](https://memento.epfl.ch/event/jastrow-factors-and-barron-regularity-of-electroni/) 
+- 08.10.2026 **09:30** (GC B3 31) [Virginie Ehrlacher (ENPC)](https://team.inria.fr/matherials/team-members/virginie-ehrlacher-galland/) *Jastrow Factors and Barron Regularity of Electronic Wave Functions* [Memento Link](https://memento.epfl.ch/event/jastrow-factors-and-barron-regularity-of-electroni/) 
 
 Past events:
 - 02.07.2026 16:00 (CM 1 517) [Danny Perez (LANL)](https://sites.google.com/view/dannyperez/home), *Exploring the Extremes: Entropy-Driven Data Generation for Universal Atomistic Simulation*
