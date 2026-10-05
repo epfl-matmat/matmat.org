@@ -4,6 +4,9 @@
 
 Some older group pictures ...
 
+## August 2026
+![Group August 2026](/assets/2026.08.04_group.jpg)
+
 ## April 2026
 ![Group April 2026](/assets/2026.04.29_group.jpg)
 
