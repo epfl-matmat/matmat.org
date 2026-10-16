@@ -19,6 +19,7 @@ For updates, join the matrix chat room at
 
 Upcoming events:
 - 22.10.2026 16:00 (MA B1 524) [Markus Penz (OsloMet)](https://uni.oslomet.no/matmod/home/people/), *Maxwell-regularized density-functional theory*
+- 28.10.2026 16:00 (MA B1 524) [Matija Medvidović (ETH)](https://matematija.github.io/), *Optimizing and inverting Kohn–Sham potentials with "multipole splats"*
 - 18.11.2026 16:00 (MA B1 524) [Arthur Hagopian (CSEA, EPFL)](https://people.epfl.ch/arthur.hagopian), *Polarization-Driven Water Activation at Electrocatalytic Interfaces* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-markus-penz/)
 
 Past events:
