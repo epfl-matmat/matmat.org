@@ -281,7 +281,7 @@ end
 
 
 function format_bibentry(entry::BibInternal.Entry; maxauthors=5)
-    @assert entry.type == "article" || entry.type == "unpublished"
+    @assert entry.type in ("article", "unpublished", "inproceedings")
     io = IOBuffer()
 
     # TODO Highlight authors from my group
@@ -298,7 +298,7 @@ function format_bibentry(entry::BibInternal.Entry; maxauthors=5)
     print(io, ". ")
 
     print(io, "*[$(entry.title)]($(entry.access.url))*. ")
-    if !isempty(entry.in.journal)
+    if entry.type in ("unpublished", "article") && !isempty(entry.in.journal)
         # Published article
         print(io, entry.in.journal, " ")
         if !isempty(entry.in.volume)
@@ -306,6 +306,8 @@ function format_bibentry(entry::BibInternal.Entry; maxauthors=5)
             !isempty(entry.in.pages) && print(io, ", ", entry.in.pages)
         end
         print(io, " (", entry.date.year, ").")
+    elseif entry.type in ("inproceedings", ) && !isempty(entry.booktitle)
+        print(io, entry.booktitle, " (", entry.date.year, ").")
     end
 
     if !isempty(entry.access.doi)
@@ -336,7 +338,7 @@ function hfun_allpublications()
 
     println(io, "## Peer-reviewed articles")
     lastyear = 0
-    for entry in filter(e -> e.type == "article", biblio)
+    for entry in filter(e -> e.type in ("article", "inproceedings"), biblio)
         if entry.date.year != lastyear
             println(io, "### $(entry.date.year)")
             lastyear = entry.date.year
