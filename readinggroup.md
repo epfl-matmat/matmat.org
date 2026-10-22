@@ -18,9 +18,9 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-- 22.10.2026 16:00 (MA B1 524) [Markus Penz (OsloMet)](https://uni.oslomet.no/matmod/home/people/), *Maxwell-regularized density-functional theory*
+- 22.10.2026 16:00 (MA B1 524) [Markus Penz (OsloMet)](https://uni.oslomet.no/matmod/home/people/), *Maxwell-regularized density-functional theory* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-markus-penz/)
 - 28.10.2026 16:00 (MA B1 524) [Matija Medvidović (ETH)](https://matematija.github.io/), *Optimizing and inverting Kohn–Sham potentials with "multipole splats"*
-- 18.11.2026 16:00 (MA B1 524) [Arthur Hagopian (CSEA, EPFL)](https://people.epfl.ch/arthur.hagopian), *Polarization-Driven Water Activation at Electrocatalytic Interfaces* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-markus-penz/)
+- 18.11.2026 16:00 (MA B1 524) [Arthur Hagopian (CSEA, EPFL)](https://people.epfl.ch/arthur.hagopian), *Polarization-Driven Water Activation at Electrocatalytic Interfaces*
 
 Past events:
 - 02.07.2026 16:00 (CM 1 517) [Danny Perez (LANL)](https://sites.google.com/view/dannyperez/home), *Exploring the Extremes: Entropy-Driven Data Generation for Universal Atomistic Simulation*
