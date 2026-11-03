@@ -18,11 +18,11 @@ For updates, join the matrix chat room at
 
 
 Upcoming events:
-
-- 28.10.2026 16:00 (MA B1 524) [Matija Medvidović (ETH)](https://matematija.github.io/), *Optimizing and inverting Kohn–Sham potentials with "multipole splats"* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-matija-medvivov/)
-- 18.11.2026 16:00 (MA B1 524) [Arthur Hagopian (CSEA, EPFL)](https://people.epfl.ch/arthur.hagopian), *Polarization-Driven Water Activation at Electrocatalytic Interfaces*
+- 18.11.2026 16:00 (MA B1 524) [Arthur Hagopian (CSEA, EPFL)](https://people.epfl.ch/arthur.hagopian), *Polarization-Driven Water Activation at Electrocatalytic Interfaces* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-arthur-hagopian/)
 
 Past events:
+
+- 28.10.2026 16:00 (MA B1 524) [Matija Medvidović (ETH)](https://matematija.github.io/), *Optimizing and inverting Kohn–Sham potentials with "multipole splats"* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-matija-medvivov/)
 - 22.10.2026 16:00 (MA B1 524) [Markus Penz (OsloMet)](https://uni.oslomet.no/matmod/home/people/), *Maxwell-regularized density-functional theory* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-markus-penz/)
 - 02.07.2026 16:00 (CM 1 517) [Danny Perez (LANL)](https://sites.google.com/view/dannyperez/home), *Exploring the Extremes: Entropy-Driven Data Generation for Universal Atomistic Simulation*
 - 14.07.2026 16:00 (MA B2 485) [Muhammad Hassan (TUM)](https://prometheus-1757.github.io/), *Numerical Analysis of Mean-Field Models for Electronic Structure Calculations in Perfect Crystals* [Memento Link](https://memento.epfl.ch/event/electronic-structure-reading-group-numerical-analy/)
